@@ -1,0 +1,75 @@
+h1{
+    text-shadow: darkgrey 0.1rem 0.1rem 0.1rem;
+}
+.logo{
+    animation: rotate 6s infinite ease-in-out;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
+#mobile-menu{
+    height: calc(100vh - 5rem);
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 3rem solid transparent;
+    border-left: 2rem solid;
+    border-bottom: 3rem solid transparent;
+}
+.rate input{
+    appearance: none;
+    width: 1.05rem;
+    height: 1.05rem;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    background-image: url("../img/index/star.png");
+    background-size: 1.05rem;
+}
+.rate input[disabled = "disabled"]{
+    background-image: url("../img/index/star.png") !important;
+    cursor: default;
+}
+.rate input:checked, .rate-checked{
+    background-image: url("../img/index/starActive.png") !important;
+    cursor: default;
+}
+.cope-promo-code{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid black;
+    align-self: center;
+}
+.cope-promo-code:after{
+    content: "";
+    display: block;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: -0.25rem;
+    right: -0.1rem;
+}
+.indent-10{
+    text-indent: 2.5rem;
+}
+.slide {
+    min-width: 25%;
+}
+.box {
+    min-width: 33%;
+}
+@media (width >= 40rem) {
+    .box {
+        min-width: 25%;
+    }
+}
+
