@@ -109,5 +109,29 @@ class BookmakerSeeder extends Seeder
              'active' => 1,
              ]
         );
+        Bookmaker::query()->updateOrCreate(
+            ['key' => '1win'],
+            ['key' => '1win',
+                'name' => '1win',
+                'url' => 'www.1win.global',
+                'logo' => '1win.svg',
+                'logo_color' => '#1b243a',
+                'promo_code' => 'XLBONUS',
+                'bonus_available' => 0,
+                'bonus_label_1_en' => '$205 Bonus',
+                'bonus_label_2_en' => 'Use promo code XLBONUS',
+                'bonus_label_1_es' => 'Bono de $205',
+                'bonus_label_2_es' => 'Usa el código promocional XLBONUS',
+                'bonus_label_1_fr' => 'Bonus de $205',
+                'bonus_label_2_fr' => 'Utilisez le code promo XLBONUS',
+                'bonus_label_1_pt' => 'Bônus de $205',
+                'bonus_label_2_pt' => 'Use o código promocional XLBONUS',
+                'warning_en' => 'Register with Promo code XLBONUS. 18+. T&Cs apply',
+                'warning_es' => 'Regístrate con el código promocional XLBONUS. 18+. Aplican términos y condiciones',
+                'warning_fr' => "Inscrivez-vous avec le code promo XLBONUS. 18+. Termes et conditions s'appliquent",
+                'warning_pt' => 'Registe-se com o código promocional XLBONUS. 18+. Aplicam-se termos e condições',
+                'active' => 1,
+            ]
+        );
     }
 }
