@@ -2,6 +2,9 @@
 return [
     'Best Betting Sites' => 'Meilleurs sites de paris',
     'Reviews & Bonuses' => 'Avis et Bonus',
+    'Top 10 Lists' => 'Listes des 10 meilleurs',
+    'description' => 'Trouvez des sites de paris fiables avec bonus attractifs et paiements rapides. Lisez les avis d’experts sur les meilleurs bookmakers.',
+    'keywords' => 'casino en ligne France, meilleurs sites de paris sportifs, sites de casino français, Betclic France, Unibet France, PayPal casino France',
     'is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below' => "c'est le meilleur endroit pour trouver les meilleurs sites de paris en ligne, des avis et des bonus. Découvrez nos choix ci-dessous",
     'Top Betting Sites' => 'Meilleurs sites de paris',
     'Deposit' => 'Dépôt',

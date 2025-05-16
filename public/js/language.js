@@ -23,7 +23,7 @@ class Language{
      */
     toggle(){
         this.dropdownMenu.classList.toggle('hidden');
-        this.languageArrow.classList.toggle('transform');
+        this.languageArrow.classList.toggle('rotate-180');
     }
 }
 new Language().addEventListeners();

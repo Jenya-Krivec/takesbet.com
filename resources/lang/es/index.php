@@ -2,6 +2,9 @@
 return [
     'Best Betting Sites' => 'Mejores casas de apuestas',
     'Reviews & Bonuses' => 'Reseñas y Bonos',
+    'Top 10 Lists' => 'Listas de los 10 mejores',
+    'description' => 'Descubre sitios de apuestas confiables con los mejores bonos y pagos rápidos. Lee reseñas de casas de apuestas escritas por expertos.',
+    'keywords' => 'casino online España, mejores casas de apuestas, Bet365 España, Codere apuestas, PayPal apuestas España, apuestas fútbol España',
     'is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below' => 'es el mejor lugar para encontrar las mejores casas de apuestas en línea, reseñas y bonos. Consulta nuestras selecciones a continuación',
     'Top Betting Sites' => 'Principales casas de apuestas',
     'Deposit' => 'Depósito',

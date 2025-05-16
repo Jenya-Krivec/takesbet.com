@@ -2,6 +2,9 @@
 return [
     'Best Betting Sites' => 'Melhores sites de apostas',
     'Reviews & Bonuses' => 'Avaliações e Bônus',
+    'Top 10 Lists' => 'Listas dos 10 melhores',
+    'description' => 'Descubra sites de apostas confiáveis com os melhores bônus e pagamentos rápidos. Leia análises de especialistas sobre casas de apostas.',
+    'keywords' => 'casino online Portugal, melhores sites de apostas, Betclic Portugal, ESC Online, PayPal apostas Portugal, apostas futebol Portugal',
     'is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below' => 'é o melhor lugar para encontrar os melhores sites de apostas online, avaliações e bônus. Confira nossas escolhas abaixo',
     'Top Betting Sites' => 'Principais sites de apostas',
     'Deposit' => 'Depósito',

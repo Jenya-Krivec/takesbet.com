@@ -2,6 +2,9 @@
 return [
     'Best Betting Sites' => 'Best Betting Sites',
     'Reviews & Bonuses' => 'Reviews & Bonuses',
+    'Top 10 Lists' => 'Top 10 Lists',
+    'description' => 'Discover trusted betting sites with top bonuses and fast payouts. Read expert bookmaker reviews and choose the best site for your bets.',
+    'keywords' => 'online casino, best betting sites, casino reviews, Bet365, William Hill online, PayPal betting, football betting',
     'is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below' => 'is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below',
     'Top Betting Sites' => 'Top Betting Sites',
     'Deposit' => 'Deposit',

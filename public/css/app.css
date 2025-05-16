@@ -1,3 +1,4 @@
+@import "tailwindcss";
 h1{
     text-shadow: darkgrey 0.1rem 0.1rem 0.1rem;
 }

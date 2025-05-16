@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: http://ogp.me/ns#">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: http://ogp.me/ns#" xml:lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google" content="notranslate">
-    <meta name="description" content="Takesbet">
-    <meta name="keywords" content="Takesbet">
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
+    <meta name="title" content="@yield('title')">
+    <meta name="robots" content="all, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <meta name="google-site-verification" content="">
     <title>@yield('title')</title>
     @foreach(\App\Helpers\Language::LOCALE as $locale => $language)
@@ -19,8 +21,8 @@
     @endforeach
     <meta property="og:site_name" content="Takesbet"/>
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Takesbet @lang('app.is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below')!"/>
-    <meta property="og:title" content="Takesbet - @lang('app.best Betting Sites, Reviews & Bonuses') {{ date('Y') }}"/>
+    <meta property="og:description" content="@yield('description')"/>
+    <meta property="og:title" content="@yield('title')"/>
     <meta property="og:image" content="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}">
     <meta property="og:image:secure_url" content="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}">
     <meta property="og:image:type" content="image/png">
@@ -28,9 +30,8 @@
     <meta property="og:image:height" content="100">
     <meta name="theme-color" content="#1D4ED8FF">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="shortcut icon" href="{{asset('img/favicon.ico').'?v='.filemtime('img/favicon.ico')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css').'?v='.filemtime('css/app.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css').'?v='.filemtime('css/tailwind.css')}}">
 </head>
 <body>
 <div class="fixed top-0 left-0 w-full h-full bg-white z-30" id="preloader">
@@ -41,7 +42,7 @@
 <header class="bg-blue-700 shadow-sm fixed w-full z-20">
     <nav class="flex items-center py-5 w-full">
         <a href="{{route('index')}}" class="mx-4">
-            <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Takesbet" class="w-10 logo">
+            <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Takesbet" class="w-10 logo" width="100" height="100">
         </a>
         <!--Menu-->
         <div class="items-center text-white hidden sm:flex">
@@ -54,7 +55,7 @@
         </div>
         <!--Mobile menu-->
         <div class="sm:hidden">
-            <button class="text-white focus:outline-none" id="mobile-menu-button">
+            <button class="text-white focus:outline-none" id="mobile-menu-button" title="Menu">
                 <svg id="menu-icon" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M3 5h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2z" clip-rule="evenodd"></path>
                 </svg>
@@ -78,7 +79,7 @@
                             {{$language}}
                         @endif
                     @endforeach
-                    <svg fill="currentColor" viewBox="0 0 20 20" class="language-arrow w-4 h-4 inline-block rotate-180 transition-all duration-300">
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="language-arrow w-4 h-4 inline-block transition-all duration-300">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                     </svg>
                 </span>
@@ -98,13 +99,24 @@
     </svg>
 </button>
 <div class="fixed inset-0 bg-black opacity-50 z-10 hidden" id="overlay"></div>
+<div class="fixed -bottom-40 left-0 right-0 bg-transparent z-10 transition-all duration-1000 hidden" id="cookie-message">
+    <div class="bg-white w-full lg:w-1/3 mx-auto rounded-md p-6 shadow-lg border-2 border-blue-700">
+        <h2 class="text-lg font-bold text-center">@lang('app.Cookies')</h2>
+        <p class="text-sm text-center">@lang('app.We use cookies to improve your experience on our site').</p>
+        <div class="flex justify-center mt-4">
+            <button class="bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-500" id="cookie-accept">@lang('app.Accept')</button>
+            <button class="bg-gray-300 hover:bg-gray-200 text-gray-700 font-bold py-2 px-4 rounded-full ml-2 transition-all duration-500" id="cookie-decline">@lang('app.Decline')</button>
+        </div>
+    </div>
+</div>
 <footer class="bg-blue-700 py-5">
     <p class="text-sm text-white text-center">&copy; {{ date('Y') }} Takesbet</p>
 </footer>
 </body>
-<script type="text/javascript" src="{{asset('js/preloader.js').'?v='.filemtime('js/preloader.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/language.js').'?v='.filemtime('js/language.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/menu.js').'?v='.filemtime('js/menu.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/goUp.js').'?v='.filemtime('js/goUp.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/preloader.js').'?v='.filemtime('js/preloader.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/language.js').'?v='.filemtime('js/language.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/menu.js').'?v='.filemtime('js/menu.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/goUp.js').'?v='.filemtime('js/goUp.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/cookie.js').'?v='.filemtime('js/cookie.js')}}"></script>
 </html>
 
