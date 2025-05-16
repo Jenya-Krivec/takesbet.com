@@ -7,6 +7,7 @@ class Language{
     constructor(){
         this.language = document.querySelector('#language');
         this.dropdownMenu = document.querySelector('#language ~ .dropdown-menu');
+        this.languageArrow = document.querySelector('.language-arrow');
     }
     /**
      * Adds event listeners to the language dropdown button.
@@ -22,6 +23,7 @@ class Language{
      */
     toggle(){
         this.dropdownMenu.classList.toggle('hidden');
+        this.languageArrow.classList.toggle('transform');
     }
 }
 new Language().addEventListeners();

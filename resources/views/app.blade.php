@@ -33,7 +33,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css').'?v='.filemtime('css/app.css')}}">
 </head>
 <body>
-<header class="bg-blue-700 shadow-sm">
+<header class="bg-blue-700 shadow-sm fixed w-full z-20">
     <nav class="flex items-center py-5 w-full">
         <a href="{{route('index')}}" class="mx-4">
             <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Takesbet" class="w-10 logo">
@@ -50,8 +50,11 @@
         <!--Mobile menu-->
         <div class="sm:hidden">
             <button class="text-white focus:outline-none" id="mobile-menu-button">
-                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                <svg id="menu-icon" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M3 5h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2z" clip-rule="evenodd"></path>
+                </svg>
+                <svg id="close-icon" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 hidden">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
             </button>
             <div id="mobile-menu" class="sm:hidden fixed -left-60 w-60 top-20 transition-all bg-blue-700 z-20">
@@ -70,8 +73,8 @@
                             {{$language}}
                         @endif
                     @endforeach
-                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-4 h-4 inline-block">
-                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="language-arrow w-4 h-4 inline-block rotate-180 transition-all duration-300">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                     </svg>
                 </span>
             </button>
@@ -89,6 +92,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
     </svg>
 </button>
+<div class="fixed inset-0 bg-black opacity-50 z-10 hidden" id="overlay"></div>
 <footer class="bg-blue-700 py-5">
     <p class="text-sm text-white text-center">&copy; {{ date('Y') }} Takesbet</p>
 </footer>

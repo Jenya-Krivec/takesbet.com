@@ -3,7 +3,7 @@
 @section('title', 'Takesbet')
 
 @section('content')
-    <div class="xl:px-20 sm:py-5 px-3 py-2 m-auto">
+    <div class="xl:px-20 sm:py-5 px-3 py-2 m-auto pt-24 sm:pt-24">
         <h1 class="text-center text-lg px-0 sm:text-2xl sm:px-7 sm:text-left  font-bold">@lang('index.Best Betting Sites'), @lang('index.Reviews & Bonuses') {{ date('Y') }}</h1>
         <h2 class="text-base px-0 sm:px-7 text-gray-700">Takesbet @lang('index.is the best place to find the best online betting sites, reviews, and bonuses. Check out our picks below')!</h2>
         <h3 class="text-lg px-0 sm:text-2xl sm:px-7 font-bold mt-4">@lang('index.Top Betting Sites')</h3>
