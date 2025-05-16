@@ -33,6 +33,11 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css').'?v='.filemtime('css/app.css')}}">
 </head>
 <body>
+<div class="fixed top-0 left-0 w-full h-full bg-white z-30" id="preloader">
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-700"></div>
+    </div>
+</div>
 <header class="bg-blue-700 shadow-sm fixed w-full z-20">
     <nav class="flex items-center py-5 w-full">
         <a href="{{route('index')}}" class="mx-4">
@@ -97,6 +102,7 @@
     <p class="text-sm text-white text-center">&copy; {{ date('Y') }} Takesbet</p>
 </footer>
 </body>
+<script type="text/javascript" src="{{asset('js/preloader.js').'?v='.filemtime('js/preloader.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/language.js').'?v='.filemtime('js/language.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/menu.js').'?v='.filemtime('js/menu.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/goUp.js').'?v='.filemtime('js/goUp.js')}}"></script>
