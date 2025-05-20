@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerSeeder::class,
                 PaymentSeeder::class,
                 CurrencySeeder::class,
+                SportSeeder::class,
             ]
         );
     }
