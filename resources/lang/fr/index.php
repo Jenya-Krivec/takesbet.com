@@ -46,7 +46,6 @@ return [
                       Peu importe où vous vous trouvez, nous vous fournirons des informations fiables sur les options de dépôt et de retrait disponibles dans votre pays,
                       ainsi que sur la rapidité avec laquelle chaque bookmaker traite les paiements.',
     'Top 10 Payment Methods' => 'Top 10 des méthodes de paiement',
-    'Cryptocurrencies including Bitcoin' => 'Cryptomonnaies, y compris le Bitcoin',
     'Betting Site Offers' => 'Offres des Sites de Paris',
     'paragraph_8' => 'Il existe de nombreuses offres de bonus intéressantes proposées par les bookmakers,
                       et nous avons sélectionné pour vous les meilleures — que vous soyez débutant ou parieur expérimenté.

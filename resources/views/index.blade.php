@@ -51,7 +51,7 @@
                     </div>
                     <div class="flex flex-col justify-around self-center ml-2 md:w-36">
                         <div class="text-2xl sm:text-4xl text-center" data-rate-value-id="{{$bookmaker['id']}}">{{$bookmaker['rating']}}</div>
-                        <a href="/bookmakers/{{$bookmaker['key']}}" class="text-gray-700 text-xs sm:text-sm underline text-center">@lang('index.Read Review')</a>
+                        <a href="{{route('bookmakers', $bookmaker['key'])}}" class="text-gray-700 text-xs sm:text-sm underline text-center">@lang('index.Read Review')</a>
                     </div>
                     <div class="flex-col justify-around self-center hidden md:flex">
                         <div class="text-center flex mx-auto">
@@ -67,7 +67,7 @@
                             <input name="rate" value="5" type="checkbox" aria-label="Five stars">
                         </div>
                     </div>
-                    <div class="flex-col justify-around self-center flex w-1/3 sm:w-auto">
+                    <div class="flex-col justify-around self-center flex w-1/3 xl:w-1/6">
                         <div class="text-xs sm:text-sm text-center">@lang('index.Promo code'):</div>
                         <div class="flex bg-gray-300 rounded w-min pr-2 mx-auto">
                             <p class="p-1 font-bold text-sm sm:text-base">{{$bookmaker['promo_code']}}</p>

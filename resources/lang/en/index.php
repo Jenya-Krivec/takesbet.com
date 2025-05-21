@@ -41,7 +41,6 @@ return [
     'paragraph_7' => 'To make your choice easier, we’ve developed tools that help you find the best bookmaker based on your preferred payment method.
                       No matter which country you’re in, we’ll provide accurate information on deposit and withdrawal options, as well as the payout processing speed of each bookmaker.',
     'Top 10 Payment Methods' => 'Top 10 Payment Methods',
-    'Cryptocurrencies including Bitcoin' => 'Cryptocurrencies including Bitcoin',
     'Betting Site Offers' => 'Betting Site Offers',
     'paragraph_8' => "There are plenty of great bookmaker bonuses out there, and we've selected the best ones for you — whether you're a newcomer or an experienced bettor.
                       Bookmakers constantly launch dozens of promotions, making it difficult to find the most worthwhile ones.

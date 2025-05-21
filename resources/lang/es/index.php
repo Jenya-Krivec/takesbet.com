@@ -46,7 +46,6 @@ return [
                       No importa en qué país estés, te proporcionaremos información precisa sobre las opciones de depósito y retiro,
                       así como sobre la velocidad con la que cada casa de apuestas procesa los pagos.',
     'Top 10 Payment Methods' => 'Los 10 principales métodos de pago',
-    'Cryptocurrencies including Bitcoin' => 'Criptomonedas, incluyendo Bitcoin',
     'Betting Site Offers' => 'Ofertas de Casas de Apuestas',
     'paragraph_8' => 'Existen muchas bonificaciones atractivas de casas de apuestas, y hemos reunido las mejores para ti,
                       tanto si eres principiante como si ya tienes experiencia en las apuestas. Los operadores lanzan constantemente decenas de promociones,

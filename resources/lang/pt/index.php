@@ -43,7 +43,6 @@ return [
                       Não importa em que país você esteja — forneceremos informações confiáveis sobre as opções de depósito e saque disponíveis,
                       bem como a velocidade com que cada casa de apostas processa os pagamentos.',
     'Top 10 Payment Methods' => 'Top 10 dos métodos de pagamento',
-    'Cryptocurrencies including Bitcoin' => 'Criptomoedas, incluindo o Bitcoin',
     'Betting Site Offers' => 'Ofertas dos Sites de Apostas',
     'paragraph_8' => 'Existem muitos bônus vantajosos oferecidos por casas de apostas, e reunimos para você os melhores — tanto para iniciantes quanto para apostadores experientes.
                       As casas de apostas estão constantemente lançando dezenas de promoções, e encontrar a mais vantajosa pode não ser fácil.
