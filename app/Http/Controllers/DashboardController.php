@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Payment;
+use App\Models\Bookmaker;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
-use App\Models\Bookmaker;
 use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
@@ -22,7 +23,16 @@ class DashboardController extends Controller
             ->where('active', '=', 1)
             ->groupBy('bookmakers.id')
             ->get();
+        $topSites = Bookmaker::selectRaw('bookmakers.*')
+            ->leftJoin('ratings', 'bookmakers.id', '=', 'ratings.bookmaker_id')
+            ->where('active', '=', 1)
+            ->groupBy(['bookmakers.id', 'ratings.rating'])
+            ->orderBy('ratings.rating', 'desc')
+            ->get(10);
+        $payments = Payment::selectRaw('payments.*')
+            ->where('logo', '!=', '')
+            ->get(10);
         // Return the main page view with the bookmakers data
-        return view('index', ['bookmakers' => $bookmakers]);
+        return view('index', ['bookmakers' => $bookmakers, 'topSites' => $topSites, 'payments' => $payments]);
     }
 }

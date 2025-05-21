@@ -92,49 +92,17 @@
         </div>
         <h3 class="text-lg sm:text-2xl font-bold mt-4 text-center">@lang('index.Top 10 Betting Sites (Worldwide)')</h3>
         <div class="px-2 sm:px-10 lg:px-36 text-justify">
-            <p class="text-base text-gray-700 text-justify indent-10">1. bet365</p>
-            <p class="text-base text-gray-700 text-justify indent-10">2. Stake.com</p>
-            <p class="text-base text-gray-700 text-justify indent-10">3. Ladbrokes & Ladbrokes Australia</p>
-            <p class="text-base text-gray-700 text-justify indent-10">4. Unibet</p>
-            <p class="text-base text-gray-700 text-justify indent-10">5. 1xBet</p>
-            <p class="text-base text-gray-700 text-justify indent-10">6. Betwinner</p>
-            <p class="text-base text-gray-700 text-justify indent-10">7. Hollywoodbets</p>
-            <p class="text-base text-gray-700 text-justify indent-10">8. Pinnacle</p>
-            <p class="text-base text-gray-700 text-justify indent-10">9. Duelbits</p>
-            <p class="text-base text-gray-700 text-justify indent-10">10. 1Win</p>
+            @foreach($topSites as $site)
+                <p class="text-base text-gray-700 text-justify indent-10">{{$loop->iteration}}. {{$site['name']}}</p>
+            @endforeach
         </div>
         <div class="relative w-full sm:w-3/4 overflow-hidden my-4 mx-auto">
             <div class="slider flex">
-                <a href="https://bet365.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #1a674b">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/bet365.svg').'?v='.filemtime('img/logo/bet365.svg')}}" alt="bet365 logo" width="100" height="100">
-                </a>
-                <a href="https://stake.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #1A2C38">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/stake.svg').'?v='.filemtime('img/logo/stake.svg')}}" alt="Stake logo" width="100" height="100">
-                </a>
-                <a href="https://ladbrokes.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #F01E28;">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/ladbrokes.svg').'?v='.filemtime('img/logo/ladbrokes.svg')}}" alt="Ladbrokes logo" width="100" height="100">
-                </a>
-                <a href="https://unibet.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #147B45">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/unibet.svg').'?v='.filemtime('img/logo/unibet.svg')}}" alt="Unibet logo" width="100" height="100">
-                </a>
-                <a href="https://1xbet.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #1A5685">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/1xbet.svg').'?v='.filemtime('img/logo/1xbet.svg')}}" alt="1xbet logo" width="100" height="100">
-                </a>
-                <a href="https://betwinner.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #1a674b;">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/betwinner.svg').'?v='.filemtime('img/logo/betwinner.svg')}}" alt="Betwinner logo" width="100" height="100">
-                </a>
-                <a href="https://www.hollywoodbets.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #7d1bd9">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/hollywoodbets.svg').'?v='.filemtime('img/logo/hollywoodbets.svg')}}" alt="Hollywoodbets logo" width="100" height="100">
-                </a>
-                <a href="https://pinnacle.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #000000">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/pinnacle.svg').'?v='.filemtime('img/logo/pinnacle.svg')}}" alt="Pinnacle logo" width="100" height="100">
-                </a>
-                <a href="https://duelbits.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #19262b">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/duelbits.svg').'?v='.filemtime('img/logo/duelbits.svg')}}" alt="Duelbits logo" width="100" height="100">
-                </a>
-                <a href="https://1win.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #000000">
-                    <img class="block w-full p-4" src="{{ asset('img/logo/1win.svg').'?v='.filemtime('img/logo/1win.svg')}}" alt="1Win logo" width="100" height="100">
-                </a>
+                @foreach($topSites as $site)
+                    <a href="https://{{$site['url']}}" target="_blank" class="slide flex justify-center items-center" style="background-color: {{$site['logo_color']}}">
+                        <img class="block w-full p-4" src="{{ asset('img/logo/'.$site['logo']).'?v='.filemtime('img/logo/'.$site['logo'])}}" alt="{{$site['name']}} logo" width="100" height="100">
+                    </a>
+                @endforeach
             </div>
         </div>
         <h3 class="text-lg sm:text-2xl font-bold mt-4 text-center">@lang('index.Bookmaker Payment Methods')</h3>
@@ -145,49 +113,17 @@
         </div>
         <h3 class="text-lg sm:text-2xl font-bold mt-4 text-center">@lang('index.Top 10 Payment Methods')</h3>
         <div class="px-2 sm:px-10 lg:px-36 text-justify">
-            <p class="text-base text-gray-700 text-justify indent-10">1. PayPal</p>
-            <p class="text-base text-gray-700 text-justify indent-10">2. Neteller</p>
-            <p class="text-base text-gray-700 text-justify indent-10">3. Skrill</p>
-            <p class="text-base text-gray-700 text-justify indent-10">4. Mastercard</p>
-            <p class="text-base text-gray-700 text-justify indent-10">5. Visa</p>
-            <p class="text-base text-gray-700 text-justify indent-10">6. @lang('index.Cryptocurrencies including Bitcoin')</p>
-            <p class="text-base text-gray-700 text-justify indent-10">7. Paysafecard</p>
-            <p class="text-base text-gray-700 text-justify indent-10">8. iDeal</p>
-            <p class="text-base text-gray-700 text-justify indent-10">9. giropay</p>
-            <p class="text-base text-gray-700 text-justify indent-10">10. Klarna</p>
+            @foreach($payments as $payment)
+                <p class="text-base text-gray-700 text-justify indent-10">{{$loop->iteration}}. {{$payment['name']}}</p>
+            @endforeach
         </div>
         <div class="relative w-full sm:w-3/4 overflow-hidden my-4 mx-auto">
             <div class="slider flex">
-                <a href="https://www.paypal.com" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/paypal.svg').'?v='.filemtime('img/payment/paypal.svg')}}" alt="PayPal logo" width="100" height="100">
-                </a>
-                <a href="https://neteller.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #336633">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/neteller.svg').'?v='.filemtime('img/payment/neteller.svg')}}" alt="Neteller logo" width="100" height="100">
-                </a>
-                <a href="https://skrill.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #910590;">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/skrill.svg').'?v='.filemtime('img/payment/skrill.svg')}}" alt="Skrill logo" width="100" height="100">
-                </a>
-                <a href="https://mastercard.com" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/mastercard.svg').'?v='.filemtime('img/payment/mastercard.svg')}}" alt="Mastercard logo" width="100" height="100">
-                </a>
-                <a href="https://visa.com" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/visa.svg').'?v='.filemtime('img/payment/visa.svg')}}" alt="Visa logo" width="100" height="100">
-                </a>
-                <a href="https://bitcoin.com" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/bitcoin.svg').'?v='.filemtime('img/payment/bitcoin.svg')}}" alt="Bitcoin logo" width="100" height="100">
-                </a>
-                <a href="https://paysafecard.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #3200ff;">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/paysafecard.svg').'?v='.filemtime('img/payment/paysafecard.svg')}}" alt="Paysafecard logo" width="100" height="100">
-                </a>
-                <a href="https://www.ideal.nl" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/ideal.svg').'?v='.filemtime('img/payment/ideal.svg')}}" alt="iDeal logo" width="100" height="100">
-                </a>
-                <a href="https://www.girocard.eu" target="_blank" class="slide flex justify-center items-center" style="background-color: white">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/giropay.svg').'?v='.filemtime('img/payment/giropay.svg')}}" alt="giropay logo" width="100" height="100">
-                </a>
-                <a href="https://klarna.com" target="_blank" class="slide flex justify-center items-center" style="background-color: #FFA8CDFF">
-                    <img class="block w-full p-4" src="{{ asset('img/payment/klarna.svg').'?v='.filemtime('img/payment/klarna.svg')}}" alt="Klarna logo" width="100" height="100">
-                </a>
+                @foreach($payments as $payment)
+                    <a href="https://{{$payment['url']}}" target="_blank" class="slide flex justify-center items-center" style="background-color: {{$payment['logo_color']}}">
+                        <img class="block w-full p-4" src="{{ asset('img/payment/'.$payment['logo'].'.svg').'?v='.filemtime('img/payment/'.$payment['logo'].'.svg')}}" alt="{{$payment['name']}} logo" width="100" height="100">
+                    </a>
+                @endforeach
             </div>
         </div>
         <h3 class="text-lg sm:text-2xl font-bold mt-4 text-center">@lang('index.Betting Site Offers')</h3>
