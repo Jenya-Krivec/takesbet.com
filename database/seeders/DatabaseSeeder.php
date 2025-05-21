@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
                 CurrencySeeder::class,
                 SportSeeder::class,
                 RestrictionSeeder::class,
+                SupportSeeder::class,
             ]
         );
     }
