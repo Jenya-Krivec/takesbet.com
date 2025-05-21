@@ -19,6 +19,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Mastercard',
              'url' => 'mastercard.com',
              'logo' => 'mastercard',
+             'logo_color' => 'white',
              'icon' => 'mastercard',
             ]
         );
@@ -28,6 +29,7 @@ class PaymentSeeder extends Seeder
              'name' => 'VISA',
              'url' => 'visa.com',
              'logo' => 'visa',
+             'logo_color' => 'white',
              'icon' => 'visa',
             ]
         );
@@ -37,6 +39,7 @@ class PaymentSeeder extends Seeder
              'name' => 'VISA Checkout',
              'url' => 'visa.com',
              'logo' => 'visa',
+             'logo_color' => 'white',
              'icon' => 'visa',
             ]
         );
@@ -46,6 +49,7 @@ class PaymentSeeder extends Seeder
              'name' => 'PayPal',
              'url' => 'www.paypal.com',
              'logo' => 'paypal',
+             'logo_color' => 'white',
              'icon' => 'paypal',
             ]
         );
@@ -55,6 +59,7 @@ class PaymentSeeder extends Seeder
              'name' => 'POLi',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'poli',
             ]
         );
@@ -64,6 +69,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Bitcoin',
              'url' => 'bitcoin.com',
              'logo' => 'bitcoin',
+             'logo_color' => 'white',
              'icon' => 'bitcoin',
             ]
         );
@@ -73,6 +79,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Ethereum',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'ethereum',
             ]
         );
@@ -82,6 +89,7 @@ class PaymentSeeder extends Seeder
              'name' => 'LTC (Litecoin)',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'litecoin',
             ]
         );
@@ -91,6 +99,7 @@ class PaymentSeeder extends Seeder
              'name' => 'DOGE (Dogecoin)',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'dogecoin',
             ]
         );
@@ -100,6 +109,7 @@ class PaymentSeeder extends Seeder
              'name' => 'USD Coin',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'usdcoin',
             ]
         );
@@ -109,6 +119,7 @@ class PaymentSeeder extends Seeder
              'name' => '1-Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => '1pay',
             ]
         );
@@ -118,6 +129,7 @@ class PaymentSeeder extends Seeder
              'name' => '8Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => '8pay',
             ]
         );
@@ -127,6 +139,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Abaqoos',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'abaqoos',
             ]
         );
@@ -136,6 +149,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Airtel Money',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'airtelmoney',
             ]
         );
@@ -145,6 +159,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Apple Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'applepay',
             ]
         );
@@ -154,6 +169,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Bancontact',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'bancontact',
             ]
         );
@@ -163,6 +179,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Bank Wire Transfer',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'bankwiretransfer',
             ]
         );
@@ -172,6 +189,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Bitcoin Gold',
              'url' => 'bitcoin.com',
              'logo' => 'bitcoin',
+             'logo_color' => 'white',
              'icon' => 'bitcoin',
             ]
         );
@@ -181,6 +199,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Bitshares',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'bitshares',
             ]
         );
@@ -190,6 +209,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Boku',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'boku',
             ]
         );
@@ -199,6 +219,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Cash',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'cash',
             ]
         );
@@ -208,6 +229,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Cashmaal',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'cashmaal',
             ]
         );
@@ -217,6 +239,7 @@ class PaymentSeeder extends Seeder
              'name' => 'CashToCode',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'cashtocode',
             ]
         );
@@ -226,6 +249,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Chainlink',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'chainlink',
             ]
         );
@@ -235,6 +259,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Cheque',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'cheque',
             ]
         );
@@ -244,6 +269,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Citadel',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'citadel',
             ]
         );
@@ -253,6 +279,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Click2Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'click2pay',
             ]
         );
@@ -262,6 +289,7 @@ class PaymentSeeder extends Seeder
              'name' => 'ClickandBuy',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'click2pay',
             ]
         );
@@ -271,6 +299,7 @@ class PaymentSeeder extends Seeder
              'name' => 'ConnectPay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'connectpay',
             ]
         );
@@ -280,6 +309,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Maestro',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'maestro',
             ]
         );
@@ -289,6 +319,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Dankort',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'dankort',
             ]
         );
@@ -298,6 +329,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Debit Cards',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'debitcards',
             ]
         );
@@ -307,6 +339,7 @@ class PaymentSeeder extends Seeder
              'name' => 'DigiByte',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'digibyte',
             ]
         );
@@ -316,6 +349,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Diners Club',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'dinersclub',
             ]
         );
@@ -325,6 +359,7 @@ class PaymentSeeder extends Seeder
              'name' => 'eCheck',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'echeck',
             ]
         );
@@ -334,6 +369,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Payz',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'payz',
             ]
         );
@@ -343,6 +379,7 @@ class PaymentSeeder extends Seeder
              'name' => 'eKonto',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'ekonto',
             ]
         );
@@ -352,6 +389,7 @@ class PaymentSeeder extends Seeder
              'name' => 'ELV',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'elv',
             ]
         );
@@ -361,6 +399,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Emoney',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'emoney',
             ]
         );
@@ -370,6 +409,7 @@ class PaymentSeeder extends Seeder
              'name' => 'eNets',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'enets',
             ]
         );
@@ -379,6 +419,7 @@ class PaymentSeeder extends Seeder
              'name' => 'entropay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'entropay',
             ]
         );
@@ -388,6 +429,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Epay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'epay',
             ]
         );
@@ -397,6 +439,7 @@ class PaymentSeeder extends Seeder
              'name' => 'EPS',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'eps',
             ]
         );
@@ -406,6 +449,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Fast Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'fastpay',
             ]
         );
@@ -415,6 +459,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Fastbank Transfer',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'fastbanktransfer',
             ]
         );
@@ -424,6 +469,7 @@ class PaymentSeeder extends Seeder
              'name' => 'flexepin',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'flexepin',
             ]
         );
@@ -433,16 +479,18 @@ class PaymentSeeder extends Seeder
              'name' => 'Gift Cards',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'giftcards',
             ]
         );
         Payment::query()->updateOrCreate(
             ['key' => 'giropay'],
             ['key' => 'giropay',
-                'name' => 'giropay',
-                'url' => 'www.girocard.eu',
-                'logo' => 'giropay',
-                'icon' => 'giropay',
+             'name' => 'giropay',
+             'url' => 'www.girocard.eu',
+             'logo' => 'giropay',
+             'logo_color' => 'white',
+             'icon' => 'giropay',
             ]
         );
         Payment::query()->updateOrCreate(
@@ -451,6 +499,7 @@ class PaymentSeeder extends Seeder
              'name' => 'iDeal',
              'url' => 'www.ideal.nl',
              'logo' => 'ideal',
+             'logo_color' => 'white',
              'icon' => 'ideal',
             ]
         );
@@ -460,6 +509,7 @@ class PaymentSeeder extends Seeder
              'name' => 'iDebit',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'idebit',
             ]
         );
@@ -469,6 +519,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Instant Banking',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'instantbanking',
             ]
         );
@@ -478,6 +529,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Interac',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'interac',
             ]
         );
@@ -487,6 +539,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Jeton Wallet',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'jetonwallet',
             ]
         );
@@ -496,6 +549,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Klarna',
              'url' => 'klarna.com',
              'logo' => 'klarna',
+             'logo_color' => '#FFA8CDFF',
              'icon' => 'klarna',
             ]
         );
@@ -505,6 +559,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Laser',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'laser',
             ]
         );
@@ -514,6 +569,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Monero',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'monero',
             ]
         );
@@ -523,6 +579,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Moneta.ru',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'monetaru',
             ]
         );
@@ -532,6 +589,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Money Order',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'moneyorder',
             ]
         );
@@ -541,6 +599,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Monzo',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'monzo',
             ]
         );
@@ -550,6 +609,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Moonpay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'moonpay',
             ]
         );
@@ -559,6 +619,7 @@ class PaymentSeeder extends Seeder
              'name' => 'MTN Airtime',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'mtnairtime',
             ]
         );
@@ -568,6 +629,7 @@ class PaymentSeeder extends Seeder
              'name' => 'MuchBetter',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'muchBetter',
             ]
         );
@@ -577,6 +639,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Multibanco',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'bancontact',
             ]
         );
@@ -586,6 +649,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Neteller',
              'url' => 'neteller.com',
              'logo' => 'neteller',
+             'logo_color' => '#336633',
              'icon' => 'neteller',
             ]
         );
@@ -595,6 +659,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Netpay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'netpay',
             ]
         );
@@ -604,6 +669,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Nordea',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'nordea',
             ]
         );
@@ -613,6 +679,7 @@ class PaymentSeeder extends Seeder
              'name' => 'OmiseGO',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'omisego',
             ]
         );
@@ -622,6 +689,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Ozow',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'ozow',
             ]
         );
@@ -631,6 +699,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Pay4Fun',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'pay4fun',
             ]
         );
@@ -640,6 +709,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Paybox',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'paybox',
             ]
         );
@@ -649,6 +719,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Paydunya',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'paydunya',
             ]
         );
@@ -658,6 +729,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Payeer',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'payeer',
             ]
         );
@@ -667,6 +739,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Payfast',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'payfast',
             ]
         );
@@ -676,6 +749,7 @@ class PaymentSeeder extends Seeder
              'name' => 'PayNearMe',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'paynearme',
             ]
         );
@@ -685,6 +759,7 @@ class PaymentSeeder extends Seeder
              'name' => 'PayPoint',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'paypoint',
             ]
         );
@@ -694,6 +769,7 @@ class PaymentSeeder extends Seeder
              'name' => 'paysafecard',
              'url' => 'paysafecard.com',
              'logo' => 'paysafecard',
+             'logo_color' => '#3200ff',
              'icon' => 'paysafecard',
             ]
         );
@@ -703,6 +779,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Paytm',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'paytm',
             ]
         );
@@ -712,6 +789,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Perfect Money',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'perfectmoney',
             ]
         );
@@ -721,6 +799,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Person to Person',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'persontoperson',
             ]
         );
@@ -730,6 +809,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Pingit',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'pingit',
             ]
         );
@@ -739,6 +819,7 @@ class PaymentSeeder extends Seeder
              'name' => 'PiPay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'pipay',
             ]
         );
@@ -748,6 +829,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Poste Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'postepay',
             ]
         );
@@ -757,6 +839,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Przelewy24',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'przelewy24',
             ]
         );
@@ -766,6 +849,7 @@ class PaymentSeeder extends Seeder
              'name' => 'QIWI',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'qiwi',
             ]
         );
@@ -775,6 +859,7 @@ class PaymentSeeder extends Seeder
              'name' => 'QTum',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'qtum',
             ]
         );
@@ -784,6 +869,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Quickcash',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'quickcash',
             ]
         );
@@ -793,6 +879,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Revolut',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'revolut',
             ]
         );
@@ -802,6 +889,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Runpay Wallet',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'runpaywallet',
             ]
         );
@@ -811,6 +899,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Siru Mobile',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'sirumobile',
             ]
         );
@@ -820,6 +909,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Skrill',
              'url' => 'skrill.com',
              'logo' => 'skrill',
+             'logo_color' => '#910590',
              'icon' => 'skrill',
             ]
         );
@@ -829,6 +919,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Sofort',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'sofort',
             ]
         );
@@ -838,6 +929,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Speedcard',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'speedcard',
             ]
         );
@@ -847,6 +939,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Stic Pay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'sticpay',
             ]
         );
@@ -856,6 +949,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Teleingreso',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'teleingreso',
             ]
         );
@@ -865,6 +959,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Thawte',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'thawte',
             ]
         );
@@ -874,6 +969,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Tigo',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'tigo',
             ]
         );
@@ -883,6 +979,7 @@ class PaymentSeeder extends Seeder
              'name' => 'TrueTSD',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'truetsd',
             ]
         );
@@ -892,6 +989,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Trustly',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'trustly',
             ]
         );
@@ -901,6 +999,7 @@ class PaymentSeeder extends Seeder
              'name' => 'UKash',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'ukash',
             ]
         );
@@ -910,6 +1009,7 @@ class PaymentSeeder extends Seeder
              'name' => 'UnionPay',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'unionpay',
             ]
         );
@@ -919,6 +1019,7 @@ class PaymentSeeder extends Seeder
              'name' => 'UPI',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'upi',
             ]
         );
@@ -928,6 +1029,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Use My Funds',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'usemyfunds',
             ]
         );
@@ -937,6 +1039,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Verge',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'verge',
             ]
         );
@@ -946,6 +1049,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Vodacom',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'vodacom',
             ]
         );
@@ -955,6 +1059,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Voucher Deposit',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'voucherdeposit',
             ]
         );
@@ -964,6 +1069,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Webmoney',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'webmoney',
             ]
         );
@@ -973,6 +1079,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Western Union',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'westernunion',
             ]
         );
@@ -982,6 +1089,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Yandex Money',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'yandexmoney',
             ]
         );
@@ -991,6 +1099,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Zapper',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'zapper',
             ]
         );
@@ -1000,6 +1109,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Zcash',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'zcash',
             ]
         );
@@ -1009,6 +1119,7 @@ class PaymentSeeder extends Seeder
              'name' => 'Zimpler',
              'url' => '',
              'logo' => '',
+             'logo_color' => '',
              'icon' => 'zimpler',
             ]
         );

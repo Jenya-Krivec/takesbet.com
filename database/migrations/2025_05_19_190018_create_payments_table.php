@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name', 50)->default('');
             $table->string('url', 50)->default('');
             $table->string('logo', 50)->default('');
+            $table->string('logo_color', 50)->default('');
             $table->string('icon', 50)->default('');
             $table->timestamps();
         });
