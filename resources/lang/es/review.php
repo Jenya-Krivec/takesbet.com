@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => ':bookmaker - reseña de casa de apuestas, guía de apuestas y bonos de registro',
+    'description' => 'Lee la reseña de :bookmaker con noticias, guías y bonos. Obtén la mejor oferta de bienvenida de :bookmaker en takesbet.com',
+    'keywords' => 'Reseña de la casa de apuestas :bookmaker, Bonos de registro :bookmaker, Métodos de pago :bookmaker, Apuestas móviles y aplicación de :bookmaker',
+    'Review' => 'Reseña de :bookmaker',
+    'Claim' => 'Reclamar',
+    'Quick Info' => 'Información rápida de :bookmaker',
+    'Payment Methods' => 'Métodos de pago',
+    'Currency' => 'Moneda',
+    'Licensed/Regulated by' => 'Licenciado/Regulado por',
+    'Sports' => 'Deportes',
+    'Responsible Gambling' => 'Juego Responsable',
+    'Customer Support' => 'Atención al Cliente',
+    'Live Streaming' => 'Transmisión en Vivo',
+    'Tested Betting Sites' => 'Casas de apuestas probadas',
+    'Pros' => 'Pros',
+    'Cons' => 'Contras',
+    'Event' => 'Evento',
+    'Telephone' => 'Teléfono',
+    'Promo Codes' => 'Códigos Promocionales de :bookmaker',
+    'Relevant Code' => 'Código Relevante',
+    'Tested' => 'Probado',
+    'See full details of the' => 'Ver todos los detalles del',
+];

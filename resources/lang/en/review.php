@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => ':bookmaker - bookmaker review, betting guide & sign-up bonuses',
+    'description' => 'Read the :bookmaker review with news, guides, and bonuses. Get the best :bookmaker welcome offer on takesbet.com',
+    'keywords' => ':bookmaker Bookmaker Review, :bookmaker Sign-up Bonuses, :bookmaker Payment Methods, :bookmaker Mobile Betting & App',
+    'Review' => ':bookmaker Review',
+    'Claim' => 'Claim',
+    'Quick Info' => ':bookmaker Quick Info',
+    'Payment Methods' => 'Payment Methods',
+    'Currency' => 'Currency',
+    'Licensed/Regulated by' => 'Licensed/Regulated by',
+    'Sports' => 'Sports',
+    'Responsible Gambling' => 'Responsible Gambling',
+    'Customer Support' => 'Customer Support',
+    'Live Streaming' => 'Live Streaming',
+    'Tested Betting Sites' => 'Tested Betting Sites',
+    'Pros' => 'Pros',
+    'Cons' => 'Cons',
+    'Event' => 'Event',
+    'Telephone' => 'Telephone',
+    'Promo Codes' => ':bookmaker Promo Codes',
+    'Relevant Code' => 'Relevant Code',
+    'Tested' => 'Tested',
+    'See full details of the' => 'See full details of the',
+];

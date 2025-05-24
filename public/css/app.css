@@ -23,6 +23,15 @@ h1{
     border-left: 2rem solid;
     border-bottom: 3rem solid transparent;
 }
+@media (width >= 40rem) {
+    .triangle-right{
+        width: 0;
+        height: 100%;
+        border-top: 4rem solid transparent;
+        border-left: 2rem solid;
+        border-bottom: 4rem solid transparent;
+    }
+}
 .rate input{
     appearance: none;
     width: 1.05rem;
@@ -30,11 +39,11 @@ h1{
     outline: none;
     position: relative;
     cursor: pointer;
-    background-image: url("../img/index/star.png");
+    background-image: url("../img/index/star.png?v=1");
     background-size: 1.05rem;
 }
 .rate input[disabled = "disabled"]{
-    background-image: url("../img/index/star.png") !important;
+    background-image: url("../img/index/star.png?v=1") !important;
     cursor: default;
 }
 .rate input:checked, .rate-checked{
@@ -73,4 +82,17 @@ h1{
         min-width: 25%;
     }
 }
-
+.curl > div:first-child:after {
+    content: "";
+    background-image: url(../img/review/curl.png?v=1);
+    position: absolute;
+    top: -1px;
+    right: 30px;
+    width: 35px;
+    height: calc(100% + 2px);
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.curl > div:first-child:hover::after {
+    right: 42px;
+}

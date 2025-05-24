@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => ":bookmaker - avis sur les bookmakers, guide de paris et bonus d'inscription",
+    'description' => 'Lisez l’avis sur :bookmaker avec des actualités, des guides et des bonus. Obtenez la meilleure offre de bienvenue :bookmaker sur takesbet.com',
+    'keywords' => "Avis sur le bookmaker :bookmaker, Bonus d'inscription :bookmaker, Méthodes de paiement :bookmaker, Paris mobiles et application :bookmaker",
+    'Review' => 'Avis sur :bookmaker',
+    'Claim' => 'Réclamer',
+    'Quick Info' => 'Infos rapides sur :bookmaker',
+    'Payment Methods' => 'Méthodes de paiement',
+    'Currency' => 'Devise',
+    'Licensed/Regulated by' => 'Autorisé/Réglementé par',
+    'Sports' => 'Sports',
+    'Responsible Gambling' => 'Jeu Responsable',
+    'Customer Support' => 'Service Client',
+    'Live Streaming' => 'Diffusion en Direct',
+    'Tested Betting Sites' => 'Sites de paris testés',
+    'Pros' => 'Avantages',
+    'Cons' => 'Inconvénients',
+    'Event' => 'Événement',
+    'Telephone' => 'Téléphone',
+    'Promo Codes' => 'Codes Promo :bookmaker',
+    'Relevant Code' => 'Code Pertinent',
+    'Tested' => 'Testé',
+    'See full details of the' => 'Voir tous les détails du',
+];

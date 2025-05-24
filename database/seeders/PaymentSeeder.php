@@ -624,8 +624,8 @@ class PaymentSeeder extends Seeder
             ]
         );
         Payment::query()->updateOrCreate(
-            ['key' => 'muchBetter'],
-            ['key' => 'muchBetter',
+            ['key' => 'muchbetter'],
+            ['key' => 'muchbetter',
              'name' => 'MuchBetter',
              'url' => '',
              'logo' => '',

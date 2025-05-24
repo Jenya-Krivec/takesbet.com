@@ -74,7 +74,7 @@ class BookmakerSeeder extends Seeder
         Bookmaker::query()->updateOrCreate(
             ['key' => 'betwinner'],
             ['key' => 'betwinner',
-             'name' => 'Betwinner',
+             'name' => 'BetWinner',
              'url' => 'prmbw.com/bw-sport/?p=/user/registration/',
              'logo' => 'betwinner.svg',
              'logo_color' => '#1a674b',
