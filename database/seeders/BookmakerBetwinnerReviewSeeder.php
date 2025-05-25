@@ -228,104 +228,124 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
              'bookmaker_id' => 3,
              'component' => 'table_v2',
              'value_en' => '{"0":
+                                {"0":"",
+                                 "1":"",
+                                 "2":"Bethard",
+                                 "3":"Dafabet"},
+                            "1":
                                 {"0":"Horse Racing. Newcastle R1. Price of favourite.",
                                  "1":"3.74",
                                  "2":"4.00",
                                  "3":"4.33"},
-                            "1":
+                            "2":
                                 {"0":"Football. Denmark vs Ireland. Ireland (+1) handicap.",
                                  "1":"1.72",
                                  "2":"2.25",
                                  "3":"2.30"},
-                            "2":
+                            "3":
                                 {"0":"Cricket. South Africa vs India. South Africa win.",
                                  "1":"2.75",
                                  "2":"2.65",
                                  "3":"2.70"},
-                            "3":
+                            "4":
                                 {"0":"Formula 1. Canadian Grand Prix. Lewis Hamilton win.",
                                  "1":"2.15",
                                  "2":"2.25",
                                  "3":"2.10"},
-                            "4":
+                            "5":
                                 {"0":"Tennis. Novak Djokovic vs Alexander Zverev. Djokovic to win 3-0.",
                                  "1":"1.96",
                                  "2":"1.95",
                                  "3":"1.91"}
                             }',
              'value_es' => '{"0":
+                                {"0":"",
+                                 "1":"",
+                                 "2":"Bethard",
+                                 "3":"Dafabet"},
+                            "1":
                                 {"0":"Carreras de caballos. Newcastle R1. Cuota del favorito.",
                                  "1":"3.74",
                                  "2":"4.00",
                                  "3":"4.33"},
-                            "1":
+                            "2":
                                 {"0":"Fútbol. Dinamarca vs Irlanda. Hándicap Irlanda (+1).",
                                  "1":"1.72",
                                  "2":"2.25",
                                  "3":"2.30"},
-                            "2":
+                            "3":
                                 {"0":"Críquet. Sudáfrica vs India. Victoria de Sudáfrica.",
                                  "1":"2.75",
                                  "2":"2.65",
                                  "3":"2.70"},
-                            "3":
+                            "4":
                                 {"0":"Fórmula 1. Gran Premio de Canadá. Victoria de Lewis Hamilton.",
                                  "1":"2.15",
                                  "2":"2.25",
                                  "3":"2.10"},
-                            "4":
+                            "5":
                                 {"0":"Tenis. Novak Djokovic vs Alexander Zverev. Djokovic gana 3-0.",
                                  "1":"1.96",
                                  "2":"1.95",
                                  "3":"1.91"}
                             }',
              'value_fr' => '{"0":
+                                {"0":"",
+                                 "1":"",
+                                 "2":"Bethard",
+                                 "3":"Dafabet"},
+                            "1":
                                 {"0":"Courses hippiques. Newcastle R1. Cote du favori.",
                                  "1":"3.74",
                                  "2":"4.00",
                                  "3":"4.33"},
-                            "1":
+                            "2":
                                 {"0":"Football. Danemark vs Irlande. Handicap Irlande (+1).",
                                  "1":"1.72",
                                  "2":"2.25",
                                  "3":"2.30"},
-                            "2":
+                            "3":
                                 {"0":"Cricket. Afrique du Sud vs Inde. Victoire de l\'Afrique du Sud.",
                                  "1":"2.75",
                                  "2":"2.65",
                                  "3":"2.70"},
-                            "3":
+                            "4":
                                 {"0":"Formule 1. Grand Prix du Canada. Victoire de Lewis Hamilton.",
                                  "1":"2.15",
                                  "2":"2.25",
                                  "3":"2.10"},
-                            "4":
+                            "5":
                                 {"0":"Tennis. Novak Djokovic vs Alexander Zverev. Djokovic gagne 3-0.",
                                  "1":"1.96",
                                  "2":"1.95",
                                  "3":"1.91"}
                             }',
              'value_pt' => '{"0":
+                                {"0":"",
+                                 "1":"",
+                                 "2":"Bethard",
+                                 "3":"Dafabet"},
+                            "1":
                                 {"0":"Corridas de cavalos. Newcastle R1. Cotação do favorito.",
                                  "1":"3.74",
                                  "2":"4.00",
                                  "3":"4.33"},
-                            "1":
+                            "2":
                                 {"0":"Futebol. Dinamarca vs Irlanda. Handicap Irlanda (+1).",
                                  "1":"1.72",
                                  "2":"2.25",
                                  "3":"2.30"},
-                            "2":
+                            "3":
                                 {"0":"Críquete. África do Sul vs Índia. Vitória da África do Sul.",
                                  "1":"2.75",
                                  "2":"2.65",
                                  "3":"2.70"},
-                            "3":
+                            "4":
                                 {"0":"Fórmula 1. Grande Prémio do Canadá. Vitória de Lewis Hamilton.",
                                  "1":"2.15",
                                  "2":"2.25",
                                  "3":"2.10"},
-                            "4":
+                            "5":
                                 {"0":"Ténis. Novak Djokovic vs Alexander Zverev. Djokovic vence por 3-0.",
                                  "1":"1.96",
                                  "2":"1.95",
@@ -360,7 +380,6 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
              'order' => 14,
             ]
         );
-
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
              'order' => 15],

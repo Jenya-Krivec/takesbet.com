@@ -27,6 +27,11 @@ class DatabaseSeeder extends Seeder
                 BookmakerBetwinnerRestrictionSeeder::class,
                 BookmakerBetwinnerSupportSeeder::class,
                 BookmakerBetwinnerReviewSeeder::class,
+                Bookmaker1XBETPaymentSeeder::class,
+                Bookmaker1XBETCurrencySeeder::class,
+                Bookmaker1XBETSportSeeder::class,
+                Bookmaker1XBETSupportSeeder::class,
+                Bookmaker1XBETReviewSeeder::class,
             ]
         );
     }

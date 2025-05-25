@@ -190,7 +190,7 @@ class PaymentSeeder extends Seeder
              'url' => 'bitcoin.com',
              'logo' => 'bitcoin',
              'logo_color' => 'white',
-             'icon' => 'bitcoin',
+             'icon' => 'bitcoingold',
             ]
         );
         Payment::query()->updateOrCreate(
@@ -1121,6 +1121,266 @@ class PaymentSeeder extends Seeder
              'logo' => '',
              'logo_color' => '',
              'icon' => 'zimpler',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'amazonpay'],
+            ['key' => 'amazonpay',
+             'name' => 'Amazon Pay',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'amazonpay',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'astropaycard'],
+            ['key' => 'astropaycard',
+             'name' => 'AstroPay Card',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'astropaycard',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'googlepay'],
+            ['key' => 'googlepay',
+             'name' => 'Google Pay',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'googlepay',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'indiannetbanking'],
+            ['key' => 'indiannetbanking',
+             'name' => 'Indian Net Banking',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'indiannetbanking',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'jiopay'],
+            ['key' => 'jiopay',
+             'name' => 'Jiopay',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'jiopay',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'phonepe'],
+            ['key' => 'phonepe',
+             'name' => 'PhonePe',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'phonepe',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'samsungpay'],
+            ['key' => 'samsungpay',
+             'name' => 'Samsung Pay',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'samsungpay',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'bitcoincash'],
+            ['key' => 'bitcoincash',
+             'name' => 'Bitcoin Cash',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'bitcoincash',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'polkadot'],
+            ['key' => 'polkadot',
+             'name' => 'Polkadot',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'polkadot',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'ethereumclassic'],
+            ['key' => 'ethereumclassic',
+             'name' => 'Ethereum Classic',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'ethereumclassic',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'airtm'],
+            ['key' => 'airtm',
+             'name' => 'AirTM',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'airtm',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'basicattentiontoken'],
+            ['key' => 'basicattentiontoken',
+             'name' => 'Basic Attention Token',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'basicattentiontoken',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'binancesmartchain'],
+            ['key' => 'binancesmartchain',
+             'name' => 'Binance Smart Chain',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'binancesmartchain',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'cardano'],
+            ['key' => 'cardano',
+             'name' => 'Cardano',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'cardano',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'dai'],
+            ['key' => 'dai',
+             'name' => 'DAI',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'dai',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'dash'],
+            ['key' => 'dash',
+             'name' => 'Dash',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'dash',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'eos'],
+            ['key' => 'eos',
+             'name' => 'EOS',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'eos',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'nem'],
+            ['key' => 'nem',
+             'name' => 'NEM',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'nem',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'paxos'],
+            ['key' => 'paxos',
+             'name' => 'Paxos',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'paxos',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'ripple'],
+            ['key' => 'ripple',
+             'name' => 'Ripple',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'ripple',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'shibainu'],
+            ['key' => 'shibainu',
+             'name' => 'SHIBA INU',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'shibainu',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'tether'],
+            ['key' => 'tether',
+             'name' => 'Tether',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'tether',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'tetherontron'],
+            ['key' => 'tetherontron',
+             'name' => 'Tether on Tron',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'tetherontron',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'tron'],
+            ['key' => 'tron',
+             'name' => 'Tron',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'tron',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'truemoney'],
+            ['key' => 'truemoney',
+             'name' => 'TrueMoney',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'truemoney',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'wrappedbitcoin'],
+            ['key' => 'wrappedbitcoin',
+             'name' => 'Wrapped Bitcoin',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'wrappedbitcoin',
             ]
         );
     }
