@@ -25,6 +25,16 @@ class Bookmaker1XBETCurrencySeeder extends Seeder
         );
         DB::table('bookmaker_currency')->updateOrInsert(
             ['bookmaker_id' => 1,
+                'currency_id' => 2
+            ],
+            ['bookmaker_id' => 1,
+                'currency_id' => 2,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]
+        );
+        DB::table('bookmaker_currency')->updateOrInsert(
+            ['bookmaker_id' => 1,
                 'currency_id' => 8
             ],
             ['bookmaker_id' => 1,
@@ -39,6 +49,16 @@ class Bookmaker1XBETCurrencySeeder extends Seeder
             ],
             ['bookmaker_id' => 1,
                 'currency_id' => 11,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]
+        );
+        DB::table('bookmaker_currency')->updateOrInsert(
+            ['bookmaker_id' => 1,
+                'currency_id' => 25
+            ],
+            ['bookmaker_id' => 1,
+                'currency_id' => 25,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ]
@@ -65,10 +85,40 @@ class Bookmaker1XBETCurrencySeeder extends Seeder
         );
         DB::table('bookmaker_currency')->updateOrInsert(
             ['bookmaker_id' => 1,
+                'currency_id' => 31
+            ],
+            ['bookmaker_id' => 1,
+                'currency_id' => 31,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]
+        );
+        DB::table('bookmaker_currency')->updateOrInsert(
+            ['bookmaker_id' => 1,
                 'currency_id' => 32
             ],
             ['bookmaker_id' => 1,
                 'currency_id' => 32,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]
+        );
+        DB::table('bookmaker_currency')->updateOrInsert(
+            ['bookmaker_id' => 1,
+                'currency_id' => 39
+            ],
+            ['bookmaker_id' => 1,
+                'currency_id' => 39,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ]
+        );
+        DB::table('bookmaker_currency')->updateOrInsert(
+            ['bookmaker_id' => 1,
+                'currency_id' => 47
+            ],
+            ['bookmaker_id' => 1,
+                'currency_id' => 47,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ]
