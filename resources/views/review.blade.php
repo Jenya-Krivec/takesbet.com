@@ -44,7 +44,7 @@
             <div class="dropdown-menu flex-col flex cursor-pointer hidden">
                 @if($bookmaker['payments'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="payment-methods" aria-haspopup="true" aria-expanded="false">
-                        <span class="text-base font-bold">1. @lang('review.Payment Methods'):</span>
+                        <span class="text-base font-bold">@lang('review.Payment Methods'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -57,7 +57,7 @@
                 @endif
                 @if($bookmaker['currencies'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="currency" aria-haspopup="true" aria-expanded="false">
-                        <span class="text-base font-bold">2. @lang('review.Currency'):</span>
+                        <span class="text-base font-bold">@lang('review.Currency'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -70,7 +70,7 @@
                 @endif
                 @if($bookmaker['licensed'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="licensed" aria-haspopup="true" aria-expanded="false">
-                       <span class="text-base font-bold">3. @lang('review.Licensed/Regulated by'):</span>
+                       <span class="text-base font-bold">@lang('review.Licensed/Regulated by'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -81,7 +81,7 @@
                 @endif
                 @if($bookmaker['sports'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="sports" aria-haspopup="true" aria-expanded="false">
-                        <span class="text-base font-bold">4. @lang('review.Sports'):</span>
+                        <span class="text-base font-bold">@lang('review.Sports'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -94,7 +94,7 @@
                 @endif
                 @if($bookmaker['restrictions'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="gambling" aria-haspopup="true" aria-expanded="false">
-                        <span class="text-base font-bold">5. @lang('review.Responsible Gambling'):</span>
+                        <span class="text-base font-bold">@lang('review.Responsible Gambling'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -107,7 +107,7 @@
                 @endif
                 @if($bookmaker['supports'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="support" aria-haspopup="true" aria-expanded="false">
-                        <span class="text-base font-bold">6. @lang('review.Customer Support'):</span>
+                        <span class="text-base font-bold">@lang('review.Customer Support'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -119,7 +119,7 @@
                     </div>
                 @endif
                 <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="streaming" aria-haspopup="true" aria-expanded="false">
-                    <span class="text-base font-bold">7. @lang('review.Live Streaming'):</span>
+                    <span class="text-base font-bold">@lang('review.Live Streaming'):</span>
                     <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                     </svg>
@@ -132,7 +132,7 @@
                     @endif
                 </div>
                 <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="test" aria-haspopup="true" aria-expanded="false">
-                    <span class="text-base font-bold">8. @lang('review.Tested Betting Sites'):</span>
+                    <span class="text-base font-bold">@lang('review.Tested Betting Sites'):</span>
                     <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                     </svg>

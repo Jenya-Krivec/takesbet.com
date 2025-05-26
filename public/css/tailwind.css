@@ -406,8 +406,8 @@
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
-  .w-14 {
-    width: calc(var(--spacing) * 14);
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -1126,7 +1126,7 @@ h1 {
   background-image: url(../img/review/curl.png?v=1);
   position: absolute;
   top: -1px;
-  right: 30px;
+  right: 32px;
   width: 35px;
   height: calc(100% + 2px);
   background-repeat: no-repeat;
