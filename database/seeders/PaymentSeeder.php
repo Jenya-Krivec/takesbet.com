@@ -1383,5 +1383,45 @@ class PaymentSeeder extends Seeder
              'icon' => 'wrappedbitcoin',
             ]
         );
+        Payment::query()->updateOrCreate(
+            ['key' => 'mts'],
+            ['key' => 'mts',
+             'name' => 'MTS',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'mts',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'beeline'],
+            ['key' => 'beeline',
+             'name' => 'Beeline',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'beeline',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'tele2'],
+            ['key' => 'tele2',
+             'name' => 'TELE2',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'tele2',
+            ]
+        );
+        Payment::query()->updateOrCreate(
+            ['key' => 'banktransfer'],
+            ['key' => 'banktransfer',
+             'name' => 'Bank Transfer',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'banktransfer',
+            ]
+        );
     }
 }
