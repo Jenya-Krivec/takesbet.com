@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(
             [
+                UserSeeder::class,
                 BookmakerSeeder::class,
                 PaymentSeeder::class,
                 CurrencySeeder::class,
@@ -36,6 +37,11 @@ class DatabaseSeeder extends Seeder
                 BookmakerBetwinnerRestrictionSeeder::class,
                 BookmakerBetwinnerSupportSeeder::class,
                 BookmakerBetwinnerReviewSeeder::class,
+                Bookmaker1winCurrencySeeder::class,
+                Bookmaker1winPaymentSeeder::class,
+                Bookmaker1winSportSeeder::class,
+                Bookmaker1winSupportSeeder::class,
+                Bookmaker1winReviewSeeder::class,
             ]
         );
     }
