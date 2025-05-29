@@ -40,6 +40,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'info-en@1xbet.com',
                 'phone' => '+49 800 5889574',
                 'active' => 1,
+                'order' => 1,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -69,6 +70,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'info-en@melbet.org',
                 'phone' => '+442038077601',
                 'active' => 1,
+                'order' => 2,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -98,6 +100,7 @@ class BookmakerSeeder extends Seeder
              'email' => 'support@betwinner.com',
              'phone' => '+44 203 936 2996',
              'active' => 1,
+             'order' => 3,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -124,9 +127,10 @@ class BookmakerSeeder extends Seeder
                 'licensed' => '',
                 'streaming' => 0,
                 'tested' => 0,
-                'email' => '',
+                'email' => 'support@1win.xyz',
                 'phone' => '',
                 'active' => 1,
+                'order' => 4,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -156,6 +160,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'SUPPORT-EN@MOSTBET.COM',
                 'phone' => '',
                 'active' => 1,
+                'order' => 5,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -185,6 +190,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-en@PariPesa.com',
                 'phone' => '+254 700 123456',
                 'active' => 1,
+                'order' => 6,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -214,6 +220,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support@4rabet.com',
                 'phone' => '',
                 'active' => 1,
+                'order' => 7,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -243,7 +250,8 @@ class BookmakerSeeder extends Seeder
              'email' => 'support-en@888starz.bet',
              'phone' => '+357 97630833',
              'active' => 1,
-                ]
+             'order' => 8,
+            ]
         );
         Bookmaker::query()->updateOrCreate(
             ['key' => 'megapari'],
@@ -272,6 +280,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-en@megapari.com',
                 'phone' => '+44-20-3808-8565',
                 'active' => 1,
+                'order' => 9,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -301,6 +310,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-en@22bet.com',
                 'phone' => '+357 99 816806',
                 'active' => 1,
+                'order' => 10,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -330,6 +340,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-in@linebet.com',
                 'phone' => '+44 20 4577 0803',
                 'active' => 1,
+                'order' => 11,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -359,6 +370,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support@20bet.com',
                 'phone' => '',
                 'active' => 1,
+                'order' => 12,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -388,6 +400,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-en@betandyou.com',
                 'phone' => '',
                 'active' => 1,
+                'order' => 13,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -417,6 +430,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support@ivibet.com',
                 'phone' => '',
                 'active' => 1,
+                'order' => 14,
             ]
         );
         Bookmaker::query()->updateOrCreate(
@@ -446,6 +460,7 @@ class BookmakerSeeder extends Seeder
                 'email' => 'support-en@1x-bit.com',
                 'phone' => '',
                 'active' => 1,
+                'order' => 15,
             ]
         );
     }

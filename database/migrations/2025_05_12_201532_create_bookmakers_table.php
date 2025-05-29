@@ -38,6 +38,7 @@ return new class extends Migration
             $table->string('email', 50)->default('');
             $table->string('phone', 50)->default('');
             $table->boolean('active')->default(1);
+            $table->integer('order')->default(1);
             $table->timestamps();
         });
     }
