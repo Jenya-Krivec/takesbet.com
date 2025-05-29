@@ -1423,5 +1423,15 @@ class PaymentSeeder extends Seeder
              'icon' => 'banktransfer',
             ]
         );
+        Payment::query()->updateOrCreate(
+            ['key' => 'ecopayz'],
+            ['key' => 'ecopayz',
+             'name' => 'ecoPayz',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'ecopayz',
+            ]
+        );
     }
 }
