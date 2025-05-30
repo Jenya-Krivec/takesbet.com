@@ -517,5 +517,23 @@ class CurrencySeeder extends Seeder
              'name_pt' => 'Riais Catarianos',
             ]
         );
+        Currency::query()->updateOrCreate(
+            ['key' => 'TRX'],
+            ['key' => 'TRX',
+             'name_en' => 'TRON',
+             'name_es' => 'TRON',
+             'name_fr' => 'TRON',
+             'name_pt' => 'TRON',
+            ]
+        );
+        Currency::query()->updateOrCreate(
+            ['key' => 'BYR'],
+            ['key' => 'BYR',
+             'name_en' => 'Belarusian rubles',
+             'name_es' => 'rublos bielorrusos',
+             'name_fr' => 'roubles biélorusses',
+             'name_pt' => 'rublos bielorrussos',
+            ]
+        );
     }
 }
