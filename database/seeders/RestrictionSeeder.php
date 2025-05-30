@@ -40,5 +40,14 @@ class RestrictionSeeder extends Seeder
              'name_pt' => 'Autoexclusão',
             ]
         );
+        Restriction::query()->updateOrCreate(
+            ['key' => 'selfassessment'],
+            ['key' => 'selfassessment',
+             'name_en' => 'Self Assessment',
+             'name_es' => 'Autoevaluación',
+             'name_fr' => 'Autoévaluation',
+             'name_pt' => 'Autoavaliação',
+            ]
+        );
     }
 }
