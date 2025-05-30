@@ -52,6 +52,12 @@ class DatabaseSeeder extends Seeder
                 BookmakerPARIPESASportSeeder::class,
                 BookmakerPARIPESASupportSeeder::class,
                 BookmakerPARIPESAReviewSeeder::class,
+                Bookmaker888starzCurrencySeeder::class,
+                Bookmaker888starzPaymentSeeder::class,
+                Bookmaker888starzSportSeeder::class,
+                Bookmaker888starzSupportSeeder::class,
+                Bookmaker888starzRestrictionSeeder::class,
+                Bookmaker888starzReviewSeeder::class,
             ]
         );
     }
