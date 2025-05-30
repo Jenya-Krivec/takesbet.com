@@ -47,6 +47,11 @@ class DatabaseSeeder extends Seeder
                 BookmakerMOSTBETSportSeeder::class,
                 BookmakerMOSTBETSupportSeeder::class,
                 BookmakerMOSTBETReviewSeeder::class,
+                BookmakerPARIPESACurrencySeeder::class,
+                BookmakerPARIPESAPaymentSeeder::class,
+                BookmakerPARIPESASportSeeder::class,
+                BookmakerPARIPESASupportSeeder::class,
+                BookmakerPARIPESAReviewSeeder::class,
             ]
         );
     }
