@@ -49,5 +49,23 @@ class RestrictionSeeder extends Seeder
              'name_pt' => 'Autoavaliação',
             ]
         );
+        Restriction::query()->updateOrCreate(
+            ['key' => 'timeoutfacility'],
+            ['key' => 'timeoutfacility',
+             'name_en' => 'Time Out Facility',
+             'name_es' => 'Función de Pausa',
+             'name_fr' => 'Fonction de Pause',
+             'name_pt' => 'Função de Pausa',
+            ]
+        );
+        Restriction::query()->updateOrCreate(
+            ['key' => 'Hhowtobetsensiblytips'],
+            ['key' => 'Hhowtobetsensiblytips',
+             'name_en' => 'How to Bet Sensibly Tips',
+             'name_es' => 'Consejos para Apostar con Sensatez',
+             'name_fr' => 'Conseils pour Parier de Manière Responsable',
+             'name_pt' => 'Dicas para Apostar com Responsabilidade',
+            ]
+        );
     }
 }
