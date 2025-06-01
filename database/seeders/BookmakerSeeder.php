@@ -277,8 +277,8 @@ class BookmakerSeeder extends Seeder
                 'licensed' => 'Curacao',
                 'streaming' => 0,
                 'tested' => 1,
-                'email' => 'support-en@megapari.com',
-                'phone' => '+44-20-3808-8565',
+                'email' => 'support@megapari.com',
+                'phone' => '+441863440619',
                 'active' => 1,
                 'order' => 9,
             ]
