@@ -1433,5 +1433,15 @@ class PaymentSeeder extends Seeder
              'icon' => 'ecopayz',
             ]
         );
+        Payment::query()->updateOrCreate(
+            ['key' => 'bnb'],
+            ['key' => 'bnb',
+             'name' => 'BNB',
+             'url' => '',
+             'logo' => '',
+             'logo_color' => '',
+             'icon' => 'bnb',
+            ]
+        );
     }
 }
