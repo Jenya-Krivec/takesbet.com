@@ -1,14 +1,9 @@
-@extends('app')
+@extends('admin.app')
 
-@section('title', trans('review.title', ['bookmaker' => $bookmaker['name']]))
-
-@section('description',  trans('review.description', ['bookmaker' => $bookmaker['name']]))
-
-@section('keywords', trans('review.keywords', ['bookmaker' => $bookmaker['name']]))
+@section('title', Auth::user()->name.' '.Auth::user()->surname)
 
 @section('content')
     <main class="pt-20">
-
         <!-- Banner -->
         <div class="w-full flex py-10 flex-col sm:flex-row" style="background-color: {{ $bookmaker['logo_color'] }}">
             <div class="w-full sm:w-2/3 flex justify-center items-center flex-col sm:flex-row">
@@ -31,7 +26,7 @@
                 <h2 class="font-bold text-xs sm:text-lg my-1 text-center">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</h2>
                 <div class="text-sm lg:text-lg my-1 text-center">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
                 <div class="text-xs my-1 text-center">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</div>
-                <a href="{{$bookmaker['url']}}" target="_blank" class="shadow-black bg-blue-700 text-xs sm:text-lg rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-16 py-2 shadow-lg">@lang('review.Claim')</a>
+                <a href="https://{{$bookmaker['url']}}" target="_blank" class="shadow-black bg-blue-700 text-xs sm:text-lg rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-16 py-2 shadow-lg">@lang('review.Claim')</a>
             </div>
         </div>
         <!-- Quick Info -->
@@ -63,15 +58,15 @@
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                   <div class="dropdown-menu flex-row flex justify-between items-center flex-wrap cursor-default pl-4 hidden">
-                       @foreach($bookmaker['currencies'] as $currency)
-                           <p class="px-1" title="{{$currency['key']}}">{{$currency['name_'.app()->getLocale()]}}@if($currency != end($bookmaker['currencies'])),@endif</p>
-                       @endforeach
-                   </div>
+                    <div class="dropdown-menu flex-row flex justify-between items-center flex-wrap cursor-default pl-4 hidden">
+                        @foreach($bookmaker['currencies'] as $currency)
+                            <p class="px-1" title="{{$currency['key']}}">{{$currency['name_'.app()->getLocale()]}} </p>
+                        @endforeach
+                    </div>
                 @endif
                 @if($bookmaker['licensed'])
                     <button class="focus:outline-none flex justify-start items-center cursor-pointer" id="licensed" aria-haspopup="true" aria-expanded="false">
-                       <span class="text-base font-bold">@lang('review.Licensed/Regulated by'):</span>
+                        <span class="text-base font-bold">@lang('review.Licensed/Regulated by'):</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" class="arrow w-4 h-4 inline-block transition-all duration-300">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
@@ -102,7 +97,7 @@
                     </button>
                     <div class="dropdown-menu flex-row flex justify-start items-center flex-wrap cursor-default pl-4 hidden">
                         @foreach($bookmaker['restrictions'] as $restriction)
-                            <p class="px-1">{{$restriction['name_'.app()->getLocale()]}}@if($restriction != end($bookmaker['restrictions'])),@endif</p>
+                            <p class="px-1">{{$restriction['name_'.app()->getLocale()]}}</p>
                         @endforeach
                     </div>
                 @endif
@@ -115,7 +110,7 @@
                     </button>
                     <div class="dropdown-menu flex-row flex justify-start items-center flex-wrap cursor-default pl-4 hidden">
                         @foreach($bookmaker['supports'] as $support)
-                            <p class="px-1">{{$support['name_'.app()->getLocale()]}}@if($support != end($bookmaker['supports'])),@endif</p>
+                            <p class="px-1">{{$support['name_'.app()->getLocale()]}}</p>
                         @endforeach
                     </div>
                 @endif
@@ -150,7 +145,7 @@
         <!--Reviews-->
         <div class="lg:px-56 sm:py-5 px-3 py-2 m-auto">
             @foreach($review as $component)
-                @include('inc/component_'.$component['component'], ['key' => $component['key'], 'values' => json_decode($component['value_'.app()->getLocale()], true)])
+                @include('admin/inc/edit_'.$component['component'], ['id' => $component['id'], 'key' => $component['key'], 'values' => json_decode($component['value_'.app()->getLocale()], true)])
             @endforeach
         </div>
         <!--Promo code-->
@@ -162,7 +157,7 @@
                         <img src="{{asset('img/logo/'.$bookmaker['logo']).'?v='.filemtime('img/logo/'.$bookmaker['logo'])}}" alt="{{$bookmaker['name']}} logo" class="p-2" width="100" height="100">
                     </div>
                     <div class="flex-row flex sm:hidden justify-end items-center">
-                        <a href="{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('review.Claim')</a>
+                        <a href="https://{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('review.Claim')</a>
                     </div>
                 </div>
                 <div class="flex-col justify-center items-start flex px-2 mt-1 sm:mt-0">
@@ -182,7 +177,7 @@
                         @endif
                     </div>
                     <div class="flex-row justify-end items-center">
-                        <a href="{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('review.Claim')</a>
+                        <a href="https://{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('review.Claim')</a>
                     </div>
                     <div class="flex-row flex justify-end items-center">
                         <div class="text-xs text-gray-700 text-justify">@lang('review.See full details of the') {{trans('review.Promo Codes', ['bookmaker' => $bookmaker['name']])}}</div>

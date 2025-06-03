@@ -96,3 +96,25 @@ h1{
 .curl > div:first-child:hover::after {
     right: 42px;
 }
+/**Login page**/
+.form-group input::placeholder{
+    opacity: 0;
+}
+.form-group input:focus + label {
+    top: -1.5rem;
+}
+.form-group input:not(:placeholder-shown) + label {
+    top: -1.5rem;
+}
+.form-group input:not(:placeholder-shown):not(:focus) + label {
+    top: -1.5rem;
+}
+/**Admin panel**/
+input[name="payments[]"]:checked + label,  input[name="currencies[]"]:checked + label, input[name="sports[]"]:checked + label, input[name="supports[]"]:checked + label{
+    background-color: #245fe1 !important;
+    color: #ffffff;
+}
+.payment-label:hover, .currency-label:hover, .sport-label:hover, .support-label:hover{
+    background-color: rgba(128, 128, 128, 0.67);
+    color: #ffffff;
+}

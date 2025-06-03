@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Currency extends Model
 {
-    //
+    public function bookmakers()
+    {
+        return $this->belongsToMany(Bookmaker::class);
+    }
 }

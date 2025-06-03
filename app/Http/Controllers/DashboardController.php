@@ -20,12 +20,13 @@ class DashboardController extends Controller
         // Get all active bookmakers from the database and calculate their rating and rating count
         $bookmakers = Bookmaker::selectRaw('bookmakers.*, IF(COUNT(ratings.id) = 0, 0, ROUND(SUM(ratings.rating) / COUNT(ratings.id), 1)) as rating, COUNT(ratings.id) as rating_count')
             ->leftJoin('ratings', 'bookmakers.id', '=', 'ratings.bookmaker_id')
-            ->where('active', '=', 1)
+            ->where('bookmakers.active', '=', 1)
             ->groupBy('bookmakers.id')
+            ->orderBy('bookmakers.order', 'asc')
             ->get();
         $topSites = Bookmaker::selectRaw('bookmakers.*')
             ->leftJoin('ratings', 'bookmakers.id', '=', 'ratings.bookmaker_id')
-            ->where('active', '=', 1)
+            ->where('bookmakers.active', '=', 1)
             ->groupBy(['bookmakers.id', 'ratings.rating'])
             ->orderBy('ratings.rating', 'desc')
             ->get(10);
