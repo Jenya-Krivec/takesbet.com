@@ -6,6 +6,7 @@ return [
     'keywords' => ':bookmaker, Código promocional, Bônus, Giros grátis',
     'Review' => 'Análise da :bookmaker',
     'Registration' => 'Registro',
+    'Promo Codes & Bonus' => 'Códigos Promocionais & Bônus da :bookmaker',
     'Mobile App' => 'Aplicativo móvel',
     'Promo Codes' => 'Códigos Promocionais da :bookmaker',
     'Relevant Code' => 'Código Relevante',

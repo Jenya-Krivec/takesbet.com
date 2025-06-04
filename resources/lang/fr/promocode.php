@@ -6,6 +6,7 @@ return [
     'keywords' => ":bookmaker, Code promo, Bonus, Tours gratuits",
     'Review' => 'Avis sur :bookmaker',
     'Registration' => 'Inscription',
+    'Promo Codes & Bonus' => 'Codes Promo & Bonus :bookmaker',
     'Mobile App' => 'Application mobile',
     'Promo Codes' => 'Codes Promo :bookmaker',
     'Relevant Code' => 'Code Pertinent',

@@ -557,10 +557,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"The depth of markets in live mode is impressive: top matches offer over 200 betting options. 1XBET also supports live streaming — you can identify broadcasted events by the “live” TV icon next to the team names."}',
-             'value_es' => '{"0":"La profundidad de los mercados en modo en vivo es impresionante: los partidos más importantes ofrecen más de 200 opciones de apuesta. 1XBET también permite transmisiones en directo — los eventos con streaming se identifican con el ícono de “live” en forma de televisor junto al nombre de los equipos."}',
-             'value_fr' => '{"0":"La profondeur des marchés en direct est impressionnante : les plus grands matchs offrent plus de 200 options de paris. 1XBET propose aussi des retransmissions en direct — repérez les événements diffusés grâce à l’icône “live” en forme de téléviseur à côté du nom des équipes."}',
-             'value_pt' => '{"0":"A profundidade dos mercados ao vivo é impressionante: partidas importantes contam com mais de 200 opções de apostas. A 1XBET também oferece transmissão ao vivo — os jogos com streaming são indicados por um ícone de TV “live” ao lado do nome das equipes."}',
+             'value_en' => '{"0":"The depth of markets in live mode is impressive: top matches offer over 200 betting options. 1XBET also supports live streaming — you can identify broadcasted events by the «live» TV icon next to the team names."}',
+             'value_es' => '{"0":"La profundidad de los mercados en modo en vivo es impresionante: los partidos más importantes ofrecen más de 200 opciones de apuesta. 1XBET también permite transmisiones en directo — los eventos con streaming se identifican con el ícono de «live» en forma de televisor junto al nombre de los equipos."}',
+             'value_fr' => '{"0":"La profondeur des marchés en direct est impressionnante : les plus grands matchs offrent plus de 200 options de paris. 1XBET propose aussi des retransmissions en direct — repérez les événements diffusés grâce à l’icône «live» en forme de téléviseur à côté du nom des équipes."}',
+             'value_pt' => '{"0":"A profundidade dos mercados ao vivo é impressionante: partidas importantes contam com mais de 200 opções de apostas. A 1XBET também oferece transmissão ao vivo — os jogos com streaming são indicados por um ícone de TV «live» ao lado do nome das equipes."}',
              'order' => 30,
             ]
         );

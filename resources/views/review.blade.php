@@ -14,7 +14,7 @@
                 <span class="w-full h-1 bg-blue-700"></span>
             </div>
             <a href="{{route('promocode', $bookmaker['key'])}}" class="flex-col flex justify-center items-center mx-1 py-1 px-4">{{trans('review.Promo Codes', ['bookmaker' => $bookmaker['name']])}} & @lang('review.Bonus')</a>
-            <a href="" class="flex justify-center items-center mx-1 py-1 px-4">@lang('review.Mobile App')</a>
+            <a href="{{route('mobileapp', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">@lang('review.Mobile App')</a>
         </div>
         <!-- Banner -->
         <div class="w-full flex py-10 flex-col sm:flex-row" style="background-color: {{ $bookmaker['logo_color'] }}">

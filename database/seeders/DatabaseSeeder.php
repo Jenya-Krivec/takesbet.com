@@ -28,6 +28,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker1XBETSupportSeeder::class,
                 Bookmaker1XBETReviewSeeder::class,
                 Bookmaker1XBETPromoCodesSeeder::class,
+                Bookmaker1XBETMobileAppSeeder::class,
                 BookmakerMelBetPaymentSeeder::class,
                 BookmakerMelBetSportSeeder::class,
                 BookmakerMelBetSupportSeeder::class,
