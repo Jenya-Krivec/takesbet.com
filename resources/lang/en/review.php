@@ -23,4 +23,6 @@ return [
     'Relevant Code' => 'Relevant Code',
     'Tested' => 'Tested',
     'See full details of the' => 'See full details of the',
+    'Bonus' => 'Bonus',
+    'Mobile App' => 'Mobile App',
 ];

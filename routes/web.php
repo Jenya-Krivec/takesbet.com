@@ -6,6 +6,7 @@ use App\Http\Controllers\BettingController;
 use App\Http\Controllers\CasinoController;
 use App\Http\Controllers\RatingController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\PromoCodeController;
 use App\Http\Controllers\AuthenticateController;
 use App\Http\Controllers\AdminIndexController;
 use App\Http\Controllers\BookmakerController;
@@ -21,7 +22,11 @@ Route::prefix(Language::getLocale())->middleware([LocaleMiddleware::class])->gro
 
     Route::get('/casino', [CasinoController::class, 'create'])->name('casino');
 
-    Route::get('/bookmakers/{key}', [ReviewController::class, 'create'])->name('bookmakers');
+    Route::get('/bookmakers/{key}', [ReviewController::class, 'create'])->name('review');
+
+    Route::get('/promo-code/{key}', [PromoCodeController::class, 'create'])->name('promocode');
+
+
 
 });
 

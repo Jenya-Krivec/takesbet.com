@@ -21,10 +21,10 @@
         <span class="sm:border-gray-200 sm:border-r-2 w-full h-10"></span>
         <span class="w-24 sm:w-28 flex-shrink-0 h-10"></span>
         <span class="px-1 py-2 sm:p-2 w-28 flex-shrink-0 text-center">
-            <a href="{{$values[0][0]}}" class="text-blue-700 text-xs lea">{{trans('review.Review', ['bookmaker' => $values[0][2]])}}</a>
+            <a href="{{route('review', $values[0][0])}}" class="text-blue-700 text-xs lea">{{trans('review.Review', ['bookmaker' => $values[0][2]])}}</a>
         </span>
         <span class="px-1 py-2 sm:p-2 w-28 flex-shrink-0 text-center">
-            <a href="{{$values[0][1]}}" class="text-blue-700 text-xs">{{trans('review.Review', ['bookmaker' => $values[0][3]])}}</a>
+            <a href="{{route('review', $values[0][1])}}" class="text-blue-700 text-xs">{{trans('review.Review', ['bookmaker' => $values[0][3]])}}</a>
         </span>
     </div>
 </div>

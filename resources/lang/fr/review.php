@@ -23,4 +23,6 @@ return [
     'Relevant Code' => 'Code Pertinent',
     'Tested' => 'Testé',
     'See full details of the' => 'Voir tous les détails du',
+    'Bonus' => 'Bonus',
+    'Mobile App' => 'Application mobile',
 ];

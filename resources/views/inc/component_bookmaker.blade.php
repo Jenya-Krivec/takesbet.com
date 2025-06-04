@@ -40,7 +40,7 @@
         </div>
         <div class="flex flex-col justify-around self-center ml-2 md:w-36">
             <div class="text-2xl sm:text-4xl text-center" data-rate-value-id="{{$bookmaker['id']}}">{{$bookmaker['rating']}}</div>
-            <a href="{{route('bookmakers', $bookmaker['key'])}}" class="text-gray-700 text-xs sm:text-sm underline text-center">@lang('index.Read Review')</a>
+            <a href="{{route('review', $bookmaker['key'])}}" class="text-gray-700 text-xs sm:text-sm underline text-center">@lang('index.Read Review')</a>
         </div>
         <div class="flex-col justify-around self-center hidden md:flex">
             <div class="text-center flex mx-auto">

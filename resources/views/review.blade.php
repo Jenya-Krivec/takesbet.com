@@ -8,7 +8,14 @@
 
 @section('content')
     <main class="pt-20">
-
+        <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
+            <div class="flex-col flex justify-center items-center py-1 px-4 mt-1">
+                <p>{{trans('review.Review', ['bookmaker' => $bookmaker['name']])}}</p>
+                <span class="w-full h-1 bg-blue-700"></span>
+            </div>
+            <a href="{{route('promocode', $bookmaker['key'])}}" class="flex-col flex justify-center items-center mx-1 py-1 px-4">{{trans('review.Promo Codes', ['bookmaker' => $bookmaker['name']])}} & @lang('review.Bonus')</a>
+            <a href="" class="flex justify-center items-center mx-1 py-1 px-4">@lang('review.Mobile App')</a>
+        </div>
         <!-- Banner -->
         <div class="w-full flex py-10 flex-col sm:flex-row" style="background-color: {{ $bookmaker['logo_color'] }}">
             <div class="w-full sm:w-2/3 flex justify-center items-center flex-col sm:flex-row">

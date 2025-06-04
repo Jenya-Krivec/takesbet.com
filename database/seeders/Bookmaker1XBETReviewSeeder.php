@@ -332,10 +332,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                 'bookmaker_id' => 1,
                 'component' => 'table_v2',
                 'value_en' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"BetVictor",
-                                 "3":"Bet365"},
+                                {"0":"melbet",
+                                 "1":"1win",
+                                 "2":"MelBet",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Premier League: Cardiff City vs West Ham, Cardiff to win",
                                  "1":"3.24",
@@ -347,16 +347,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "2":"1.615",
                                  "3":"1.55"},
                             "3":
-                                {"0":"ATP tennis: Wolf vs Trungelliti, Wolf to win",
-                                 "1":"1.59",
-                                 "2":"1.6",
-                                 "3":"1.57"},
-                            "4":
                                 {"0":"NBA: Orlando vs Philadelphia, Orlando to win",
                                  "1":"2.93",
                                  "2":"2.8",
                                  "3":"2.67"},
-                            "5":
+                            "4":
                                 {"0":"NHL: Columbus vs New Jersey, Columbus to win",
                                  "1":"1.78",
                                  "2":"1.75",
@@ -378,16 +373,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "2":"1.615",
                                  "3":"1.55"},
                             "3":
-                                {"0":"Tenis ATP: Wolf vs Trungelliti, gana Wolf",
-                                 "1":"1.59",
-                                 "2":"1.6",
-                                 "3":"1.57"},
-                            "4":
                                 {"0":"NBA: Orlando vs Philadelphia, gana Orlando",
                                  "1":"2.93",
                                  "2":"2.8",
                                  "3":"2.67"},
-                            "5":
+                            "4":
                                 {"0":"NHL: Columbus vs New Jersey, gana Columbus",
                                  "1":"1.78",
                                  "2":"1.75",
@@ -409,16 +399,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "2":"1.615",
                                  "3":"1.55"},
                             "3":
-                                {"0":"Tennis ATP : Wolf contre Trungelliti, victoire de Wolf",
-                                 "1":"1.59",
-                                 "2":"1.6",
-                                 "3":"1.57"},
-                            "4":
                                 {"0":"NBA : Orlando contre Philadelphie, victoire d’Orlando",
                                  "1":"2.93",
                                  "2":"2.8",
                                  "3":"2.67"},
-                            "5":
+                            "4":
                                 {"0":"NHL : Columbus contre New Jersey, victoire de Columbus",
                                  "1":"1.78",
                                  "2":"1.75",
@@ -440,16 +425,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "2":"1.615",
                                  "3":"1.55"},
                             "3":
-                                {"0":"Tênis ATP: Wolf x Trungelliti, vitória de Wolf",
-                                 "1":"1.59",
-                                 "2":"1.6",
-                                 "3":"1.57"},
-                            "4":
                                 {"0":"NBA: Orlando x Philadelphia, vitória do Orlando",
                                  "1":"2.93",
                                  "2":"2.8",
                                  "3":"2.67"},
-                            "5":
+                            "4":
                                 {"0":"NHL: Columbus x New Jersey, vitória do Columbus",
                                  "1":"1.78",
                                  "2":"1.75",
