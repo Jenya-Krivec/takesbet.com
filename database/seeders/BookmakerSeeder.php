@@ -65,7 +65,7 @@ class BookmakerSeeder extends Seeder
                 'warning_fr' => 'Utilisez le code promo MelBet NEWBONUS pour obtenir 30% de bonus supplémentaire. 18+',
                 'warning_pt' => 'Use o código promocional da MELBET “NEWBONUS” para ganhar 30% extra. 18+',
                 'licensed' => 'Curacao',
-                'streaming' => 0,
+                'streaming' => 1,
                 'tested' => 1,
                 'email' => 'info-en@melbet.org',
                 'phone' => '+442038077601',

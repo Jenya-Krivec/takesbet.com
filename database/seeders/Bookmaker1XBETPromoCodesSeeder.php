@@ -468,10 +468,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"Accumulator fans have even more reasons to register at 1XBET! You’ll get access to nearly 30 individual “Accumulator of the Day” bets, each accompanied by an additional 10% bonus from 1XBET."}',
-             'value_es' => '{"0":"¡Los aficionados a las apuestas combinadas tienen aún más razones para registrarse en 1XBET! Tendrás acceso a casi 30 apuestas individuales de “Combinada del Día”, cada una acompañada de un bono adicional del 10% por parte de 1XBET."}',
-             'value_fr' => '{"0":"Les amateurs de paris combinés ont encore plus de raisons de s’inscrire sur 1XBET ! Vous aurez accès à près de 30 paris individuels “Pari Combiné du Jour”, chacun accompagné d’un bonus supplémentaire de 10 % offert par 1XBET."}',
-             'value_pt' => '{"0":"Os fãs de apostas acumuladas têm ainda mais razões para se registrar na 1XBET! Você terá acesso a quase 30 apostas individuais “Acumulador do Dia”, cada uma acompanhada de um bônus adicional de 10% oferecido pela 1XBET."}',
+             'value_en' => '{"0":"Accumulator fans have even more reasons to register at 1XBET! You’ll get access to nearly 30 individual «Accumulator of the Day» bets, each accompanied by an additional 10% bonus from 1XBET."}',
+             'value_es' => '{"0":"¡Los aficionados a las apuestas combinadas tienen aún más razones para registrarse en 1XBET! Tendrás acceso a casi 30 apuestas individuales de «Combinada del Día», cada una acompañada de un bono adicional del 10% por parte de 1XBET."}',
+             'value_fr' => '{"0":"Les amateurs de paris combinés ont encore plus de raisons de s’inscrire sur 1XBET ! Vous aurez accès à près de 30 paris individuels «Pari Combiné du Jour», chacun accompagné d’un bonus supplémentaire de 10 % offert par 1XBET."}',
+             'value_pt' => '{"0":"Os fãs de apostas acumuladas têm ainda mais razões para se registrar na 1XBET! Você terá acesso a quase 30 apostas individuais «Acumulador do Dia», cada uma acompanhada de um bônus adicional de 10% oferecido pela 1XBET."}',
              'order' => 33
             ]
         );

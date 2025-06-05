@@ -351,10 +351,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
              'bookmaker_id' => 2,
              'component' => 'table_v2',
              'value_en' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Sunmaker",
-                                 "3":"SportPesa"},
+                                {"0":"1xbet",
+                                 "1":"1win",
+                                 "2":"1XBET",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Football: EPL. Spurs vs Wolves. Wolves win.",
                                  "1":"3.152",
@@ -382,10 +382,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
                                  "3":"1.19"}
                             }',
              'value_es' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Sunmaker",
-                                 "3":"SportPesa"},
+                                {"0":"1xbet",
+                                 "1":"1win",
+                                 "2":"1XBET",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Fútbol: EPL. Spurs vs Wolves. Gana Wolves.",
                                  "1":"3.152",
@@ -413,10 +413,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
                                  "3":"1.19"}
                             }',
              'value_fr' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Sunmaker",
-                                 "3":"SportPesa"},
+                                {"0":"1xbet",
+                                 "1":"1win",
+                                 "2":"1XBET",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Football : EPL. Spurs contre Wolves. Victoire des Wolves.",
                                  "1":"3.152",
@@ -444,10 +444,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
                                  "3":"1.19"}
                             }',
              'value_pt' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Sunmaker",
-                                 "3":"SportPesa"},
+                                {"0":"1xbet",
+                                 "1":"1win",
+                                 "2":"1XBET",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Futebol: EPL. Spurs vs Wolves. Vitória dos Wolves.",
                                  "1":"3.152",
