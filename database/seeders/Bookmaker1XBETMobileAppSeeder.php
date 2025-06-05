@@ -482,10 +482,10 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"You can download the 1xBet mobile app for iOS by searching for it in the App Store or by scrolling to the bottom of the 1xBet homepage and selecting the «iOS» tab in the «Apps» section."}',
-             'value_es' => '{"0":"Puedes descargar la aplicación móvil de 1xBet para iOS buscándola en la App Store o desplazándote hasta el final de la página principal de 1xBet y seleccionando la pestaña «iOS» en la sección «Aplicaciones»."}',
-             'value_fr' => '{"0":"Vous pouvez télécharger l\'application mobile 1xBet pour iOS en la recherchant dans l\'App Store ou en faisant défiler la page d\'accueil de 1xBet jusqu\'en bas et en sélectionnant l\'onglet «iOS» dans la section «Applications»."}',
-             'value_pt' => '{"0":"Você pode baixar o aplicativo móvel da 1xBet para iOS pesquisando na App Store ou rolando até o final da página inicial da 1xBet e selecionando a aba «iOS» na seção «Aplicativos»."}',
+             'value_en' => '{"0":"You can download the 1xBet mobile app for iOS by searching for it in the App Store or by scrolling to the bottom of the 1XBET homepage and selecting the «iOS» tab in the «Apps» section."}',
+             'value_es' => '{"0":"Puedes descargar la aplicación móvil de 1xBet para iOS buscándola en la App Store o desplazándote hasta el final de la página principal de 1XBET y seleccionando la pestaña «iOS» en la sección «Aplicaciones»."}',
+             'value_fr' => '{"0":"Vous pouvez télécharger l\'application mobile 1xBet pour iOS en la recherchant dans l\'App Store ou en faisant défiler la page d\'accueil de 1XBET jusqu\'en bas et en sélectionnant l\'onglet «iOS» dans la section «Applications»."}',
+             'value_pt' => '{"0":"Você pode baixar o aplicativo móvel da 1xBet para iOS pesquisando na App Store ou rolando até o final da página inicial da 1XBET e selecionando a aba «iOS» na seção «Aplicativos»."}',
              'order' => 32
             ]
         );
@@ -510,10 +510,10 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit. Once your account is verified, choose a convenient deposit method on 1xBet, make your first deposit, and claim your bonus using the promo code NEWBONUS."}',
-             'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito. Una vez verificada tu cuenta, elige el método de pago que prefieras en 1xBet, realiza tu primer depósito y aprovecha el bono con el código promocional NEWBONUS."}',
-             'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt. Une fois votre compte vérifié, choisissez une méthode de dépôt pratique sur 1xBet, effectuez votre premier dépôt et profitez du bonus avec le code promo NEWBONUS."}',
-             'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito. Após a verificação, escolha uma forma de pagamento conveniente na 1xBet, faça seu primeiro depósito e aproveite o bônus com o código promocional NEWBONUS."}',
+             'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit. Once your account is verified, choose a convenient deposit method on 1XBET, make your first deposit, and claim your bonus using the promo code NEWBONUS."}',
+             'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito. Una vez verificada tu cuenta, elige el método de pago que prefieras en 1XBET, realiza tu primer depósito y aprovecha el bono con el código promocional NEWBONUS."}',
+             'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt. Une fois votre compte vérifié, choisissez une méthode de dépôt pratique sur 1XBET, effectuez votre premier dépôt et profitez du bonus avec le code promo NEWBONUS."}',
+             'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito. Após a verificação, escolha uma forma de pagamento conveniente na 1XBET, faça seu primeiro depósito e aproveite o bônus com o código promocional NEWBONUS."}',
              'order' => 34
             ]
         );
