@@ -9,8 +9,8 @@
 @section('content')
     <main class="pt-20">
         <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
-            <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Review', ['bookmaker' => $bookmaker['name']])}}</a>
-            <a href="{{route('promocode', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Promo Codes & Bonus', ['bookmaker' => $bookmaker['name']])}}</a>
+            <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Review', ['bookmaker' => ''])}}</a>
+            <a href="{{route('promocode', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Promo Codes & Bonus', ['bookmaker' => ''])}}</a>
             <div class="flex-col flex justify-center items-center py-1 px-4 mt-1">
                 <p>@lang('mobileapp.Mobile App')</p>
                 <span class="w-full h-1 bg-blue-700"></span>
@@ -36,8 +36,9 @@
             </div>
             <div class="w-full sm:w-1/3 flex-col justify-center items-center flex text-white px-2">
                 <h2 class="font-bold text-xs sm:text-lg my-1 text-center">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</h2>
-                <div class="text-sm lg:text-lg my-1 text-center">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
-                <div class="text-xs my-1 text-center">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</div>
+                @if($bookmaker['warning_'.app()->getLocale()])
+                    <div class="text-xs my-1 text-center">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</div>
+                @endif
                 <a href="{{$bookmaker['url']}}" target="_blank" class="shadow-black bg-blue-700 text-xs sm:text-lg rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-16 py-2 shadow-lg">
                     <p>@lang('mobileapp.Download')</p>
                     <img src="{{asset('img/mobileapp/android.png'.'?v='.filemtime('img/mobileapp/android.png'))}}" alt="android" width="32" height="32" class="w-4 ml-1">
@@ -56,7 +57,6 @@
         </div>
         <!--Promo code-->
         <div class="lg:px-56 sm:py-5 px-3 py-2 m-auto">
-            <h3 class="text-lg sm:text-2xl font-bold px-0 sm:px-10 my-4">{{trans('mobileapp.Promo Codes', ['bookmaker' => $bookmaker['name']])}}</h3>
             <div class="w-full flex justify-between p-5 flex-col sm:flex-row border-gray-200 border-2 rounded-xl shadow-gray-400 shadow-lg">
                 <div class="flex-row justify-between items-center flex px-2">
                     <div class="w-28 h-28 flex justify-center items-center rounded-md" style="background-color: {{ $bookmaker['logo_color'] }}">
@@ -75,12 +75,6 @@
                 </div>
                 <div class="flex-col justify-center items-start flex px-2 mt-1 sm:mt-0">
                     <div class="font-bold text-xs sm:text-base mx-1">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
-                    <div class="font-bold text-xs sm:text-sm mx-1">{{trans('promocode.Promo Codes', ['bookmaker' => ' ']).' '.$bookmaker['promo_code']}}</div>
-                    <div class="curl w-full h-10 flex justify-end items-center border-black border-2 border-dotted rounded-xl bg-gray-100 relative mt-2">
-                        <div class="font-bold text-xs sm:text-base px-1 text-white bg-blue-700 h-10 w-full flex justify-center items-center rounded-tl-xl rounded-bl-xl cursor-pointer">@lang('mobileapp.Relevant Code')</div>
-                        <div class="px-2">XXXXX</div>
-                        <div class="w-full text-center hidden">{{$bookmaker['promo_code']}}</div>
-                    </div>
                 </div>
                 <div class="flex-col justify-center items-end px-2 w-1/3 ml-auto hidden sm:flex">
                     <div class="flex-row flex justify-end items-center">
@@ -101,9 +95,10 @@
                     </div>
                 </div>
             </div>
-            <p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+            @if($bookmaker['warning_'.app()->getLocale()])
+                <p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+            @endif
         </div>
     </main>
     <script defer type="text/javascript" src="{{ asset('js/mobileapp/rate.js').'?v='.filemtime('js/mobileapp/rate.js') }}"></script>
-    <script defer type="text/javascript" src="{{ asset('js/mobileapp/promoCode.js').'?v='.filemtime('js/mobileapp/promoCode.js') }}"></script>
 @endsection

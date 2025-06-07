@@ -43,20 +43,6 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 3
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'p',
-             'value_en' => '{"0":"On this platform, you can bet on over 20 different sports, and with our exclusive promo code TOPBONUS, you can claim a 100% bonus on your first deposit!"}',
-             'value_es' => '{"0":"En esta plataforma puedes apostar en más de 20 deportes diferentes, y con nuestro código promocional exclusivo TOPBONUS puedes obtener un bono del 100% en tu primer depósito."}',
-             'value_fr' => '{"0":"Sur cette plateforme, vous pouvez parier sur plus de 20 sports différents, et grâce à notre code promo exclusif TOPBONUS, vous pouvez obtenir un bonus de 100 % sur votre premier dépôt !"}',
-             'value_pt' => '{"0":"Nesta plataforma, você pode apostar em mais de 20 esportes diferentes, e com o nosso código promocional exclusivo TOPBONUS, você pode receber um bônus de 100% no seu primeiro depósito!"}',
-             'order' => 3,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
              'order' => 4
             ],
             ['key' => 'paripesa',
@@ -81,20 +67,6 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
                 'value_fr' => '{"0":"Verdict sur PARIPESA"}',
                 'value_pt' => '{"0":"Veredito sobre a PARIPESA"}',
              'order' => 5,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
-             'order' => 7
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'p',
-             'value_en' => '{"0":"Take advantage of our exclusive PARIPESA promo code and get a 100% bonus on your first deposit. Claiming the bonus is easy — and you can use it to bet on any of the 30+ sports available on the PARIPESA platform!"}',
-             'value_es' => '{"0":"Aprovecha nuestro código promocional exclusivo de PARIPESA y obtén un bono del 100% en tu primer depósito. Conseguir el bono es muy sencillo — ¡puedes usarlo para apostar en cualquiera de los más de 30 deportes disponibles en la plataforma de PARIPESA!"}',
-             'value_fr' => '{"0":"Profitez de notre code promo exclusif PARIPESA et recevez un bonus de 100 % sur votre premier dépôt. Obtenir le bonus est très simple — vous pouvez l’utiliser pour parier sur plus de 30 sports disponibles sur la plateforme PARIPESA !"}',
-             'value_pt' => '{"0":"Aproveite o nosso código promocional exclusivo da PARIPESA e receba um bônus de 100% no seu primeiro depósito. É muito fácil resgatar o bônus — e você pode usá-lo para apostar em qualquer um dos mais de 30 esportes disponíveis na plataforma da PARIPESA!"}',
-             'order' => 7,
             ]
         );
         Review::query()->updateOrCreate(
@@ -147,36 +119,32 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'bookmaker_id' => 6,
              'component' => 'table_v1',
              'value_en' => '{"0":
-                                {"0":"Exclusive promo code TOPBONUS",
-                                 "1":"Easy to claim bonus which can be used on any sport",
-                                 "2":"Wide range of sports to bet on"},
+                                {"0":"Easy to claim bonus which can be used on any sport",
+                                 "1":"Wide range of sports to bet on"},
                              "1":
                                 {"0":"PARIPESA only available in certain countries",
                                  "1":"Not available in the United Kingdom",
                                  "2":"Limited range of payment methods"}
                              }',
              'value_es' => '{"0":
-                                {"0":"Código promocional exclusivo TOPBONUS",
-                                 "1":"Bono fácil de reclamar que se puede usar en cualquier deporte",
-                                 "2":"Amplia variedad de deportes para apostar"},
+                                {"0":"Bono fácil de reclamar que se puede usar en cualquier deporte",
+                                 "1":"Amplia variedad de deportes para apostar"},
                              "1":
                                 {"0":"PARIPESA solo está disponible en ciertos países",
                                  "1":"No disponible en el Reino Unido",
                                  "2":"Gama limitada de métodos de pago"}
                              }',
              'value_fr' => '{"0":
-                                {"0":"Code promo exclusif TOPBONUS",
-                                 "1":"Bonus facile à réclamer, utilisable sur n’importe quel sport",
-                                 "2":"Large sélection de sports sur lesquels parier"},
+                                {"0":"Bonus facile à réclamer, utilisable sur n’importe quel sport",
+                                 "1":"Large sélection de sports sur lesquels parier"},
                              "1":
                                 {"0":"PARIPESA uniquement disponible dans certains pays",
                                  "1":"Non disponible au Royaume-Uni",
                                  "2":"Gamme limitée de méthodes de paiement"}
                              }',
              'value_pt' => '{"0":
-                                {"0":"Código promocional exclusivo TOPBONUS",
-                                 "1":"Bônus fácil de resgatar e utilizável em qualquer esporte",
-                                 "2":"Grande variedade de esportes para apostar"},
+                                {"0":"Bônus fácil de resgatar e utilizável em qualquer esporte",
+                                 "1":"Grande variedade de esportes para apostar"},
                              "1":
                                 {"0":"PARIPESA disponível apenas em determinados países",
                                  "1":"Não disponível no Reino Unido",
@@ -509,34 +477,6 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 34
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the PARIPESA confirmation code"}',
-             'value_es' => '{"0":"¿Cuál es el código de confirmación de PARIPESA?"}',
-             'value_fr' => '{"0":"Quel est le code de confirmation de PARIPESA ?"}',
-             'value_pt' => '{"0":"Qual é o código de confirmação da PARIPESA?"}',
-             'order' => 34,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
-             'order' => 35
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'p',
-             'value_en' => '{"0":"Use the PARIPESA promo code TOPBONUS to receive a 100 EUR deposit bonus when you open an account."}',
-             'value_es' => '{"0":"Utiliza el código promocional de PARIPESA TOPBONUS para recibir un bono de depósito de 100 EUR al abrir una cuenta."}',
-             'value_fr' => '{"0":"Utilisez le code promo PARIPESA TOPBONUS pour recevoir un bonus de dépôt de 100 EUR lors de la création de votre compte."}',
-             'value_pt' => '{"0":"Use o código promocional da PARIPESA TOPBONUS para receber um bônus de depósito de 100 EUR ao criar a sua conta."}',
-             'order' => 35,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
              'order' => 36
             ],
             ['key' => 'paripesa',
@@ -617,34 +557,6 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_fr' => '{"0":"Vous pouvez parier sur plus de 20 sports sur PARIPESA, notamment : football américain, football australien, baseball, basketball, boxe, cricket, cyclisme, fléchettes, eSports, football, golf, handball, MMA, sports mécaniques, billard, rugby, snooker, tennis et volley-ball."}',
              'value_pt' => '{"0":"Você pode apostar em mais de 20 esportes na PARIPESA, incluindo: futebol americano, futebol australiano, beisebol, basquete, boxe, críquete, ciclismo, dardos, eSports, futebol, golfe, handebol, MMA, esportes motorizados, sinuca, rúgbi, snooker, tênis e vôlei."}',
              'order' => 41,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
-             'order' => 42
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the best PARIPESA bonus code?"}',
-             'value_es' => '{"0":"¿Cuál es el mejor código de bono de PARIPESA?"}',
-             'value_fr' => '{"0":"Quel est le meilleur code bonus pour PARIPESA ?"}',
-             'value_pt' => '{"0":"Qual é o melhor código de bônus da PARIPESA?"}',
-             'order' => 42,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'paripesa',
-             'order' => 43
-            ],
-            ['key' => 'paripesa',
-             'bookmaker_id' => 6,
-             'component' => 'p',
-             'value_en' => '{"0":"You can get a 100 EUR registration bonus when you use PARIPESA promo code TOPBONUS."}',
-             'value_es' => '{"0":"Puedes obtener un bono de registro de 100 EUR al usar el código promocional de PARIPESA TOPBONUS."}',
-             'value_fr' => '{"0":"Vous pouvez recevoir un bonus d\'inscription de 100 EUR en utilisant le code promo PARIPESA TOPBONUS."}',
-             'value_pt' => '{"0":"Você pode receber um bônus de registro de 100 EUR ao usar o código promocional da PARIPESA TOPBONUS."}',
-             'order' => 43,
             ]
         );
     }

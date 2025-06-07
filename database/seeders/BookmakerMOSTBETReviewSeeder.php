@@ -34,10 +34,10 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"Over 800,000 bets are placed every day by users from more than 90 countries on the MOSTBET platform. This sportsbook covers a wide range of sports events and offers 24/7 live betting on many popular disciplines. In addition, the site supports Bitcoin payments, and by using our exclusive MOSTBET promo code — HUGE — new players can claim a generous welcome bonus of up to 300 EUR."}',
-             'value_es' => '{"0":"Más de 800.000 apuestas se realizan cada día por usuarios de más de 90 países en la plataforma de MOSTBET. Esta casa de apuestas cubre una amplia gama de eventos deportivos y ofrece apuestas en vivo las 24 horas, los 7 días de la semana, en muchas disciplinas populares. Además, el sitio permite el uso de Bitcoin, y con nuestro código promocional exclusivo de MOSTBET — HUGE — los nuevos jugadores pueden obtener un generoso bono de bienvenida de hasta 300 EUR."}',
-             'value_fr' => '{"0":"Plus de 800 000 paris sont effectués chaque jour par des utilisateurs de plus de 90 pays sur la plateforme MOSTBET. Ce site de paris couvre un large éventail d’événements sportifs et propose des paris en direct 24h/24 et 7j/7 sur de nombreuses disciplines populaires. En outre, le site accepte les paiements en Bitcoin, et avec notre code promo exclusif MOSTBET — HUGE — les nouveaux joueurs peuvent recevoir un généreux bonus de bienvenue allant jusqu’à 300 EUR."}',
-             'value_pt' => '{"0":"Mais de 800.000 apostas são feitas todos os dias por usuários de mais de 90 países na plataforma da MOSTBET. Esta casa de apostas cobre uma ampla variedade de eventos esportivos e oferece apostas ao vivo 24 horas por dia em muitas modalidades populares. Além disso, o site permite pagamentos com Bitcoin, e usando o nosso código promocional exclusivo da MOSTBET — HUGE — os novos jogadores podem receber um generoso bônus de boas-vindas de até 300 EUR."}',
+             'value_en' => '{"0":"Over 800,000 bets are placed every day by users from more than 90 countries on the MOSTBET platform. This sportsbook covers a wide range of sports events and offers 24/7 live betting on many popular disciplines."}',
+             'value_es' => '{"0":"Más de 800.000 apuestas se realizan cada día por usuarios de más de 90 países en la plataforma de MOSTBET. Esta casa de apuestas cubre una amplia gama de eventos deportivos y ofrece apuestas en vivo las 24 horas, los 7 días de la semana, en muchas disciplinas populares."}',
+             'value_fr' => '{"0":"Plus de 800 000 paris sont effectués chaque jour par des utilisateurs de plus de 90 pays sur la plateforme MOSTBET. Ce site de paris couvre un large éventail d’événements sportifs et propose des paris en direct 24h/24 et 7j/7 sur de nombreuses disciplines populaires."}',
+             'value_pt' => '{"0":"Mais de 800.000 apostas são feitas todos os dias por usuários de mais de 90 países na plataforma da MOSTBET. Esta casa de apostas cobre uma ampla variedade de eventos esportivos e oferece apostas ao vivo 24 horas por dia em muitas modalidades populares."}',
              'order' => 2,
             ]
         );
@@ -67,20 +67,6 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
                 'value_fr' => '{"0":"Verdict sur MOSTBET"}',
                 'value_pt' => '{"0":"Veredito sobre a MOSTBET"}',
              'order' => 4,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'mostbet',
-             'order' => 5
-            ],
-            ['key' => 'mostbet',
-             'bookmaker_id' => 5,
-             'component' => 'p',
-             'value_en' => '{"0":"Our exclusive MOSTBET promo code — HUGE — gives you a 125% bonus on your first deposit. This bonus is easy to activate and can be used on any sport. MOSTBET offers more than 20 sports with a wide range of betting markets."}',
-             'value_es' => '{"0":"Nuestro código promocional exclusivo de MOSTBET — HUGE — te ofrece un bono del 125% en tu primer depósito. Este bono es fácil de activar y se puede utilizar en cualquier deporte. MOSTBET ofrece más de 20 disciplinas deportivas con una amplia variedad de mercados para apostar."}',
-             'value_fr' => '{"0":"Notre code promo exclusif MOSTBET — HUGE — vous offre un bonus de 125 % sur votre premier dépôt. Ce bonus est facile à activer et peut être utilisé pour parier sur n\'importe quel sport. MOSTBET propose plus de 20 disciplines sportives avec un large choix de marchés."}',
-             'value_pt' => '{"0":"O nosso código promocional exclusivo da MOSTBET — HUGE — oferece um bônus de 125% no primeiro depósito. Este bônus é fácil de ativar e pode ser usado em qualquer desporto. A MOSTBET disponibiliza mais de 20 modalidades com uma ampla variedade de mercados para apostas."}',
-             'order' => 5,
             ]
         );
         Review::query()->updateOrCreate(
@@ -133,33 +119,29 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'bookmaker_id' => 5,
              'component' => 'table_v1',
              'value_en' => '{"0":
-                                {"0":"Exclusive promo code which gets you 125% deposit bonus ",
-                                 "1":"Bonus can be used on any sport",
-                                 "2":"Wide range of payment methods including Bitcoin"},
+                                {"0":"Bonus can be used on any sport",
+                                 "1":"Wide range of payment methods including Bitcoin"},
                              "1":
                                 {"0":"MOSTBET only available in certain countries",
                                  "1":"Not available in the United Kingdom"}
                              }',
              'value_es' => '{"0":
-                                {"0":"Código promocional exclusivo que te otorga un bono del 125% en tu primer depósito",
-                                 "1":"El bono puede usarse en cualquier deporte",
-                                 "2":"Amplia variedad de métodos de pago, incluyendo Bitcoin"},
+                                {"0":"El bono puede usarse en cualquier deporte",
+                                 "1":"Amplia variedad de métodos de pago, incluyendo Bitcoin"},
                              "1":
                                 {"0":"MOSTBET solo está disponible en ciertos países",
                                  "1":"No está disponible en el Reino Unido"}
                              }',
              'value_fr' => '{"0":
-                                {"0":"Code promo exclusif offrant un bonus de 125 % sur le dépôt",
-                                 "1":"Le bonus peut être utilisé sur n’importe quel sport",
-                                 "2":"Large choix de méthodes de paiement, y compris le Bitcoin"},
+                                {"0":"Le bonus peut être utilisé sur n’importe quel sport",
+                                 "1":"Large choix de méthodes de paiement, y compris le Bitcoin"},
                              "1":
                                 {"0":"MOSTBET n’est disponible que dans certains pays",
                                  "1":"Non disponible au Royaume-Uni"}
                              }',
              'value_pt' => '{"0":
-                                {"0":"Código promocional exclusivo que oferece um bônus de 125% no depósito",
-                                 "1":"O bônus pode ser usado em qualquer desporto",
-                                 "2":"Grande variedade de métodos de pagamento, incluindo Bitcoin"},
+                                {"0":"O bônus pode ser usado em qualquer desporto",
+                                 "1":"Grande variedade de métodos de pagamento, incluindo Bitcoin"},
                              "1":
                                 {"0":"MOSTBET está disponível apenas em alguns países",
                                  "1":"Não está disponível no Reino Unido"}
@@ -467,34 +449,6 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 30
-            ],
-            ['key' => 'mostbet',
-             'bookmaker_id' => 5,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the MOSTBET promo code?"}',
-             'value_es' => '{"0":"¿Cuál es el código promocional de MOSTBET?"}',
-             'value_fr' => '{"0":"Quel est le code promo MOSTBET ?"}',
-             'value_pt' => '{"0":"Qual é o código promocional da MOSTBET?"}',
-             'order' => 30,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'mostbet',
-             'order' => 31
-            ],
-            ['key' => 'mostbet',
-             'bookmaker_id' => 5,
-             'component' => 'p',
-             'value_en' => '{"0":"Open an account with the MOSTBET promotion code HUGE and receive a 125% deposit bonus up to 300 EUR."}',
-             'value_es' => '{"0":"Abre una cuenta con el código promocional de MOSTBET HUGE y recibe un bono del 125% sobre tu depósito, hasta 300 EUR."}',
-             'value_fr' => '{"0":"Ouvre un compte avec le code promo MOSTBET HUGE et reçois un bonus de dépôt de 125 % jusqu’à 300 EUR."}',
-             'value_pt' => '{"0":"Abre uma conta com o código promocional da MOSTBET HUGE e recebe um bônus de 125% no depósito, até 300 EUR."}',
-             'order' => 31,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'mostbet',
              'order' => 32
             ],
             ['key' => 'mostbet',
@@ -519,34 +473,6 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_fr' => '{"0":"Oui. MOSTBET détient actuellement une licence de Curaçao et opère dans plus de 90 pays à travers le monde, avec plus d’un million de clients."}',
              'value_pt' => '{"0":"Sim. A MOSTBET atualmente possui uma licença de Curaçao e opera em mais de 90 países ao redor do mundo, contando com mais de um milhão de clientes."}',
              'order' => 33,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'mostbet',
-             'order' => 34
-            ],
-            ['key' => 'mostbet',
-             'bookmaker_id' => 5,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the best MOSTBET bonus code and what do I get?"}',
-             'value_es' => '{"0":"¿Cuál es el mejor código de bono de MOSTBET y qué obtengo?"}',
-             'value_fr' => '{"0":"Quel est le meilleur code bonus MOSTBET et qu\'est-ce que j\'obtiens ?"}',
-             'value_pt' => '{"0":"Qual é o melhor código de bônus da MOSTBET e o que eu recebo?"}',
-             'order' => 34,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'mostbet',
-             'order' => 35
-            ],
-            ['key' => 'mostbet',
-             'bookmaker_id' => 5,
-             'component' => 'p',
-             'value_en' => '{"0":"You can get a 300€ welcome bonus when registering a new account with the MOSTBET promo code HUGE."}',
-             'value_es' => '{"0":"Puedes obtener un bono de bienvenida de 300€ al registrar una nueva cuenta con el código promocional de MOSTBET: HUGE."}',
-             'value_fr' => '{"0":"Vous pouvez obtenir un bonus de bienvenue de 300€ en créant un nouveau compte avec le code promo MOSTBET : HUGE."}',
-             'value_pt' => '{"0":"Você pode receber um bônus de boas-vindas de 300€ ao registrar uma nova conta com o código promocional da MOSTBET: HUGE."}',
-             'order' => 35,
             ]
         );
     }

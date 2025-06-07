@@ -49,11 +49,11 @@
                 <p class="text-xs xl:text-base">)</p>
             </div>
             <div class="rate flex mx-auto justify-between lg:w-40" data-rate-id="{{$bookmaker['id']}}">
-                <input name="rate" value="1" type="checkbox" aria-label="One star" disabled="disabled">
-                <input name="rate" value="2" type="checkbox" aria-label="Two stars" disabled="disabled">
-                <input name="rate" value="3" type="checkbox" aria-label="Three stars" disabled="disabled">
-                <input name="rate" value="4" type="checkbox" aria-label="Four stars" disabled="disabled">
-                <input name="rate" value="5" type="checkbox" aria-label="Five stars" disabled="disabled">
+                <input name="rate" value="1" type="checkbox" aria-label="One star">
+                <input name="rate" value="2" type="checkbox" aria-label="Two stars">
+                <input name="rate" value="3" type="checkbox" aria-label="Three stars">
+                <input name="rate" value="4" type="checkbox" aria-label="Four stars">
+                <input name="rate" value="5" type="checkbox" aria-label="Five stars">
             </div>
         </div>
         <div class="flex-col justify-around self-center flex w-1/3 xl:w-1/6">
@@ -70,4 +70,6 @@
         </div>
     </div>
 </div>
-<p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+@if($bookmaker['warning_'.app()->getLocale()])
+    <p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+@endif

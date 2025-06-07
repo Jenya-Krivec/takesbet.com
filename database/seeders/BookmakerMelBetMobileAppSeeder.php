@@ -173,34 +173,6 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 9
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Complete the registration form with the promo code NEWBONUS"}',
-                'value_es' => '{"0":"Completa el formulario de registro con el código promocional NEWBONUS"}',
-                'value_fr' => '{"0":"Remplissez le formulaire d\'inscription avec le code promo NEWBONUS"}',
-                'value_pt' => '{"0":"Preencha o formulário de registro com o código promocional NEWBONUS"}',
-             'order' => 9
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => 'melbet',
-             'order' => 10
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"Next, you need to fill in the registration form with all the required details. Don’t forget to use the promo code NEWBONUS at this stage — otherwise, you might miss out on the welcome bonus. Also, make sure your personal information is entered correctly, as you will need to verify your account later."}',
-                'value_es' => '{"0":"A continuación, debes completar el formulario de registro con todos los datos requeridos. No olvides usar el código promocional NEWBONUS en este paso, o podrías perderte el bono de bienvenida. Además, asegúrate de que tu información personal esté ingresada correctamente, ya que deberás verificar tu cuenta más adelante."}',
-                'value_fr' => '{"0":"Ensuite, vous devez remplir le formulaire d\'inscription avec toutes les informations requises. N\'oubliez pas d\'utiliser le code promo NEWBONUS à ce stade — sinon, vous pourriez passer à côté du bonus de bienvenue. Assurez-vous également que vos informations personnelles sont correctes, car vous devrez vérifier votre compte plus tard."}',
-                'value_pt' => '{"0":"Em seguida, preencha o formulário de registro com todas as informações necessárias. Não se esqueça de usar o código promocional NEWBONUS neste momento — caso contrário, você pode perder o bônus de boas-vindas. Além disso, verifique se seus dados pessoais foram inseridos corretamente, pois será necessário verificar sua conta mais tarde."}',
-             'order' => 10
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => 'melbet',
              'order' => 11
             ],
             ['key' => 'melbet',
@@ -430,10 +402,10 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-                'value_en' => '{"0":"Make sure to enter the promo code NEWBONUS to claim your deposit bonus. Also, double-check that all your personal details are filled in correctly."}',
-                'value_es' => '{"0":"Asegúrate de introducir el código promocional NEWBONUS para recibir tu bono de depósito. También verifica que todos tus datos personales estén correctamente ingresados."}',
-                'value_fr' => '{"0":"Assurez-vous de saisir le code promo NEWBONUS pour obtenir votre bonus de dépôt. Vérifiez également que toutes vos informations personnelles sont correctement renseignées."}',
-                'value_pt' => '{"0":"Certifique-se de inserir o código promocional NEWBONUS para receber seu bônus de depósito. Verifique também se todos os seus dados pessoais foram preenchidos corretamente."}',
+                'value_en' => '{"0":"Also, double-check that all your personal details are filled in correctly."}',
+                'value_es' => '{"0":"También verifica que todos tus datos personales estén correctamente ingresados."}',
+                'value_fr' => '{"0":"Vérifiez également que toutes vos informations personnelles sont correctement renseignées."}',
+                'value_pt' => '{"0":"Verifique também se todos os seus dados pessoais foram preenchidos corretamente."}',
              'order' => 27
             ]
         );
@@ -554,10 +526,10 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-                'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit. Once your account is verified, choose a convenient deposit method on MelBet, make your first deposit, and claim your bonus using the promo code NEWBONUS."}',
-                'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito. Una vez verificada tu cuenta, elige el método de pago que prefieras en MelBet, realiza tu primer depósito y aprovecha el bono con el código promocional NEWBONUS."}',
-                'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt. Une fois votre compte vérifié, choisissez une méthode de dépôt pratique sur MelBet, effectuez votre premier dépôt et profitez du bonus avec le code promo NEWBONUS."}',
-                'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito. Após a verificação, escolha uma forma de pagamento conveniente na MelBet, faça seu primeiro depósito e aproveite o bônus com o código promocional NEWBONUS."}',
+                'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit."}',
+                'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito."}',
+                'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt."}',
+                'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito."}',
              'order' => 35
             ]
         );

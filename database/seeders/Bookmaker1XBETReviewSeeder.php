@@ -104,10 +104,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"For more information on how to use the promo code NEWBONUS, check out the dedicated section. After registering, you’ll find a large selection of promotions, bonuses, and special offers."}',
-             'value_es' => '{"0":"Consulta la sección especial para obtener más información sobre cómo usar el código promocional NEWBONUS. Después de registrarte, tendrás acceso a una gran variedad de promociones, bonos y ofertas especiales"}',
-             'value_fr' => '{"0":"Pour en savoir plus sur l\'utilisation du code promo NEWBONUS, consultez la section dédiée. Une fois inscrit, vous aurez accès à de nombreuses promotions, bonus et offres spéciales."}',
-             'value_pt' => '{"0":"Consulte a secção dedicada para saber mais sobre como utilizar o código promocional NEWBONUS. Após o registo, encontrará uma vasta seleção de promoções, bónus e ofertas especiais."}',
+             'value_en' => '{"0":"After registering, you’ll find a large selection of promotions, bonuses, and special offers."}',
+             'value_es' => '{"0":"Después de registrarte, tendrás acceso a una gran variedad de promociones, bonos y ofertas especiales"}',
+             'value_fr' => '{"0":"Une fois inscrit, vous aurez accès à de nombreuses promotions, bonus et offres spéciales."}',
+             'value_pt' => '{"0":"Após o registo, encontrará uma vasta seleção de promoções, bónus e ofertas especiais."}',
              'order' => 7,
             ]
         );
@@ -968,34 +968,6 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_fr' => '{"0":"Si vous êtes un nouveau client chez 1XBET, vous devriez pouvoir bénéficier de l\'offre de bienvenue avec un bonus de 100 % sur votre premier dépôt. Cliquez sur ce lien pour obtenir tous les détails concernant le bonus et comment le réclamer."}',
              'value_pt' => '{"0":"Se você é um novo cliente da 1XBET, deve conseguir reivindicar a oferta de boas-vindas com 100% de bônus sobre o primeiro depósito. Clique neste link para ver todos os detalhes sobre o bônus e como resgatá-lo."}',
              'order' => 59,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1xbet',
-             'order' => 60
-            ],
-            ['key' => '1xbet',
-             'bookmaker_id' => 1,
-             'component' => 'h4',
-             'value_en' => '{"0":"Do I need a 1XBET promo code?"}',
-             'value_es' => '{"0":"¿Necesito un código promocional de 1XBET?"}',
-             'value_fr' => '{"0":"Ai-je besoin d’un code promo 1XBET ?"}',
-             'value_pt' => '{"0":"Preciso de um código promocional da 1XBET?"}',
-             'order' => 60,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1xbet',
-             'order' => 61
-            ],
-            ['key' => '1xbet',
-             'bookmaker_id' => 1,
-             'component' => 'p',
-             'value_en' => '{"0":"Some offers will require a 1XBET promo code. Please see our 1XBET promo code page for more information. "}',
-             'value_es' => '{"0":"Algunas ofertas requerirán un código promocional de 1XBET. Consulta nuestra página de códigos promocionales de 1XBET para obtener más información."}',
-             'value_fr' => '{"0":"Certaines offres nécessitent un code promo 1XBET. Veuillez consulter notre page dédiée aux codes promo 1XBET pour plus d’informations."}',
-             'value_pt' => '{"0":"Algumas ofertas exigirão um código promocional da 1XBET. Visite nossa página de códigos promocionais da 1XBET para mais informações."}',
-             'order' => 61,
             ]
         );
         Review::query()->updateOrCreate(

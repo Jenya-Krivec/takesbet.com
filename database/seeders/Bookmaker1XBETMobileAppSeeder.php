@@ -48,10 +48,10 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"New users can also receive a generous welcome bonus after making their first deposit through the app (use promo code NEWBONUS). Don’t miss out!"}',
-             'value_es' => '{"0":"Además, los nuevos usuarios pueden recibir un generoso bono de bienvenida tras realizar su primer depósito en la app (usa el código promocional NEWBONUS). ¡Aprovecha esta oportunidad!"}',
-             'value_fr' => '{"0":"Les nouveaux utilisateurs peuvent également bénéficier d’un généreux bonus de bienvenue après leur premier dépôt via l’application (utilisez le code promo NEWBONUS). Profitez-en dès maintenant !"}',
-             'value_pt' => '{"0":"Novos usuários também podem receber um generoso bônus de boas-vindas após o primeiro depósito no app (use o código promocional NEWBONUS). Aproveite agora mesmo!"}',
+             'value_en' => '{"0":"New users can also receive a generous welcome bonus after making their first deposit through the app. Don’t miss out!"}',
+             'value_es' => '{"0":"Además, los nuevos usuarios pueden recibir un generoso bono de bienvenida tras realizar su primer depósito en la app. ¡Aprovecha esta oportunidad!"}',
+             'value_fr' => '{"0":"Les nouveaux utilisateurs peuvent également bénéficier d’un généreux bonus de bienvenue après leur premier dépôt via l’application. Profitez-en dès maintenant !"}',
+             'value_pt' => '{"0":"Novos usuários também podem receber um generoso bônus de boas-vindas após o primeiro depósito no app. Aproveite agora mesmo!"}',
              'order' => 3
             ]
         );
@@ -179,34 +179,6 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
              'value_fr' => '{"0":"La première étape consiste simplement à suivre le lien vers le site de paris de 1xBet. Une fois sur la page d\'accueil, vous pourrez créer un compte, profiter d\'un généreux bonus de bienvenue et accéder à certaines des cotes les plus avantageuses du marché."}',
              'value_pt' => '{"0":"O primeiro passo é simplesmente seguir o link para o site de apostas da 1xBet. Ao acessar a página inicial, você poderá criar uma conta, aproveitar um generoso bônus de boas-vindas e ter acesso a algumas das melhores odds do mercado."}',
              'order' => 10
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => '1xbet',
-             'order' => 11
-            ],
-            ['key' => '1xbet',
-             'bookmaker_id' => 1,
-             'component' => 'h4',
-             'value_en' => '{"0":"Complete the registration form with the promo code NEWBONUS"}',
-             'value_es' => '{"0":"Completa el formulario de registro con el código promocional NEWBONUS"}',
-             'value_fr' => '{"0":"Remplissez le formulaire d\'inscription avec le code promo NEWBONUS"}',
-             'value_pt' => '{"0":"Preencha o formulário de registro com o código promocional NEWBONUS"}',
-             'order' => 11
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => '1xbet',
-             'order' => 12
-            ],
-            ['key' => '1xbet',
-             'bookmaker_id' => 1,
-             'component' => 'p',
-             'value_en' => '{"0":"Next, you need to fill in the registration form with all the required details. Don’t forget to use the promo code NEWBONUS at this stage — otherwise, you might miss out on the welcome bonus. Also, make sure your personal information is entered correctly, as you will need to verify your account later."}',
-             'value_es' => '{"0":"A continuación, debes completar el formulario de registro con todos los datos requeridos. No olvides usar el código promocional NEWBONUS en este paso, o podrías perderte el bono de bienvenida. Además, asegúrate de que tu información personal esté ingresada correctamente, ya que deberás verificar tu cuenta más adelante."}',
-             'value_fr' => '{"0":"Ensuite, vous devez remplir le formulaire d\'inscription avec toutes les informations requises. N\'oubliez pas d\'utiliser le code promo NEWBONUS à ce stade — sinon, vous pourriez passer à côté du bonus de bienvenue. Assurez-vous également que vos informations personnelles sont correctes, car vous devrez vérifier votre compte plus tard."}',
-             'value_pt' => '{"0":"Em seguida, preencha o formulário de registro com todas as informações necessárias. Não se esqueça de usar o código promocional NEWBONUS neste momento — caso contrário, você pode perder o bônus de boas-vindas. Além disso, verifique se seus dados pessoais foram inseridos corretamente, pois será necessário verificar sua conta mais tarde."}',
-             'order' => 12
             ]
         );
         MobileApp::query()->updateOrCreate(
@@ -454,10 +426,10 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"Make sure to enter the promo code NEWBONUS to claim your deposit bonus. Also, double-check that all your personal details are filled in correctly."}',
-             'value_es' => '{"0":"Asegúrate de introducir el código promocional NEWBONUS para recibir tu bono de depósito. También verifica que todos tus datos personales estén correctamente ingresados."}',
-             'value_fr' => '{"0":"Assurez-vous de saisir le code promo NEWBONUS pour obtenir votre bonus de dépôt. Vérifiez également que toutes vos informations personnelles sont correctement renseignées."}',
-             'value_pt' => '{"0":"Certifique-se de inserir o código promocional NEWBONUS para receber seu bônus de depósito. Verifique também se todos os seus dados pessoais foram preenchidos corretamente."}',
+             'value_en' => '{"0":"Also, double-check that all your personal details are filled in correctly."}',
+             'value_es' => '{"0":"También verifica que todos tus datos personales estén correctamente ingresados."}',
+             'value_fr' => '{"0":"Vérifiez également que toutes vos informations personnelles sont correctement renseignées."}',
+             'value_pt' => '{"0":"Verifique também se todos os seus dados pessoais foram preenchidos corretamente."}',
              'order' => 30
             ]
         );

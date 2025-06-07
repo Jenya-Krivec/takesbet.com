@@ -62,10 +62,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"Although sports betting remains the main focus of MELbet, the platform also offers a wide selection of instant win games, slots, live dealer games, live slots, TV games, and bingo. Our first impression is that this is a dynamic and action-packed site, so we invite you to check out our full MELbet 2025 review to learn all the details."}',
-             'value_es' => '{"0":"Aunque las apuestas deportivas siguen siendo el enfoque principal de MELbet, la plataforma también ofrece una amplia selección de juegos rápidos, tragamonedas, juegos en vivo con crupieres, tragamonedas en vivo, juegos de TV y bingo. Nuestra primera impresión es que se trata de un sitio dinámico y lleno de acción, así que te invitamos a leer nuestra reseña completa de MELbet 2025 para conocer todos los detalles."}',
-             'value_fr' => '{"0":"Bien que les paris sportifs restent l’activité principale de MELbet, la plateforme propose également un large choix de jeux instantanés, de machines à sous, de jeux avec croupiers en direct, de slots en direct, de jeux TV et de bingo. Notre première impression est celle d’un site dynamique et riche en action, alors découvrez notre revue complète de MELbet 2025 pour en savoir plus."}',
-             'value_pt' => '{"0":"Embora as apostas esportivas continuem sendo o foco principal da MELbet, a plataforma também oferece uma ampla seleção de jogos rápidos, slots, jogos com dealer ao vivo, slots ao vivo, jogos de TV e bingo. Nossa primeira impressão é de um site dinâmico e cheio de ação, por isso convidamos você a conferir nossa análise completa da MELbet 2025 para saber todos os detalhes."}',
+             'value_en' => '{"0":"Although sports betting remains the main focus of MELbet, the platform also offers a wide selection of instant win games, slots, live dealer games, live slots, TV games, and bingo. Our first impression is that this is a dynamic and action-packed site, so we invite you to check out our full MELbet review to learn all the details."}',
+             'value_es' => '{"0":"Aunque las apuestas deportivas siguen siendo el enfoque principal de MELbet, la plataforma también ofrece una amplia selección de juegos rápidos, tragamonedas, juegos en vivo con crupieres, tragamonedas en vivo, juegos de TV y bingo. Nuestra primera impresión es que se trata de un sitio dinámico y lleno de acción, así que te invitamos a leer nuestra reseña completa de MELbet para conocer todos los detalles."}',
+             'value_fr' => '{"0":"Bien que les paris sportifs restent l’activité principale de MELbet, la plateforme propose également un large choix de jeux instantanés, de machines à sous, de jeux avec croupiers en direct, de slots en direct, de jeux TV et de bingo. Notre première impression est celle d’un site dynamique et riche en action, alors découvrez notre revue complète de MELbet pour en savoir plus."}',
+             'value_pt' => '{"0":"Embora as apostas esportivas continuem sendo o foco principal da MELbet, a plataforma também oferece uma ampla seleção de jogos rápidos, slots, jogos com dealer ao vivo, slots ao vivo, jogos de TV e bingo. Nossa primeira impressão é de um site dinâmico e cheio de ação, por isso convidamos você a conferir nossa análise completa da MELbet para saber todos os detalhes."}',
              'order' => 4,
             ]
         );
@@ -806,10 +806,10 @@ class BookmakerMelBetReviewSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"There are both MELbet free bets and casino free spins available. Take a look at our MELbet promo code article for more details."}',
-             'value_es' => '{"0":"Hay tanto apuestas gratis de MELbet como giros gratis de casino disponibles. Consulta nuestro artículo sobre el código promocional de MELbet para más detalles."}',
-             'value_fr' => '{"0":"Il y a à la fois des paris gratuits MELbet et des tours gratuits de casino disponibles. Consultez notre article sur le code promo MELbet pour plus de détails."}',
-             'value_pt' => '{"0":"Existem tanto apostas grátis da MELbet quanto rodadas grátis de cassino disponíveis. Confira nosso artigo sobre o código promocional da MELbet para mais detalhes."}',
+             'value_en' => '{"0":"There are both MELbet free bets and casino free spins available."}',
+             'value_es' => '{"0":"Hay tanto apuestas gratis de MELbet como giros gratis de casino disponibles."}',
+             'value_fr' => '{"0":"Il y a à la fois des paris gratuits MELbet et des tours gratuits de casino disponibles."}',
+             'value_pt' => '{"0":"Existem tanto apostas grátis da MELbet quanto rodadas grátis de cassino disponíveis."}',
              'order' => 46,
             ]
         );
@@ -867,34 +867,6 @@ class BookmakerMelBetReviewSeeder extends Seeder
              'value_fr' => '{"0":"Vous ne devriez rencontrer aucun problème pour réclamer les bonus souhaités, mais si c’est le cas, veuillez utiliser les options de service client de MELbet mentionnées ci-dessus."}',
              'value_pt' => '{"0":"Você não deve ter problemas para resgatar os bônus desejados, mas, se tiver, utilize as opções de atendimento ao cliente da MELbet indicadas acima."}',
              'order' => 50,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'melbet',
-             'order' => 51
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
-             'component' => 'h4',
-             'value_en' => '{"0":"Do I need a MELbet promo code?"}',
-             'value_es' => '{"0":"¿Necesito un código promocional de MELbet?"}',
-             'value_fr' => '{"0":"Ai-je besoin d’un code promo MELbet ?"}',
-             'value_pt' => '{"0":"Preciso de um código promocional da MELbet?"}',
-             'order' => 51,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'melbet',
-             'order' => 52
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"Certain MELbet promos may require you to use a promo code. This page has all the info you need."}',
-             'value_es' => '{"0":"Algunas promociones de MELbet pueden requerir el uso de un código promocional. En esta página encontrarás toda la información que necesitas."}',
-             'value_fr' => '{"0":"Certaines promotions de MELbet peuvent nécessiter un code promo. Cette page contient toutes les informations dont vous avez besoin."}',
-             'value_pt' => '{"0":"Algumas promoções da MELbet podem exigir o uso de um código promocional. Esta página contém todas as informações de que você precisa."}',
-             'order' => 52,
             ]
         );
         Review::query()->updateOrCreate(

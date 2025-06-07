@@ -20,10 +20,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"With the promo code NEWBONUS, users can receive an incredible welcome bonus of up to 100% plus $30 as a gift. Simply enter the promo code NEWBONUS when creating your new 1XBET account to receive the additional first deposit bonus!"}',
-             'value_es' => '{"0":"Con el código promocional NEWBONUS, los usuarios pueden recibir un increíble bono de bienvenida de hasta el 100% y $30 de regalo. Simplemente introduce el código NEWBONUS al crear tu nueva cuenta en 1XBET para recibir el bono adicional por el primer depósito."}',
-             'value_fr' => '{"0":"Avec le code promo NEWBONUS, les utilisateurs peuvent recevoir un incroyable bonus de bienvenue allant jusqu\'à 100 % ainsi que 30 $ offerts. Il vous suffit de saisir le code NEWBONUS lors de la création de votre nouveau compte 1XBET pour bénéficier du bonus supplémentaire sur le premier dépôt !"}',
-             'value_pt' => '{"0":"Com o código promocional NEWBONUS, os usuários podem receber um incrível bônus de boas-vindas de até 100% mais US$30 de presente. Basta inserir o código NEWBONUS ao criar sua nova conta na 1XBET para garantir o bônus adicional no primeiro depósito!"}',
+             'value_en' => '{"0":"With the promo code :promocode, users can receive an incredible welcome bonus of up to 100% plus $30 as a gift. Simply enter the promo code :promocode when creating your new 1XBET account to receive the additional first deposit bonus!"}',
+             'value_es' => '{"0":"Con el código promocional :promocode, los usuarios pueden recibir un increíble bono de bienvenida de hasta el 100% y $30 de regalo. Simplemente introduce el código :promocode al crear tu nueva cuenta en 1XBET para recibir el bono adicional por el primer depósito."}',
+             'value_fr' => '{"0":"Avec le code promo :promocode, les utilisateurs peuvent recevoir un incroyable bonus de bienvenue allant jusqu\'à 100 % ainsi que 30 $ offerts. Il vous suffit de saisir le code :promocode lors de la création de votre nouveau compte 1XBET pour bénéficier du bonus supplémentaire sur le premier dépôt !"}',
+             'value_pt' => '{"0":"Com o código promocional :promocode, os usuários podem receber um incrível bônus de boas-vindas de até 100% mais US$30 de presente. Basta inserir o código :promocode ao criar sua nova conta na 1XBET para garantir o bônus adicional no primeiro depósito!"}',
               'order' => 1,
             ]
         );
@@ -76,10 +76,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"By using the exclusive Takesbet promo code NEWBONUS, you’ll get the chance to activate an impressive welcome bonus of up to 100% plus $30 as a gift on your first deposit."}',
-             'value_es' => '{"0":"Al usar el código promocional exclusivo de Takesbet NEWBONUS, tendrás la oportunidad de activar un increíble bono de bienvenida de hasta el 100% más $30 de regalo en tu primer depósito."}',
-             'value_fr' => '{"0":"En utilisant le code promo exclusif Takesbet NEWBONUS, vous aurez la possibilité d’activer un généreux bonus de bienvenue allant jusqu’à 100 %, plus 30 $ offerts sur votre premier dépôt."}',
-             'value_pt' => '{"0":"Ao usar o código promocional exclusivo da Takesbet NEWBONUS, você terá a chance de ativar um incrível bônus de boas-vindas de até 100% mais US$30 de presente no seu primeiro depósito."}',
+             'value_en' => '{"0":"By using the exclusive Takesbet promo code :promocode, you’ll get the chance to activate an impressive welcome bonus of up to 100% plus $30 as a gift on your first deposit."}',
+             'value_es' => '{"0":"Al usar el código promocional exclusivo de Takesbet :promocode, tendrás la oportunidad de activar un increíble bono de bienvenida de hasta el 100% más $30 de regalo en tu primer depósito."}',
+             'value_fr' => '{"0":"En utilisant le code promo exclusif Takesbet :promocode, vous aurez la possibilité d’activer un généreux bonus de bienvenue allant jusqu’à 100 %, plus 30 $ offerts sur votre premier dépôt."}',
+             'value_pt' => '{"0":"Ao usar o código promocional exclusivo da Takesbet :promocode, você terá a chance de ativar um incrível bônus de boas-vindas de até 100% mais US$30 de presente no seu primeiro depósito."}',
              'order' => 5
             ]
         );
@@ -188,10 +188,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"After landing on the website, locate the registration button in the top right corner of the screen and click on it. A form will appear where you\'ll need to provide some basic personal information. You can choose from several registration methods — by phone, email, or via social media accounts. Note: This is where you should enter the promo code NEWBONUS to receive an enhanced welcome bonus."}',
-             'value_es' => '{"0":"Una vez en el sitio web, busca el botón de registro en la esquina superior derecha de la pantalla y haz clic en él. Aparecerá un formulario donde deberás ingresar algunos datos personales básicos. Puedes registrarte por teléfono, correo electrónico o a través de redes sociales. Nota: En este paso deberás ingresar el código promocional NEWBONUS para obtener un bono de bienvenida mejorado."}',
-             'value_fr' => '{"0":"Une fois sur le site, repérez le bouton d’inscription en haut à droite de l’écran et cliquez dessus. Un formulaire s’affichera, dans lequel vous devrez fournir quelques informations personnelles de base. Vous pouvez vous inscrire par téléphone, par e-mail ou via les réseaux sociaux. Remarque : c’est à ce stade que vous devez entrer le code promo NEWBONUS pour bénéficier d’un bonus de bienvenue amélioré."}',
-             'value_pt' => '{"0":"Ao acessar o site, localize o botão de registro no canto superior direito da tela e clique nele. Um formulário será exibido, onde você deverá fornecer algumas informações pessoais básicas. É possível se cadastrar por telefone, e-mail ou por meio de redes sociais. Observação: é neste momento que você deve inserir o código promocional NEWBONUS para receber um bônus de boas-vindas aumentado."}',
+             'value_en' => '{"0":"After landing on the website, locate the registration button in the top right corner of the screen and click on it. A form will appear where you\'ll need to provide some basic personal information. You can choose from several registration methods — by phone, email, or via social media accounts. Note: This is where you should enter the promo code :promocode to receive an enhanced welcome bonus."}',
+             'value_es' => '{"0":"Una vez en el sitio web, busca el botón de registro en la esquina superior derecha de la pantalla y haz clic en él. Aparecerá un formulario donde deberás ingresar algunos datos personales básicos. Puedes registrarte por teléfono, correo electrónico o a través de redes sociales. Nota: En este paso deberás ingresar el código promocional :promocode para obtener un bono de bienvenida mejorado."}',
+             'value_fr' => '{"0":"Une fois sur le site, repérez le bouton d’inscription en haut à droite de l’écran et cliquez dessus. Un formulaire s’affichera, dans lequel vous devrez fournir quelques informations personnelles de base. Vous pouvez vous inscrire par téléphone, par e-mail ou via les réseaux sociaux. Remarque : c’est à ce stade que vous devez entrer le code promo :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
+             'value_pt' => '{"0":"Ao acessar o site, localize o botão de registro no canto superior direito da tela e clique nele. Um formulário será exibido, onde você deverá fornecer algumas informações pessoais básicas. É possível se cadastrar por telefone, e-mail ou por meio de redes sociais. Observação: é neste momento que você deve inserir o código promocional :promocode para receber um bônus de boas-vindas aumentado."}',
              'order' => 13
             ]
         );
@@ -370,10 +370,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"The most noticeable advantage is the welcome bonus. Using the promo code NEWBONUS gives you access to a bonus that is significantly larger than what most other popular bookmakers offer."}',
-             'value_es' => '{"0":"La ventaja más destacada es el bono de bienvenida. Usar el código promocional NEWBONUS te da acceso a un bono significativamente mayor que el que ofrecen la mayoría de las casas de apuestas populares."}',
-             'value_fr' => '{"0":"L’avantage le plus notable est le bonus de bienvenue. L’utilisation du code promo NEWBONUS vous donne accès à un bonus nettement plus élevé que celui proposé par la plupart des autres bookmakers populaires."}',
-             'value_pt' => '{"0":"A vantagem mais notável é o bônus de boas-vindas. Usar o código promocional NEWBONUS dá acesso a um bônus significativamente maior do que a maioria das casas de apostas populares oferece."}',
+             'value_en' => '{"0":"The most noticeable advantage is the welcome bonus. Using the promo code :promocode gives you access to a bonus that is significantly larger than what most other popular bookmakers offer."}',
+             'value_es' => '{"0":"La ventaja más destacada es el bono de bienvenida. Usar el código promocional :promocode te da acceso a un bono significativamente mayor que el que ofrecen la mayoría de las casas de apuestas populares."}',
+             'value_fr' => '{"0":"L’avantage le plus notable est le bonus de bienvenue. L’utilisation du code promo :promocode vous donne accès à un bonus nettement plus élevé que celui proposé par la plupart des autres bookmakers populaires."}',
+             'value_pt' => '{"0":"A vantagem mais notável é o bônus de boas-vindas. Usar o código promocional :promocode dá acesso a um bônus significativamente maior do que a maioria das casas de apostas populares oferece."}',
              'order' => 26
             ]
         );
@@ -440,10 +440,10 @@ class Bookmaker1XBETPromoCodesSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"Additionally, the platform offers a wide selection of live dealer games and a large slots section with various games. Use the promo code NEWBONUS to claim the 1XBET casino welcome bonus."}',
-             'value_es' => '{"0":"Además, la plataforma ofrece una amplia selección de juegos con crupieres en vivo y una gran sección de tragamonedas con diversos juegos. Usa el código promocional NEWBONUS para obtener el bono de bienvenida del casino 1XBET."}',
-             'value_fr' => '{"0":"De plus, la plateforme propose une large sélection de jeux avec croupiers en direct et une grande section de machines à sous avec divers jeux. Utilisez le code promo NEWBONUS pour obtenir le bonus de bienvenue du casino 1XBET."}',
-             'value_pt' => '{"0":"Além disso, a plataforma oferece uma ampla seleção de jogos com dealers ao vivo e uma grande seção de caça-níqueis com diversos jogos. Use o código promocional NEWBONUS para obter o bônus de boas-vindas do cassino 1XBET."}',
+             'value_en' => '{"0":"Additionally, the platform offers a wide selection of live dealer games and a large slots section with various games. Use the promo code :promocode to claim the 1XBET casino welcome bonus."}',
+             'value_es' => '{"0":"Además, la plataforma ofrece una amplia selección de juegos con crupieres en vivo y una gran sección de tragamonedas con diversos juegos. Usa el código promocional :promocode para obtener el bono de bienvenida del casino 1XBET."}',
+             'value_fr' => '{"0":"De plus, la plateforme propose une large sélection de jeux avec croupiers en direct et une grande section de machines à sous avec divers jeux. Utilisez le code promo :promocode pour obtenir le bonus de bienvenue du casino 1XBET."}',
+             'value_pt' => '{"0":"Além disso, a plataforma oferece uma ampla seleção de jogos com dealers ao vivo e uma grande seção de caça-níqueis com diversos jogos. Use o código promocional :promocode para obter o bônus de boas-vindas do cassino 1XBET."}',
              'order' => 31
             ]
         );

@@ -48,10 +48,10 @@ class Bookmaker1winReviewSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"This bookmaker allows you to bet on a wide range of sports events. By using our exclusive promo code XLBONUS, you can claim a generous welcome bonus — 500% on your first deposit up to $1025."}',
-             'value_es' => '{"0":"Esta casa de apuestas te permite apostar en una amplia gama de eventos deportivos. Si utilizas nuestro código promocional exclusivo XLBONUS, recibirás un generoso bono de bienvenida: 500% en tu primer depósito hasta $1025."}',
-             'value_fr' => '{"0":"Ce site de paris vous permet de parier sur une large gamme d’événements sportifs. En utilisant notre code promo exclusif XLBONUS, vous pouvez obtenir un généreux bonus de bienvenue — 500 % sur votre premier dépôt, jusqu’à 1025 $."}',
-             'value_pt' => '{"0":"Esta casa de apostas permite que você aposte em uma ampla variedade de eventos esportivos. Ao usar o nosso código promocional exclusivo XLBONUS, você recebe um generoso bônus de boas-vindas — 500% no seu primeiro depósito, até $1025."}',
+             'value_en' => '{"0":"This bookmaker allows you to bet on a wide range of sports events."}',
+             'value_es' => '{"0":"Esta casa de apuestas te permite apostar en una amplia gama de eventos deportivos."}',
+             'value_fr' => '{"0":"Ce site de paris vous permet de parier sur une large gamme d’événements sportifs."}',
+             'value_pt' => '{"0":"Esta casa de apostas permite que você aposte em uma ampla variedade de eventos esportivos."}',
              'order' => 3,
             ]
         );
@@ -99,20 +99,6 @@ class Bookmaker1winReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 7
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"Use our exclusive 1win promo code and get a 500% deposit bonus. Claiming this bonus is easy, and it can be used for betting on any sport."}',
-             'value_es' => '{"0":"Utiliza nuestro código promocional exclusivo de 1win y obtén un bono del 500% en tu depósito. Obtener este bono es fácil y puede usarse para apostar en cualquier deporte."}',
-             'value_fr' => '{"0":"Utilisez notre code promo exclusif 1win et obtenez un bonus de dépôt de 500 %. Il est facile d\'obtenir ce bonus, que vous pouvez utiliser pour parier sur n\'importe quel sport."}',
-             'value_pt' => '{"0":"Use nosso código promocional exclusivo da 1win e receba um bônus de 500% no seu depósito. É fácil obter esse bônus, que pode ser usado para apostas em qualquer esporte."}',
-             'order' => 7,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
              'order' => 8
             ],
             ['key' => '1win',
@@ -147,33 +133,29 @@ class Bookmaker1winReviewSeeder extends Seeder
                 'bookmaker_id' => 3,
                 'component' => 'table_v1',
                 'value_en' => '{"0":
-                                    {"0":"Exclusive promo code gets you 500% bonus",
-                                     "1":"Easy to claim",
-                                     "2":"Bonus can be used on any sport"},
+                                    {"0":"Easy to claim",
+                                     "1":"Bonus can be used on any sport"},
                                 "1":
                                     {"0":"Only available in certain countries",
                                      "1":"Small number of sports and markets to bet on compared to some other sportsbooks"}
                                 }',
                 'value_es' => '{"0":
-                                    {"0":"Código promocional exclusivo te da un bono del 500%",
-                                     "1":"Fácil de reclamar",
-                                     "2":"El bono se puede usar en cualquier deporte"},
+                                    {"0":"Fácil de reclamar",
+                                     "1":"El bono se puede usar en cualquier deporte"},
                                 "1":
                                     {"0":"Disponible solo en ciertos países",
                                      "1":"Menor variedad de deportes y mercados para apostar en comparación con otras casas de apuestas"}
                                 }',
                 'value_fr' => '{"0":
-                                    {"0":"Code promo exclusif : bonus de 500 %",
-                                     "1":"Facile à réclamer",
-                                     "2":"Le bonus peut être utilisé sur n\'importe quel sport"},
+                                    {"0":"Facile à réclamer",
+                                     "1":"Le bonus peut être utilisé sur n\'importe quel sport"},
                                 "1":
                                     {"0":"Disponible uniquement dans certains pays",
                                      "1":"Moins de sports et de marchés disponibles par rapport à certains autres bookmakers"}
                                 }',
                 'value_pt' => '{"0":
-                                    {"0":"Código promocional exclusivo dá um bônus de 500%",
-                                     "1":"Fácil de resgatar",
-                                     "2":"O bônus pode ser usado em qualquer esporte"},
+                                    {"0":"Fácil de resgatar",
+                                     "1":"O bônus pode ser usado em qualquer esporte"},
                                 "1":
                                     {"0":"Disponível apenas em alguns países",
                                      "1":"Menor número de esportes e mercados para apostar em comparação com outras casas de apostas"}
@@ -477,62 +459,6 @@ class Bookmaker1winReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 32
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the 1win Promo Code?"}',
-             'value_es' => '{"0":"¿Cuál es el código promocional de 1win?"}',
-             'value_fr' => '{"0":"Quel est le code promo de 1win ?"}',
-             'value_pt' => '{"0":"Qual é o código promocional da 1win?"}',
-             'order' => 32,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
-             'order' => 33
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"The 1win promo code is XLBONUS. Use it when signing up to unlock the best welcome bonus available."}',
-             'value_es' => '{"0":"El código promocional de 1win es XLBONUS. Úsalo al registrarte para desbloquear el mejor bono de bienvenida disponible."}',
-             'value_fr' => '{"0":"Le code promo 1win est XLBONUS. Utilisez-le lors de votre inscription pour débloquer le meilleur bonus de bienvenue disponible."}',
-             'value_pt' => '{"0":"O código promocional da 1win é XLBONUS. Use-o ao se cadastrar para desbloquear o melhor bônus de boas-vindas disponível."}',
-             'order' => 33,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
-             'order' => 34
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'h4',
-             'value_en' => '{"0":"What happens if I don\'t use the XLBONUS bonus code?"}',
-             'value_es' => '{"0":"¿Qué pasa si no utilizo el código de bono XLBONUS?"}',
-             'value_fr' => '{"0":"Que se passe-t-il si je n’utilise pas le code promo XLBONUS ?"}',
-             'value_pt' => '{"0":"O que acontece se eu não usar o código de bônus XLBONUS?"}',
-             'order' => 34,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
-             'order' => 35
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"You may not qualify for the special offer - but you can still benefit from the standard website bonus."}',
-             'value_es' => '{"0":"Es posible que no califiques para la oferta especial, pero aún puedes beneficiarte del bono estándar del sitio web."}',
-             'value_fr' => '{"0":"Vous pourriez ne pas être éligible à l’offre spéciale, mais vous pouvez toujours bénéficier du bonus standard proposé sur le site."}',
-             'value_pt' => '{"0":"Você pode não se qualificar para a oferta especial, mas ainda pode aproveitar o bônus padrão do site."}',
-             'order' => 35,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
              'order' => 36
             ],
             ['key' => '1win',
@@ -641,34 +567,6 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_fr' => '{"0":"Oui, il y en a une. Connectez-vous à 1win, puis vous pourrez télécharger l’application sur un appareil Android, iOS ou Windows."}',
              'value_pt' => '{"0":"Sim, existe. Faça login na 1win e então poderá baixar o aplicativo para um dispositivo Android, iOS ou Windows."}',
              'order' => 43,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
-             'order' => 44
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the best 1win bonus code and what do I get?"}',
-             'value_es' => '{"0":"¿Cuál es el mejor código de bono de 1win y qué obtengo con él?"}',
-             'value_fr' => '{"0":"Quel est le meilleur code bonus 1win et que puis-je obtenir avec ?"}',
-             'value_pt' => '{"0":"Qual é o melhor código de bônus da 1win e o que eu recebo com ele?"}',
-             'order' => 44,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '1win',
-             'order' => 45
-            ],
-            ['key' => '1win',
-             'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"Use the 1win code promo XLBONUS to get a 500% deposit bonus when you open an account."}',
-             'value_es' => '{"0":"Usa el código promocional de 1win XLBONUS para obtener un bono del 500% en tu depósito al abrir una cuenta."}',
-             'value_fr' => '{"0":"Utilisez le code promo 1win XLBONUS pour obtenir un bonus de dépôt de 500 % lors de l’ouverture de votre compte."}',
-             'value_pt' => '{"0":"Use o código promocional da 1win XLBONUS para receber um bônus de 500% no depósito ao abrir uma conta."}',
-             'order' => 45,
             ]
         );
     }

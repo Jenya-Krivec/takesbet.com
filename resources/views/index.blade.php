@@ -23,9 +23,9 @@
         </div>
         <h3 class="text-lg sm:text-2xl font-bold mt-4 text-center">@lang('index.Top 10 Betting Sites (Worldwide)')</h3>
         <div class="px-2 sm:px-10 lg:px-36 text-justify">
-            @foreach($topSites as $site)
-                <p class="text-base text-gray-700 text-justify indent-10">{{$loop->iteration}}. {{$site['name']}}</p>
-            @endforeach
+            @for($i = 0; $i < 10; $i++)
+                <p class="text-base text-gray-700 text-justify indent-10">{{$i+1}}. {{$topSites[$i]['name']}}</p>
+            @endfor
         </div>
         <div class="relative w-full sm:w-3/4 overflow-hidden my-4 mx-auto">
             <div class="slider flex">
@@ -65,46 +65,18 @@
         </div>
         <div class="relative w-full lg:w-3/4 overflow-hidden my-4 mx-auto">
             <div class="flex">
-                <a href="" target="_blank" class="box flex-col justify-between flex" style="background-color: #1A2C38">
-                    <div class="w-full h-10 bg-gray-900 flex justify-center items-center opacity-50">
-                        <img class="h-10 p-1" src="{{ asset('img/logo/stake.svg').'?v='.filemtime('img/logo/stake.svg')}}" alt="Stake logo" width="100" height="100">
-                    </div>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Bonus')</p>
-                    <p class="text-center text-white text-xs sm:text-base">$3000</p>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Promo code')</p>
-                    <p class="text-center text-white text-xs sm:text-base">NEWBONUS</p>
-                    <p class="mx-auto mb-1 h-8 w-3/4 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500">@lang('index.Join')</p>
-                </a>
-                <a href="" target="_blank" class="box flex-col justify-between flex" style="background-color: #7717ff">
-                    <div class="w-full h-10 bg-gray-900 flex justify-center items-center opacity-50">
-                        <img class="h-10 p-1" src="{{ asset('img/logo/shuffle.svg').'?v='.filemtime('img/logo/shuffle.svg')}}" alt="Shuffle logo" width="100" height="100">
-                    </div>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Deposit') @lang('index.Bonus')</p>
-                    <p class="text-center text-white text-xs sm:text-base">$1000</p>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Promo code')</p>
-                    <p class="text-center text-white text-xs sm:text-base">MAXBONUS</p>
-                    <p class="mx-auto mb-1 h-8 w-3/4 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500">@lang('index.Join')</p>
-                </a>
-                <a href="" target="_blank" class="box flex-col justify-between flex" style="background-color: #204f14">
-                    <div class="w-full h-10 bg-gray-900 flex justify-center items-center opacity-50">
-                        <img class="h-10 p-1" src="{{ asset('img/logo/888starz.svg').'?v='.filemtime('img/logo/888starz.svg')}}" alt="888starz logo" width="100" height="100">
-                    </div>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Free Bet')</p>
-                    <p class="text-center text-white text-xs sm:text-base">€130</p>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Promo code')</p>
-                    <p class="text-center text-white text-xs sm:text-base">NEWBONUS</p>
-                    <p class="mx-auto mb-1 h-8 w-3/4 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500">@lang('index.Join')</p>
-                </a>
-                <a href="" target="_blank" class="box flex-col justify-between hidden sm:flex" style="background-color: #1a674b">
-                    <div class="w-full h-10 bg-gray-900 flex justify-center items-center opacity-50">
-                        <img class="h-10 p-1" src="{{ asset('img/logo/betwinner.svg').'?v='.filemtime('img/logo/betwinner.svg')}}" alt="Betwinner logo" width="100" height="100">
-                    </div>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Bonus')</p>
-                    <p class="text-center text-white text-xs sm:text-base">$130</p>
-                    <p class="text-center text-white text-xs sm:text-base">@lang('index.Promo code')</p>
-                    <p class="text-center text-white text-xs sm:text-base">NEWBONUS</p>
-                    <p class="mx-auto mb-1 h-8 w-3/4 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500">@lang('index.Join')</p>
-                </a>
+                @for($i = 0; $i < 4; $i++)
+                    <a href="{{$bookmakers[$i]['url']}}" target="_blank" class="box flex-col justify-between flex" style="background-color: {{$bookmakers[$i]['logo_color']}}">
+                        <div class="w-full h-10 bg-gray-900 flex justify-center items-center opacity-50">
+                            <img class="h-10 p-1" src="{{ asset('img/logo/'.$bookmakers[$i]['logo']).'?v='.filemtime('img/logo/'.$bookmakers[$i]['logo'])}}" alt="{{$bookmakers[$i]['name']}} logo" width="100" height="100">
+                        </div>
+                        <p class="text-center text-white text-xs sm:text-base">@lang('index.Bonus')</p>
+                        <p class="text-center text-white text-xs sm:text-base">$130</p>
+                        <p class="text-center text-white text-xs sm:text-base">@lang('index.Promo code')</p>
+                        <p class="text-center text-white text-xs sm:text-base">{{$bookmakers[$i]['promo_code']}}</p>
+                        <p class="mx-auto mb-1 h-8 w-3/4 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500">@lang('index.Join')</p>
+                    </a>
+                @endfor
             </div>
         </div>
         <h3 class="text-lg px-0 sm:text-2xl sm:px-7 font-bold mt-4 text-center">@lang('index.Top Betting Sites')</h3>

@@ -71,20 +71,6 @@ class Bookmaker888starzReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 5
-            ],
-            ['key' => '888starz',
-             'bookmaker_id' => 8,
-             'component' => 'p',
-             'value_en' => '{"0":"New users can use the promo code NEWBONUS on the 888starz.bet website. This allows them to receive a welcome bonus of up to €130 for sports betting: 100% on the first deposit plus an extra 30% bonus with the code. Casino players can also claim a welcome package of up to €1950."}',
-             'value_es' => '{"0":"Los nuevos usuarios pueden utilizar el código promocional NEWBONUS en el sitio 888starz.bet. Este código les permite recibir un bono de bienvenida de hasta 130€ para apuestas deportivas: 100% en el primer depósito más un 30% adicional por usar el código. Los jugadores de casino también pueden acceder a un paquete de bienvenida de hasta 1950€."}',
-             'value_fr' => '{"0":"Les nouveaux utilisateurs peuvent utiliser le code promo NEWBONUS sur le site 888starz.bet. Il permet d\'obtenir un bonus de bienvenue allant jusqu\'à 130€ pour les paris sportifs : 100% sur le premier dépôt plus 30% supplémentaires avec le code. Les joueurs de casino peuvent également profiter d\'un pack de bienvenue allant jusqu\'à 1950€."}',
-             'value_pt' => '{"0":"Novos usuários podem usar o código promocional NEWBONUS no site 888starz.bet. Com ele, é possível receber um bônus de boas-vindas de até €130 para apostas esportivas: 100% no primeiro depósito mais 30% adicionais com o código. Os jogadores de cassino também têm acesso a um pacote de boas-vindas de até €1950."}',
-             'order' => 5,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '888starz',
              'order' => 6
             ],
             ['key' => '888starz',
@@ -133,37 +119,29 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'bookmaker_id' => 8,
              'component' => 'table_v1',
              'value_en' => '{"0":
-                                {"0":"Exclusive promo code",
-                                 "1":"Excellent new customer offer including 30% extra bonus when using the NEWBONUS code",
-                                 "2":"Wide range of cryptocurrencies accepted",
-                                 "3":"Unique rewards structure and token mining"},
+                                {"0":"Wide range of cryptocurrencies accepted",
+                                 "1":"Unique rewards structure and token mining"},
                              "1":
                                 {"0":"Not available in some countries",
                                  "1":"Not the most dynamic betting site"}
                              }',
              'value_es' => '{"0":
-                                {"0":"Código promocional exclusivo",
-                                 "1":"Excelente oferta para nuevos usuarios, con un 30% de bono extra al usar el código NEWBONUS",
-                                 "2":"Gran variedad de criptomonedas aceptadas",
-                                 "3":"Estructura de recompensas única y minería de tokens"},
+                                {"0":"Gran variedad de criptomonedas aceptadas",
+                                 "1":"Estructura de recompensas única y minería de tokens"},
                              "1":
                                 {"0":"No disponible en algunos países",
                                  "1":"No es el sitio de apuestas más dinámico"}
                              }',
              'value_fr' => '{"0":
-                                {"0":"Code promo exclusif",
-                                 "1":"Excellente offre pour les nouveaux clients, avec 30% de bonus supplémentaire en utilisant le code NEWBONUS",
-                                 "2":"Large choix de cryptomonnaies acceptées",
-                                 "3":"Système de récompenses unique et minage de jetons"},
+                                {"0":"Large choix de cryptomonnaies acceptées",
+                                 "1":"Système de récompenses unique et minage de jetons"},
                              "1":
                                 {"0":"Non disponible dans certains pays",
                                  "1":"Ce n’est pas le site de paris le plus dynamique"}
                              }',
              'value_pt' => '{"0":
-                                {"0":"Código promocional exclusivo",
-                                 "1":"Excelente oferta para novos usuários, com 30% de bônus extra ao usar o código NEWBONUS",
-                                 "2":"Grande variedade de criptomoedas aceitas",
-                                 "3":"Estrutura de recompensas única e mineração de tokens"},
+                                {"0":"Grande variedade de criptomoedas aceitas",
+                                 "1":"Estrutura de recompensas única e mineração de tokens"},
                              "1":
                                 {"0":"Não disponível em alguns países",
                                  "1":"Não é o site de apostas mais dinâmico"}
@@ -295,20 +273,6 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_fr' => '{"0":"Chaque partie jouée dans le casino vous rapporte des 888tokens, que vous pouvez miner. Grâce au système de récompenses unique de 888starz, 100 % des bénéfices nets de la plateforme sont redistribués aux joueurs toutes les 24 heures. Cette fonctionnalité s’applique actuellement uniquement aux jeux de casino. Les 888tokens peuvent être échangés sur les principales plateformes d’échange décentralisées (DEX) et convertis en argent réel."}',
              'value_pt' => '{"0":"Cada vez que você joga no cassino, você ganha 888tokens — tokens que podem ser minerados. Com o sistema exclusivo de recompensas da 888starz, 100% do lucro líquido da plataforma é redistribuído aos jogadores a cada 24 horas. Atualmente, essa funcionalidade está disponível apenas para apostas em cassino. Os tokens 888 podem ser trocados em exchanges descentralizadas (DEX) populares e convertidos em dinheiro."}',
              'order' => 18,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '888starz',
-             'order' => 19
-            ],
-            ['key' => '888starz',
-             'bookmaker_id' => 8,
-             'component' => 'p',
-             'value_en' => '{"0":"Additional bonuses include the Promo Code Store, where you can exchange collected points for free spins, free bets, accumulator bets, and other rewards. Cashback offers are also available for eSports betting."}',
-             'value_es' => '{"0":"Entre las promociones adicionales se encuentra la tienda de códigos promocionales (Promo Code Store), donde puedes canjear puntos por giros gratis, apuestas gratuitas, combinadas y más recompensas. También hay ofertas de reembolso disponibles para apuestas en eSports."}',
-             'value_fr' => '{"0":"Parmi les bonus supplémentaires, on trouve la boutique de codes promo (Promo Code Store), où vous pouvez échanger vos points contre des tours gratuits, des paris gratuits, des combinés et d\'autres récompenses. Des offres de cashback sont également disponibles sur les paris eSport."}',
-             'value_pt' => '{"0":"Entre as promoções adicionais está a Promo Code Store, onde você pode trocar pontos acumulados por giros grátis, apostas grátis, acumuladores e outros prêmios. Também há ofertas de cashback disponíveis para apostas em eSports."}',
-             'order' => 19,
             ]
         );
         Review::query()->updateOrCreate(
@@ -505,34 +469,6 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_fr' => '{"0":"Vous pouvez obtenir un bonus de 100% sur votre premier dépôt jusqu’à 130€ en ouvrant un compte de paris sportifs. Un bonus de 1950€ est disponible pour les nouveaux clients du casino."}',
              'value_pt' => '{"0":"Você pode receber um bônus de 100% no primeiro depósito de até 130€ ao abrir uma conta de apostas esportivas. Um bônus de 1950€ está disponível para novos clientes do cassino."}',
              'order' => 33,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '888starz',
-             'order' => 34
-            ],
-            ['key' => '888starz',
-             'bookmaker_id' => 8,
-             'component' => 'h4',
-             'value_en' => '{"0":"What is the 888starz promo code?"}',
-             'value_es' => '{"0":"¿Cuál es el código promocional de 888starz?"}',
-             'value_fr' => '{"0":"Quel est le code promo de 888starz ?"}',
-             'value_pt' => '{"0":"Qual é o código promocional da 888starz?"}',
-             'order' => 34,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => '888starz',
-             'order' => 35
-            ],
-            ['key' => '888starz',
-             'bookmaker_id' => 8,
-             'component' => 'p',
-             'value_en' => '{"0":"The promo code for 888starz is NEWBONUS. It can be used when joining the sportsbook or casino."}',
-             'value_es' => '{"0":"El código promocional de 888starz es NEWBONUS. Se puede utilizar al unirse a la casa de apuestas deportivas o al casino."}',
-             'value_fr' => '{"0":"Le code promo de 888starz est NEWBONUS. Il peut être utilisé lors de l\'inscription au site de paris sportifs ou au casino."}',
-             'value_pt' => '{"0":"O código promocional da 888starz é NEWBONUS. Ele pode ser usado ao se registrar na casa de apostas ou no cassino."}',
-             'order' => 35,
             ]
         );
     }

@@ -70,19 +70,6 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 5],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"Additionally, the bookmaker frequently runs promotions for both sports betting and online casino users. To learn more about available offers, visit the “Promo” page. Always read the terms and conditions carefully before claiming any bonus"}',
-             'value_es' => '{"0":"Además, la casa de apuestas ofrece promociones regulares tanto para apuestas deportivas como para el casino online. Para conocer todas las ofertas disponibles, visita la página de “Promociones”. No olvides leer atentamente los términos y condiciones antes de reclamar cualquier bono."}',
-             'value_fr' => '{"0":"Le bookmaker propose également des promotions régulières pour les paris sportifs et le casino en ligne. Pour découvrir toutes les offres disponibles, rendez-vous sur la page « Promotions ». N’oubliez pas de lire attentivement les conditions générales avant de réclamer un bonus."}',
-             'value_pt' => '{"0":"Além disso, a casa de apostas oferece promoções frequentes tanto para apostas esportivas quanto para o cassino online. Para saber mais sobre as ofertas disponíveis, visite a página de “Promoções”. Lembre-se sempre de ler os termos e condições com atenção antes de ativar qualquer bônus."}',
-             'order' => 5,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'betwinner',
              'order' => 6],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -299,10 +286,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
              'bookmaker_id' => 3,
              'component' => 'table_v2',
              'value_en' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Bethard",
-                                 "3":"Dafabet"},
+                                {"0":"1win",
+                                 "1":"melbet",
+                                 "2":"1win",
+                                 "3":"MelBet"},
                             "1":
                                 {"0":"Horse Racing. Newcastle R1. Price of favourite.",
                                  "1":"3.74",
@@ -317,17 +304,7 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                 {"0":"Cricket. South Africa vs India. South Africa win.",
                                  "1":"2.75",
                                  "2":"2.65",
-                                 "3":"2.70"},
-                            "4":
-                                {"0":"Formula 1. Canadian Grand Prix. Lewis Hamilton win.",
-                                 "1":"2.15",
-                                 "2":"2.25",
-                                 "3":"2.10"},
-                            "5":
-                                {"0":"Tennis. Novak Djokovic vs Alexander Zverev. Djokovic to win 3-0.",
-                                 "1":"1.96",
-                                 "2":"1.95",
-                                 "3":"1.91"}
+                                 "3":"2.70"}
                             }',
              'value_es' => '{"0":
                                 {"0":"",
@@ -348,17 +325,7 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                 {"0":"Críquet. Sudáfrica vs India. Victoria de Sudáfrica.",
                                  "1":"2.75",
                                  "2":"2.65",
-                                 "3":"2.70"},
-                            "4":
-                                {"0":"Fórmula 1. Gran Premio de Canadá. Victoria de Lewis Hamilton.",
-                                 "1":"2.15",
-                                 "2":"2.25",
-                                 "3":"2.10"},
-                            "5":
-                                {"0":"Tenis. Novak Djokovic vs Alexander Zverev. Djokovic gana 3-0.",
-                                 "1":"1.96",
-                                 "2":"1.95",
-                                 "3":"1.91"}
+                                 "3":"2.70"}
                             }',
              'value_fr' => '{"0":
                                 {"0":"",
@@ -379,17 +346,7 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                 {"0":"Cricket. Afrique du Sud vs Inde. Victoire de l\'Afrique du Sud.",
                                  "1":"2.75",
                                  "2":"2.65",
-                                 "3":"2.70"},
-                            "4":
-                                {"0":"Formule 1. Grand Prix du Canada. Victoire de Lewis Hamilton.",
-                                 "1":"2.15",
-                                 "2":"2.25",
-                                 "3":"2.10"},
-                            "5":
-                                {"0":"Tennis. Novak Djokovic vs Alexander Zverev. Djokovic gagne 3-0.",
-                                 "1":"1.96",
-                                 "2":"1.95",
-                                 "3":"1.91"}
+                                 "3":"2.70"}
                             }',
              'value_pt' => '{"0":
                                 {"0":"",
@@ -410,17 +367,7 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                 {"0":"Críquete. África do Sul vs Índia. Vitória da África do Sul.",
                                  "1":"2.75",
                                  "2":"2.65",
-                                 "3":"2.70"},
-                            "4":
-                                {"0":"Fórmula 1. Grande Prémio do Canadá. Vitória de Lewis Hamilton.",
-                                 "1":"2.15",
-                                 "2":"2.25",
-                                 "3":"2.10"},
-                            "5":
-                                {"0":"Ténis. Novak Djokovic vs Alexander Zverev. Djokovic vence por 3-0.",
-                                 "1":"1.96",
-                                 "2":"1.95",
-                                 "3":"1.91"}
+                                 "3":"2.70"}
                              }',
             'order' => 19,
             ]
@@ -718,10 +665,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"To use this feature, hover over the «Sports» section and select the «Bet Constructor» option. It allows you to create your own bets by choosing the markets you believe have the best chances of winning. While setting up your bet, you can also enter a BetWinner promo code — so don’t miss out on this opportunity."}',
-             'value_es' => '{"0":"Para utilizar esta función, pasa el cursor sobre la sección «Deportes» y selecciona la opción «Constructor de apuestas». Esta herramienta te permite crear tus propias apuestas eligiendo los mercados que consideres con mayores probabilidades de ganar. Al armar tu apuesta, también puedes ingresar un código promocional de BetWinner, así que no dejes pasar esta oportunidad."}',
-             'value_fr' => '{"0":"Pour utiliser cette fonctionnalité, survolez la section « Sports » et sélectionnez l’option « Constructeur de paris ». Elle vous permet de créer vos propres paris en choisissant les marchés que vous jugez les plus prometteurs. Lors de la création de votre pari, vous pouvez également entrer un code promo BetWinner — alors ne manquez pas cette opportunité."}',
-             'value_pt' => '{"0":"Para utilizar este recurso, passe o cursor sobre a seção «Esportes» e selecione a opção «Construtor de Apostas». Ele permite que você monte suas próprias apostas escolhendo os mercados que você acredita ter mais chances de vitória. Durante a criação da aposta, também é possível inserir um código promocional da BetWinner — por isso, vale a pena aproveitar essa oportunidade."}',
+             'value_en' => '{"0":"To use this feature, hover over the «Sports» section and select the «Bet Constructor» option. It allows you to create your own bets by choosing the markets you believe have the best chances of winning."}',
+             'value_es' => '{"0":"Para utilizar esta función, pasa el cursor sobre la sección «Deportes» y selecciona la opción «Constructor de apuestas». Esta herramienta te permite crear tus propias apuestas eligiendo los mercados que consideres con mayores probabilidades de ganar."}',
+             'value_fr' => '{"0":"Pour utiliser cette fonctionnalité, survolez la section « Sports » et sélectionnez l’option « Constructeur de paris ». Elle vous permet de créer vos propres paris en choisissant les marchés que vous jugez les plus prometteurs."}',
+             'value_pt' => '{"0":"Para utilizar este recurso, passe o cursor sobre a seção «Esportes» e selecione a opção «Construtor de Apostas». Ele permite que você monte suas próprias apostas escolhendo os mercados que você acredita ter mais chances de vitória."}',
              'order' => 42,
             ]
         );
@@ -956,66 +903,14 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 60],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'h4',
-             'value_en' => '{"0":"1. Is there a BetWinner welcome bonus?"}',
-             'value_es' => '{"0":"1. ¿Hay un bono de bienvenida en BetWinner?"}',
-             'value_fr' => '{"0":"1. Y a-t-il un bonus de bienvenue chez BetWinner ?"}',
-             'value_pt' => '{"0":"1. Existe um bônus de boas-vindas no BetWinner?"}',
-             'order' => 60,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'betwinner',
-             'order' => 61],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"Yes. To find out more about the BetWinner welcome bonus visit the «Promo» page. Don’t forget to read the terms and conditions."}',
-             'value_es' => '{"0":"Sí. Para obtener más información sobre el bono de bienvenida de BetWinner, visita la página «Promo». No olvides leer los términos y condiciones."}',
-             'value_fr' => '{"0":"Oui. Pour en savoir plus sur le bonus de bienvenue BetWinner, rendez-vous sur la page « Promo ». N\'oubliez pas de lire les termes et conditions."}',
-             'value_pt' => '{"0":"Sim. Para saber mais sobre o bônus de boas-vindas do BetWinner, visite a página «Promo». Não se esqueça de ler os termos e condições."}',
-             'order' => 61,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'betwinner',
-             'order' => 62],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'h4',
-             'value_en' => '{"0":"2. Is it possible to redeem a BetWinner promo code?"}',
-             'value_es' => '{"0":"2. ¿Es posible canjear un código promocional de BetWinner?"}',
-             'value_fr' => '{"0":"2. Est-il possible d\'utiliser un code promo BetWinner ?"}',
-             'value_pt' => '{"0":"2. É possível resgatar um código promocional do BetWinner?"}',
-             'order' => 62,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'betwinner',
-             'order' => 63],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":" Yes, you can enter your BetWinner promo codes at any time. We have an exclusive code that’s waiting for you. Visit our comprehensive promo code page to find out what it is."}',
-             'value_es' => '{"0":"Sí, puedes ingresar tus códigos promocionales de BetWinner en cualquier momento. Tenemos un código exclusivo que te está esperando. Visita nuestra página completa de códigos promocionales para descubrir cuál es."}',
-             'value_fr' => '{"0":"Oui, vous pouvez saisir vos codes promo BetWinner à tout moment. Nous avons un code exclusif qui vous attend. Consultez notre page complète des codes promo pour le découvrir."}',
-             'value_pt' => '{"0":"Sim, você pode inserir seus códigos promocionais BetWinner a qualquer momento. Temos um código exclusivo esperando por você. Visite nossa página completa de códigos promocionais para saber qual é."}',
-             'order' => 63,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'betwinner',
              'order' => 64],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'h4',
-             'value_en' => '{"0":"3. What is the minimum withdrawal I can make from my account?"}',
-             'value_es' => '{"0":"3. ¿Cuál es el retiro mínimo que puedo hacer desde mi cuenta?"}',
-             'value_fr' => '{"0":"3. Quel est le retrait minimum que je peux effectuer depuis mon compte ?"}',
-             'value_pt' => '{"0":"3. Qual é o valor mínimo de saque que posso fazer da minha conta?"}',
+             'value_en' => '{"0":"What is the minimum withdrawal I can make from my account?"}',
+             'value_es' => '{"0":"¿Cuál es el retiro mínimo que puedo hacer desde mi cuenta?"}',
+             'value_fr' => '{"0":"Quel est le retrait minimum que je peux effectuer depuis mon compte ?"}',
+             'value_pt' => '{"0":"Qual é o valor mínimo de saque que posso fazer da minha conta?"}',
              'order' => 64,
             ]
         );
@@ -1038,10 +933,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'h4',
-             'value_en' => '{"0":"4. What cryptocurrencies does BetWinner accept?"}',
-             'value_es' => '{"0":"4. ¿Qué criptomonedas acepta BetWinner?"}',
-             'value_fr' => '{"0":"4. Quelles cryptomonnaies sont acceptées par BetWinner ?"}',
-             'value_pt' => '{"0":"4. Quais criptomoedas a BetWinner aceita?"}',
+             'value_en' => '{"0":"What cryptocurrencies does BetWinner accept?"}',
+             'value_es' => '{"0":"¿Qué criptomonedas acepta BetWinner?"}',
+             'value_fr' => '{"0":"Quelles cryptomonnaies sont acceptées par BetWinner ?"}',
+             'value_pt' => '{"0":"Quais criptomoedas a BetWinner aceita?"}',
              'order' => 66,
             ]
         );

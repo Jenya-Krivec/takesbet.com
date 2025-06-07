@@ -20,10 +20,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"With the promo code NEWBONUS, users can receive an incredible welcome bonus of up to 100% plus $30 as a gift. Simply enter the promo code NEWBONUS when creating a new MelBet account to get an extra bonus on your first deposit!"}',
-             'value_es' => '{"0":"Con el código promocional NEWBONUS, los usuarios pueden obtener un increíble bono de bienvenida de hasta el 100% más $30 de regalo. Solo tienes que introducir el código NEWBONUS al crear una nueva cuenta en MelBet para recibir un bono adicional en tu primer depósito."}',
-             'value_fr' => '{"0":"Avec le code promo NEWBONUS, les utilisateurs peuvent recevoir un incroyable bonus de bienvenue allant jusqu’à 100% plus 30 $ offerts. Il suffit d’entrer le code NEWBONUS lors de la création d’un nouveau compte MelBet pour bénéficier d’un bonus supplémentaire sur votre premier dépôt !"}',
-             'value_pt' => '{"0":"Com o código promocional NEWBONUS, os usuários podem receber um incrível bônus de boas-vindas de até 100% mais $30 de presente. Basta inserir o código NEWBONUS ao criar uma nova conta na MelBet para obter um bônus extra no primeiro depósito!"}',
+             'value_en' => '{"0":"With the promo code :promocode, users can receive an incredible welcome bonus of up to 100% plus $30 as a gift. Simply enter the promo code :promocode when creating a new MelBet account to get an extra bonus on your first deposit!"}',
+             'value_es' => '{"0":"Con el código promocional :promocode, los usuarios pueden obtener un increíble bono de bienvenida de hasta el 100% más $30 de regalo. Solo tienes que introducir el código :promocode al crear una nueva cuenta en MelBet para recibir un bono adicional en tu primer depósito."}',
+             'value_fr' => '{"0":"Avec le code promo :promocode, les utilisateurs peuvent recevoir un incroyable bonus de bienvenue allant jusqu’à 100% plus 30 $ offerts. Il suffit d’entrer le code :promocode lors de la création d’un nouveau compte MelBet pour bénéficier d’un bonus supplémentaire sur votre premier dépôt !"}',
+             'value_pt' => '{"0":"Com o código promocional :promocode, os usuários podem receber um incrível bônus de boas-vindas de até 100% mais $30 de presente. Basta inserir o código :promocode ao criar uma nova conta na MelBet para obter um bônus extra no primeiro depósito!"}',
              'order' => 1,
             ]
         );
@@ -34,10 +34,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"MelBet’s standard welcome offer includes a three-tier bonus. But with our NEWBONUS code, you can enjoy an improved offer — 100% first deposit bonus plus $30 as a gift. It’s a great way to start playing with one of the top bookmakers."}',
-             'value_es' => '{"0":"La oferta estándar de bienvenida de MelBet incluye un bono en tres etapas. Pero con nuestro código NEWBONUS, puedes acceder a una promoción mejorada: 100% de bono en tu primer depósito más $30 de regalo. Es una excelente manera de comenzar a jugar con uno de los mejores operadores."}',
-             'value_fr' => '{"0":"L’offre de bienvenue standard de MelBet comprend un bonus en trois étapes. Mais avec notre code NEWBONUS, vous bénéficiez d’une offre améliorée : 100% de bonus sur le premier dépôt + 30 $ offerts. Une excellente façon de commencer à jouer avec l’un des meilleurs bookmakers."}',
-             'value_pt' => '{"0":"A oferta padrão de boas-vindas da MelBet inclui um bônus em três etapas. Mas com o nosso código NEWBONUS, você aproveita uma oferta melhorada: bônus de 100% no primeiro depósito mais $30 de presente. É uma ótima maneira de começar a apostar com uma das melhores casas do mercado."}',
+             'value_en' => '{"0":"MelBet’s standard welcome offer includes a three-tier bonus. But with our :promocode code, you can enjoy an improved offer — 100% first deposit bonus plus $30 as a gift. It’s a great way to start playing with one of the top bookmakers."}',
+             'value_es' => '{"0":"La oferta estándar de bienvenida de MelBet incluye un bono en tres etapas. Pero con nuestro código :promocode, puedes acceder a una promoción mejorada: 100% de bono en tu primer depósito más $30 de regalo. Es una excelente manera de comenzar a jugar con uno de los mejores operadores."}',
+             'value_fr' => '{"0":"L’offre de bienvenue standard de MelBet comprend un bonus en trois étapes. Mais avec notre code :promocode, vous bénéficiez d’une offre améliorée : 100% de bonus sur le premier dépôt + 30 $ offerts. Une excellente façon de commencer à jouer avec l’un des meilleurs bookmakers."}',
+             'value_pt' => '{"0":"A oferta padrão de boas-vindas da MelBet inclui um bônus em três etapas. Mas com o nosso código :promocode, você aproveita uma oferta melhorada: bônus de 100% no primeiro depósito mais $30 de presente. É uma ótima maneira de começar a apostar com uma das melhores casas do mercado."}',
              'order' => 2,
             ]
         );
@@ -90,10 +90,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"In addition, it\'s a great opportunity to take full advantage of MelBet’s welcome offer. By using the promo code NEWBONUS during registration, you’ll receive a 100% bonus on your first deposit plus $30 as a gift."}',
-             'value_es' => '{"0":"Además, es una excelente oportunidad para aprovechar al máximo la oferta de bienvenida de MelBet. Al usar el código promocional NEWBONUS durante el registro, recibirás un bono del 100% en tu primer depósito más $30 de regalo."}',
-             'value_fr' => '{"0":"De plus, c’est une excellente occasion de profiter pleinement de l’offre de bienvenue de MelBet. En utilisant le code promo NEWBONUS lors de l’inscription, vous recevrez un bonus de 100 % sur votre premier dépôt ainsi que 30 $ offerts."}',
-             'value_pt' => '{"0":"Além disso, é uma ótima chance de aproveitar ao máximo a oferta de boas-vindas da MelBet. Ao utilizar o código promocional NEWBONUS no momento do cadastro, você recebe um bônus de 100% no primeiro depósito mais $30 de presente."}',
+             'value_en' => '{"0":"In addition, it\'s a great opportunity to take full advantage of MelBet’s welcome offer. By using the promo code :promocode during registration, you’ll receive a 100% bonus on your first deposit plus $30 as a gift."}',
+             'value_es' => '{"0":"Además, es una excelente oportunidad para aprovechar al máximo la oferta de bienvenida de MelBet. Al usar el código promocional :promocode durante el registro, recibirás un bono del 100% en tu primer depósito más $30 de regalo."}',
+             'value_fr' => '{"0":"De plus, c’est une excellente occasion de profiter pleinement de l’offre de bienvenue de MelBet. En utilisant le code promo :promocode lors de l’inscription, vous recevrez un bonus de 100 % sur votre premier dépôt ainsi que 30 $ offerts."}',
+             'value_pt' => '{"0":"Além disso, é uma ótima chance de aproveitar ao máximo a oferta de boas-vindas da MelBet. Ao utilizar o código promocional :promocode no momento do cadastro, você recebe um bônus de 100% no primeiro depósito mais $30 de presente."}',
              'order' => 6,
             ]
         );
@@ -160,10 +160,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'h4',
-             'value_en' => '{"0":"Fill in the MelBet registration form with the code NEWBONUS"}',
-             'value_es' => '{"0":"Rellena el formulario de registro de MelBet con el código NEWBONUS"}',
-             'value_fr' => '{"0":"Remplissez le formulaire d’inscription MelBet avec le code NEWBONUS"}',
-             'value_pt' => '{"0":"Preencha o formulário de registro da MelBet com o código NEWBONUS"}',
+             'value_en' => '{"0":"Fill in the MelBet registration form with the code :promocode"}',
+             'value_es' => '{"0":"Rellena el formulario de registro de MelBet con el código :promocode"}',
+             'value_fr' => '{"0":"Remplissez le formulaire d’inscription MelBet avec le code :promocode"}',
+             'value_pt' => '{"0":"Preencha o formulário de registro da MelBet com o código :promocode"}',
              'order' => 11,
             ]
         );
@@ -350,10 +350,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"To get the best offer, make sure to enter the promo code NEWBONUS during registration."}',
-             'value_es' => '{"0":"Para obtener la mejor oferta, asegúrate de ingresar el código promocional NEWBONUS al registrarte."}',
-             'value_fr' => '{"0":"Pour profiter de la meilleure offre, n’oubliez pas de saisir le code promo NEWBONUS lors de votre inscription."}',
-             'value_pt' => '{"0":"Para garantir a melhor oferta, não se esqueça de inserir o código promocional NEWBONUS durante o cadastro."}',
+             'value_en' => '{"0":"To get the best offer, make sure to enter the promo code :promocode during registration."}',
+             'value_es' => '{"0":"Para obtener la mejor oferta, asegúrate de ingresar el código promocional :promocode al registrarte."}',
+             'value_fr' => '{"0":"Pour profiter de la meilleure offre, n’oubliez pas de saisir le code promo :promocode lors de votre inscription."}',
+             'value_pt' => '{"0":"Para garantir a melhor oferta, não se esqueça de inserir o código promocional :promocode durante o cadastro."}',
              'order' => 24
             ]
         );
@@ -588,10 +588,10 @@ class BookmakerMelBetPromoCodesSeeder extends Seeder
             ['key' => 'melbet',
              'bookmaker_id' => 2,
              'component' => 'p',
-             'value_en' => '{"0":"Add to this a wide range of betting markets and a large number of live events, and MelBet truly meets the expectations of even the most demanding users. So don’t hesitate — register now and use the promo code NEWBONUS for maximum benefits."}',
-             'value_es' => '{"0":"Si a esto le sumamos una amplia variedad de mercados de apuestas y una gran cantidad de eventos en vivo, MelBet realmente satisface las expectativas incluso de los usuarios más exigentes. Así que no espere más: regístrese ahora y use el código promocional NEWBONUS para obtener los máximos beneficios."}',
-             'value_fr' => '{"0":"Ajoutez à cela une large gamme de marchés de paris et un grand nombre d\'événements en direct, et MelBet répond vraiment aux attentes des utilisateurs les plus exigeants. Alors n’hésitez pas — inscrivez-vous maintenant et utilisez le code promo NEWBONUS pour bénéficier au maximum."}',
-             'value_pt' => '{"0":"Junte a isso uma ampla gama de mercados de apostas e um grande número de eventos ao vivo, e o MelBet realmente satisfaz as expectativas até dos usuários mais exigentes. Então, não hesite — registe-se agora e use o código promocional NEWBONUS para obter os máximos benefícios."}',
+             'value_en' => '{"0":"Add to this a wide range of betting markets and a large number of live events, and MelBet truly meets the expectations of even the most demanding users. So don’t hesitate — register now and use the promo code :promocode for maximum benefits."}',
+             'value_es' => '{"0":"Si a esto le sumamos una amplia variedad de mercados de apuestas y una gran cantidad de eventos en vivo, MelBet realmente satisface las expectativas incluso de los usuarios más exigentes. Así que no espere más: regístrese ahora y use el código promocional :promocode para obtener los máximos beneficios."}',
+             'value_fr' => '{"0":"Ajoutez à cela une large gamme de marchés de paris et un grand nombre d\'événements en direct, et MelBet répond vraiment aux attentes des utilisateurs les plus exigeants. Alors n’hésitez pas — inscrivez-vous maintenant et utilisez le code promo :promocode pour bénéficier au maximum."}',
+             'value_pt' => '{"0":"Junte a isso uma ampla gama de mercados de apostas e um grande número de eventos ao vivo, e o MelBet realmente satisfaz as expectativas até dos usuários mais exigentes. Então, não hesite — registe-se agora e use o código promocional :promocode para obter os máximos benefícios."}',
              'order' => 41
             ]
         );

@@ -415,20 +415,6 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 27
-            ],
-            ['key' => 'megapari',
-             'bookmaker_id' => 9,
-             'component' => 'p',
-             'value_en' => '{"0":"However, once you get used to the navigation, you can take full advantage of everything MEGAPARI has to offer. This includes using the betting exchange to find better odds, trying out the Bet Constructor feature, or participating in the “Match of the Day” promo to earn free spins in the casino."}',
-             'value_es' => '{"0":"Sin embargo, una vez que te acostumbras a la navegación, puedes aprovechar todo el potencial de MEGAPARI. Esto incluye usar el intercambio de apuestas para buscar mejores cuotas, probar la función de Bet Constructor o participar en la promoción “Partido del Día” para obtener giros gratis en el casino."}',
-             'value_fr' => '{"0":"Cependant, une fois que vous êtes à l’aise avec la navigation, vous pouvez exploiter tout le potentiel de MEGAPARI. Cela inclut l’utilisation de la bourse de paris pour obtenir de meilleures cotes, l’essai de la fonction Bet Constructor ou la participation à la promotion “Match du Jour” pour gagner des tours gratuits au casino."}',
-             'value_pt' => '{"0":"No entanto, assim que você se acostumar com a navegação, poderá tirar o máximo proveito do MEGAPARI. Isso inclui utilizar a bolsa de apostas para encontrar melhores odds, experimentar o recurso Bet Constructor ou participar da promoção “Partida do Dia” para ganhar rodadas grátis no cassino."}',
-             'order' => 27,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'megapari',
              'order' => 28
             ],
             ['key' => 'megapari',
@@ -714,10 +700,10 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'p',
-             'value_en' => '{"0":"To conclude our MEGAPARI review for 2025, here are answers to the most frequently asked questions from our readers."}',
-             'value_es' => '{"0":"Para concluir nuestra reseña de MEGAPARI de 2025, aquí están las respuestas a las preguntas más frecuentes de nuestros lectores."}',
-             'value_fr' => '{"0":"Pour conclure notre revue de MEGAPARI pour 2025, voici les réponses aux questions les plus fréquemment posées par nos lecteurs."}',
-             'value_pt' => '{"0":"Para encerrar nossa análise do MEGAPARI de 2025, aqui estão as respostas para as perguntas mais frequentes dos nossos leitores."}',
+             'value_en' => '{"0":"To conclude our MEGAPARI review, here are answers to the most frequently asked questions from our readers."}',
+             'value_es' => '{"0":"Para concluir nuestra reseña de MEGAPARI, aquí están las respuestas a las preguntas más frecuentes de nuestros lectores."}',
+             'value_fr' => '{"0":"Pour conclure notre revue de MEGAPARI, voici les réponses aux questions les plus fréquemment posées par nos lecteurs."}',
+             'value_pt' => '{"0":"Para encerrar nossa análise do MEGAPARI, aqui estão as respostas para as perguntas mais frequentes dos nossos leitores."}',
              'order' => 48,
             ]
         );
@@ -803,34 +789,6 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_fr' => '{"0":"Si vous rencontrez un problème en essayant de réclamer l’offre de bienvenue de MEGAPARI, veuillez contacter le service client de l’opérateur (les méthodes de contact sont indiquées ci-dessus)."}',
              'value_pt' => '{"0":"Se você tiver algum problema ao tentar resgatar a oferta de boas-vindas da MEGAPARI, entre em contato com o suporte ao cliente do operador (os métodos de contato estão listados acima)."}',
              'order' => 54,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'megapari',
-             'order' => 55
-            ],
-            ['key' => 'megapari',
-             'bookmaker_id' => 9,
-             'component' => 'h4',
-             'value_en' => '{"0":"Do I need a MEGAPARI sports promo code?"}',
-             'value_es' => '{"0":"¿Necesito un código promocional de deportes de MEGAPARI?"}',
-             'value_fr' => '{"0":"Ai-je besoin d’un code promo pour les paris sportifs chez MEGAPARI ?"}',
-             'value_pt' => '{"0":"Preciso de um código promocional de esportes da MEGAPARI?"}',
-             'order' => 55,
-            ]
-        );
-        Review::query()->updateOrCreate(
-            ['key' => 'megapari',
-             'order' => 56
-            ],
-            ['key' => 'megapari',
-             'bookmaker_id' => 9,
-             'component' => 'p',
-             'value_en' => '{"0":"You may find that certain sports offers ask for a promo code. As a note, there is an ‘enter promo code’ field on the sign-up form if you do have a new code to use."}',
-             'value_es' => '{"0":"Es posible que algunas promociones deportivas requieran un código promocional. Ten en cuenta que el formulario de registro incluye un campo para introducir dicho código si cuentas con uno."}',
-             'value_fr' => '{"0":"Il se peut que certaines offres sportives nécessitent un code promo. À noter : un champ « entrer un code promo » est prévu dans le formulaire d’inscription si vous en possédez un."}',
-             'value_pt' => '{"0":"Algumas promoções esportivas podem exigir um código promocional. Vale lembrar que o formulário de cadastro inclui um campo para inserir o código, caso você tenha um."}',
-             'order' => 56,
             ]
         );
         Review::query()->updateOrCreate(
