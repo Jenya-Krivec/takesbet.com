@@ -20,10 +20,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"By activating the promo code NEWBONUS, you can boost your first deposit bonus! Especially for Takesbet followers, we\'ve prepared an exclusive promo code that adds $130 to the welcome bonus offered by Betwinner."}',
-             'value_es' => '{"0":"Al activar el código promocional NEWBONUS, ¡puedes aumentar tu bono de primer depósito! Especialmente para los seguidores de Takesbet, hemos preparado un código exclusivo que añade 130$ al bono de bienvenida ofrecido por Betwinner."}',
-             'value_fr' => '{"0":"En activant le code promo NEWBONUS, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
-             'value_pt' => '{"0":"En activant le code promo NEWBONUS, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
+             'value_en' => '{"0":"By activating the promo code :promocode, you can boost your first deposit bonus! Especially for Takesbet followers, we\'ve prepared an exclusive promo code that adds $130 to the welcome bonus offered by Betwinner."}',
+             'value_es' => '{"0":"Al activar el código promocional :promocode, ¡puedes aumentar tu bono de primer depósito! Especialmente para los seguidores de Takesbet, hemos preparado un código exclusivo que añade 130$ al bono de bienvenida ofrecido por Betwinner."}',
+             'value_fr' => '{"0":"En activant le code promo :promocode, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
+             'value_pt' => '{"0":"En activant le code promo :promocode, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
              'order' => 1
             ]
         );
@@ -62,10 +62,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'h3',
-             'value_en' => '{"0":"Betwinner Promo Code: Use NEWBONUS to Claim Welcome Bonus"}',
-             'value_es' => '{"0":"Código promocional de Betwinner: Usa NEWBONUS para obtener el bono de bienvenida"}',
-             'value_fr' => '{"0":"Code promo Betwinner : Utilisez NEWBONUS pour recevoir le bonus de bienvenue"}',
-             'value_pt' => '{"0":"Código promocional Betwinner: Use NEWBONUS para receber o bônus de boas-vindas"}',
+             'value_en' => '{"0":"Betwinner Promo Code: Use :promocode to Claim Welcome Bonus"}',
+             'value_es' => '{"0":"Código promocional de Betwinner: Usa :promocode para obtener el bono de bienvenida"}',
+             'value_fr' => '{"0":"Code promo Betwinner : Utilisez :promocode pour recevoir le bonus de bienvenue"}',
+             'value_pt' => '{"0":"Código promocional Betwinner: Use :promocode para receber o bônus de boas-vindas"}',
              'order' => 4
             ]
         );
@@ -90,10 +90,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Use the promo code NEWBONUS to get the best bonuses for players, including sports betting and casino offers! Simply fill out the registration form and unlock top promotions. The perfect way to start with Betwinner is to register using the NEWBONUS promo code."}',
-             'value_es' => '{"0":"Utiliza el código promocional NEWBONUS para obtener los mejores bonos para jugadores, incluidas ofertas en apuestas deportivas y casino. Solo tienes que completar el formulario de registro y acceder a las mejores promociones. La forma ideal de comenzar en Betwinner es registrarte con el código NEWBONUS."}',
-             'value_fr' => '{"0":"Utilisez le code promo NEWBONUS pour obtenir les meilleurs bonus pour les joueurs, y compris sur les paris sportifs et les jeux de casino ! Il suffit de remplir le formulaire d\'inscription pour profiter des meilleures offres. Le meilleur moyen de débuter sur Betwinner, c’est de s’inscrire avec le code NEWBONUS."}',
-             'value_pt' => '{"0":"Use o código promocional NEWBONUS para garantir os melhores bônus para jogadores, incluindo apostas esportivas e ofertas de cassino! Basta preencher o formulário de registro e aproveitar as melhores promoções. A melhor forma de começar na Betwinner é se registrar com o código NEWBONUS"}',
+             'value_en' => '{"0":"Use the promo code :promocode to get the best bonuses for players, including sports betting and casino offers! Simply fill out the registration form and unlock top promotions. The perfect way to start with Betwinner is to register using the :promocode promo code."}',
+             'value_es' => '{"0":"Utiliza el código promocional :promocode para obtener los mejores bonos para jugadores, incluidas ofertas en apuestas deportivas y casino. Solo tienes que completar el formulario de registro y acceder a las mejores promociones. La forma ideal de comenzar en Betwinner es registrarte con el código :promocode."}',
+             'value_fr' => '{"0":"Utilisez le code promo :promocode pour obtenir les meilleurs bonus pour les joueurs, y compris sur les paris sportifs et les jeux de casino ! Il suffit de remplir le formulaire d\'inscription pour profiter des meilleures offres. Le meilleur moyen de débuter sur Betwinner, c’est de s’inscrire avec le code :promocode."}',
+             'value_pt' => '{"0":"Use o código promocional :promocode para garantir os melhores bônus para jogadores, incluindo apostas esportivas e ofertas de cassino! Basta preencher o formulário de registro e aproveitar as melhores promoções. A melhor forma de começar na Betwinner é se registrar com o código :promocode"}',
              'order' => 6
             ]
         );
@@ -118,10 +118,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Use the exclusive NEWBONUS promo code from Takesbet and receive a $130 welcome bonus on your first deposit! This is your chance to more than double your balance even before placing your first bet — don’t miss it."}',
-             'value_es' => '{"0":"¡Utiliza el código promocional exclusivo NEWBONUS de Takesbet y recibe un bono de bienvenida de 130$ en tu primer depósito! Es tu oportunidad de más que duplicar tu saldo incluso antes de realizar tu primera apuesta — ¡no la dejes pasar!"}',
-             'value_fr' => '{"0":"Utilisez le code promo exclusif NEWBONUS de Takesbet et recevez un bonus de bienvenue de 130$ sur votre premier dépôt ! C’est l’occasion de plus que doubler votre solde avant même de placer votre premier pari — ne la manquez pas."}',
-             'value_pt' => '{"0":"Use o código promocional exclusivo NEWBONUS da Takesbet e receba um bônus de boas-vindas de 130$ no seu primeiro depósito! Esta é a sua chance de mais que dobrar o saldo antes mesmo de fazer a primeira aposta — não perca!"}',
+             'value_en' => '{"0":"Use the exclusive :promocode promo code from Takesbet and receive a $130 welcome bonus on your first deposit! This is your chance to more than double your balance even before placing your first bet — don’t miss it."}',
+             'value_es' => '{"0":"¡Utiliza el código promocional exclusivo :promocode de Takesbet y recibe un bono de bienvenida de 130$ en tu primer depósito! Es tu oportunidad de más que duplicar tu saldo incluso antes de realizar tu primera apuesta — ¡no la dejes pasar!"}',
+             'value_fr' => '{"0":"Utilisez le code promo exclusif :promocode de Takesbet et recevez un bonus de bienvenue de 130$ sur votre premier dépôt ! C’est l’occasion de plus que doubler votre solde avant même de placer votre premier pari — ne la manquez pas."}',
+             'value_pt' => '{"0":"Use o código promocional exclusivo :promocode da Takesbet e receba um bônus de boas-vindas de 130$ no seu primeiro depósito! Esta é a sua chance de mais que dobrar o saldo antes mesmo de fazer a primeira aposta — não perca!"}',
              'order' => 8
             ]
         );
@@ -216,10 +216,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media, or using the one-click option. This is also where you can enter the promo code NEWBONUS to claim an enhanced welcome bonus."}',
-             'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales o mediante la opción de un solo clic. En este paso también puedes introducir el código promocional NEWBONUS para obtener un bono de bienvenida mejorado."}',
-             'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux ou via l’option en un clic. C’est également à ce stade que vous pouvez entrer le code promo NEWBONUS pour bénéficier d’un bonus de bienvenue amélioré."}',
-             'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais ou usando a opção de um clique. É também neste momento que você pode inserir o código promocional NEWBONUS para garantir um bônus de boas-vindas ampliado."}',
+             'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media, or using the one-click option. This is also where you can enter the promo code :promocode to claim an enhanced welcome bonus."}',
+             'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales o mediante la opción de un solo clic. En este paso también puedes introducir el código promocional :promocode para obtener un bono de bienvenida mejorado."}',
+             'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux ou via l’option en un clic. C’est également à ce stade que vous pouvez entrer le code promo :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
+             'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais ou usando a opção de um clique. É também neste momento que você pode inserir o código promocional :promocode para garantir um bônus de boas-vindas ampliado."}',
              'order' => 15
             ]
         );
@@ -370,10 +370,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"First and foremost is the welcome bonus. With the promo code NEWBONUS, new users can claim a 100% bonus. And that\'s just the beginning — once registered, you’ll get access to over 30 ongoing promotions, including accumulator bonuses, cashback offers, and 0-0 score insurance."}',
-             'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional NEWBONUS, los nuevos usuarios pueden recibir un bono del 100%. Y eso es solo el comienzo: una vez registrado, tendrás acceso a más de 30 promociones activas, que incluyen bonos para apuestas combinadas, reembolsos y seguros para apuestas con resultado 0-0."}',
-             'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Grâce au code promo NEWBONUS, les nouveaux utilisateurs peuvent recevoir un bonus de 100 %. Et ce n’est que le début : une fois inscrit, vous aurez accès à plus de 30 promotions actives, allant des bonus sur les paris combinés aux offres de cashback et à l’assurance sur les scores de 0-0."}',
-             'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional NEWBONUS, novos usuários podem receber um bônus de 100%. E isso é só o começo — ao se registrar, você terá acesso a mais de 30 promoções ativas, incluindo bônus em apostas acumuladas, ofertas de cashback e seguro para apostas com placar de 0-0."}',
+             'value_en' => '{"0":"First and foremost is the welcome bonus. With the promo code :promocode, new users can claim a 100% bonus. And that\'s just the beginning — once registered, you’ll get access to over 30 ongoing promotions, including accumulator bonuses, cashback offers, and 0-0 score insurance."}',
+             'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional :promocode, los nuevos usuarios pueden recibir un bono del 100%. Y eso es solo el comienzo: una vez registrado, tendrás acceso a más de 30 promociones activas, que incluyen bonos para apuestas combinadas, reembolsos y seguros para apuestas con resultado 0-0."}',
+             'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Grâce au code promo :promocode, les nouveaux utilisateurs peuvent recevoir un bonus de 100 %. Et ce n’est que le début : une fois inscrit, vous aurez accès à plus de 30 promotions actives, allant des bonus sur les paris combinés aux offres de cashback et à l’assurance sur les scores de 0-0."}',
+             'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional :promocode, novos usuários podem receber um bônus de 100%. E isso é só o começo — ao se registrar, você terá acesso a mais de 30 promoções ativas, incluindo bônus em apostas acumuladas, ofertas de cashback e seguro para apostas com placar de 0-0."}',
              'order' => 26
             ]
         );
@@ -440,10 +440,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"The promo code NEWBONUS is valid for both sports betting and casino offers. It grants access to an enhanced casino bonus."}',
-             'value_es' => '{"0":"El código promocional NEWBONUS es válido tanto para apuestas deportivas como para ofertas de casino. Proporciona acceso a un bono de casino mejorado."}',
-             'value_fr' => '{"0":"Le code promotionnel NEWBONUS est valable à la fois pour les paris sportifs et les offres de casino. Il donne accès à un bonus de casino amélioré."}',
-             'value_pt' => '{"0":"O código promocional NEWBONUS é válido tanto para apostas esportivas quanto para ofertas de cassino. Ele concede acesso a um bônus de cassino aprimorado."}',
+             'value_en' => '{"0":"The promo code :promocode is valid for both sports betting and casino offers. It grants access to an enhanced casino bonus."}',
+             'value_es' => '{"0":"El código promocional :promocode es válido tanto para apuestas deportivas como para ofertas de casino. Proporciona acceso a un bono de casino mejorado."}',
+             'value_fr' => '{"0":"Le code promotionnel :promocode est valable à la fois pour les paris sportifs et les offres de casino. Il donne accès à un bonus de casino amélioré."}',
+             'value_pt' => '{"0":"O código promocional :promocode é válido tanto para apostas esportivas quanto para ofertas de cassino. Ele concede acesso a um bônus de cassino aprimorado."}',
              'order' => 31
             ]
         );
