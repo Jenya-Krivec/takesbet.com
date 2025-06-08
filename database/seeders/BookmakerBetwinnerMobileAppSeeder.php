@@ -557,19 +557,5 @@ class BookmakerBetwinnerMobileAppSeeder extends Seeder
              'order' => 34
             ]
         );
-        MobileApp::query()->updateOrCreate(
-            ['key' => 'betwinner',
-             'order' => 0
-            ],
-            ['key' => 'betwinner',
-             'bookmaker_id' => 3,
-             'component' => 'h3',
-             'value_en' => '{"0":""}',
-             'value_es' => '{"0":""}',
-             'value_fr' => '{"0":""}',
-             'value_pt' => '{"0":""}',
-             'order' => 0
-            ]
-        );
     }
 }

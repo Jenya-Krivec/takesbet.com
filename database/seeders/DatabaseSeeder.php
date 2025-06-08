@@ -48,6 +48,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker1winSportSeeder::class,
                 Bookmaker1winSupportSeeder::class,
                 Bookmaker1winReviewSeeder::class,
+                Bookmaker1winPromoCodesSeeder::class,
                 BookmakerMOSTBETCurrencySeeder::class,
                 BookmakerMOSTBETPaymentSeeder::class,
                 BookmakerMOSTBETSportSeeder::class,
