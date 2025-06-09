@@ -56,6 +56,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerMOSTBETSportSeeder::class,
                 BookmakerMOSTBETSupportSeeder::class,
                 BookmakerMOSTBETReviewSeeder::class,
+                BookmakerMOSTBETPromoCodesSeeder::class,
                 BookmakerPARIPESACurrencySeeder::class,
                 BookmakerPARIPESAPaymentSeeder::class,
                 BookmakerPARIPESASportSeeder::class,
