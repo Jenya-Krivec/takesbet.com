@@ -50,6 +50,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker1winSupportSeeder::class,
                 Bookmaker1winReviewSeeder::class,
                 Bookmaker1winPromoCodesSeeder::class,
+                Bookmaker1winMobileAppSeeder::class,
                 BookmakerMOSTBETCurrencySeeder::class,
                 BookmakerMOSTBETPaymentSeeder::class,
                 BookmakerMOSTBETSportSeeder::class,

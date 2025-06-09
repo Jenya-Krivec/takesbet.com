@@ -482,10 +482,10 @@ class Bookmaker1XBETMobileAppSeeder extends Seeder
             ['key' => '1xbet',
              'bookmaker_id' => 1,
              'component' => 'p',
-             'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit. Once your account is verified, choose a convenient deposit method on 1XBET, make your first deposit, and claim your bonus using the promo code NEWBONUS."}',
-             'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito. Una vez verificada tu cuenta, elige el método de pago que prefieras en 1XBET, realiza tu primer depósito y aprovecha el bono con el código promocional NEWBONUS."}',
-             'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt. Une fois votre compte vérifié, choisissez une méthode de dépôt pratique sur 1XBET, effectuez votre premier dépôt et profitez du bonus avec le code promo NEWBONUS."}',
-             'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito. Após a verificação, escolha uma forma de pagamento conveniente na 1XBET, faça seu primeiro depósito e aproveite o bônus com o código promocional NEWBONUS."}',
+             'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit."}',
+             'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito."}',
+             'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt."}',
+             'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito."}',
              'order' => 34
             ]
         );
