@@ -64,6 +64,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerPARIPESASupportSeeder::class,
                 BookmakerPARIPESAReviewSeeder::class,
                 BookmakerPARIPESAPromoCodesSeeder::class,
+                BookmakerPARIPESAMobileAppSeeder::class,
                 Bookmaker888starzCurrencySeeder::class,
                 Bookmaker888starzPaymentSeeder::class,
                 Bookmaker888starzSportSeeder::class,
