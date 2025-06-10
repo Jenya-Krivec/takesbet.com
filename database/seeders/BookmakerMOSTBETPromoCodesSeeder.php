@@ -192,7 +192,7 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"Rellena el formulario de registro"}',
                 'value_fr' => '{"0":"Remplissez le formulaire d\'inscription"}',
                 'value_pt' => '{"0":"Preencha o formulário de registro"}',
-             'order' => 14
+             'order' => 13
             ]
         );
         PromoCode::query()->updateOrCreate(
