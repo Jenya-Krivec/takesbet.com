@@ -71,6 +71,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker888starzSupportSeeder::class,
                 Bookmaker888starzRestrictionSeeder::class,
                 Bookmaker888starzReviewSeeder::class,
+                Bookmaker888starzPromoCodesSeeder::class,
                 BookmakerMEGAPARICurrencySeeder::class,
                 BookmakerMEGAPARIPaymentSeeder::class,
                 BookmakerMEGAPARIRestrictionSeeder::class,

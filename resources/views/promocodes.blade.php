@@ -9,9 +9,9 @@
 @section('content')
     <main class="pt-20">
         <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
-            <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('promocode.Review', ['bookmaker' => $bookmaker['name']])}}</a>
+            <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('promocode.Review', ['bookmaker' => ''])}}</a>
             <div class="flex-col flex justify-center items-center py-1 px-4 mt-1">
-                <p>{{trans('promocode.Promo Codes & Bonus', ['bookmaker' => $bookmaker['name']])}}</p>
+                <p>{{trans('promocode.Promo Codes & Bonus', ['bookmaker' => ''])}}</p>
                 <span class="w-full h-1 bg-blue-700"></span>
             </div>
             <a href="{{route('mobileapp', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">@lang('promocode.Mobile App')</a>
@@ -85,7 +85,9 @@
                     </div>
                 </div>
             </div>
-            <p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+            @if($bookmaker['warning_'.app()->getLocale()])
+                <p class="text-xs text-gray-700 text-justify px-2">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</p>
+            @endif
         </div>
     </main>
     <script defer type="text/javascript" src="{{ asset('js/promo/rate.js').'?v='.filemtime('js/promo/rate.js') }}"></script>
