@@ -80,6 +80,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerMEGAPARISupportSeeder::class,
                 BookmakerMEGAPARIReviewSeeder::class,
                 BookmakerMEGAPARIPromoCodesSeeder::class,
+                BookmakerMEGAPARIMobileAppSeeder::class,
                 Bookmaker4rabetCurrencySeeder::class,
                 Bookmaker4rabetPaymentSeeder::class,
                 Bookmaker4rabetSportSeeder::class,
