@@ -305,7 +305,7 @@ class BookmakerSeeder extends Seeder
                 'warning_fr' => "Réservé aux 18 ans et plus. Conditions générales applicables.",
                 'warning_pt' => 'Apenas para maiores de 18 anos. Aplicam-se termos e condições.',
                 'licensed' => 'UK Gambling Commission, Curacao',
-                'streaming' => 0,
+                'streaming' => 1,
                 'tested' => 1,
                 'email' => 'support-en@22bet.com',
                 'phone' => '+357 99 816806',
