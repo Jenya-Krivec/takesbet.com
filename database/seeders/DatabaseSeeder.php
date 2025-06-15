@@ -95,6 +95,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker22BETSupportSeeder::class,
                 Bookmaker22BETReviewSeeder::class,
                 Bookmaker22BETPromoCodesSeeder::class,
+                Bookmaker22BETMobileAppSeeder::class,
             ]
         );
     }
