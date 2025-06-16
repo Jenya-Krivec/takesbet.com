@@ -335,7 +335,7 @@ class BookmakerSeeder extends Seeder
                 'warning_fr' => "18+. Termes et conditions s'appliquent.",
                 'warning_pt' => '18+. Aplicam-se termos e condições.',
                 'licensed' => 'Curacao',
-                'streaming' => 0,
+                'streaming' => 1,
                 'tested' => 1,
                 'email' => 'support-in@linebet.com',
                 'phone' => '+44 20 4577 0803',
