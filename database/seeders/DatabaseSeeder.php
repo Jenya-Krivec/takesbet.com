@@ -101,6 +101,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerLinebetSportSeeder::class,
                 BookmakerLinebetSupportSeeder::class,
                 BookmakerLinebetReviewSeeder::class,
+                BookmakerLinebetPromoCodesSeeder::class,
             ]
         );
     }
