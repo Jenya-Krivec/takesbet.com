@@ -109,6 +109,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker20BETSupportSeeder::class,
                 Bookmaker20BETReviewSeeder::class,
                 Bookmaker20BETPromoCodesSeeder::class,
+                Bookmaker20BETMobileAppSeeder::class,
             ]
         );
     }
