@@ -273,9 +273,9 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
              'bookmaker_id' => 12,
              'component' => 'p',
                 'value_en' => '{"0":"Unfortunately, if you have already made a deposit on 20BET, you will not be eligible for this welcome bonus. However, the platform still offers many other attractive promotions for existing users, including appealing reload bonuses such as «SECRET BONUS»."}',
-                'value_es' => '{"0":"Lamentablemente, si ya has realizado un depósito en 20BET, no podrás obtener este bono de bienvenida. Sin embargo, la plataforma sigue ofreciendo muchas otras promociones atractivas para usuarios existentes, incluyendo bonos de recarga como «SECRET BONUS»."}',
-                'value_fr' => '{"0":"Malheureusement, si vous avez déjà effectué un dépôt sur 20BET, vous ne pourrez pas bénéficier de ce bonus de bienvenue. Toutefois, la plateforme propose encore de nombreuses autres promotions intéressantes pour les utilisateurs existants, telles que les bonus de rechargement « SECRET BONUS »."}',
-                'value_pt' => '{"0":"Infelizmente, se você já fez um depósito na 20BET, não poderá receber este bônus de boas-vindas. No entanto, a plataforma ainda oferece muitas outras promoções atraentes para usuários existentes, incluindo bônus de recarga como «SECRET BONUS»."}',
+                'value_es' => '{"0":"Lamentablemente, si ya has realizado un depósito en 20BET, no podrás obtener este bono de bienvenida. Sin embargo, la plataforma sigue ofreciendo muchas otras promociones atractivas para usuarios existentes, incluyendo bonos de recarga como «Bono Secreto»."}',
+                'value_fr' => '{"0":"Malheureusement, si vous avez déjà effectué un dépôt sur 20BET, vous ne pourrez pas bénéficier de ce bonus de bienvenue. Toutefois, la plateforme propose encore de nombreuses autres promotions intéressantes pour les utilisateurs existants, telles que les bonus de rechargement « Bonus Secret »."}',
+                'value_pt' => '{"0":"Infelizmente, se você já fez um depósito na 20BET, não poderá receber este bônus de boas-vindas. No entanto, a plataforma ainda oferece muitas outras promoções atraentes para usuários existentes, incluindo bônus de recarga como «Bónus Secreto»."}',
              'order' => 19
             ]
         );
@@ -315,9 +315,9 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
              'bookmaker_id' => 12,
              'component' => 'h3',
              'value_en' => '{"0":"Forecasts"}',
-             'value_es' => '{"0":""}',
-             'value_fr' => '{"0":""}',
-             'value_pt' => '{"0":""}',
+             'value_es' => '{"0":"Pronósticos"}',
+             'value_fr' => '{"0":"Pronostics"}',
+             'value_pt' => '{"0":"Previsões"}',
              'order' => 22
             ]
         );
@@ -330,7 +330,7 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
              'component' => 'p',
              'value_en' => '{"0":"One of the most rewarding bonus offers on this site is the «Forecasts» promotion. This offer is designed for sports betting and is part of the VIP program for active players. With Forecasts, you can receive free bets worth up to €1000 simply by correctly predicting the outcomes of selected sports events."}',
              'value_es' => '{"0":"Una de las promociones más atractivas del sitio es la oferta «Pronósticos». Está destinada a las apuestas deportivas y forma parte del programa VIP para jugadores activos. Con Pronósticos, puedes ganar apuestas gratuitas por un valor de hasta €1000 simplemente acertando los resultados de eventos deportivos seleccionados."}',
-             'value_fr' => '{"0":"L\'une des offres les plus intéressantes sur ce site est la promotion « Prédictions ». Elle est destinée aux paris sportifs et fait partie du programme VIP pour les joueurs actifs. Grâce à cette offre, vous pouvez recevoir des paris gratuits allant jusqu\'à 1000 € en devinant correctement les résultats d’événements sportifs sélectionnés."}',
+             'value_fr' => '{"0":"L\'une des offres les plus intéressantes sur ce site est la promotion « Pronostics ». Elle est destinée aux paris sportifs et fait partie du programme VIP pour les joueurs actifs. Grâce à cette offre, vous pouvez recevoir des paris gratuits allant jusqu\'à 1000 € en devinant correctement les résultats d’événements sportifs sélectionnés."}',
              'value_pt' => '{"0":"Uma das promoções mais vantajosas do site é a campanha «Previsões». Esta oferta é destinada a apostas esportivas e faz parte do programa VIP para jogadores ativos. Com o Previsões, você pode ganhar apostas grátis de até €1000 simplesmente prevendo corretamente os resultados de eventos esportivos selecionados."}',
              'order' => 23
             ]
@@ -371,9 +371,9 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
              'bookmaker_id' => 12,
              'component' => 'h3',
              'value_en' => '{"0":"Saturday reload bonus"}',
-             'value_es' => '{"0":""}',
-             'value_fr' => '{"0":""}',
-             'value_pt' => '{"0":""}',
+             'value_es' => '{"0":"Bono de recarga del sábado"}',
+             'value_fr' => '{"0":"Bonus de dépôt du samedi"}',
+             'value_pt' => '{"0":"Bónus de recarga ao sábado"}',
              'order' => 26
             ]
         );
@@ -441,9 +441,9 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
              'bookmaker_id' => 12,
              'component' => 'h3',
              'value_en' => '{"0":"Casino VIP Program"}',
-             'value_es' => '{"0":""}',
-             'value_fr' => '{"0":""}',
-             'value_pt' => '{"0":""}',
+             'value_es' => '{"0":"Programa Vip De 20BET"}',
+             'value_fr' => '{"0":"Programme Vip De 20BET"}',
+             'value_pt' => '{"0":"Programa Vip Da 20BET"}',
              'order' => 31
             ]
         );
