@@ -115,6 +115,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerBETANDYOUSportSeeder::class,
                 BookmakerBETANDYOUSupportSeeder::class,
                 BookmakerBETANDYOUReviewSeeder::class,
+                BookmakerBETANDYOUPromoCodesSeeder::class,
             ]
         );
     }
