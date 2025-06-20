@@ -123,6 +123,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerivibetSupportSeeder::class,
                 BookmakerivibetReviewSeeder::class,
                 BookmakerivibetPromoCodesSeeder::class,
+                BookmakerivibetMobileAppSeeder::class,
             ]
         );
     }
