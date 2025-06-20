@@ -124,6 +124,12 @@ class DatabaseSeeder extends Seeder
                 BookmakerivibetReviewSeeder::class,
                 BookmakerivibetPromoCodesSeeder::class,
                 BookmakerivibetMobileAppSeeder::class,
+                Bookmaker1xBitCurrencySeeder::class,
+                Bookmaker1xBitPaymentSeeder::class,
+                Bookmaker1xBitSportSeeder::class,
+                Bookmaker1xBitRestrictionSeeder::class,
+                Bookmaker1xBitSupportSeeder::class,
+                Bookmaker1xBitReviewSeeder::class,
             ]
         );
     }

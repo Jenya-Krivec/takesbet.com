@@ -455,7 +455,7 @@ class BookmakerSeeder extends Seeder
                 'warning_fr' => "Réservé aux 18 ans et plus. Dépôt minimum de 5 mBTC. Conditions de mise de 40x. Termes et conditions s’appliquent.",
                 'warning_pt' => 'Apenas para maiores de 18 anos. Depósito mínimo de 5 mBTC. Requisitos de aposta de 40x aplicam-se. Termos e Condições aplicáveis.',
                 'licensed' => 'Curacao',
-                'streaming' => 0,
+                'streaming' => 1,
                 'tested' => 1,
                 'email' => 'support-en@1x-bit.com',
                 'phone' => '',
