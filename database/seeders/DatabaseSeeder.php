@@ -122,6 +122,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerivibetSportSeeder::class,
                 BookmakerivibetSupportSeeder::class,
                 BookmakerivibetReviewSeeder::class,
+                BookmakerivibetPromoCodesSeeder::class,
             ]
         );
     }
