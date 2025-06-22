@@ -117,7 +117,7 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 5
+             'order' => 6
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -126,12 +126,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
              'value_es' => '{"0":"Por lo tanto, para usar la aplicación, debes descargar el instalador APK de MelBet en tu smartphone o tablet. La descarga se realiza desde el sitio oficial de MelBet, donde hay un enlace directo en la sección móvil."}',
              'value_fr' => '{"0":"Ainsi, pour utiliser l’application, vous devez télécharger le fichier APK de MelBet sur votre smartphone ou tablette. Le téléchargement se fait depuis le site officiel de MelBet, où un lien direct est disponible dans la section mobile."}',
              'value_pt' => '{"0":"Portanto, para usar o aplicativo, é necessário baixar o instalador APK da MelBet no seu smartphone ou tablet. O download é feito a partir do site oficial da MelBet, onde há um link direto na seção móvel."}',
-             'order' => 5
+             'order' => 6
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 6
+             'order' => 7
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -140,12 +140,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"¿Cómo instalar la aplicación de MelBet en Android?"}',
                 'value_fr' => '{"0":"Comment installer l\'application MelBet sur Android ?"}',
                 'value_pt' => '{"0":"Como instalar o aplicativo da MelBet no Android?"}',
-             'order' => 6
+             'order' => 7
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 7
+             'order' => 8
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -154,12 +154,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Sigue el enlace"}',
                 'value_fr' => '{"0":"Suivez le lien"}',
                 'value_pt' => '{"0":"Siga o link"}',
-             'order' => 7
+             'order' => 8
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 8
+             'order' => 9
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -168,12 +168,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"El primer paso es simplemente seguir el enlace al sitio de apuestas de MelBet. Una vez en la página principal, podrás crear una cuenta, aprovechar un generoso bono de bienvenida y acceder a algunas de las cuotas más competitivas del mercado."}',
                 'value_fr' => '{"0":"La première étape consiste simplement à suivre le lien vers le site de paris de MelBet. Une fois sur la page d\'accueil, vous pourrez créer un compte, profiter d\'un généreux bonus de bienvenue et accéder à certaines des cotes les plus avantageuses du marché."}',
                 'value_pt' => '{"0":"O primeiro passo é simplesmente seguir o link para o site de apostas da MelBet. Ao acessar a página inicial, você poderá criar uma conta, aproveitar um generoso bônus de boas-vindas e ter acesso a algumas das melhores odds do mercado."}',
-             'order' => 8
+             'order' => 9
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 11
+             'order' => 10
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -182,6 +182,20 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
              'value_es' => '{"0":"Descarga el archivo APK"}',
              'value_fr' => '{"0":"Téléchargez le fichier APK"}',
              'value_pt' => '{"0":"Baixe o arquivo APK"}',
+             'order' => 10
+            ]
+        );
+        MobileApp::query()->updateOrCreate(
+            ['key' => 'melbet',
+             'order' => 11
+            ],
+            ['key' => 'melbet',
+             'bookmaker_id' => 2,
+             'component' => 'p',
+             'value_en' => '{"0":"At the top of the MelBet mobile app review page, we’ve placed a link where you can quickly find the APK file to download to your mobile device. Just click the «Download» button."}',
+             'value_es' => '{"0":"En la parte superior de la página de revisión de la aplicación móvil de MelBet, hemos colocado un enlace donde puedes encontrar rápidamente el archivo APK para descargarlo en tu dispositivo móvil. Solo haz clic en el botón «Descargar»."}',
+             'value_fr' => '{"0":"En haut de la page de présentation de l’application mobile MelBet, nous avons placé un lien permettant de trouver rapidement le fichier APK à télécharger sur votre appareil mobile. Il vous suffit de cliquer sur le bouton « Télécharger »."}',
+             'value_pt' => '{"0":"No topo da página de análise do aplicativo móvel da MelBet, colocamos um link onde você pode encontrar rapidamente o arquivo APK para baixar no seu dispositivo móvel. Basta clicar no botão «Baixar»."}',
              'order' => 11
             ]
         );
@@ -191,11 +205,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"At the top of the MelBet mobile app review page, we’ve placed a link where you can quickly find the APK file to download to your mobile device. Just click the «Download» button."}',
-             'value_es' => '{"0":"En la parte superior de la página de revisión de la aplicación móvil de MelBet, hemos colocado un enlace donde puedes encontrar rápidamente el archivo APK para descargarlo en tu dispositivo móvil. Solo haz clic en el botón «Descargar»."}',
-             'value_fr' => '{"0":"En haut de la page de présentation de l’application mobile MelBet, nous avons placé un lien permettant de trouver rapidement le fichier APK à télécharger sur votre appareil mobile. Il vous suffit de cliquer sur le bouton « Télécharger »."}',
-             'value_pt' => '{"0":"No topo da página de análise do aplicativo móvel da MelBet, colocamos um link onde você pode encontrar rapidamente o arquivo APK para baixar no seu dispositivo móvel. Basta clicar no botão «Baixar»."}',
+             'component' => 'h4',
+             'value_en' => '{"0":"Set up your mobile device"}',
+             'value_es' => '{"0":"Configura tu dispositivo móvil"}',
+             'value_fr' => '{"0":"Configurez votre appareil mobile"}',
+             'value_pt' => '{"0":"Configure seu dispositivo móvel"}',
              'order' => 12
             ]
         );
@@ -205,11 +219,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-             'value_en' => '{"0":"Set up your mobile device"}',
-             'value_es' => '{"0":"Configura tu dispositivo móvil"}',
-             'value_fr' => '{"0":"Configurez votre appareil mobile"}',
-             'value_pt' => '{"0":"Configure seu dispositivo móvel"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Open the «Settings» section, go to the «Security» menu, and check the box next to «Allow installation from unknown sources». Save the changes."}',
+             'value_es' => '{"0":"Abre la sección «Configuración», ve al menú «Seguridad» y marca la casilla junto a «Permitir instalación de fuentes desconocidas». Guarda los cambios."}',
+             'value_fr' => '{"0":"Ouvrez la section « Paramètres », allez dans le menu « Sécurité » et cochez la case « Autoriser l’installation de sources inconnues ». Enregistrez les modifications."}',
+             'value_pt' => '{"0":"Abra a seção «Configurações», vá ao menu «Segurança» e marque a opção «Permitir instalação de fontes desconhecidas». Salve as alterações."}',
              'order' => 13
             ]
         );
@@ -219,11 +233,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"Open the «Settings» section, go to the «Security» menu, and check the box next to «Allow installation from unknown sources». Save the changes."}',
-             'value_es' => '{"0":"Abre la sección «Configuración», ve al menú «Seguridad» y marca la casilla junto a «Permitir instalación de fuentes desconocidas». Guarda los cambios."}',
-             'value_fr' => '{"0":"Ouvrez la section « Paramètres », allez dans le menu « Sécurité » et cochez la case « Autoriser l’installation de sources inconnues ». Enregistrez les modifications."}',
-             'value_pt' => '{"0":"Abra a seção «Configurações», vá ao menu «Segurança» e marque a opção «Permitir instalação de fontes desconhecidas». Salve as alterações."}',
+             'component' => 'h4',
+             'value_en' => '{"0":"Install the app"}',
+             'value_es' => '{"0":"Instala la aplicación"}',
+             'value_fr' => '{"0":"Installez l’application"}',
+             'value_pt' => '{"0":"Instale o aplicativo"}',
              'order' => 14
             ]
         );
@@ -233,11 +247,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-             'value_en' => '{"0":"Install the app"}',
-             'value_es' => '{"0":"Instala la aplicación"}',
-             'value_fr' => '{"0":"Installez l’application"}',
-             'value_pt' => '{"0":"Instale o aplicativo"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Tap on the downloaded APK file and press the «Install» button. Wait a few minutes for the app to be installed on your mobile device."}',
+             'value_es' => '{"0":"Toca el archivo APK descargado y pulsa el botón «Instalar». Espera unos minutos mientras la aplicación se instala en tu dispositivo móvil."}',
+             'value_fr' => '{"0":"Appuyez sur le fichier APK téléchargé, puis sur le bouton « Installer ». Patientez quelques minutes pendant que l’application s’installe sur votre appareil mobile."}',
+             'value_pt' => '{"0":"Toque no arquivo APK baixado e pressione o botão «Instalar». Aguarde alguns minutos enquanto o aplicativo é instalado no seu dispositivo móvel."}',
              'order' => 15
             ]
         );
@@ -247,11 +261,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"Tap on the downloaded APK file and press the «Install» button. Wait a few minutes for the app to be installed on your mobile device."}',
-             'value_es' => '{"0":"Toca el archivo APK descargado y pulsa el botón «Instalar». Espera unos minutos mientras la aplicación se instala en tu dispositivo móvil."}',
-             'value_fr' => '{"0":"Appuyez sur le fichier APK téléchargé, puis sur le bouton « Installer ». Patientez quelques minutes pendant que l’application s’installe sur votre appareil mobile."}',
-             'value_pt' => '{"0":"Toque no arquivo APK baixado e pressione o botão «Instalar». Aguarde alguns minutos enquanto o aplicativo é instalado no seu dispositivo móvel."}',
+             'component' => 'h4',
+                'value_en' => '{"0":"Verify your account"}',
+                'value_es' => '{"0":"Verifica tu cuenta"}',
+                'value_fr' => '{"0":"Vérifiez votre compte"}',
+                'value_pt' => '{"0":"Verifique sua conta"}',
              'order' => 16
             ]
         );
@@ -261,11 +275,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Verify your account"}',
-                'value_es' => '{"0":"Verifica tu cuenta"}',
-                'value_fr' => '{"0":"Vérifiez votre compte"}',
-                'value_pt' => '{"0":"Verifique sua conta"}',
+             'component' => 'p',
+                'value_en' => '{"0":"At the final step, log into your new account through the mobile app. In the «My Account» section, you can complete verification by providing a valid ID and proof of residence."}',
+                'value_es' => '{"0":"En el paso final, inicia sesión en tu nueva cuenta a través de la aplicación móvil. En la sección «Mi cuenta», podrás completar la verificación proporcionando un documento de identidad válido y un comprobante de domicilio."}',
+                'value_fr' => '{"0":"À l\'étape finale, connectez-vous à votre nouveau compte via l\'application mobile. Dans la section «Mon compte», vous pourrez compléter la vérification en fournissant une pièce d\'identité valide et un justificatif de domicile."}',
+                'value_pt' => '{"0":"Na etapa final, faça login na sua nova conta pelo aplicativo móvel. Na seção «Minha Conta», você poderá concluir a verificação fornecendo um documento de identidade válido e um comprovante de residência."}',
              'order' => 17
             ]
         );
@@ -275,11 +289,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"At the final step, log into your new account through the mobile app. In the «My Account» section, you can complete verification by providing a valid ID and proof of residence."}',
-                'value_es' => '{"0":"En el paso final, inicia sesión en tu nueva cuenta a través de la aplicación móvil. En la sección «Mi cuenta», podrás completar la verificación proporcionando un documento de identidad válido y un comprobante de domicilio."}',
-                'value_fr' => '{"0":"À l\'étape finale, connectez-vous à votre nouveau compte via l\'application mobile. Dans la section «Mon compte», vous pourrez compléter la vérification en fournissant une pièce d\'identité valide et un justificatif de domicile."}',
-                'value_pt' => '{"0":"Na etapa final, faça login na sua nova conta pelo aplicativo móvel. Na seção «Minha Conta», você poderá concluir a verificação fornecendo um documento de identidade válido e um comprovante de residência."}',
+             'component' => 'h3',
+                'value_en' => '{"0":"Download the MelBet mobile app on iOS"}',
+                'value_es' => '{"0":"Descarga la aplicación móvil de MelBet en iOS"}',
+                'value_fr' => '{"0":"Téléchargez l\'application mobile MelBet sur iOS"}',
+                'value_pt' => '{"0":"Baixe o aplicativo móvel MelBet no iOS"}',
              'order' => 18
             ]
         );
@@ -289,11 +303,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h3',
-                'value_en' => '{"0":"Download the MelBet mobile app on iOS"}',
-                'value_es' => '{"0":"Descarga la aplicación móvil de MelBet en iOS"}',
-                'value_fr' => '{"0":"Téléchargez l\'application mobile MelBet sur iOS"}',
-                'value_pt' => '{"0":"Baixe o aplicativo móvel MelBet no iOS"}',
+             'component' => 'p',
+                'value_en' => '{"0":"iPhone and iPad users can also enjoy everything MelBet has to offer. Below you\'ll find a step-by-step guide on how to install the app on your device."}',
+                'value_es' => '{"0":"Los usuarios de iPhone y iPad también pueden disfrutar de todo lo que ofrece MelBet. A continuación, encontrarás una guía paso a paso para instalar la aplicación en tu dispositivo."}',
+                'value_fr' => '{"0":"Les utilisateurs d’iPhone et d’iPad peuvent eux aussi profiter de toutes les fonctionnalités de MelBet. Vous trouverez ci-dessous un guide étape par étape pour installer l’application sur votre appareil."}',
+                'value_pt' => '{"0":"Os usuários de iPhone e iPad também podem aproveitar todos os recursos do MelBet. Abaixo, você encontrará um guia passo a passo para instalar o aplicativo no seu dispositivo."}',
              'order' => 19
             ]
         );
@@ -303,11 +317,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"iPhone and iPad users can also enjoy everything MelBet has to offer. Below you\'ll find a step-by-step guide on how to install the app on your device."}',
-                'value_es' => '{"0":"Los usuarios de iPhone y iPad también pueden disfrutar de todo lo que ofrece MelBet. A continuación, encontrarás una guía paso a paso para instalar la aplicación en tu dispositivo."}',
-                'value_fr' => '{"0":"Les utilisateurs d’iPhone et d’iPad peuvent eux aussi profiter de toutes les fonctionnalités de MelBet. Vous trouverez ci-dessous un guide étape par étape pour installer l’application sur votre appareil."}',
-                'value_pt' => '{"0":"Os usuários de iPhone e iPad também podem aproveitar todos os recursos do MelBet. Abaixo, você encontrará um guia passo a passo para instalar o aplicativo no seu dispositivo."}',
+             'component' => 'img',
+             'value_en' => '{"0":"img-1.jpg"}',
+             'value_es' => '{"0":"img-1.jpg"}',
+             'value_fr' => '{"0":"img-1.jpg"}',
+             'value_pt' => '{"0":"img-1.jpg"}',
              'order' => 20
             ]
         );
@@ -317,11 +331,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'component' => 'h3',
+                'value_en' => '{"0":"How to install the MelBet mobile app on iOS?"}',
+                'value_es' => '{"0":"¿Cómo instalar la aplicación móvil de MelBet en iOS?"}',
+                'value_fr' => '{"0":"Comment installer l\'application mobile MelBet sur iOS ?"}',
+                'value_pt' => '{"0":"Como instalar o aplicativo móvel da MelBet no iOS?"}',
              'order' => 21
             ]
         );
@@ -331,11 +345,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h3',
-                'value_en' => '{"0":"How to install the MelBet mobile app on iOS?"}',
-                'value_es' => '{"0":"¿Cómo instalar la aplicación móvil de MelBet en iOS?"}',
-                'value_fr' => '{"0":"Comment installer l\'application mobile MelBet sur iOS ?"}',
-                'value_pt' => '{"0":"Como instalar o aplicativo móvel da MelBet no iOS?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Unlike installing the app on Android, the iOS version can be downloaded from the App Store. Next, we’ll explain how to do it."}',
+             'value_es' => '{"0":"A diferencia de la instalación en Android, la aplicación para iOS se puede descargar desde la App Store. A continuación, te explicamos cómo hacerlo."}',
+             'value_fr' => '{"0":"Contrairement à l’installation sur Android, l’application iOS peut être téléchargée depuis l’App Store. Nous allons maintenant vous expliquer comment procéder."}',
+             'value_pt' => '{"0":"Ao contrário da instalação no Android, o aplicativo para iOS pode ser baixado pela App Store. A seguir, explicamos como fazer isso."}',
              'order' => 22
             ]
         );
@@ -345,11 +359,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"Unlike installing the app on Android, the iOS version can be downloaded from the App Store. Next, we’ll explain how to do it."}',
-             'value_es' => '{"0":"A diferencia de la instalación en Android, la aplicación para iOS se puede descargar desde la App Store. A continuación, te explicamos cómo hacerlo."}',
-             'value_fr' => '{"0":"Contrairement à l’installation sur Android, l’application iOS peut être téléchargée depuis l’App Store. Nous allons maintenant vous expliquer comment procéder."}',
-             'value_pt' => '{"0":"Ao contrário da instalação no Android, o aplicativo para iOS pode ser baixado pela App Store. A seguir, explicamos como fazer isso."}',
+             'component' => 'h4',
+                'value_en' => '{"0":"Go to the MelBet homepage using the link"}',
+                'value_es' => '{"0":"Ve a la página principal de MelBet utilizando el enlace"}',
+                'value_fr' => '{"0":"Accédez à la page d’accueil de MelBet en utilisant le lien"}',
+                'value_pt' => '{"0":"Acesse a página inicial da MelBet através do link"}',
              'order' => 23
             ]
         );
@@ -359,11 +373,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Go to the MelBet homepage using the link"}',
-                'value_es' => '{"0":"Ve a la página principal de MelBet utilizando el enlace"}',
-                'value_fr' => '{"0":"Accédez à la page d’accueil de MelBet en utilisant le lien"}',
-                'value_pt' => '{"0":"Acesse a página inicial da MelBet através do link"}',
+             'component' => 'p',
+                'value_en' => '{"0":"Go to the MelBet homepage by clicking the «Download» button at the top of the page."}',
+                'value_es' => '{"0":"Ve a la página principal de MelBet haciendo clic en el botón «Descargar» en la parte superior de la página."}',
+                'value_fr' => '{"0":"Accédez à la page d’accueil de MelBet en cliquant sur le bouton «Télécharger» en haut de la page."}',
+                'value_pt' => '{"0":"Acesse a página inicial da MelBet clicando no botão «Baixar» no topo da página."}',
              'order' => 24
             ]
         );
@@ -373,11 +387,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"Go to the MelBet homepage by clicking the «Download» button at the top of the page."}',
-                'value_es' => '{"0":"Ve a la página principal de MelBet haciendo clic en el botón «Descargar» en la parte superior de la página."}',
-                'value_fr' => '{"0":"Accédez à la page d’accueil de MelBet en cliquant sur le bouton «Télécharger» en haut de la page."}',
-                'value_pt' => '{"0":"Acesse a página inicial da MelBet clicando no botão «Baixar» no topo da página."}',
+             'component' => 'h4',
+                'value_en' => '{"0":"Fill in the sign-up form"}',
+                'value_es' => '{"0":"Rellena el formulario de registro"}',
+                'value_fr' => '{"0":"Remplissez le formulaire d’inscription"}',
+                'value_pt' => '{"0":"Preencha o formulário de registro"}',
              'order' => 25
             ]
         );
@@ -387,31 +401,17 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Fill in the sign-up form"}',
-                'value_es' => '{"0":"Rellena el formulario de registro"}',
-                'value_fr' => '{"0":"Remplissez le formulaire d’inscription"}',
-                'value_pt' => '{"0":"Preencha o formulário de registro"}',
-             'order' => 26
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => 'melbet',
-             'order' => 27
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
              'component' => 'p',
                 'value_en' => '{"0":"Also, double-check that all your personal details are filled in correctly."}',
                 'value_es' => '{"0":"También verifica que todos tus datos personales estén correctamente ingresados."}',
                 'value_fr' => '{"0":"Vérifiez également que toutes vos informations personnelles sont correctement renseignées."}',
                 'value_pt' => '{"0":"Verifique também se todos os seus dados pessoais foram preenchidos corretamente."}',
-             'order' => 27
+             'order' => 26
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-                'order' => 28
+                'order' => 27
             ],
             ['key' => 'melbet',
                 'bookmaker_id' => 2,
@@ -420,12 +420,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Configura tu cuenta de App Store"}',
                 'value_fr' => '{"0":"Configurez votre compte App Store"}',
                 'value_pt' => '{"0":"Configure sua conta da App Store"}',
-                'order' => 28
+                'order' => 27
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-                'order' => 29
+                'order' => 28
             ],
             ['key' => 'melbet',
                 'bookmaker_id' => 2,
@@ -434,12 +434,12 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Abre la App Store y ve a tu cuenta tocando tu nombre. Luego, debes cambiar el país. Para ello, selecciona «País/región» y después «Cambiar país o región». Elige uno de los siguientes países: Senegal, India, Vietnam o Mongolia. A continuación, acepta los términos del acuerdo de usuario. El siguiente paso es completar los campos de dirección. Recomendamos rellenarlos con los datos que se muestran a continuación:"}',
                 'value_fr' => '{"0":"Ouvrez l’App Store et accédez à votre compte en appuyant sur votre nom. Ensuite, vous devez changer de pays. Pour cela, sélectionnez « Pays/Région », puis « Changer de pays ou de région ». Choisissez l’un des pays suivants : Sénégal, Inde, Vietnam ou Mongolie. Ensuite, acceptez les conditions d\'utilisation. L’étape suivante consiste à remplir les champs d’adresse. Nous vous recommandons d’utiliser les informations indiquées ci-dessous :"}',
                 'value_pt' => '{"0":"Abra a App Store e acesse sua conta tocando no seu nome. Em seguida, você precisa mudar o país. Para isso, selecione «País/Região» e depois «Alterar país ou região». Escolha um dos seguintes países: Senegal, Índia, Vietnã ou Mongólia. Depois, aceite os termos do contrato de usuário. O próximo passo é preencher os campos de endereço. Recomendamos usar as informações mostradas abaixo:"}',
-                'order' => 29
+                'order' => 28
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 30
+             'order' => 29
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -460,6 +460,20 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                                 "1":"Cidade: Dakar",
                                 "2":"Código postal: 12300",
                                 "3":"Telefone: +221331234567"}',
+             'order' => 29
+            ]
+        );
+        MobileApp::query()->updateOrCreate(
+            ['key' => 'melbet',
+             'order' => 30
+            ],
+            ['key' => 'melbet',
+             'bookmaker_id' => 2,
+             'component' => 'p',
+                'value_en' => '{"0":"From the list of payment methods, select «None» and click the «Next» button."}',
+                'value_es' => '{"0":"En la lista de métodos de pago, selecciona «Ninguno» y pulsa el botón «Siguiente»."}',
+                'value_fr' => '{"0":"Dans la liste des moyens de paiement, sélectionnez « Aucun » et appuyez sur le bouton « Suivant »."}',
+                'value_pt' => '{"0":"Na lista de métodos de pagamento, selecione «Nenhum» e toque no botão «Avançar»."}',
              'order' => 30
             ]
         );
@@ -469,11 +483,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"From the list of payment methods, select «None» and click the «Next» button."}',
-                'value_es' => '{"0":"En la lista de métodos de pago, selecciona «Ninguno» y pulsa el botón «Siguiente»."}',
-                'value_fr' => '{"0":"Dans la liste des moyens de paiement, sélectionnez « Aucun » et appuyez sur le bouton « Suivant »."}',
-                'value_pt' => '{"0":"Na lista de métodos de pagamento, selecione «Nenhum» e toque no botão «Avançar»."}',
+             'component' => 'h4',
+                'value_en' => '{"0":"Search for «MelBet» in the App Store or download it directly from the MelBet website."}',
+                'value_es' => '{"0":"Busca «MelBet» en la App Store o descárgalo directamente desde el sitio web de MelBet."}',
+                'value_fr' => '{"0":"Recherchez «MelBet» dans l\'App Store ou téléchargez-le directement depuis le site officiel de MelBet."}',
+                'value_pt' => '{"0":"Procure por «MelBet» na App Store ou faça o download diretamente no site da MelBet."}',
              'order' => 31
             ]
         );
@@ -483,11 +497,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Search for «MelBet» in the App Store or download it directly from the MelBet website."}',
-                'value_es' => '{"0":"Busca «MelBet» en la App Store o descárgalo directamente desde el sitio web de MelBet."}',
-                'value_fr' => '{"0":"Recherchez «MelBet» dans l\'App Store ou téléchargez-le directement depuis le site officiel de MelBet."}',
-                'value_pt' => '{"0":"Procure por «MelBet» na App Store ou faça o download diretamente no site da MelBet."}',
+             'component' => 'p',
+                'value_en' => '{"0":"You can download the MelBet mobile app for iOS by searching for it in the App Store or by scrolling to the bottom of the MelBet homepage and selecting the «iOS» tab in the «Apps» section."}',
+                'value_es' => '{"0":"Puedes descargar la aplicación móvil de MelBet para iOS buscándola en la App Store o desplazándote hasta el final de la página principal de MelBet y seleccionando la pestaña «iOS» en la sección «Aplicaciones»."}',
+                'value_fr' => '{"0":"Vous pouvez télécharger l\'application mobile MelBet pour iOS en la recherchant dans l\'App Store ou en faisant défiler la page d\'accueil de MelBet jusqu\'en bas et en sélectionnant l\'onglet «iOS» dans la section «Applications»."}',
+                'value_pt' => '{"0":"Você pode baixar o aplicativo móvel da MelBet para iOS pesquisando na App Store ou rolando até o final da página inicial da MelBet e selecionando a aba «iOS» na seção «Aplicativos»."}',
              'order' => 32
             ]
         );
@@ -497,11 +511,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"You can download the MelBet mobile app for iOS by searching for it in the App Store or by scrolling to the bottom of the MelBet homepage and selecting the «iOS» tab in the «Apps» section."}',
-                'value_es' => '{"0":"Puedes descargar la aplicación móvil de MelBet para iOS buscándola en la App Store o desplazándote hasta el final de la página principal de MelBet y seleccionando la pestaña «iOS» en la sección «Aplicaciones»."}',
-                'value_fr' => '{"0":"Vous pouvez télécharger l\'application mobile MelBet pour iOS en la recherchant dans l\'App Store ou en faisant défiler la page d\'accueil de MelBet jusqu\'en bas et en sélectionnant l\'onglet «iOS» dans la section «Applications»."}',
-                'value_pt' => '{"0":"Você pode baixar o aplicativo móvel da MelBet para iOS pesquisando na App Store ou rolando até o final da página inicial da MelBet e selecionando a aba «iOS» na seção «Aplicativos»."}',
+             'component' => 'h4',
+                'value_en' => '{"0":"Verify your account and make your first deposit"}',
+                'value_es' => '{"0":"Verifica tu cuenta y realiza tu primer depósito"}',
+                'value_fr' => '{"0":"Vérifiez votre compte et effectuez votre premier dépôt"}',
+                'value_pt' => '{"0":"Verifique sua conta e faça seu primeiro depósito"}',
              'order' => 33
             ]
         );
@@ -511,11 +525,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h4',
-                'value_en' => '{"0":"Verify your account and make your first deposit"}',
-                'value_es' => '{"0":"Verifica tu cuenta y realiza tu primer depósito"}',
-                'value_fr' => '{"0":"Vérifiez votre compte et effectuez votre premier dépôt"}',
-                'value_pt' => '{"0":"Verifique sua conta e faça seu primeiro depósito"}',
+             'component' => 'p',
+                'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit."}',
+                'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito."}',
+                'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt."}',
+                'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito."}',
              'order' => 34
             ]
         );
@@ -525,11 +539,11 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'p',
-                'value_en' => '{"0":"We recommend verifying your account as soon as possible, as it may sometimes be a requirement for making a deposit."}',
-                'value_es' => '{"0":"Te recomendamos verificar tu cuenta lo antes posible, ya que en algunos casos puede ser un requisito para realizar un depósito."}',
-                'value_fr' => '{"0":"Nous vous conseillons de vérifier votre compte dès que possible, car cela peut parfois être nécessaire pour effectuer un dépôt."}',
-                'value_pt' => '{"0":"Recomendamos que verifique sua conta o quanto antes, pois em alguns casos isso pode ser necessário para realizar um depósito."}',
+             'component' => 'h3',
+                'value_en' => '{"0":"The features of the MelBet mobile app"}',
+                'value_es' => '{"0":"Las funciones de la aplicación móvil de MelBet"}',
+                'value_fr' => '{"0":"Les fonctionnalités de l’application mobile MelBet"}',
+                'value_pt' => '{"0":"Os recursos do aplicativo móvel da MelBet"}',
              'order' => 35
             ]
         );
@@ -539,31 +553,17 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
-             'component' => 'h3',
-                'value_en' => '{"0":"The features of the MelBet mobile app"}',
-                'value_es' => '{"0":"Las funciones de la aplicación móvil de MelBet"}',
-                'value_fr' => '{"0":"Les fonctionnalités de l’application mobile MelBet"}',
-                'value_pt' => '{"0":"Os recursos do aplicativo móvel da MelBet"}',
+             'component' => 'p',
+             'value_en' => '{"0":"The MelBet application has been present on the market of betting apps for years, and has managed to get numerous features that some of the betting apps lack. For example, the MelBet app has:"}',
+             'value_es' => '{"0":"La aplicación de MelBet ha estado presente en el mercado de las apps de apuestas durante años y ha logrado incorporar numerosas funciones que otras aplicaciones no tienen. Por ejemplo, la app de MelBet ofrece:"}',
+             'value_fr' => '{"0":"L’application MelBet est présente sur le marché des applications de paris depuis des années et a réussi à intégrer de nombreuses fonctionnalités que certaines autres applications n’ont pas. Par exemple, l’application MelBet propose :"}',
+             'value_pt' => '{"0":"O aplicativo da MelBet está presente no mercado de apps de apostas há anos e conseguiu reunir diversos recursos que alguns concorrentes ainda não oferecem. Por exemplo, o app da MelBet possui:"}',
              'order' => 36
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'melbet',
              'order' => 37
-            ],
-            ['key' => 'melbet',
-             'bookmaker_id' => 2,
-             'component' => 'p',
-             'value_en' => '{"0":"The MelBet application has been present on the market of betting apps for years, and has managed to get numerous features that some of the betting apps lack. For example, the MelBet app has:"}',
-             'value_es' => '{"0":"La aplicación de MelBet ha estado presente en el mercado de las apps de apuestas durante años y ha logrado incorporar numerosas funciones que otras aplicaciones no tienen. Por ejemplo, la app de MelBet ofrece:"}',
-             'value_fr' => '{"0":"L’application MelBet est présente sur le marché des applications de paris depuis des années et a réussi à intégrer de nombreuses fonctionnalités que certaines autres applications n’ont pas. Par exemple, l’application MelBet propose :"}',
-             'value_pt' => '{"0":"O aplicativo da MelBet está presente no mercado de apps de apostas há anos e conseguiu reunir diversos recursos que alguns concorrentes ainda não oferecem. Por exemplo, o app da MelBet possui:"}',
-             'order' => 37
-            ]
-        );
-        MobileApp::query()->updateOrCreate(
-            ['key' => 'melbet',
-             'order' => 38
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -588,7 +588,7 @@ class BookmakerMelBetMobileAppSeeder extends Seeder
                              "2":"Atualização automática",
                              "3":"Acesso rápido ao histórico de apostas",
                              "4":"Grande variedade de eventos AO VIVO"}',
-             'order' => 38
+             'order' => 37
             ]
         );
     }

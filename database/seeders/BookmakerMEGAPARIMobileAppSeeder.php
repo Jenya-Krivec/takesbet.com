@@ -411,7 +411,7 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 26
+             'order' => 27
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -420,12 +420,12 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Instalar la aplicación móvil en dispositivos iOS es aún más fácil que en Android, ya que está disponible para su descarga en la App Store. Solo tienes que seguir el enlace directo que dejamos en la parte superior de nuestra reseña e instalar la app en tu dispositivo iOS."}',
                 'value_fr' => '{"0":"Installer l’application mobile sur les appareils iOS est encore plus simple que sur Android, car elle est disponible en téléchargement sur l’App Store. Il vous suffit de suivre le lien direct que nous avons placé en haut de notre avis et d’installer l’application sur votre appareil iOS."}',
                 'value_pt' => '{"0":"Instalar o aplicativo móvel em dispositivos iOS é ainda mais fácil do que no Android, pois ele está disponível para download na App Store. Tudo o que você precisa fazer é seguir o link direto que deixamos no topo da nossa análise e instalar o app no seu dispositivo iOS."}',
-             'order' => 26
+             'order' => 27
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 27
+             'order' => 28
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -434,12 +434,12 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Verifica tu cuenta"}',
                 'value_fr' => '{"0":"Vérifiez votre compte"}',
                 'value_pt' => '{"0":"Verifique sua conta"}',
-             'order' => 27
+             'order' => 28
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 28
+             'order' => 29
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -448,12 +448,12 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"En el último paso, debes abrir la aplicación instalada e ingresar los datos de acceso que creaste en el primer paso. ¡Ahora puedes hacer apuestas deportivas y disfrutar del juego desde tu dispositivo móvil!"}',
                 'value_fr' => '{"0":"À la dernière étape, vous devez ouvrir l’application installée et saisir les identifiants que vous avez créés lors de la première étape. Vous pouvez maintenant parier sur le sport et profiter du jeu depuis votre appareil mobile !"}',
                 'value_pt' => '{"0":"Na etapa final, você deve abrir o aplicativo instalado e inserir os dados de login que criou na primeira etapa. Agora você pode fazer apostas esportivas e aproveitar o jogo no seu dispositivo móvel!"}',
-             'order' => 28
+             'order' => 29
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 29
+             'order' => 30
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -462,12 +462,12 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Las funciones de la aplicación móvil de MEGAPARI"}',
                 'value_fr' => '{"0":"Les fonctionnalités de l’application mobile MEGAPARI"}',
                 'value_pt' => '{"0":"Os recursos do aplicativo móvel da MEGAPARI"}',
-             'order' => 29
+             'order' => 30
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 30
+             'order' => 31
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -476,12 +476,12 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                 'value_es' => '{"0":"Aquí tienes un vistazo más detallado de lo que puedes esperar:"}',
                 'value_fr' => '{"0":"Voici un aperçu plus détaillé de ce à quoi vous pouvez vous attendre :"}',
                 'value_pt' => '{"0":"Aqui está uma visão mais detalhada do que você pode esperar:"}',
-             'order' => 30
+             'order' => 31
             ]
         );
         MobileApp::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 31
+             'order' => 32
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -518,7 +518,7 @@ class BookmakerMEGAPARIMobileAppSeeder extends Seeder
                              "5":"Atualizações automáticas do aplicativo",
                              "6":"Suporte para os sistemas de pagamento mais populares",
                              "7":"Bônus de boas-vindas para novos usuários"}',
-             'order' => 31
+             'order' => 32
             ]
         );
     }
