@@ -48,10 +48,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 3
             ]
         );
@@ -468,10 +468,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'img',
-             'value_en' => '{"0":"img-2.jpg"}',
-             'value_es' => '{"0":"img-2.jpg"}',
-             'value_fr' => '{"0":"img-2.jpg"}',
-             'value_pt' => '{"0":"img-2.jpg"}',
+             'value_en' => '{"0":"img-2.webp"}',
+             'value_es' => '{"0":"img-2.webp"}',
+             'value_fr' => '{"0":"img-2.webp"}',
+             'value_pt' => '{"0":"img-2.webp"}',
              'order' => 33
             ]
         );
@@ -552,10 +552,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'img',
-             'value_en' => '{"0":"img-3.jpg"}',
-             'value_es' => '{"0":"img-3.jpg"}',
-             'value_fr' => '{"0":"img-3.jpg"}',
-             'value_pt' => '{"0":"img-3.jpg"}',
+             'value_en' => '{"0":"img-3.webp"}',
+             'value_es' => '{"0":"img-3.webp"}',
+             'value_fr' => '{"0":"img-3.webp"}',
+             'value_pt' => '{"0":"img-3.webp"}',
              'order' => 39
             ]
         );

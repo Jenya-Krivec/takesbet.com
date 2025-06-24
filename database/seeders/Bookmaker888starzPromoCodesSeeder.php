@@ -62,10 +62,10 @@ class Bookmaker888starzPromoCodesSeeder extends Seeder
             ['key' => '888starz',
              'bookmaker_id' => 8,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 4
             ]
         );
@@ -314,10 +314,10 @@ class Bookmaker888starzPromoCodesSeeder extends Seeder
             ['key' => '888starz',
              'bookmaker_id' => 8,
              'component' => 'img',
-             'value_en' => '{"0":"img-2.jpg"}',
-             'value_es' => '{"0":"img-2.jpg"}',
-             'value_fr' => '{"0":"img-2.jpg"}',
-             'value_pt' => '{"0":"img-2.jpg"}',
+             'value_en' => '{"0":"img-2.webp"}',
+             'value_es' => '{"0":"img-2.webp"}',
+             'value_fr' => '{"0":"img-2.webp"}',
+             'value_pt' => '{"0":"img-2.webp"}',
              'order' => 22
             ]
         );
@@ -370,10 +370,10 @@ class Bookmaker888starzPromoCodesSeeder extends Seeder
             ['key' => '888starz',
              'bookmaker_id' => 8,
              'component' => 'img',
-             'value_en' => '{"0":"img-3.jpg"}',
-             'value_es' => '{"0":"img-3.jpg"}',
-             'value_fr' => '{"0":"img-3.jpg"}',
-             'value_pt' => '{"0":"img-3.jpg"}',
+             'value_en' => '{"0":"img-3.webp"}',
+             'value_es' => '{"0":"img-3.webp"}',
+             'value_fr' => '{"0":"img-3.webp"}',
+             'value_pt' => '{"0":"img-3.webp"}',
              'order' => 26
             ]
         );
@@ -454,10 +454,10 @@ class Bookmaker888starzPromoCodesSeeder extends Seeder
             ['key' => '888starz',
              'bookmaker_id' => 8,
              'component' => 'img',
-             'value_en' => '{"0":"img-4.jpg"}',
-             'value_es' => '{"0":"img-4.jpg"}',
-             'value_fr' => '{"0":"img-4.jpg"}',
-             'value_pt' => '{"0":"img-4.jpg"}',
+             'value_en' => '{"0":"img-4.webp"}',
+             'value_es' => '{"0":"img-4.webp"}',
+             'value_fr' => '{"0":"img-4.webp"}',
+             'value_pt' => '{"0":"img-4.webp"}',
              'order' => 32
             ]
         );
@@ -524,10 +524,10 @@ class Bookmaker888starzPromoCodesSeeder extends Seeder
             ['key' => '888starz',
              'bookmaker_id' => 8,
              'component' => 'img',
-             'value_en' => '{"0":"img-5.jpg"}',
-             'value_es' => '{"0":"img-5.jpg"}',
-             'value_fr' => '{"0":"img-5.jpg"}',
-             'value_pt' => '{"0":"img-5.jpg"}',
+             'value_en' => '{"0":"img-5.webp"}',
+             'value_es' => '{"0":"img-5.webp"}',
+             'value_fr' => '{"0":"img-5.webp"}',
+             'value_pt' => '{"0":"img-5.webp"}',
              'order' => 37
             ]
         );

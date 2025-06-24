@@ -300,10 +300,10 @@ class BookmakerBetwinnerMobileAppSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 19
             ]
         );

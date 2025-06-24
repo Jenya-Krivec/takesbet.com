@@ -48,10 +48,10 @@ class BookmakerMEGAPARIPromoCodesSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 3
             ]
         );
@@ -286,10 +286,10 @@ class BookmakerMEGAPARIPromoCodesSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'img',
-             'value_en' => '{"0":"img-2.jpg"}',
-             'value_es' => '{"0":"img-2.jpg"}',
-             'value_fr' => '{"0":"img-2.jpg"}',
-             'value_pt' => '{"0":"img-2.jpg"}',
+             'value_en' => '{"0":"img-2.webp"}',
+             'value_es' => '{"0":"img-2.webp"}',
+             'value_fr' => '{"0":"img-2.webp"}',
+             'value_pt' => '{"0":"img-2.webp"}',
              'order' => 20
             ]
         );
@@ -356,10 +356,10 @@ class BookmakerMEGAPARIPromoCodesSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'img',
-             'value_en' => '{"0":"img-3.jpg"}',
-             'value_es' => '{"0":"img-3.jpg"}',
-             'value_fr' => '{"0":"img-3.jpg"}',
-             'value_pt' => '{"0":"img-3.jpg"}',
+             'value_en' => '{"0":"img-3.webp"}',
+             'value_es' => '{"0":"img-3.webp"}',
+             'value_fr' => '{"0":"img-3.webp"}',
+             'value_pt' => '{"0":"img-3.webp"}',
              'order' => 25
             ]
         );
@@ -398,10 +398,10 @@ class BookmakerMEGAPARIPromoCodesSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'img',
-             'value_en' => '{"0":"img-4.jpg"}',
-             'value_es' => '{"0":"img-4.jpg"}',
-             'value_fr' => '{"0":"img-4.jpg"}',
-             'value_pt' => '{"0":"img-4.jpg"}',
+             'value_en' => '{"0":"img-4.webp"}',
+             'value_es' => '{"0":"img-4.webp"}',
+             'value_fr' => '{"0":"img-4.webp"}',
+             'value_pt' => '{"0":"img-4.webp"}',
              'order' => 28
             ]
         );
@@ -440,10 +440,10 @@ class BookmakerMEGAPARIPromoCodesSeeder extends Seeder
             ['key' => 'megapari',
              'bookmaker_id' => 9,
              'component' => 'img',
-             'value_en' => '{"0":"img-5.jpg"}',
-             'value_es' => '{"0":"img-5.jpg"}',
-             'value_fr' => '{"0":"img-5.jpg"}',
-             'value_pt' => '{"0":"img-5.jpg"}',
+             'value_en' => '{"0":"img-5.webp"}',
+             'value_es' => '{"0":"img-5.webp"}',
+             'value_fr' => '{"0":"img-5.webp"}',
+             'value_pt' => '{"0":"img-5.webp"}',
              'order' => 31
             ]
         );

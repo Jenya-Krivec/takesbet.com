@@ -31,6 +31,7 @@
     <meta name="theme-color" content="#1D4ED8FF">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{asset('img/favicon.ico').'?v='.filemtime('img/favicon.ico')}}">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css').'?v='.filemtime('css/tailwind.css')}}">
 </head>
 <body>
@@ -42,7 +43,7 @@
 <header class="bg-blue-700 shadow-sm fixed w-full z-20">
     <nav class="flex items-center py-5 w-full">
         <a href="{{route('index')}}" class="mx-4">
-            <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Takesbet" class="w-10 logo" width="100" height="100">
+            <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Takesbet" class="w-10 logo" width="60" height="60">
         </a>
         <!--Menu-->
         <div class="items-center text-white hidden sm:flex">

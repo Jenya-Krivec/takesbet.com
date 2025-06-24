@@ -48,10 +48,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.jpg"}',
-             'value_es' => '{"0":"img-1.jpg"}',
-             'value_fr' => '{"0":"img-1.jpg"}',
-             'value_pt' => '{"0":"img-1.jpg"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 3
             ]
         );
@@ -328,10 +328,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'img',
-             'value_en' => '{"0":"img-2.jpg"}',
-             'value_es' => '{"0":"img-2.jpg"}',
-             'value_fr' => '{"0":"img-2.jpg"}',
-             'value_pt' => '{"0":"img-2.jpg"}',
+             'value_en' => '{"0":"img-2.webp"}',
+             'value_es' => '{"0":"img-2.webp"}',
+             'value_fr' => '{"0":"img-2.webp"}',
+             'value_pt' => '{"0":"img-2.webp"}',
              'order' => 23
             ]
         );
@@ -524,10 +524,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'img',
-             'value_en' => '{"0":"img-3.jpg"}',
-             'value_es' => '{"0":"img-3.jpg"}',
-             'value_fr' => '{"0":"img-3.jpg"}',
-             'value_pt' => '{"0":"img-3.jpg"}',
+             'value_en' => '{"0":"img-3.webp"}',
+             'value_es' => '{"0":"img-3.webp"}',
+             'value_fr' => '{"0":"img-3.webp"}',
+             'value_pt' => '{"0":"img-3.webp"}',
              'order' => 37
             ]
         );
@@ -566,10 +566,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'img',
-             'value_en' => '{"0":"img-4.jpg"}',
-             'value_es' => '{"0":"img-4.jpg"}',
-             'value_fr' => '{"0":"img-4.jpg"}',
-             'value_pt' => '{"0":"img-4.jpg"}',
+             'value_en' => '{"0":"img-4.webp"}',
+             'value_es' => '{"0":"img-4.webp"}',
+             'value_fr' => '{"0":"img-4.webp"}',
+             'value_pt' => '{"0":"img-4.webp"}',
              'order' => 40
             ]
         );

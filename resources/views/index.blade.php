@@ -99,8 +99,8 @@
             <p class="text-base text-gray-700 text-justify indent-10 mb-4">@lang('index.paragraph_20')</p>
         </div>
         <div class="px-2 sm:px-10 lg:px-36 relative">
-            <img class="w-full" src="{{ asset('img/index/baner_win.jpg').'?v='.filemtime('img/index/baner_win.jpg')}}" alt="Win" width="1500" height="600">
-            <img class="logo absolute top-4 left-8 sm:top-6 sm:left-16 lg:left-44 w-1/12" src="{{ asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Win" width="40" height="40">
+            <img class="w-full" src="{{ asset('img/index/baner_win.webp').'?v='.filemtime('img/index/baner_win.webp')}}" alt="Win" width="1000" height="340" loading="lazy">
+            <img class="logo absolute top-4 left-8 sm:top-6 sm:left-16 lg:left-44 w-1/12" src="{{ asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="Win" width="60" height="60">
             <p class="text-base sm:text-2xl absolute bottom-4 left-8 sm:bottom-6 sm:left-16 lg:left-44 text-white font-bold">@lang('index.Best Sports Betting Sites')</p>
         </div>
         <h3 class="text-lg px-0 sm:text-2xl sm:px-7 font-bold mt-4 text-center">@lang('index.Best Sports Betting Sites')</h3>

@@ -76,10 +76,10 @@ class BookmakerivibetMobileAppSeeder extends Seeder
             ['key' => 'ivibet',
              'bookmaker_id' => 14,
              'component' => 'img',
-             'value_en' => '{"0":"img-1.png"}',
-             'value_es' => '{"0":"img-1.png"}',
-             'value_fr' => '{"0":"img-1.png"}',
-             'value_pt' => '{"0":"img-1.png"}',
+             'value_en' => '{"0":"img-1.webp"}',
+             'value_es' => '{"0":"img-1.webp"}',
+             'value_fr' => '{"0":"img-1.webp"}',
+             'value_pt' => '{"0":"img-1.webp"}',
              'order' => 5
             ]
         );
