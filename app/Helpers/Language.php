@@ -42,7 +42,7 @@ class Language
             return str_replace('/'.App::getLocale(), '', url()->current());
         }else{
             // Replace the current locale with the given locale in the URI
-            return str_replace(App::getLocale(), $locale, url()->current());
+            return str_replace('/'.App::getLocale(), '/'.$locale, url()->current());
         }
     }
 }
