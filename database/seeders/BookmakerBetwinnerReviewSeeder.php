@@ -307,10 +307,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                  "3":"2.70"}
                             }',
              'value_es' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Bethard",
-                                 "3":"Dafabet"},
+                                {"0":"1win",
+                                 "1":"melbet",
+                                 "2":"1win",
+                                 "3":"MelBet"},
                             "1":
                                 {"0":"Carreras de caballos. Newcastle R1. Cuota del favorito.",
                                  "1":"3.74",
@@ -328,10 +328,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                  "3":"2.70"}
                             }',
              'value_fr' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Bethard",
-                                 "3":"Dafabet"},
+                                {"0":"1win",
+                                 "1":"melbet",
+                                 "2":"1win",
+                                 "3":"MelBet"},
                             "1":
                                 {"0":"Courses hippiques. Newcastle R1. Cote du favori.",
                                  "1":"3.74",
@@ -349,10 +349,10 @@ class BookmakerBetWinnerReviewSeeder extends Seeder
                                  "3":"2.70"}
                             }',
              'value_pt' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"Bethard",
-                                 "3":"Dafabet"},
+                                {"0":"1win",
+                                 "1":"melbet",
+                                 "2":"1win",
+                                 "3":"MelBet"},
                             "1":
                                 {"0":"Corridas de cavalos. Newcastle R1. Cotação do favorito.",
                                  "1":"3.74",

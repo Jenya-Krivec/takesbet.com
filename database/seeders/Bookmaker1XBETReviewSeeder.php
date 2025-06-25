@@ -358,10 +358,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "3":"1.54"}
                             }',
                 'value_es' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"BetVictor",
-                                 "3":"Bet365"},
+                                {"0":"melbet",
+                                 "1":"1win",
+                                 "2":"MelBet",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Premier League: Cardiff City vs West Ham, gana Cardiff",
                                  "1":"3.24",
@@ -384,10 +384,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "3":"1.54"}
                             }',
                 'value_fr' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"BetVictor",
-                                 "3":"Bet365"},
+                                {"0":"melbet",
+                                 "1":"1win",
+                                 "2":"MelBet",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Premier League : Cardiff City contre West Ham, victoire de Cardiff",
                                  "1":"3.24",
@@ -410,10 +410,10 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                  "3":"1.54"}
                             }',
                 'value_pt' => '{"0":
-                                {"0":"",
-                                 "1":"",
-                                 "2":"BetVictor",
-                                 "3":"Bet365"},
+                                {"0":"melbet",
+                                 "1":"1win",
+                                 "2":"MelBet",
+                                 "3":"1win"},
                             "1":
                                 {"0":"Premier League: Cardiff City x West Ham, vitória do Cardiff",
                                  "1":"3.24",
