@@ -40,7 +40,7 @@
                 @if($bookmaker['warning_'.app()->getLocale()])
                     <div class="text-xs my-1 text-center">{{$bookmaker['name']}}: {{$bookmaker['warning_'.app()->getLocale()]}}</div>
                 @endif
-                <a href="{{$bookmaker['url']}}" target="_blank" class="shadow-black bg-blue-700 text-xs sm:text-lg rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-16 py-2 shadow-lg">@lang('promocode.Registration')</a>
+                <span data-url="{{$bookmaker['url']}}" class="shadow-black bg-blue-700 text-xs sm:text-lg rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-16 py-2 shadow-lg">@lang('promocode.Registration')</span>
             </div>
         </div>
         <!-- Content -->
@@ -58,7 +58,7 @@
                         <img src="{{asset('img/logo/'.$bookmaker['logo']).'?v='.filemtime('img/logo/'.$bookmaker['logo'])}}" alt="{{$bookmaker['name']}} logo" class="p-2" width="100" height="100">
                     </div>
                     <div class="flex-row flex sm:hidden justify-end items-center">
-                        <a href="{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('promocode.Registration')</a>
+                        <span data-url="{{$bookmaker['url']}}" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('promocode.Registration')</span>
                     </div>
                 </div>
                 <div class="flex-col justify-center items-start flex px-2 mt-1 sm:mt-0">
@@ -78,7 +78,7 @@
                         @endif
                     </div>
                     <div class="flex-row justify-end items-center">
-                        <a href="{{$bookmaker['url']}}" target="_blank" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('promocode.Registration')</a>
+                        <span data-url="{{$bookmaker['url']}}" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('promocode.Registration')</span>
                     </div>
                     <div class="flex-row flex justify-end items-center">
                         <div class="text-xs text-gray-700 text-justify">@lang('promocode.See full details of the') {{trans('promocode.Promo Codes', ['bookmaker' => $bookmaker['name']])}}</div>
@@ -92,4 +92,5 @@
     </main>
     <script defer type="text/javascript" src="{{ asset('js/promo/rate.js').'?v='.filemtime('js/promo/rate.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/promo/promoCode.js').'?v='.filemtime('js/promo/promoCode.js') }}"></script>
+    <script defer type="text/javascript" src="{{ asset('js/promo/link.js').'?v='.filemtime('js/promo/link.js') }}"></script>
 @endsection
