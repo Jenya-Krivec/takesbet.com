@@ -101,5 +101,4 @@
         </div>
     </main>
     <script defer type="text/javascript" src="{{ asset('js/mobileapp/rate.js').'?v='.filemtime('js/mobileapp/rate.js') }}"></script>
-    <script defer type="text/javascript" src="{{ asset('js/mobileapp/link.js').'?v='.filemtime('js/mobileapp/link.js') }}"></script>
 @endsection

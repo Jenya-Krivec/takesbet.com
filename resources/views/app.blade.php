@@ -31,7 +31,6 @@
     <meta name="theme-color" content="#1D4ED8FF">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{asset('img/favicon.ico').'?v='.filemtime('img/favicon.ico')}}">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css').'?v='.filemtime('css/tailwind.css')}}">
 </head>
 <body>
@@ -119,5 +118,6 @@
 <script defer type="text/javascript" src="{{asset('js/menu.js').'?v='.filemtime('js/menu.js')}}"></script>
 <script defer type="text/javascript" src="{{asset('js/goUp.js').'?v='.filemtime('js/goUp.js')}}"></script>
 <script defer type="text/javascript" src="{{asset('js/cookie.js').'?v='.filemtime('js/cookie.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/link.js').'?v='.filemtime('js/link.js')}}"></script>
 </html>
 

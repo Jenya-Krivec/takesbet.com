@@ -4,7 +4,6 @@ class Link {
         this.btns = document.querySelectorAll('[data-url]');
     }
     addEventListeners() {
-        console.log(this.btns);
         this.btns.forEach(btn => {
             btn.addEventListener('click', this.follow.bind(this));
         });

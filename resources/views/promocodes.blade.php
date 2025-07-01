@@ -92,5 +92,4 @@
     </main>
     <script defer type="text/javascript" src="{{ asset('js/promo/rate.js').'?v='.filemtime('js/promo/rate.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/promo/promoCode.js').'?v='.filemtime('js/promo/promoCode.js') }}"></script>
-    <script defer type="text/javascript" src="{{ asset('js/promo/link.js').'?v='.filemtime('js/promo/link.js') }}"></script>
 @endsection

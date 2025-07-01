@@ -197,5 +197,4 @@
     </main>
     <script defer type="text/javascript" src="{{ asset('js/review/rate.js').'?v='.filemtime('js/review/rate.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/review/quickInfo.js').'?v='.filemtime('js/review/quickInfo.js') }}"></script>
-    <script defer type="text/javascript" src="{{ asset('js/review/link.js').'?v='.filemtime('js/review/link.js') }}"></script>
 @endsection
