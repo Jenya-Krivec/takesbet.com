@@ -8,6 +8,15 @@
 
 @section('content')
     <main class="pt-20">
+        <div>
+            @if($errors->any())
+                <ul class="list-disc pl-5 my-4">
+                    @foreach($errors->all() as $error)
+                        <li class="text-base text-red-700">{{$error}}</li>
+                    @endforeach
+                </ul>
+            @endif
+        </div>
         <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
             <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('promocode.Review', ['bookmaker' => ''])}}</a>
             <div class="flex-col flex justify-center items-center py-1 px-4 mt-1">
@@ -90,6 +99,6 @@
             @endif
         </div>
     </main>
-    <script defer type="text/javascript" src="{{ asset('js/promo/rate.js').'?v='.filemtime('js/promo/rate.js') }}"></script>
-    <script defer type="text/javascript" src="{{ asset('js/promo/promoCode.js').'?v='.filemtime('js/promo/promoCode.js') }}"></script>
+    <script defer type="text/javascript" src="{{ asset('js/promocode/rate.js').'?v='.filemtime('js/promocode/rate.js') }}"></script>
+    <script defer type="text/javascript" src="{{ asset('js/promocode/promoCode.js').'?v='.filemtime('js/promocode/promoCode.js') }}"></script>
 @endsection

@@ -21,5 +21,13 @@ class UserSeeder extends Seeder
              'password' => '$2y$12$kzSR/5nmtcc8n7mIR4WNt.gYBxd52m/qVxwfZd1CReyBzlk5xeQx.',
             ]
         );
+        User::query()->updateOrCreate(
+            ['email' => 'admin@gmail.com'],
+            ['email' => 'admin@gmail.com',
+             'name' => 'Admin',
+             'surname' => '',
+             'password' => '$2y$12$kzSR/5nmtcc8n7mIR4WNt.gYBxd52m/qVxwfZd1CReyBzlk5xeQx.',
+            ]
+        );
     }
 }

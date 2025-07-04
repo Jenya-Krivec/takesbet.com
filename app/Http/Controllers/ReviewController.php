@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Review;
 use Illuminate\Http\Request;
 use App\Models\Bookmaker;
+use App\Helpers\Components;
 use \Illuminate\View\View;
 
 class ReviewController extends Controller
@@ -26,8 +27,8 @@ class ReviewController extends Controller
         $review = Review::select('reviews.*')
             ->where('bookmaker_id', '=', $bookmaker['id'])
             ->orderBy('order', 'asc')
-            ->get()->
-            toArray();
+            ->get()
+            ->toArray();
 
         return view('review', ["bookmaker" => $bookmaker, "review" => $review]);
     }
@@ -39,12 +40,43 @@ class ReviewController extends Controller
         $bookmaker['sports'] = Bookmaker::find($bookmaker['id'])->sports()->get()->toArray();
         $bookmaker['restrictions'] = Bookmaker::find($bookmaker['id'])->restrictions()->get()->toArray();
         $bookmaker['supports'] = Bookmaker::find($bookmaker['id'])->supports()->get()->toArray();
-
+        $bookmaker['bookmakers'] = Bookmaker::all()->toArray();
         $review = Review::select('reviews.*')
             ->where('bookmaker_id', '=', $bookmaker['id'])
             ->orderBy('order', 'asc')
-            ->get()->
-            toArray();
+            ->get()
+            ->toArray();
         return view('admin.review', ["bookmaker" => $bookmaker, "review" => $review]);
+    }
+    public function store(Request $request, string $key): \Illuminate\Http\RedirectResponse
+    {
+        $components = new Components();
+        $components -> validate($request);
+
+        $bookmakerID = Bookmaker::where('key', '=', $key)->first()->id;
+        $array = $components->getNormalizedData($request->all());
+        $insertArray = $components->getInsertData($array, $bookmakerID, $key, $request);
+        $components->deleteImgs($insertArray, $key, $request);
+
+        Review::query()->where('key', '=', $key)->delete();
+
+        foreach ($insertArray as $insert) {
+            Review::query()->updateOrCreate(
+                ['key' => $insert['key'],
+                 'order' => $insert['order']
+                ],
+                ['key' => $insert['key'],
+                 'bookmaker_id' => $insert['bookmaker_id'],
+                 'component' => $insert['component'],
+                 'value_en' => $insert['value_en'],
+                 'value_es' => $insert['value_es'],
+                 'value_fr' => $insert['value_fr'],
+                 'value_pt' => $insert['value_pt'],
+                 'order' => $insert['order'],
+                ]
+            );
+        }
+
+        return redirect()->route('admin.editReview', ['key' => $key]);
     }
 }

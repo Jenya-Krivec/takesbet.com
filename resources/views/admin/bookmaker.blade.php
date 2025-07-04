@@ -2,28 +2,30 @@
 
 @section('title', Auth::user()->name.' '.Auth::user()->surname)
 
+@section('information')
+    <p>1. Select the logo color</p>
+    <p>2. Select the logo image in SVG format</p>
+    <p>3. Enter the name of the bookmaker</p>
+    <p>4. Enter in the “Bonus text” fields in English, Spanish, French, and Portuguese</p>
+    <p>5. Enter the promo code</p>
+    <p>6. Enter the URL of the bookmaker's website</p>
+    <p>7. Enter the order number in the list of all active bookmakers</p>
+    <p>8. Enter in the accompanying text in English, Spanish, French, and Portuguese</p>
+    <p>9. Add the payment methods used by the bookmaker</p>
+    <p>10. Add the currencies used by the bookmaker</p>
+    <p>11. Add the sports covered by the bookmaker</p>
+    <p>12. Enter the name of the license</p>
+    <p>13. Select the available customer support options</p>
+    <p>14. Enter the customer support phone number</p>
+    <p>15. Enter the customer support email address</p>
+    <p>16. Indicate whether live streaming is available on the bookmaker's website</p>
+    <p>17. Click the Save button</p>
+    <p>If you don’t want the bookmaker to be immediately visible on the website, uncheck the “Active” box.</p>
+    <p>After saving, you will be able to edit the promo code page, mobile app page and the review page.</p>
+@endsection
+
 @section('content')
     <form class="xl:px-20 sm:py-5 px-3 py-2 m-auto pt-24 sm:pt-24" action=" {{route('admin.storeBookmaker', $bookmaker['key'])}}" method="POST" enctype="multipart/form-data">
-        <hr>
-        <p>1. Select the logo color</p>
-        <p>2. Select the logo image in SVG format</p>
-        <p>3. Enter the name of the bookmaker</p>
-        <p>4. Enter in the “Bonus text” fields for different languages</p>
-        <p>5. Enter the promo code</p>
-        <p>6. Enter the URL of the bookmaker's website</p>
-        <p>7. Enter the order number in the list of all active bookmakers</p>
-        <p>8. Enter in the accompanying text for different languages</p>
-        <p>9. Add the payment methods used by the bookmaker</p>
-        <p>10. Add the currencies used by the bookmaker</p>
-        <p>11. Add the sports covered by the bookmaker</p>
-        <p>12. Enter the name of the license</p>
-        <p>13. Select the available customer support options</p>
-        <p>14. Enter the customer support phone number</p>
-        <p>15. Enter the customer support email address</p>
-        <p>16. Indicate whether live streaming is available on the bookmaker's website</p>
-        <p>17. Click the Save button</p>
-        <p>If you don’t want the bookmaker to be immediately visible on the website, uncheck the “Active” box. After saving, you will be able to edit the bonus page and the review page</p>
-        <hr>
         <div class="border-gray-400 border-2 rounded-md mt-4 flex justify-between flex-col relative shadow-gray-400 shadow-lg">
             @csrf
             <span for="order" class="absolute top-0 right-6 text-xs text-gray-500 ">Order:</span>
@@ -82,13 +84,6 @@
                         <span class="text-gray-500 mr-1 w-44">Bonus text 2 pt:</span>
                         <input class="text-sm lg:text-base border-gray-200 border-b-2 w-full" type="text" name="bonus_label_2_pt" value="{{$bookmaker['bonus_label_2_pt']}}" placeholder="Bonus text in Portuguese">
                     </div>
-                    <div class="flex">
-                        <span class="text-gray-500 text-xs sm:text-sm">Include bonus page:</span>
-                        <input name="bonus_available" value="1" type="checkbox" class="h-6 mx-1" @if($bookmaker['bonus_available']) checked="checked" @endif>
-                        @if($bookmaker['key'])
-                        <a href="/bonus/{{$bookmaker['key']}}" id="edit-bonus" class="text-gray-500 text-sm underline @if(!$bookmaker['bonus_available']) hidden @endif">Edit bonus page</a>
-                        @endif
-                    </div>
                 </div>
                 <div class="flex-col justify-around self-center flex w-3/8 xl:w-1/5 mx-2 flex-shrink-0">
                     <div class="flex flex-row">
@@ -105,9 +100,15 @@
                         <span class="text-gray-500 text-xs sm:text-sm mr-1 mt-1">Active:</span>
                         <input name="active" value="1" type="checkbox" class="h-7" @if($bookmaker['active']) checked="checked" @endif>
                     </div>
-                    @if($bookmaker['key'])
+                    @if($bookmaker['key']!==' ')
                         <div class="flex flex-row">
                             <a href="{{route('admin.editReview', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline mt-1">Edit review page</a>
+                        </div>
+                        <div class="flex flex-row">
+                            <a href="{{route('admin.editPromoCode', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline mt-1">Edit promo code page</a>
+                        </div>
+                        <div class="flex flex-row">
+                            <a href="{{route('admin.editMobileApp', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline mt-1">Edit mobile app page</a>
                         </div>
                     @endif
                 </div>
@@ -241,7 +242,6 @@
         </script>
     @endif
 
-    <script defer type="text/javascript" src="{{ asset('js/admin/bookmaker/bonus.js').'?v='.filemtime('js/admin/bookmaker/bonus.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/admin/bookmaker/color.js').'?v='.filemtime('js/admin/bookmaker/color.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/admin/bookmaker/currencies.js').'?v='.filemtime('js/admin/bookmaker/currencies.js') }}"></script>
     <script defer type="text/javascript" src="{{ asset('js/admin/bookmaker/logo.js').'?v='.filemtime('js/admin/bookmaker/logo.js') }}"></script>

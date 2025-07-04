@@ -17,7 +17,7 @@
             <div class="font-bold text-xs sm:text-base">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
             <div class="text-xs sm:text-base">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
             @if($bookmaker['bonus_available'])
-            <a href="/bonus/{{$bookmaker['key']}}" class="text-gray-700 text-sm underline">{{$bookmaker['name']}} @lang('index.Bonus')</a>
+            <a href="" class="text-gray-700 text-sm underline">{{$bookmaker['name']}} @lang('index.Bonus')</a>
             @endif
         </div>
     </div>
@@ -35,7 +35,7 @@
             <div class="font-bold text-xs sm:text-base">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
             <div class="text-sm lg:text-base">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
             @if($bookmaker['bonus_available'])
-            <a href="/bonus/{{$bookmaker['key']}}" class="text-gray-700 text-xs sm:text-sm underline">{{$bookmaker['name']}} @lang('index.Bonus')</a>
+            <a href="" class="text-gray-700 text-xs sm:text-sm underline">{{$bookmaker['name']}} @lang('index.Bonus')</a>
             @endif
         </div>
         <div class="flex flex-col justify-around self-center ml-2 md:w-36">
@@ -62,7 +62,7 @@
                 <p class="p-1 font-bold text-sm sm:text-base">{{$bookmaker['promo_code']}}</p>
                 <span data-url="{{$bookmaker['url']}}" class="cope-promo-code" aria-label="Get promo code"></span>
             </div>
-            <a href="promo-code/{{$bookmaker['key']}}" class="text-gray-700 text-xs sm:text-sm underline text-center">{{$bookmaker['name']}} @lang('index.Promo code')</a>
+            <a href="{{route('promocode', $bookmaker['key'])}}" class="text-gray-700 text-xs sm:text-sm underline text-center">{{$bookmaker['name']}} @lang('index.Promo code')</a>
         </div>
         <div class="flex flex-col justify-around self-center mr-2">
             <span data-url="{{$bookmaker['url']}}" class="h-10 w-28 bg-blue-700 text-xs sm:text-sm text-white rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500  my-4 sm:my-2">@lang('index.Claim') &#8594;</span>

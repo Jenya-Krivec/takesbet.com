@@ -71,7 +71,7 @@
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                   <div class="dropdown-menu flex-row flex justify-between items-center flex-wrap cursor-default pl-4 hidden">
+                   <div class="dropdown-menu flex-row flex justify-start items-center flex-wrap cursor-default pl-4 hidden">
                        @foreach($bookmaker['currencies'] as $currency)
                            <p class="px-1" title="{{$currency['key']}}">{{$currency['name_'.app()->getLocale()]}}@if($currency != end($bookmaker['currencies'])),@endif</p>
                        @endforeach

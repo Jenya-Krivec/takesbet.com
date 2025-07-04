@@ -35,32 +35,42 @@
                 <a class="dropdown-item mx-2 hover:bg-blue-600 p-2 transition-all duration-500" href="{{route('admin.sports')}}">Sports</a>
             </div>
         </div>
-        <!--Mobile menu-->
-        <div class="sm:hidden">
-            <button class="text-white focus:outline-none" id="mobile-menu-button" title="Menu">
-                <svg id="menu-icon" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                    <path fill-rule="evenodd" d="M3 5h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2zm0 4h14a1 1 0 110 2H3a1 1 0 010-2z" clip-rule="evenodd"></path>
-                </svg>
-                <svg id="close-icon" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 hidden">
-                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            <div id="mobile-menu" class="sm:hidden fixed -left-60 w-60 top-20 transition-all bg-blue-700 z-20">
-                <a class="dropdown-item mx-2 hover:bg-blue-600 p-2 transition-all duration-500" href="{{route('admin.bookmakers')}}">Bookmakers</a>
-                <a class="dropdown-item mx-2 hover:bg-blue-600 p-2 transition-all duration-500" href="{{route('admin.payments')}}">Payments</a>
-                <a class="dropdown-item mx-2 hover:bg-blue-600 p-2 transition-all duration-500" href="{{route('admin.currencies')}}">Currencies</a>
-                <a class="dropdown-item mx-2 hover:bg-blue-600 p-2 transition-all duration-500" href="{{route('admin.sports')}}">Sports</a>
-            </div>
+         <!--Information-->
+        <div class="relative align-self-center ml-auto mr-2">
+            <button class="text-white focus:outline-none mr-4 w-8 h-8 rounded-full flex justify-center items-center border-2 border-white hover:bg-blue-600 transition-all duration-500" title="Information" id="information">?</button>
+        </div>
+        <div id="information-menu" class="fixed -right-1/2 w-1/2 top-20 transition-all bg-white z-40 p-2 border-2 border-blue-700 overflow-y-auto" style="height: calc(100vh - 79px);">
+            @yield('information')
+        </div>
+        <div class="relative align-self-center">
+            <form id="logout-form" action="{{ route('admin.logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="flex items-center bg-blue-700 hover:bg-blue-600 text-white pl-2 pr-1 py-1 shadow transition-all duration-500 mr-4" title="Logout">
+                    <!-- SVG дверей -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12h5m-2-2l2 2-2 2" />
+                    </svg>
+                </button>
+            </form>
         </div>
         @endif
     </nav>
 </header>
 @yield('content')
 <div class="fixed inset-0 bg-black opacity-50 z-10 hidden" id="overlay"></div>
+<div class="fixed top-0 left-0 right-0 bottom-0 bg-blue-700 z-50 flex lg:hidden justify-center items-center flex-col">
+    <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" class="w-10 h-10 logo" alt="Takesbet">
+    <p class="text-sm text-white mt-2">To edit, open the website on a desktop</p>
+</div>
 <footer class="bg-blue-700 py-5">
-    <p class="text-sm text-white text-center">&copy; {{ date('Y') }} Takesbet</p>
+    <p class="text-base font-bold text-white text-center">&copy; {{ date('Y') }} Takesbet</p>
 </footer>
 </body>
 <script defer type="text/javascript" src="{{asset('js/preloader.js').'?v='.filemtime('js/preloader.js')}}"></script>
+@if(Auth::check())
+<script defer type="text/javascript" src="{{asset('js/link.js').'?v='.filemtime('js/link.js')}}"></script>
+<script defer type="text/javascript" src="{{asset('js/admin/information.js').'?v='.filemtime('js/admin/information.js')}}"></script>
+@endif
 </html>
 

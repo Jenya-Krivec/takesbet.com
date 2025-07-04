@@ -6,7 +6,7 @@ use App\Models\Review;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class BookmakerBetWinnerReviewSeeder extends Seeder
+class BookmakerBetwinnerReviewSeeder extends Seeder
 {
     /**
      * Run the database seeds.

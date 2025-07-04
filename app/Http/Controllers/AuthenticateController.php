@@ -23,7 +23,7 @@ class AuthenticateController extends Controller
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             // If the authentication is successful, regenerate the session and redirect the user
             $request->session()->regenerate();
-            return redirect()->route('admin.index');
+            return redirect()->route('admin.bookmakers');
         }
         // If the authentication fails, redirect the user back to the login form with an error message
         return back()->withErrors([

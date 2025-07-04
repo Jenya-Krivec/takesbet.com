@@ -118,3 +118,7 @@ input[name="payments[]"]:checked + label,  input[name="currencies[]"]:checked + 
     background-color: rgba(128, 128, 128, 0.67);
     color: #ffffff;
 }
+#add-section > button.active{
+    background-color: white;
+    color: #245fe1;
+}
