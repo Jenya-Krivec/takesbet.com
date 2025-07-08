@@ -12,4 +12,8 @@ return [
     'Relevant Code' => 'Code Pertinent',
     'Tested' => 'Testé',
     'See full details of the' => 'Voir tous les détails du',
+    'Pros' => 'Avantages',
+    'Cons' => 'Inconvénients',
+    'Event' => 'Événement',
+    'Telephone' => 'Téléphone',
 ];

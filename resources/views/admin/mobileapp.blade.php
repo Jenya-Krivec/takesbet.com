@@ -23,6 +23,15 @@
 
 @section('content')
     <main class="pt-20">
+        <div>
+            @if($errors->any())
+                <ul class="list-disc pl-5 my-4">
+                    @foreach($errors->all() as $error)
+                        <li class="text-base text-red-700">{{$error}}</li>
+                    @endforeach
+                </ul>
+            @endif
+        </div>
         <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
             <a href="{{route('admin.editReview', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Review', ['bookmaker' => ''])}}</a>
             <a href="{{route('admin.editPromoCode', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('mobileapp.Promo Codes & Bonus', ['bookmaker' => ''])}}</a>

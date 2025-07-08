@@ -14,4 +14,6 @@ return [
     'See full details of the' => 'Voir tous les détails du',
     'Pros' => 'Avantages',
     'Cons' => 'Inconvénients',
+    'Event' => 'Événement',
+    'Telephone' => 'Téléphone',
 ];

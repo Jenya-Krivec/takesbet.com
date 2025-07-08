@@ -12,4 +12,8 @@ return [
     'Relevant Code' => 'Código Relevante',
     'Tested' => 'Testado',
     'See full details of the' => 'Ver todos os detalhes do',
+    'Pros' => 'Prós',
+    'Cons' => 'Contras',
+    'Event' => 'Evento',
+    'Telephone' => 'Telefone',
 ];

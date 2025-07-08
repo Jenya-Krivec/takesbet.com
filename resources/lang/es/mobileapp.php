@@ -13,4 +13,6 @@ return [
     'Tested' => 'Probado',
     'Pros' => 'Pros',
     'Cons' => 'Contras',
+    'Event' => 'Evento',
+    'Telephone' => 'Teléfono',
 ];
