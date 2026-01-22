@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', trans('review.title', ['bookmaker' => $bookmaker['name']]))
+@section('title', trans('review.title', ['bookmaker' => $bookmaker['name']]).' '.date('Y', strtotime('+10 days')))
 
 @section('description',  trans('review.description', ['bookmaker' => $bookmaker['name']]))
 

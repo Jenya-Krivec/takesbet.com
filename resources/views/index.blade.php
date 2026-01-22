@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', 'Takesbet - '.trans('index.Best Betting Sites').', '.trans('index.Reviews & Bonuses').', '.trans('index.Top 10 Lists').' '.date('Y'))
+@section('title', 'Takesbet - '.trans('index.Best Betting Sites').', '.trans('index.Reviews & Bonuses').', '.trans('index.Top 10 Lists').' '.date('Y', strtotime('+10 days')))
 
 @section('description', trans('index.description'))
 
