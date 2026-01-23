@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\BettingController;
 use App\Http\Controllers\CasinoController;
+use App\Http\Controllers\CasinoReviewController;
 use App\Http\Controllers\RatingController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\PromoCodeController;
@@ -25,6 +26,8 @@ Route::prefix(Language::getLocale())->middleware([LocaleMiddleware::class])->gro
     Route::get('/betting', [BettingController::class, 'create'])->name('betting');
 
     Route::get('/casino', [CasinoController::class, 'create'])->name('casino');
+
+    Route::get('/casino/{key}', [CasinoReviewController::class, 'create'])->name('casino.review');
 
     Route::get('/bookmakers/{key}', [ReviewController::class, 'create'])->name('review');
 
