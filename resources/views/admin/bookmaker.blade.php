@@ -110,6 +110,9 @@
                         <div class="flex flex-row">
                             <a href="{{route('admin.editMobileApp', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline mt-1">Edit mobile app page</a>
                         </div>
+                        <div class="flex flex-row">
+                            <a href="{{route('admin.editCasino', $bookmaker['key'])}}" class="text-gray-500 text-xs sm:text-sm underline mt-1">Edit casino page</a>
+                        </div>
                     @endif
                 </div>
             </div>

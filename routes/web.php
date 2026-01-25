@@ -63,6 +63,10 @@ Route::middleware([AuthenticateMiddleware::class])->group(function () {
 
     Route::post('/admin/mobile-app/{key}', [MobileAppController::class, 'store'])->name('admin.storeMobileApp');
 
+    Route::get('/admin/casino/{key}', [CasinoReviewController::class, 'edit'])->name('admin.editCasino');
+
+    Route::post('/admin/casino/{key}', [CasinoReviewController::class, 'store'])->name('admin.storeCasino');
+
     Route::get('/admin/review/{key}', [ReviewController::class, 'edit'])->name('admin.editReview');
 
     Route::post('/admin/review/{key}', [ReviewController::class, 'store'])->name('admin.storeReview');
