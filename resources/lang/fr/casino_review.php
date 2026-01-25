@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => "Casino :bookmaker — avis sur la plateforme de jeux",
+    'description' => 'Avis détaillé sur le casino :bookmaker. Informations actualisées sur les machines à sous, les jeux de table, le casino en direct et les fournisseurs de jeux.',
+    'keywords' => "casino :bookmaker, casino en ligne :bookmaker, avis casino, machines à sous, casino live, jeux de table, machines à sous",
+    'Review' => 'Avis sur le casino :bookmaker',
+    'Claim' => 'Réclamer',
+    'Quick Info' => 'Infos rapides sur :bookmaker',
+    'Payment Methods' => 'Méthodes de paiement',
+    'Currency' => 'Devise',
+    'Licensed/Regulated by' => 'Autorisé/Réglementé par',
+    'Sports' => 'Sports',
+    'Responsible Gambling' => 'Jeu Responsable',
+    'Customer Support' => 'Service Client',
+    'Live Streaming' => 'Diffusion en Direct',
+    'Tested Betting Sites' => 'Sites de paris testés',
+    'Pros' => 'Avantages',
+    'Cons' => 'Inconvénients',
+    'Event' => 'Événement',
+    'Telephone' => 'Téléphone',
+    'Promo Codes' => 'Codes Promo :bookmaker',
+    'Relevant Code' => 'Code Pertinent',
+    'Tested' => 'Testé',
+    'See full details of the' => 'Voir tous les détails du',
+    'Bonus' => 'Bonus',
+    'Mobile App' => 'Application mobile',
+];

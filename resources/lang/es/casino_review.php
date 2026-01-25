@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => 'Casino :bookmaker — reseña de la plataforma de juegos',
+    'description' => 'Reseña detallada del casino :bookmaker. Información actualizada sobre tragamonedas, juegos de mesa, casino en vivo y proveedores de juegos.',
+    'keywords' => 'casino :bookmaker, casino online :bookmaker, reseña de casino, tragamonedas, casino en vivo, juegos de mesa, máquinas tragamonedas',
+    'Review' => 'Reseña del casino :bookmaker',
+    'Claim' => 'Reclamar',
+    'Quick Info' => 'Información rápida de :bookmaker',
+    'Payment Methods' => 'Métodos de pago',
+    'Currency' => 'Moneda',
+    'Licensed/Regulated by' => 'Licenciado/Regulado por',
+    'Sports' => 'Deportes',
+    'Responsible Gambling' => 'Juego Responsable',
+    'Customer Support' => 'Atención al Cliente',
+    'Live Streaming' => 'Transmisión en Vivo',
+    'Tested Betting Sites' => 'Casas de apuestas probadas',
+    'Pros' => 'Pros',
+    'Cons' => 'Contras',
+    'Event' => 'Evento',
+    'Telephone' => 'Teléfono',
+    'Promo Codes' => 'Códigos Promocionales de :bookmaker',
+    'Relevant Code' => 'Código Relevante',
+    'Tested' => 'Probado',
+    'See full details of the' => 'Ver todos los detalles del',
+    'Bonus' => 'Bono',
+    'Mobile App' => 'Aplicación móvil',
+];

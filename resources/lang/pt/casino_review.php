@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => 'Casino :bookmaker — análise da plataforma de jogos',
+    'description' => 'Análise detalhada do cassino :bookmaker. Informações atualizadas sobre slots, jogos de mesa, cassino ao vivo e provedores de jogos.',
+    'keywords' => 'casino :bookmaker, casino online :bookmaker, análise de casino, slots, casino ao vivo, jogos de mesa, máquinas caça-níqueis',
+    'Review' => 'Análise do cassino :bookmaker',
+    'Claim' => 'Resgatar',
+    'Quick Info' => 'Informações rápidas da :bookmaker',
+    'Payment Methods' => 'Métodos de pagamento',
+    'Currency' => 'Moeda',
+    'Licensed/Regulated by' => 'Licenciado/Regulado pela',
+    'Sports' => 'Esportes',
+    'Responsible Gambling' => 'Jogo Responsável',
+    'Customer Support' => 'Suporte ao Cliente',
+    'Live Streaming' => 'Transmissão ao Vivo',
+    'Tested Betting Sites' => 'Sites de apostas testados',
+    'Pros' => 'Prós',
+    'Cons' => 'Contras',
+    'Event' => 'Evento',
+    'Telephone' => 'Telefone',
+    'Promo Codes' => 'Códigos Promocionais da :bookmaker',
+    'Relevant Code' => 'Código Relevante',
+    'Tested' => 'Testado',
+    'See full details of the' => 'Ver todos os detalhes do',
+    'Bonus' => 'Bônus',
+    'Mobile App' => 'Aplicativo móvel',
+];

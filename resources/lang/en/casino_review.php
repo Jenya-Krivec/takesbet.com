@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => ':bookmaker Casino — Gaming Platform Review',
+    'description' => 'Detailed review of :bookmaker Casino. Up-to-date information about slots, table games, live casino, and game providers.',
+    'keywords' => ':bookmaker casino, :bookmaker online casino, casino review, slots, live casino, table games, slot machines',
+    'Review' => ':bookmaker Casino Review',
+    'Claim' => 'Claim',
+    'Quick Info' => ':bookmaker Quick Info',
+    'Payment Methods' => 'Payment Methods',
+    'Currency' => 'Currency',
+    'Licensed/Regulated by' => 'Licensed/Regulated by',
+    'Sports' => 'Sports',
+    'Responsible Gambling' => 'Responsible Gambling',
+    'Customer Support' => 'Customer Support',
+    'Live Streaming' => 'Live Streaming',
+    'Tested Betting Sites' => 'Tested Betting Sites',
+    'Pros' => 'Pros',
+    'Cons' => 'Cons',
+    'Event' => 'Event',
+    'Telephone' => 'Telephone',
+    'Promo Codes' => ':bookmaker Promo Codes',
+    'Relevant Code' => 'Relevant Code',
+    'Tested' => 'Tested',
+    'See full details of the' => 'See full details of the',
+    'Bonus' => 'Bonus',
+    'Mobile App' => 'Mobile App',
+];
