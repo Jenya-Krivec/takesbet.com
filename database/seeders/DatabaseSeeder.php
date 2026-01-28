@@ -135,6 +135,7 @@ class DatabaseSeeder extends Seeder
                 UpdateBookmakersSeeder::class,
                 BookmakerMelBetCasinoSeeder::class,
                 Bookmaker1XBETCasinoSeeder::class,
+                BookmakerBetWinnerCasinoSeeder::class,
             ]
         );
     }
