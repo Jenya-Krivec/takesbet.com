@@ -397,10 +397,10 @@ class BookmakerMOSTBETCasinoSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
                 'component' => 'h3',
-                'value_en' => '{"0":"1XBET FAQs"}',
-                'value_es' => '{"0":"Preguntas frecuentes de 1XBET"}',
-                'value_fr' => '{"0":"FAQ de 1XBET"}',
-                'value_pt' => '{"0":"Perguntas frequentes do 1XBET"}',
+                'value_en' => '{"0":"MOSTBET FAQs"}',
+                'value_es' => '{"0":"Preguntas frecuentes de MOSTBET"}',
+                'value_fr' => '{"0":"FAQ de MOSTBET"}',
+                'value_pt' => '{"0":"Perguntas frequentes do MOSTBET"}',
              'order' => 28
             ]
         );

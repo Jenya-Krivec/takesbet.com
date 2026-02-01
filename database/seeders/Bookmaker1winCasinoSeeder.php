@@ -439,10 +439,10 @@ class Bookmaker1winCasinoSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
                 'component' => 'h3',
-                'value_en' => '{"0":"1XBET FAQs"}',
-                'value_es' => '{"0":"Preguntas frecuentes de 1XBET"}',
-                'value_fr' => '{"0":"FAQ de 1XBET"}',
-                'value_pt' => '{"0":"Perguntas frequentes do 1XBET"}',
+                'value_en' => '{"0":"1win FAQs"}',
+                'value_es' => '{"0":"Preguntas frecuentes de 1win"}',
+                'value_fr' => '{"0":"FAQ de 1win"}',
+                'value_pt' => '{"0":"Perguntas frequentes do 1win"}',
              'order' => 30
             ]
         );
