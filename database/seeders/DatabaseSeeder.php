@@ -143,6 +143,7 @@ class DatabaseSeeder extends Seeder
                 Bookmaker888starzCasinoSeeder::class,
                 BookmakerMEGAPARICasinoSeeder::class,
                 Bookmaker22BETCasinoSeeder::class,
+                BookmakerLinebetCasinoSeeder::class,
             ]
         );
     }
