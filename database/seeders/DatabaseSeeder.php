@@ -146,6 +146,7 @@ class DatabaseSeeder extends Seeder
                 BookmakerLinebetCasinoSeeder::class,
                 Bookmaker20BETCasinoSeeder::class,
                 BookmakerBETANDYOUCasinoSeeder::class,
+                BookmakerivibetCasinoSeeder::class,
             ]
         );
     }
