@@ -34,10 +34,10 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
             ['key' => '20bet',
              'bookmaker_id' => 12,
              'component' => 'p',
-             'value_en' => '{"0":"New players can use the promo code :promocode to get a 100% bonus on their first deposit, up to €100. Additionally, new casino users can claim 120 free spins — just sign up using the promo code :promocode."}',
-             'value_es' => '{"0":"Los nuevos jugadores pueden utilizar el código promocional :promocode para obtener un bono del 100% en su primer depósito, hasta €100. Además, los nuevos usuarios del casino pueden recibir 120 giros gratis — solo deben registrarse usando el código promocional :promocode."}',
-             'value_fr' => '{"0":"Les nouveaux joueurs peuvent utiliser le code promo :promocode pour recevoir un bonus de 100 % sur leur premier dépôt, jusqu’à 100 €. De plus, les nouveaux utilisateurs du casino peuvent obtenir 120 tours gratuits — il suffit de s’inscrire avec le code promo :promocode."}',
-             'value_pt' => '{"0":"Novos jogadores podem usar o código promocional :promocode para receber um bônus de 100% no primeiro depósito, até €100. Além disso, novos usuários do cassino podem ganhar 120 rodadas grátis — basta se registrar usando o código :promocode."}',
+             'value_en' => '{"0":"New players can use the 20BET promo code :promocode to get a 100% bonus on their first deposit, up to €100. Additionally, new casino users can claim 120 free spins — just sign up using the 20BET promo code :promocode."}',
+             'value_es' => '{"0":"Los nuevos jugadores pueden utilizar el código promocional de 20BET :promocode para obtener un bono del 100% en su primer depósito, hasta €100. Además, los nuevos usuarios del casino pueden recibir 120 giros gratis — solo deben registrarse usando el código promocional de 20BET :promocode."}',
+             'value_fr' => '{"0":"Les nouveaux joueurs peuvent utiliser le code promo 20BET :promocode pour recevoir un bonus de 100 % sur leur premier dépôt, jusqu’à 100 €. De plus, les nouveaux utilisateurs du casino peuvent obtenir 120 tours gratuits — il suffit de s’inscrire avec le code promo 20BET :promocode."}',
+             'value_pt' => '{"0":"Novos jogadores podem usar o código promocional da 20BET :promocode para receber um bônus de 100% no primeiro depósito, até €100. Além disso, novos usuários do cassino podem ganhar 120 rodadas grátis — basta se registrar usando o código promocional da 20BET :promocode."}',
              'order' => 2
             ]
         );
@@ -76,10 +76,10 @@ class Bookmaker20BETPromoCodesSeeder extends Seeder
             ['key' => '20bet',
              'bookmaker_id' => 12,
              'component' => 'p',
-             'value_en' => '{"0":"Takesbet, in collaboration with 20BET, offers the most up-to-date bonuses and promo codes for new users. We recommend using the promo code provided here, as it is valid for both sports betting and casino games, and guarantees an extra cash bonus upon registration."}',
-             'value_es' => '{"0":"Takesbet, en colaboración con 20BET, ofrece los bonos y códigos promocionales más actualizados para nuevos usuarios. Recomendamos utilizar el código promocional que se encuentra aquí, ya que es válido tanto para apuestas deportivas como para juegos de casino, y garantiza un bono en efectivo adicional al registrarte."}',
-             'value_fr' => '{"0":"Takesbet, en partenariat avec 20BET, propose les bonus et codes promo les plus récents pour les nouveaux utilisateurs. Nous vous recommandons d’utiliser le code promo fourni ici, car il est valable pour les paris sportifs et les jeux de casino, et vous garantit un bonus en argent supplémentaire lors de l’inscription."}',
-             'value_pt' => '{"0":"A Takesbet, em parceria com a 20BET, oferece os bônus e códigos promocionais mais atualizados para novos usuários. Recomendamos o uso do código promocional fornecido aqui, pois ele é válido tanto para apostas esportivas quanto para jogos de cassino, e garante um bônus em dinheiro extra no momento do registro."}',
+             'value_en' => '{"0":"Takesbet, in collaboration with 20BET, offers the most up-to-date bonuses and promo codes for new users. We recommend using the 20BET promo code provided here, as it is valid for both sports betting and casino games, and guarantees an extra cash bonus upon registration."}',
+             'value_es' => '{"0":"Takesbet, en colaboración con 20BET, ofrece los bonos y códigos promocionales más actualizados para nuevos usuarios. Recomendamos utilizar el código promocional de 20BET que se encuentra aquí, ya que es válido tanto para apuestas deportivas como para juegos de casino, y garantiza un bono en efectivo adicional al registrarte."}',
+             'value_fr' => '{"0":"Takesbet, en partenariat avec 20BET, propose les bonus et codes promo les plus récents pour les nouveaux utilisateurs. Nous vous recommandons d’utiliser le code promo 20BET fourni ici, car il est valable pour les paris sportifs et les jeux de casino, et vous garantit un bonus en argent supplémentaire lors de l’inscription."}',
+             'value_pt' => '{"0":"A Takesbet, em parceria com a 20BET, oferece os bônus e códigos promocionais mais atualizados para novos usuários. Recomendamos o uso do código promocional da 20BET fornecido aqui, pois ele é válido tanto para apostas esportivas quanto para jogos de cassino, e garante um bônus em dinheiro extra no momento do registro."}',
              'order' => 5
             ]
         );

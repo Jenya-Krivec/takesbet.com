@@ -20,10 +20,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"1win offers new players a great opportunity to claim a welcome bonus of up to $205. Simply register with the 1win sportsbook using the promo code :promocode and make a deposit to take advantage of the first deposit bonus."}',
-             'value_es' => '{"0":"1win ofrece a los nuevos jugadores una excelente oportunidad de obtener un bono de bienvenida de hasta $205. Solo tienes que registrarte en la casa de apuestas 1win usando el código promocional :promocode y hacer un depósito para aprovechar el bono por primer depósito."}',
-             'value_fr' => '{"0":"1win offre aux nouveaux joueurs une excellente occasion de recevoir un bonus de bienvenue pouvant aller jusqu’à 205$. Il suffit de vous inscrire sur le site de paris sportifs 1win avec le code promo :promocode et d’effectuer un dépôt pour profiter du bonus sur le premier dépôt."}',
-             'value_pt' => '{"0":"A 1win oferece aos novos jogadores uma ótima oportunidade de receber um bônus de boas-vindas de até $205. Basta registrar-se na casa de apostas 1win com o código promocional :promocode e fazer um depósito para aproveitar o bônus de primeiro depósito."}',
+             'value_en' => '{"0":"1win offers new players a great opportunity to claim a welcome bonus of up to $205. Simply register with the 1win sportsbook using the 1win promo code :promocode and make a deposit to take advantage of the first deposit bonus."}',
+             'value_es' => '{"0":"1win ofrece a los nuevos jugadores una excelente oportunidad de obtener un bono de bienvenida de hasta $205. Simplemente regístrate en la casa de apuestas deportivas 1win usando el código promocional 1win :promocode y realiza un depósito para aprovechar el bono por el primer depósito."}',
+             'value_fr' => '{"0":"1win offre aux nouveaux joueurs une excellente occasion de recevoir un bonus de bienvenue pouvant aller jusqu’à 205$. Il vous suffit de vous inscrire sur le site de paris sportifs 1win en utilisant le code promotionnel 1win :promocode et d’effectuer un dépôt pour profiter du bonus de premier dépôt."}',
+             'value_pt' => '{"0":"A 1win oferece aos novos jogadores uma ótima oportunidade de receber um bônus de boas-vindas de até $205. Basta se registrar na casa de apostas esportivas 1win usando o código promocional 1win :promocode e fazer um depósito para aproveitar o bônus do primeiro depósito."}',
              'order' => 1
             ]
         );
@@ -62,10 +62,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"To claim the maximum bonus, register using the 1win promo code :promocode and make a deposit. New players can activate the :promocode promo code during registration to receive a 500% bonus on their first deposit."}',
-             'value_es' => '{"0":"Para obtener el bono máximo, regístrate con el código promocional de 1win :promocode y realiza un depósito. Los nuevos jugadores pueden activar el código :promocode durante el registro para recibir un bono del 500% en su primer depósito."}',
-             'value_fr' => '{"0":"Pour obtenir le bonus maximum, inscrivez-vous avec le code promo 1win :promocode et effectuez un dépôt. Les nouveaux joueurs peuvent activer le code :promocode lors de l’inscription pour recevoir un bonus de 500% sur leur premier dépôt."}',
-             'value_pt' => '{"0":"Para receber o bônus máximo, registre-se com o código promocional da 1win :promocode e faça um depósito. Novos jogadores podem ativar o código :promocode durante o cadastro para receber um bônus de 500% no primeiro depósito."}',
+             'value_en' => '{"0":"To claim the maximum bonus, register using the 1win promo code :promocode and make a deposit. New players can activate the 1win promo code :promocode during registration to receive a 500% bonus on their first deposit."}',
+             'value_es' => '{"0":"Para obtener el bono máximo, regístrate con el código promocional de 1win :promocode y realiza un depósito. Los nuevos jugadores pueden activar el código promocional :promocode de 1win durante el registro para recibir un bono del 500 % en su primer depósito."}',
+             'value_fr' => '{"0":"Pour obtenir le bonus maximum, inscrivez-vous avec le code promo 1win :promocode et effectuez un dépôt. Les nouveaux joueurs peuvent activer le code promotionnel :promocode de 1win lors de l’inscription pour recevoir un bonus de 500 % sur leur premier dépôt."}',
+             'value_pt' => '{"0":"Para receber o bônus máximo, registre-se com o código promocional da 1win :promocode e faça um depósito. Novos jogadores podem ativar o código promocional :promocode da 1win durante o registro para receber um bônus de 500% no primeiro depósito."}',
              'order' => 4
             ]
         );
@@ -104,8 +104,8 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Activate the bonus code :promocode from 1win to receive a generous welcome bonus on your new account. Follow the simple steps below and claim your bonus funds. Take advantage of 1win’s welcome offer for new users!"}',
-             'value_es' => '{"0":"Activa el código de bonificación :promocode de 1win para recibir un generoso bono de bienvenida en tu nueva cuenta. Sigue los sencillos pasos a continuación y obtén tus fondos de bonificación. ¡Aprovecha la oferta de bienvenida de 1win para nuevos usuarios!"}',
+             'value_en' => '{"0":"Activate the 1win bonus code :promocode from 1win to receive a generous welcome bonus on your new account. Follow the simple steps below and claim your bonus funds. Take advantage of 1win’s welcome offer for new users!"}',
+             'value_es' => '{"0":"Activa el código de bono :promocode de 1win para recibir un generoso bono de bienvenida en tu nueva cuenta. Sigue los sencillos pasos a continuación y obtén tus fondos de bonificación. ¡Aprovecha la oferta de bienvenida de 1win para nuevos usuarios!"}',
              'value_fr' => '{"0":"Activez le code bonus :promocode de 1win pour recevoir un généreux bonus de bienvenue sur votre nouveau compte. Suivez les étapes simples ci-dessous et réclamez vos fonds bonus. Profitez de l’offre de bienvenue de 1win réservée aux nouveaux utilisateurs!"}',
              'value_pt' => '{"0":"Ative o código de bônus :promocode da 1win para receber um generoso bônus de boas-vindas na sua nova conta. Siga os passos simples abaixo e resgate seus créditos de bônus. Aproveite a oferta de boas-vindas da 1win para novos usuários!"}',
              'order' => 7
@@ -188,10 +188,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Don’t forget to enter the promo code :promocode during registration. Once the process is complete, confirm your account by clicking the link sent to your email."}',
-             'value_es' => '{"0":"No olvides introducir el código promocional :promocode durante el registro. Una vez finalizado el proceso, confirma tu cuenta haciendo clic en el enlace enviado a tu correo electrónico."}',
-             'value_fr' => '{"0":"N’oubliez pas de saisir le code promo :promocode lors de votre inscription. Une fois l’inscription terminée, confirmez votre compte en cliquant sur le lien envoyé à votre adresse e-mail."}',
-             'value_pt' => '{"0":"Não se esqueça de inserir o código promocional :promocode durante o cadastro. Após concluir o processo, confirme sua conta clicando no link enviado para seu e-mail."}',
+             'value_en' => '{"0":"Don’t forget to enter the 1win promo code :promocode during registration. Once the process is complete, confirm your account by clicking the link sent to your email."}',
+             'value_es' => '{"0":"No olvides ingresar el código promocional :promocode de 1win durante el registro. Una vez finalizado el proceso, confirma tu cuenta haciendo clic en el enlace enviado a tu correo electrónico."}',
+             'value_fr' => '{"0":"N’oubliez pas de saisir le code promotionnel :promocode de 1win lors de l’inscription. Une fois l’inscription terminée, confirmez votre compte en cliquant sur le lien envoyé à votre adresse e-mail."}',
+             'value_pt' => '{"0":"Não se esqueça de inserir o código promocional :promocode da 1win durante o registro. Após concluir o processo, confirme sua conta clicando no link enviado para seu e-mail."}',
              'order' => 13
             ]
         );
@@ -412,10 +412,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Get a 500% bonus on your first four deposits with the 1Win welcome offer using promo code :promocode. Receive 200% on your first deposit, 150% on your second, 100% on your third, and 50% on your fourth. Bonus funds are released gradually based on the amount of your real money bets. Use these funds to bet on sports with odds of 3.00 or higher."}',
-             'value_es' => '{"0":"Obtén un bono del 500% en tus primeros cuatro depósitos gracias a la oferta de bienvenida de 1Win con el código promocional :promocode. Recibe un 200% en tu primer depósito, 150% en el segundo, 100% en el tercero y 50% en el cuarto. Los fondos del bono se liberan gradualmente según la cantidad que apuestes con dinero real. Usa estos fondos para apostar en deportes con cuotas de 3.00 o más."}',
-             'value_fr' => '{"0":"Profitez d\'un bonus de 500 % sur vos quatre premiers dépôts grâce à l\'offre de bienvenue 1Win avec le code promo :promocode. Recevez 200 % sur votre premier dépôt, 150 % sur le deuxième, 100 % sur le troisième et 50 % sur le quatrième. Les fonds bonus sont débloqués progressivement en fonction du montant de vos mises en argent réel. Utilisez ces fonds pour parier sur des sports avec une cote de 3.00 ou plus."}',
-             'value_pt' => '{"0":"Receba um bônus de 500% nos seus primeiros quatro depósitos com a oferta de boas-vindas da 1Win usando o código promocional :promocode. Ganhe 200% no primeiro depósito, 150% no segundo, 100% no terceiro e 50% no quarto. Os fundos do bônus são liberados gradualmente com base no valor das suas apostas em dinheiro real. Use esses fundos para apostar em esportes com odds de 3.00 ou mais."}',
+             'value_en' => '{"0":"Get a 500% bonus on your first four deposits with the 1win welcome offer using the 1win promo code :promocode. Receive 200% on your first deposit, 150% on your second, 100% on your third, and 50% on your fourth. Bonus funds are released gradually based on the amount of your real money bets. Use these funds to bet on sports with odds of 3.00 or higher."}',
+             'value_es' => '{"0":"Obtén un bono del 500 % en tus primeros cuatro depósitos con la oferta de bienvenida de 1win usando el código promocional 1win :promocode. Recibe un 200% en tu primer depósito, 150% en el segundo, 100% en el tercero y 50% en el cuarto. Los fondos del bono se liberan gradualmente según la cantidad que apuestes con dinero real. Usa estos fondos para apostar en deportes con cuotas de 3.00 o más."}',
+             'value_fr' => '{"0":"Obtenez un bonus de 500 % sur vos quatre premiers dépôts avec l’offre de bienvenue de 1win en utilisant le code promotionnel 1win :promocode. Recevez 200 % sur votre premier dépôt, 150 % sur le deuxième, 100 % sur le troisième et 50 % sur le quatrième. Les fonds bonus sont débloqués progressivement en fonction du montant de vos mises en argent réel. Utilisez ces fonds pour parier sur des sports avec une cote de 3.00 ou plus."}',
+             'value_pt' => '{"0":"Receba um bônus de 500% nos seus quatro primeiros depósitos com a oferta de boas-vindas da 1win usando o código promocional 1win :promocode. Ganhe 200% no primeiro depósito, 150% no segundo, 100% no terceiro e 50% no quarto. Os fundos do bônus são liberados gradualmente com base no valor das suas apostas em dinheiro real. Use esses fundos para apostar em esportes com odds de 3.00 ou mais."}',
              'order' => 29
             ]
         );

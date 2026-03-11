@@ -20,10 +20,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"By activating the promo code :promocode, you can boost your first deposit bonus! Especially for Takesbet followers, we\'ve prepared an exclusive promo code that adds $130 to the welcome bonus offered by Betwinner."}',
-             'value_es' => '{"0":"Al activar el código promocional :promocode, ¡puedes aumentar tu bono de primer depósito! Especialmente para los seguidores de Takesbet, hemos preparado un código exclusivo que añade 130$ al bono de bienvenida ofrecido por Betwinner."}',
-             'value_fr' => '{"0":"En activant le code promo :promocode, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
-             'value_pt' => '{"0":"En activant le code promo :promocode, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code exclusif qui ajoute 130$ au bonus de bienvenue proposé par Betwinner."}',
+             'value_en' => '{"0":"By activating the BetWinner promo code :promocode, you can boost your first deposit bonus! Especially for Takesbet followers, we’ve prepared an exclusive BetWinner promo code that adds $130 to the welcome bonus."}',
+             'value_es' => '{"0":"Al activar el código promocional :promocode de BetWinner, puedes aumentar tu bono por el primer depósito. Especialmente para los seguidores de Takesbet, hemos preparado un código promocional exclusivo de BetWinner que añade $130 al bono de bienvenida."}',
+             'value_fr' => '{"0":"En activant le code promotionnel :promocode de BetWinner, vous pouvez augmenter votre bonus de premier dépôt ! Spécialement pour les abonnés de Takesbet, nous avons préparé un code promotionnel exclusif de BetWinner qui ajoute 130 $ au bonus de bienvenue."}',
+             'value_pt' => '{"0":"Ao ativar o código promocional :promocode da BetWinner, você pode aumentar o seu bônus de primeiro depósito! Especialmente para os seguidores do Takesbet, preparamos um código promocional exclusivo da BetWinner que adiciona $130 ao bônus de boas-vindas."}',
              'order' => 1
             ]
         );
@@ -90,10 +90,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Use the promo code :promocode to get the best bonuses for players, including sports betting and casino offers! Simply fill out the registration form and unlock top promotions. The perfect way to start with Betwinner is to register using the :promocode promo code."}',
-             'value_es' => '{"0":"Utiliza el código promocional :promocode para obtener los mejores bonos para jugadores, incluidas ofertas en apuestas deportivas y casino. Solo tienes que completar el formulario de registro y acceder a las mejores promociones. La forma ideal de comenzar en Betwinner es registrarte con el código :promocode."}',
-             'value_fr' => '{"0":"Utilisez le code promo :promocode pour obtenir les meilleurs bonus pour les joueurs, y compris sur les paris sportifs et les jeux de casino ! Il suffit de remplir le formulaire d\'inscription pour profiter des meilleures offres. Le meilleur moyen de débuter sur Betwinner, c’est de s’inscrire avec le code :promocode."}',
-             'value_pt' => '{"0":"Use o código promocional :promocode para garantir os melhores bônus para jogadores, incluindo apostas esportivas e ofertas de cassino! Basta preencher o formulário de registro e aproveitar as melhores promoções. A melhor forma de começar na Betwinner é se registrar com o código :promocode"}',
+             'value_en' => '{"0":"Use the BetWinner promo code :promocode to get the best bonuses for players, including sports betting and casino offers! Simply fill out the registration form and unlock top promotions. The perfect way to start with Betwinner is to register using the :promocode promo code."}',
+             'value_es' => '{"0":"Usa el código promocional :promocode de BetWinner para obtener los mejores bonos para jugadores, incluidas apuestas deportivas y ofertas de casino. Solo tienes que completar el formulario de registro y acceder a las mejores promociones. La forma ideal de comenzar en Betwinner es registrarte con el código :promocode."}',
+             'value_fr' => '{"0":"Utilisez le code promotionnel :promocode de BetWinner pour obtenir les meilleurs bonus pour les joueurs, y compris les paris sportifs et les offres de casino ! Il suffit de remplir le formulaire d\'inscription pour profiter des meilleures offres. Le meilleur moyen de débuter sur Betwinner, c’est de s’inscrire avec le code :promocode."}',
+             'value_pt' => '{"0":"Use o código promocional :promocode da BetWinner para obter os melhores bônus para jogadores, incluindo apostas esportivas e ofertas de cassino.! Basta preencher o formulário de registro e aproveitar as melhores promoções. A melhor forma de começar na Betwinner é se registrar com o código :promocode"}',
              'order' => 6
             ]
         );
@@ -216,10 +216,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media, or using the one-click option. This is also where you can enter the promo code :promocode to claim an enhanced welcome bonus."}',
-             'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales o mediante la opción de un solo clic. En este paso también puedes introducir el código promocional :promocode para obtener un bono de bienvenida mejorado."}',
-             'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux ou via l’option en un clic. C’est également à ce stade que vous pouvez entrer le code promo :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
-             'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais ou usando a opção de um clique. É também neste momento que você pode inserir o código promocional :promocode para garantir um bônus de boas-vindas ampliado."}',
+             'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media, or using the one-click option. This is also where you can enter the BetWinner promo code :promocode to claim an enhanced welcome bonus."}',
+             'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales o mediante la opción de un solo clic. Aquí también puedes introducir el código promocional :promocode de BetWinner para obtener un bono de bienvenida mejorado."}',
+             'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux ou via l’option en un clic. C’est également ici que vous pouvez saisir le code promotionnel :promocode de BetWinner afin d’obtenir un bonus de bienvenue amélioré."}',
+             'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais ou usando a opção de um clique. É aqui também que você pode inserir o código promocional :promocode da BetWinner para receber um bônus de boas-vindas aprimorado."}',
              'order' => 15
             ]
         );
@@ -370,10 +370,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"First and foremost is the welcome bonus. With the promo code :promocode, new users can claim a 100% bonus. And that\'s just the beginning — once registered, you’ll get access to over 30 ongoing promotions, including accumulator bonuses, cashback offers, and 0-0 score insurance."}',
-             'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional :promocode, los nuevos usuarios pueden recibir un bono del 100%. Y eso es solo el comienzo: una vez registrado, tendrás acceso a más de 30 promociones activas, que incluyen bonos para apuestas combinadas, reembolsos y seguros para apuestas con resultado 0-0."}',
-             'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Grâce au code promo :promocode, les nouveaux utilisateurs peuvent recevoir un bonus de 100 %. Et ce n’est que le début : une fois inscrit, vous aurez accès à plus de 30 promotions actives, allant des bonus sur les paris combinés aux offres de cashback et à l’assurance sur les scores de 0-0."}',
-             'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional :promocode, novos usuários podem receber um bônus de 100%. E isso é só o começo — ao se registrar, você terá acesso a mais de 30 promoções ativas, incluindo bônus em apostas acumuladas, ofertas de cashback e seguro para apostas com placar de 0-0."}',
+             'value_en' => '{"0":"First and foremost is the welcome bonus. With the BetWinner promo code :promocode, new users can claim a 100% bonus. And that\'s just the beginning — once registered, you’ll get access to over 30 ongoing promotions, including accumulator bonuses, cashback offers, and 0-0 score insurance."}',
+             'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional :promocode de BetWinner, los nuevos usuarios pueden obtener un bono del 100%. Y eso es solo el comienzo: una vez registrado, tendrás acceso a más de 30 promociones activas, que incluyen bonos para apuestas combinadas, reembolsos y seguros para apuestas con resultado 0-0."}',
+             'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Avec le code promotionnel :promocode de BetWinner, les nouveaux utilisateurs peuvent obtenir un bonus de 100 %. Et ce n’est que le début : une fois inscrit, vous aurez accès à plus de 30 promotions actives, allant des bonus sur les paris combinés aux offres de cashback et à l’assurance sur les scores de 0-0."}',
+             'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional :promocode da BetWinner, os novos usuários podem receber um bônus de 100%. E isso é só o começo — ao se registrar, você terá acesso a mais de 30 promoções ativas, incluindo bônus em apostas acumuladas, ofertas de cashback e seguro para apostas com placar de 0-0."}',
              'order' => 26
             ]
         );
@@ -412,10 +412,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"In addition to the sports betting bonus, new users can opt for the casino welcome offer by activating it with the exclusive promo code from Takesbet. The Betwinner platform offers a wide selection of classic table games, as well as modern interpretations of popular variants."}',
-             'value_es' => '{"0":"Además del bono para apuestas deportivas, los nuevos usuarios pueden optar por la oferta de bienvenida del casino activándola con el código promocional exclusivo de Takesbet. La plataforma de Betwinner ofrece una amplia selección de juegos de mesa clásicos, así como interpretaciones modernas de variantes populares."}',
-             'value_fr' => '{"0":"En plus du bonus pour les paris sportifs, les nouveaux utilisateurs peuvent choisir l\'offre de bienvenue du casino en l\'activant avec le code promotionnel exclusif de Takesbet. La plateforme Betwinner propose une large sélection de jeux de table classiques, ainsi que des interprétations modernes de variantes populaires."}',
-             'value_pt' => '{"0":"Além do bônus para apostas esportivas, os novos usuários podem optar pela oferta de boas-vindas do cassino, ativando-a com o código promocional exclusivo da Takesbet. A plataforma Betwinner oferece uma ampla seleção de jogos de mesa clássicos, bem como interpretações modernas de variantes populares."}',
+             'value_en' => '{"0":"In addition to the sports betting bonus, new users can opt for the casino welcome offer by activating it with the exclusive BetWinner promo code from Takesbet. The Betwinner platform offers a wide selection of classic table games, as well as modern interpretations of popular variants."}',
+             'value_es' => '{"0":"Además del bono de apuestas deportivas, los nuevos usuarios pueden elegir la oferta de bienvenida del casino activándola con el código promocional exclusivo de BetWinner de Takesbet. La plataforma de Betwinner ofrece una amplia selección de juegos de mesa clásicos, así como interpretaciones modernas de variantes populares."}',
+             'value_fr' => '{"0":"En plus du bonus de paris sportifs, les nouveaux utilisateurs peuvent choisir l’offre de bienvenue du casino en l’activant avec le code promotionnel exclusif de BetWinner de Takesbet. La plateforme Betwinner propose une large sélection de jeux de table classiques, ainsi que des interprétations modernes de variantes populaires."}',
+             'value_pt' => '{"0":"Além do bônus de apostas esportivas, os novos usuários podem optar pela oferta de boas-vindas do cassino ativando-a com o código promocional exclusivo da BetWinner do Takesbet. A plataforma Betwinner oferece uma ampla seleção de jogos de mesa clássicos, bem como interpretações modernas de variantes populares."}',
              'order' => 29
             ]
         );
@@ -440,10 +440,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"The promo code :promocode is valid for both sports betting and casino offers. It grants access to an enhanced casino bonus."}',
-             'value_es' => '{"0":"El código promocional :promocode es válido tanto para apuestas deportivas como para ofertas de casino. Proporciona acceso a un bono de casino mejorado."}',
-             'value_fr' => '{"0":"Le code promotionnel :promocode est valable à la fois pour les paris sportifs et les offres de casino. Il donne accès à un bonus de casino amélioré."}',
-             'value_pt' => '{"0":"O código promocional :promocode é válido tanto para apostas esportivas quanto para ofertas de cassino. Ele concede acesso a um bônus de cassino aprimorado."}',
+             'value_en' => '{"0":"The BetWinner promo code :promocode is valid for both sports betting and casino offers. It grants access to an enhanced casino bonus."}',
+             'value_es' => '{"0":"El código promocional :promocode de BetWinner es válido tanto para apuestas deportivas como para ofertas de casino. Otorga acceso a un bono de casino mejorado."}',
+             'value_fr' => '{"0":"Le code promotionnel :promocode de BetWinner est valable pour les paris sportifs ainsi que pour les offres de casino. Il donne accès à un bonus de casino amélioré."}',
+             'value_pt' => '{"0":"O código promocional :promocode da BetWinner é válido tanto para apostas esportivas quanto para ofertas de cassino. Ele concede acesso a um bônus de cassino aprimorado."}',
              'order' => 31
             ]
         );

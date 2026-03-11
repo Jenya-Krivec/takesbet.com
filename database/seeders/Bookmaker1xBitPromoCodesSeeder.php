@@ -20,10 +20,10 @@ class Bookmaker1xBitPromoCodesSeeder extends Seeder
             ['key' => '1xbit',
              'bookmaker_id' => 15,
              'component' => 'p',
-             'value_en' => '{"0":"1xBit offers users a wide variety of promotions and bonuses, especially for new players. To take advantage of the welcome bonus and enter our promo code :promocode, you first need to register. Creating an account at 1xBit takes only a few minutes and is very straightforward. Below, we’ll explain how to do it and make sure you don’t miss out on the generous welcome bonus using our promo code."}',
-             'value_es' => '{"0":"1xBit ofrece a los usuarios una gran variedad de promociones y bonos, especialmente para los nuevos jugadores. Para aprovechar el bono de bienvenida e ingresar nuestro código promocional :promocode, primero debes registrarte. Crear una cuenta en 1xBit toma solo unos minutos y es muy sencillo. A continuación, te explicamos cómo hacerlo y no perder la oportunidad de obtener un generoso bono de bienvenida con nuestro código promocional."}',
-             'value_fr' => '{"0":"1xBit offre aux utilisateurs une large gamme de promotions et de bonus, en particulier pour les nouveaux venus. Pour profiter du bonus de bienvenue et saisir notre code promo :promocode, vous devez d\'abord créer un compte. La création d’un compte sur 1xBit ne prend que quelques minutes et est très simple. Ci-dessous, nous vous expliquons comment faire et ne pas manquer ce généreux bonus de bienvenue grâce à notre code promo."}',
-             'value_pt' => '{"0":"A 1xBit oferece aos usuários uma grande variedade de promoções e bônus, especialmente para novos jogadores. Para aproveitar o bônus de boas-vindas e inserir o nosso código promocional :promocode, é necessário primeiro fazer o registro. Criar uma conta na 1xBit leva apenas alguns minutos e é muito simples. Abaixo, explicamos como fazer isso e garantir que você não perca o generoso bônus de boas-vindas usando o nosso código promocional."}',
+             'value_en' => '{"0":"1xBit offers users a wide variety of promotions and bonuses, especially for new players. To take advantage of the welcome bonus and enter the 1xBit promo code :promocode, you first need to register. Creating an account at 1xBit takes only a few minutes and is very straightforward. Below, we’ll explain how to do it and make sure you don’t miss out on the generous welcome bonus using our promo code."}',
+             'value_es' => '{"0":"1xBit ofrece a los usuarios una gran variedad de promociones y bonos, especialmente para los nuevos jugadores. Para aprovechar el bono de bienvenida e ingresar el código promocional de 1xBit :promocode, primero debes registrarte. Crear una cuenta en 1xBit toma solo unos minutos y es muy sencillo. A continuación, te explicamos cómo hacerlo y no perder la oportunidad de obtener un generoso bono de bienvenida con nuestro código promocional."}',
+             'value_fr' => '{"0":"1xBit offre aux utilisateurs une large gamme de promotions et de bonus, en particulier pour les nouveaux venus. Pour profiter du bonus de bienvenue et saisir le code promotionnel de 1xBit :promocode, vous devez d’abord vous inscrire. La création d’un compte sur 1xBit ne prend que quelques minutes et est très simple. Ci-dessous, nous vous expliquons comment faire et ne pas manquer ce généreux bonus de bienvenue grâce à notre code promo."}',
+             'value_pt' => '{"0":"A 1xBit oferece aos usuários uma grande variedade de promoções e bônus, especialmente para novos jogadores. Para aproveitar o bônus de boas-vindas e inserir o código promocional da 1xBit :promocode, você precisa se registrar primeiro. Criar uma conta na 1xBit leva apenas alguns minutos e é muito simples. Abaixo, explicamos como fazer isso e garantir que você não perca o generoso bônus de boas-vindas usando o nosso código promocional."}',
              'order' => 1
             ]
         );
@@ -59,7 +59,7 @@ class Bookmaker1xBitPromoCodesSeeder extends Seeder
             ['key' => '1xbit',
              'order' => 4
             ],
-            ['key' => '1xbet',
+            ['key' => '1xbit',
              'bookmaker_id' => 15,
              'component' => 'p',
              'value_en' => '{"0":"As we already mentioned, using the 1xBit promo code :promocode allows you to claim a generous welcome bonus — 100% up to 7 BTC! This is one of the most attractive bonus offers for online casino enthusiasts. With our promo code, the 1xBit welcome bonus is truly a great deal. Please note that the bonus comes with wagering requirements — a 150x rollover. Additionally, there is a maximum bet limit of 20 mBTC."}',
@@ -174,10 +174,10 @@ class Bookmaker1xBitPromoCodesSeeder extends Seeder
             ['key' => '1xbit',
                 'bookmaker_id' => 15,
                 'component' => 'p',
-                'value_en' => '{"0":"Don’t forget to enter the promo code :promocode during registration. Once the process is complete, confirm your account by clicking the link sent to your email."}',
-                'value_es' => '{"0":"No olvides introducir el código promocional :promocode durante el registro. Una vez finalizado el proceso, confirma tu cuenta haciendo clic en el enlace enviado a tu correo electrónico."}',
-                'value_fr' => '{"0":"N’oubliez pas de saisir le code promo :promocode lors de votre inscription. Une fois l’inscription terminée, confirmez votre compte en cliquant sur le lien envoyé à votre adresse e-mail."}',
-                'value_pt' => '{"0":"Não se esqueça de inserir o código promocional :promocode durante o cadastro. Após concluir o processo, confirme sua conta clicando no link enviado para seu e-mail."}',
+                'value_en' => '{"0":"Don’t forget to enter the 1xBit promo code :promocode during registration. Once the process is complete, confirm your account by clicking the link sent to your email."}',
+                'value_es' => '{"0":"No olvides introducir el código promocional de 1xBit :promocode durante el registro. Una vez finalizado el proceso, confirma tu cuenta haciendo clic en el enlace enviado a tu correo electrónico."}',
+                'value_fr' => '{"0":"N’oubliez pas de saisir le code promo 1xBit :promocode lors de votre inscription. Une fois l’inscription terminée, confirmez votre compte en cliquant sur le lien envoyé à votre adresse e-mail."}',
+                'value_pt' => '{"0":"Não se esqueça de inserir o código promocional da 1xBit :promocode durante o cadastro. Após concluir o processo, confirme sua conta clicando no link enviado para seu e-mail."}',
                 'order' => 12
             ]
         );

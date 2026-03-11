@@ -20,10 +20,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"A special promo code from PARIPESA is available for you, unlocking the best bonus opportunities on the site. The promo code r will help boost your winnings and guarantee great conditions and exclusive offers for new PARIPESA users. Don’t forget to use it! By using this promo code, you’ll receive a first deposit bonus of 130 euros."}',
-             'value_es' => '{"0":"Tienes disponible un código promocional especial de PARIPESA que te dará acceso a los mejores bonos del sitio. El código :promocode aumentará tus ganancias y te garantizará condiciones favorables y ofertas exclusivas para nuevos usuarios de PARIPESA. ¡No olvides utilizarlo! Con este código, recibirás un bono de 130 euros en tu primer depósito."}',
-             'value_fr' => '{"0":"Un code promo spécial de PARIPESA est disponible pour vous, vous donnant accès aux meilleures offres de bonus sur le site. Le code :promocode vous aidera à augmenter vos gains et vous garantira des conditions avantageuses ainsi que des offres exclusives réservées aux nouveaux utilisateurs de PARIPESA. N\'oubliez pas de l\'utiliser ! En saisissant ce code, vous recevrez un bonus de 130 euros sur votre premier dépôt."}',
-             'value_pt' => '{"0":"Você tem à sua disposição um código promocional especial da PARIPESA que desbloqueia as melhores ofertas de bônus do site. O código :promocode vai aumentar seus ganhos e garantir condições vantajosas e ofertas exclusivas para novos usuários da PARIPESA. Não se esqueça de usá-lo! Com este código, você receberá um bônus de 130 euros no seu primeiro depósito."}',
+             'value_en' => '{"0":"A special Paripesa promo code is available for you, unlocking the best bonus opportunities on the site. The Paripesa promo code will help boost your winnings and guarantee great conditions and exclusive offers for new users. Don’t forget to use it! By using this Paripesa promo code, you’ll receive a first deposit bonus of 130 euros."}',
+             'value_es' => '{"0":"Un código promocional especial de Paripesa está disponible para ti, desbloqueando las mejores oportunidades de bonos en el sitio. El código promocional de Paripesa te ayudará a aumentar tus ganancias y garantizará excelentes condiciones y ofertas exclusivas para nuevos usuarios. ¡No olvides usarlo! Al usar este código promocional de Paripesa, recibirás un bono por el primer depósito de 130 euros."}',
+             'value_fr' => '{"0":"Un code promotionnel spécial de Paripesa est disponible pour vous, offrant les meilleures opportunités de bonus sur le site. Le code promotionnel de Paripesa vous aidera à augmenter vos gains et garantira d’excellentes conditions ainsi que des offres exclusives pour les nouveaux utilisateurs. N’oubliez pas de l’utiliser ! En utilisant ce code promotionnel de Paripesa, vous recevrez un bonus de premier dépôt de 130 euros."}',
+             'value_pt' => '{"0":"Um código promocional especial da Paripesa está disponível para você, desbloqueando as melhores oportunidades de bônus no site. O código promocional da Paripesa ajudará a aumentar seus ganhos e garantirá ótimas condições e ofertas exclusivas para novos usuários. Não se esqueça de usá-lo! Ao usar este código promocional da Paripesa, você receberá um bônus de primeiro depósito de 130 euros."}',
              'order' => 1
             ]
         );
@@ -34,10 +34,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"Please note the conditions: you must be at least 18 years old and a new user of the platform. The promo code must be entered during registration."}',
-             'value_es' => '{"0":"Ten en cuenta las condiciones: debes tener al menos 18 años y ser un nuevo usuario de la plataforma. El código debe ingresarse durante el registro."}',
-             'value_fr' => '{"0":"Veuillez noter les conditions : vous devez avoir au moins 18 ans et être un nouvel utilisateur de la plateforme. Le code promo doit être saisi lors de l\'inscription."}',
-             'value_pt' => '{"0":"Atenção às condições: você deve ter pelo menos 18 anos e ser um novo usuário da plataforma. O código promocional deve ser inserido durante o registro."}',
+             'value_en' => '{"0":"Please note the conditions: you must be at least 18 years old and a new user of the platform. The Paripesa promo code must be entered during registration."}',
+             'value_es' => '{"0":"Ten en cuenta las condiciones: debes tener al menos 18 años y ser un nuevo usuario de la plataforma. El código promocional de Paripesa debe ingresarse durante el registro."}',
+             'value_fr' => '{"0":"Veuillez noter les conditions : vous devez avoir au moins 18 ans et être un nouvel utilisateur de la plateforme. Le code promotionnel de Paripesa doit être saisi lors de l’inscription."}',
+             'value_pt' => '{"0":"Atenção às condições: você deve ter pelo menos 18 anos e ser um novo usuário da plataforma. O código promocional da Paripesa deve ser inserido durante o registro."}',
              'order' => 2
             ]
         );
@@ -76,10 +76,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"Use the exclusive :promocode promo code from Takesbet and get a €130 welcome bonus on your first deposit! This is your chance to double your balance even before placing your first bet — don’t miss out."}',
-             'value_es' => '{"0":"¡Usa el código promocional exclusivo :promocode de Takesbet y recibe un bono de bienvenida de 130€ en tu primer depósito! Esta es tu oportunidad de duplicar tu saldo incluso antes de realizar tu primera apuesta — ¡no la dejes pasar!"}',
-             'value_fr' => '{"0":"Utilisez le code promo exclusif :promocode de Takesbet et recevez un bonus de bienvenue de 130€ sur votre premier dépôt ! C’est votre chance de doubler votre solde avant même de placer votre premier pari — ne la manquez pas."}',
-             'value_pt' => '{"0":"Use o código promocional exclusivo :promocode da Takesbet e receba um bônus de boas-vindas de 130€ no seu primeiro depósito! Esta é a sua chance de dobrar o saldo antes mesmo de fazer a primeira aposta — não perca!"}',
+             'value_en' => '{"0":"Use the exclusive :promocode Paripesa promo code from Takesbet and get a €130 welcome bonus on your first deposit! This is your chance to double your balance even before placing your first bet — don’t miss out."}',
+             'value_es' => '{"0":"Usa el exclusivo código promocional de Paripesa :promocode de Takesbet y obtén un bono de bienvenida de 130 € en tu primer depósito. Esta es tu oportunidad de duplicar tu saldo incluso antes de realizar tu primera apuesta — ¡no la dejes pasar!"}',
+             'value_fr' => '{"0":"Utilisez le code promotionnel de Paripesa exclusif :promocode de Takesbet et recevez un bonus de bienvenue de 130 € sur votre premier dépôt ! C’est votre chance de doubler votre solde avant même de placer votre premier pari — ne la manquez pas."}',
+             'value_pt' => '{"0":"Use o exclusivo código promocional da Paripesa :promocode do Takesbet e receba um bônus de boas-vindas de €130 no seu primeiro depósito! Esta é a sua chance de dobrar o saldo antes mesmo de fazer a primeira aposta — não perca!"}',
              'order' => 5
             ]
         );
@@ -132,10 +132,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"Go to the official PARIPESA website and click the «Registration» button in the top corner. Enter the promo code :promocode. Make your first deposit starting from $1, but remember — the higher your first deposit, the bigger the bonus you’ll receive."}',
-             'value_es' => '{"0":"Ve al sitio web oficial de PARIPESA y haz clic en el botón «Registro» en la esquina superior. Ingresa el código promocional :promocode. Haz tu primer depósito desde 1$, pero recuerda: cuanto mayor sea el depósito, ¡mayor será el bono que recibirás!"}',
-             'value_fr' => '{"0":"Rendez-vous sur le site officiel de PARIPESA et cliquez sur le bouton « Inscription » en haut de la page. Saisissez le code promo :promocode. Effectuez un premier dépôt à partir de 1$ — mais n’oubliez pas : plus le dépôt est élevé, plus le bonus sera important."}',
-             'value_pt' => '{"0":"Acesse o site oficial da PARIPESA e clique no botão «Registro» no canto superior. Digite o código promocional :promocode. Faça seu primeiro depósito a partir de 1$, mas lembre-se: quanto maior o valor do primeiro depósito, maior será o bônus que você receberá."}',
+             'value_en' => '{"0":"Go to the official PARIPESA website and click the «Registration» button in the top corner. Enter the Paripesa promo code :promocode. Make your first deposit starting from $1, but remember — the higher your first deposit, the bigger the bonus you’ll receive."}',
+             'value_es' => '{"0":"Ve al sitio web oficial de PARIPESA y haz clic en el botón «Registro» en la esquina superior. Ingresa el código promocional de Paripesa :promocode. Haz tu primer depósito desde 1$, pero recuerda: cuanto mayor sea el depósito, ¡mayor será el bono que recibirás!"}',
+             'value_fr' => '{"0":"Rendez-vous sur le site officiel de PARIPESA et cliquez sur le bouton « Inscription » en haut de la page. Saisissez le code promo de Paripesa :promocode. Effectuez un premier dépôt à partir de 1$ — mais n’oubliez pas : plus le dépôt est élevé, plus le bonus sera important."}',
+             'value_pt' => '{"0":"Acesse o site oficial da PARIPESA e clique no botão «Registro» no canto superior. Digite o código promocional da Paripesa :promocode. Faça seu primeiro depósito a partir de 1$, mas lembre-se: quanto maior o valor do primeiro depósito, maior será o bônus que você receberá."}',
              'order' => 9
             ]
         );
@@ -146,10 +146,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"As you can see, everything is simple and fast. Activate the promo code and enjoy the game right away!"}',
-             'value_es' => '{"0":"Como puedes ver, todo es rápido y sencillo. ¡Activa el código y empieza a disfrutar del juego ahora mismo!"}',
-             'value_fr' => '{"0":"Comme vous le voyez, c’est rapide et facile. Activez le code promo et commencez à jouer dès maintenant !"}',
-             'value_pt' => '{"0":"Como você pode ver, tudo é fácil e rápido. Ative o código e comece a jogar agora mesmo!"}',
+             'value_en' => '{"0":"As you can see, everything is simple and fast. Activate the Paripesa promo code and enjoy the game right away!"}',
+             'value_es' => '{"0":"Como puedes ver, todo es rápido y sencillo. ¡Activa el código promocional de Paripesa y empieza a disfrutar del juego ahora mismo!"}',
+             'value_fr' => '{"0":"Comme vous le voyez, c’est rapide et facile. Activez le code promo de Paripesa et commencez à jouer dès maintenant !"}',
+             'value_pt' => '{"0":"Como você pode ver, tudo é fácil e rápido. Ative o código promocional da Paripesa e comece a jogar agora mesmo!"}',
              'order' => 10
             ]
         );
@@ -328,10 +328,10 @@ class BookmakerPARIPESAPromoCodesSeeder extends Seeder
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
              'component' => 'p',
-             'value_en' => '{"0":"You can activate the first bonus even without a promo code, but with :promocode, the conditions become much more attractive. Don’t miss this opportunity!"}',
-             'value_es' => '{"0":"Puedes activar el primer bono incluso sin un código promocional, pero con :promocode, las condiciones serán mucho más favorables. ¡No pierdas esta oportunidad!"}',
-             'value_fr' => '{"0":"Vous pouvez activer le premier bonus même sans code promo, mais avec :promocode, les conditions sont bien plus avantageuses. Ne manquez pas cette opportunité !"}',
-             'value_pt' => '{"0":"Você pode ativar o primeiro bônus mesmo sem um código promocional, mas com o código :promocode, as condições ficam ainda mais vantajosas. Não perca essa chance!"}',
+             'value_en' => '{"0":"You can activate the first bonus even without a PARIPESA promo code, but with :promocode, the conditions become much more attractive. Don’t miss this opportunity!"}',
+             'value_es' => '{"0":"Puedes activar el primer bono incluso sin un código promocional de PARIPESA, pero con :promocode, las condiciones serán mucho más favorables. ¡No pierdas esta oportunidad!"}',
+             'value_fr' => '{"0":"Vous pouvez activer le premier bonus même sans code promo de PARIPESA, mais avec :promocode, les conditions sont bien plus avantageuses. Ne manquez pas cette opportunité !"}',
+             'value_pt' => '{"0":"Você pode ativar o primeiro bônus mesmo sem um código promocional da PARIPESA, mas com o código :promocode, as condições ficam ainda mais vantajosas. Não perca essa chance!"}',
              'order' => 23
             ]
         );

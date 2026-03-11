@@ -76,10 +76,10 @@ class Bookmaker22BETPromoCodesSeeder extends Seeder
             ['key' => '22bet',
              'bookmaker_id' => 10,
              'component' => 'p',
-             'value_en' => '{"0":"To claim the 22Bet welcome bonus, create an account using the promo code :promocode, make your first deposit, receive the bonus, and meet the wagering requirements to be able to withdraw your winnings."}',
-             'value_es' => '{"0":"Para aprovechar el bono de bienvenida de 22Bet, crea una cuenta con el código promocional :promocode, realiza tu primer depósito, recibe el bono y cumple con los requisitos de apuesta para poder retirar tus ganancias."}',
-             'value_fr' => '{"0":"Pour profiter du bonus de bienvenue de 22Bet, créez un compte avec le code promo :promocode, effectuez votre premier dépôt, recevez le bonus et remplissez les conditions de mise pour pouvoir retirer vos gains."}',
-             'value_pt' => '{"0":"Para aproveitar o bônus de boas-vindas da 22Bet, crie uma conta com o código promocional :promocode, faça o seu primeiro depósito, receba o bônus e cumpra os requisitos de apostas para poder sacar seus ganhos."}',
+             'value_en' => '{"0":"To claim the 22Bet welcome bonus, create an account using the 22Bet promo code :promocode, make your first deposit, receive the bonus, and meet the wagering requirements to be able to withdraw your winnings."}',
+             'value_es' => '{"0":"Para aprovechar el bono de bienvenida de 22Bet, crea una cuenta con el código promocional de 22Bet :promocode, realiza tu primer depósito, recibe el bono y cumple con los requisitos de apuesta para poder retirar tus ganancias."}',
+             'value_fr' => '{"0":"Pour profiter du bonus de bienvenue de 22Bet, créez un compte avec le code promo 22Bet :promocode, effectuez votre premier dépôt, recevez le bonus et remplissez les conditions de mise pour pouvoir retirer vos gains."}',
+             'value_pt' => '{"0":"Para aproveitar o bônus de boas-vindas da 22Bet, crie uma conta com o código promocional da 22Bet :promocode, faça o seu primeiro depósito, receba o bônus e cumpra os requisitos de apostas para poder sacar seus ganhos."}',
              'order' => 5
             ]
         );
@@ -160,10 +160,10 @@ class Bookmaker22BETPromoCodesSeeder extends Seeder
             ['key' => '22bet',
              'bookmaker_id' => 10,
              'component' => 'p',
-                'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media. This is also where you can enter the promo code :promocode to claim an enhanced welcome bonus."}',
-                'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales. En este paso también puedes introducir el código promocional :promocode para obtener un bono de bienvenida mejorado."}',
-                'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux. C’est également à ce stade que vous pouvez entrer le code promo :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
-                'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais. É também neste momento que você pode inserir o código promocional :promocode para garantir um bônus de boas-vindas ampliado."}',
+                'value_en' => '{"0":"After clicking the registration button, the sign-up form will appear. Here, you\'ll need to provide some basic personal information and choose your preferred registration method — by phone, email, social media. This is also where you can enter the 22Bet promo code :promocode to claim an enhanced welcome bonus."}',
+                'value_es' => '{"0":"Al hacer clic en el botón de registro, se abrirá el formulario de inscripción. Aquí deberás ingresar algunos datos personales básicos y elegir el método de registro que prefieras: por teléfono, correo electrónico, redes sociales. En este paso también puedes introducir el código promocional de 22Bet :promocode para obtener un bono de bienvenida mejorado."}',
+                'value_fr' => '{"0":"Après avoir cliqué sur le bouton d\'inscription, le formulaire d’enregistrement s’affichera. Vous devrez y renseigner quelques informations personnelles de base et choisir votre méthode d’inscription préférée — par téléphone, e-mail, réseaux sociaux. C’est également à ce stade que vous pouvez entrer le code promo 22Bet :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
+                'value_pt' => '{"0":"Após clicar no botão de registro, o formulário de inscrição será exibido. Aqui, você precisará fornecer algumas informações pessoais básicas e escolher o método de registro que preferir — por telefone, e-mail, redes sociais. É também neste momento que você pode inserir o código promocional da 22Bet :promocode para garantir um bônus de boas-vindas ampliado."}',
              'order' => 11
             ]
         );
@@ -258,10 +258,10 @@ class Bookmaker22BETPromoCodesSeeder extends Seeder
             ['key' => '22bet',
              'bookmaker_id' => 10,
              'component' => 'p',
-                'value_en' => '{"0":"First and foremost is the welcome bonus. With the promo code :promocode, new users can claim a 100% bonus."}',
-                'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional :promocode, los nuevos usuarios pueden recibir un bono del 100%."}',
-                'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Grâce au code promo :promocode, les nouveaux utilisateurs peuvent recevoir un bonus de 100 %."}',
-                'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional :promocode, novos usuários podem receber um bônus de 100%."}',
+                'value_en' => '{"0":"First and foremost is the welcome bonus. With the 22Bet promo code :promocode, new users can claim a 100% bonus."}',
+                'value_es' => '{"0":"Lo primero es el bono de bienvenida. Con el código promocional de 22Bet :promocode, los nuevos usuarios pueden recibir un bono del 100%."}',
+                'value_fr' => '{"0":"Commençons par l\'essentiel : le bonus de bienvenue. Grâce au code promo 22Bet :promocode, les nouveaux utilisateurs peuvent recevoir un bonus de 100 %."}',
+                'value_pt' => '{"0":"Para começar, o bônus de boas-vindas. Com o código promocional da 22Bet :promocode, novos usuários podem receber um bônus de 100%."}',
              'order' => 18
             ]
         );

@@ -20,10 +20,10 @@ class BookmakerivibetPromoCodesSeeder extends Seeder
             ['key' => 'ivibet',
              'bookmaker_id' => 14,
              'component' => 'p',
-             'value_en' => '{"0":"ivibet offers online sports betting and casino games for players from around the world. New users can take advantage of the :promocode promo code to claim the best available welcome bonus. Enter the code :promocode when creating your account to receive a 100% bonus on your first deposit up to €/$150."}',
-             'value_es' => '{"0":"ivibet ofrece apuestas deportivas en línea y juegos de casino para jugadores de todo el mundo. Los nuevos usuarios pueden aprovechar el código promocional :promocode para obtener el mejor bono de bienvenida disponible. Introduce el código :promocode al crear tu cuenta y recibe un bono del 100% en tu primer depósito hasta €/$150."}',
-             'value_fr' => '{"0":"ivibet propose des paris sportifs en ligne et des jeux de casino pour les joueurs du monde entier. Les nouveaux utilisateurs peuvent utiliser le code promo :promocode pour bénéficier du meilleur bonus de bienvenue disponible. Entrez le code :promocode lors de la création de votre compte pour recevoir un bonus de 100 % sur votre premier dépôt jusqu’à €/$150."}',
-             'value_pt' => '{"0":"A ivibet oferece apostas desportivas online e jogos de casino para jogadores de todo o mundo. Novos utilizadores podem usar o código promocional :promocode para obter o melhor bónus de boas-vindas disponível. Insira o código :promocode ao criar a sua conta para receber um bónus de 100% no primeiro depósito até €/$150."}',
+             'value_en' => '{"0":"ivibet offers online sports betting and casino games for players from around the world. New users can take advantage of the :promocode ivibet promo code to claim the best available welcome bonus. Enter the code :promocode when creating your account to receive a 100% bonus on your first deposit up to €/$150."}',
+             'value_es' => '{"0":"ivibet ofrece apuestas deportivas en línea y juegos de casino para jugadores de todo el mundo. Los nuevos usuarios pueden aprovechar el código promocional de ivibet :promocode para obtener el mejor bono de bienvenida disponible. Introduce el código :promocode al crear tu cuenta y recibe un bono del 100% en tu primer depósito hasta €/$150."}',
+             'value_fr' => '{"0":"ivibet propose des paris sportifs en ligne et des jeux de casino pour les joueurs du monde entier. Les nouveaux utilisateurs peuvent utiliser le code promo ivibet :promocode pour bénéficier du meilleur bonus de bienvenue disponible. Entrez le code :promocode lors de la création de votre compte pour recevoir un bonus de 100 % sur votre premier dépôt jusqu’à €/$150."}',
+             'value_pt' => '{"0":"A ivibet oferece apostas desportivas online e jogos de casino para jogadores de todo o mundo. Novos utilizadores podem usar o código promocional da ivibet :promocode para obter o melhor bónus de boas-vindas disponível. Insira o código :promocode ao criar a sua conta para receber um bónus de 100% no primeiro depósito até €/$150."}',
              'order' => 1
             ]
         );
@@ -76,10 +76,10 @@ class BookmakerivibetPromoCodesSeeder extends Seeder
             ['key' => 'ivibet',
              'bookmaker_id' => 14,
              'component' => 'p',
-             'value_en' => '{"0":"It\'s worth noting that by using our promo code :promocode, you\'ll receive a generous welcome bonus from ivibet — so don’t miss this opportunity!"}',
-             'value_es' => '{"0":"Vale la pena destacar que al utilizar nuestro código promocional :promocode, recibirás un atractivo bono de bienvenida de ivibet. ¡No dejes pasar esta oportunidad!"}',
-             'value_fr' => '{"0":"Il convient de noter qu’en utilisant notre code promo :promocode, vous recevrez un généreux bonus de bienvenue de la part d’ivibet — une offre à ne pas manquer !"}',
-             'value_pt' => '{"0":"Vale a pena destacar que, ao utilizar o nosso código promocional :promocode, você receberá um generoso bónus de boas-vindas da ivibet — aproveite esta oportunidade!"}',
+             'value_en' => '{"0":"It’s worth noting that by using the Ivibet promo code :promocode, you’ll receive a generous welcome bonus from Ivibet — so don’t miss this opportunity!"}',
+             'value_es' => '{"0":"Vale la pena destacar que al usar el código promocional de Ivibet :promocode, recibirás un generoso bono de bienvenida de Ivibet — ¡así que no pierdas esta oportunidad!"}',
+             'value_fr' => '{"0":"Il convient de noter qu’en utilisant le code promotionnel de Ivibet :promocode, vous recevrez un généreux bonus de bienvenue de Ivibet — alors ne manquez pas cette opportunité !"}',
+             'value_pt' => '{"0":"Vale a pena notar que ao usar o código promocional da Ivibet :promocode, você receberá um generoso bônus de boas-vindas da Ivibet — então não perca esta oportunidade!"}',
              'order' => 5
             ]
         );
@@ -90,10 +90,10 @@ class BookmakerivibetPromoCodesSeeder extends Seeder
             ['key' => 'ivibet',
              'bookmaker_id' => 14,
              'component' => 'p',
-             'value_en' => '{"0":"This promo code is intended for new users registering on the platform who wish to claim the welcome offer. Sports betting fans can get a 100% bonus up to €150, while casino players can enjoy a bonus package of up to €/$300 + 170 free spins over their first two deposits."}',
-             'value_es' => '{"0":"Este código está destinado a nuevos usuarios que se registren en la plataforma y deseen obtener el bono de bienvenida. Los aficionados a las apuestas deportivas pueden recibir un bono del 100% hasta €150, mientras que los jugadores de casino pueden obtener un paquete de hasta €/$300 + 170 giros gratis en los dos primeros depósitos."}',
-             'value_fr' => '{"0":"Ce code est destiné aux nouveaux utilisateurs qui s’inscrivent sur la plateforme et souhaitent profiter du bonus de bienvenue. Les amateurs de paris sportifs peuvent obtenir un bonus de 100 % jusqu’à 150 €, tandis que les joueurs de casino bénéficieront d’un pack bonus allant jusqu’à 300 €/ $ + 170 tours gratuits sur leurs deux premiers dépôts."}',
-             'value_pt' => '{"0":"Este código destina-se a novos utilizadores que se registam na plataforma e pretendem ativar o bónus de boas-vindas. Os fãs de apostas desportivas podem receber um bónus de 100% até €150, enquanto os jogadores de casino poderão usufruir de um pacote de até €/$300 + 170 rodadas grátis nos dois primeiros depósitos."}',
+             'value_en' => '{"0":"This Ivibet promo code is intended for new users registering on the platform who wish to claim the welcome offer. Sports betting fans can get a 100% bonus up to €150, while casino players can enjoy a bonus package of up to €/$300 + 170 free spins over their first two deposits."}',
+             'value_es' => '{"0":"Este código promocional de Ivibet está destinado a nuevos usuarios que se registren en la plataforma y deseen obtener el bono de bienvenida. Los aficionados a las apuestas deportivas pueden recibir un bono del 100% hasta €150, mientras que los jugadores de casino pueden obtener un paquete de hasta €/$300 + 170 giros gratis en los dos primeros depósitos."}',
+             'value_fr' => '{"0":"Ce code promotionnel Ivibet est destiné aux nouveaux utilisateurs qui s’inscrivent sur la plateforme et souhaitent profiter du bonus de bienvenue. Les amateurs de paris sportifs peuvent obtenir un bonus de 100 % jusqu’à 150 €, tandis que les joueurs de casino bénéficieront d’un pack bonus allant jusqu’à 300 €/ $ + 170 tours gratuits sur leurs deux premiers dépôts."}',
+             'value_pt' => '{"0":"Este código promocional da Ivibet destina-se a novos utilizadores que se registam na plataforma e pretendem ativar o bónus de boas-vindas. Os fãs de apostas desportivas podem receber um bónus de 100% até €150, enquanto os jogadores de casino poderão usufruir de um pacote de até €/$300 + 170 rodadas grátis nos dois primeiros depósitos."}',
              'order' => 6
             ]
         );
@@ -174,10 +174,10 @@ class BookmakerivibetPromoCodesSeeder extends Seeder
             ['key' => 'ivibet',
              'bookmaker_id' => 14,
              'component' => 'p',
-                'value_en' => '{"0":"On the ivibet website, find and click the «SIGN UP» button in the top right corner. You will then need to complete a three-step registration form. We recommend providing accurate and up-to-date information, as it will need to be verified later. Don\'t forget to enter the promo code :promocode as well."}',
-                'value_es' => '{"0":"En el sitio web de ivibet, busca y haz clic en el botón «SIGN UP» en la esquina superior derecha. Luego deberás completar un formulario de registro en tres pasos. Recomendamos ingresar información actual y precisa, ya que será necesario verificarla más adelante. No olvides introducir el código promocional :promocode."}',
-                'value_fr' => '{"0":"Sur le site de ivibet, cliquez sur le bouton «SIGN UP» situé en haut à droite de l’écran. Vous devrez ensuite remplir un formulaire d’inscription en trois étapes. Nous vous recommandons de fournir des informations exactes et à jour, car elles devront être vérifiées par la suite. N\'oubliez pas d’entrer le code promo :promocode."}',
-                'value_pt' => '{"0":"No site da ivibet, localize e clique no botão «SIGN UP» no canto superior direito. Em seguida, será necessário preencher um formulário de registro em três etapas. Recomendamos inserir informações corretas e atualizadas, pois elas precisarão ser verificadas posteriormente. Não se esqueça de inserir o código promocional :promocode."}',
+                'value_en' => '{"0":"On the ivibet website, find and click the «SIGN UP» button in the top right corner. You will then need to complete a three-step registration form. We recommend providing accurate and up-to-date information, as it will need to be verified later. Don\'t forget to enter the Ivibet promo code :promocode as well."}',
+                'value_es' => '{"0":"En el sitio web de ivibet, busca y haz clic en el botón «SIGN UP» en la esquina superior derecha. Luego deberás completar un formulario de registro en tres pasos. Recomendamos ingresar información actual y precisa, ya que será necesario verificarla más adelante. No olvides introducir el código promocional de ivibet :promocode."}',
+                'value_fr' => '{"0":"Sur le site de ivibet, cliquez sur le bouton «SIGN UP» situé en haut à droite de l’écran. Vous devrez ensuite remplir un formulaire d’inscription en trois étapes. Nous vous recommandons de fournir des informations exactes et à jour, car elles devront être vérifiées par la suite. N\'oubliez pas d’entrer le code promo ivibet :promocode."}',
+                'value_pt' => '{"0":"No site da ivibet, localize e clique no botão «SIGN UP» no canto superior direito. Em seguida, será necessário preencher um formulário de registro em três etapas. Recomendamos inserir informações corretas e atualizadas, pois elas precisarão ser verificadas posteriormente. Não se esqueça de inserir o código promocional da ivibet :promocode."}',
              'order' => 12
             ]
         );

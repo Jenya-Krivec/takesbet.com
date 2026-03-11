@@ -34,10 +34,10 @@ class BookmakerBETANDYOUPromoCodesSeeder extends Seeder
             ['key' => 'betandyou',
              'bookmaker_id' => 13,
              'component' => 'p',
-             'value_en' => '{"0":"Pay close attention to using promo codes during the registration process or when making your first deposit, as this is when you can claim great welcome bonuses. We’ll explain how to use our exclusive :promocode promo code from Takesbet."}',
-             'value_es' => '{"0":"Presta atención al uso de los códigos promocionales durante el proceso de registro o al realizar tu primer depósito, ya que en ese momento puedes obtener excelentes bonos de bienvenida. Te explicamos cómo usar nuestro código exclusivo :promocode de Takesbet."}',
-             'value_fr' => '{"0":"Il convient de porter une attention particulière à l’utilisation des codes promo lors de l’inscription ou du premier dépôt, car c’est à ce moment-là que vous pouvez bénéficier d’excellents bonus de bienvenue. Nous vous expliquons comment utiliser notre code promo exclusif :promocode de Takesbet."}',
-             'value_pt' => '{"0":"Preste atenção ao uso de códigos promocionais durante o registro ou no momento do primeiro depósito, pois é nessa etapa que você pode garantir ótimos bónus de boas-vindas. Vamos explicar como usar o nosso código promocional exclusivo :promocode da Takesbet."}',
+             'value_en' => '{"0":"Pay close attention to using promo codes during the registration process or when making your first deposit, as this is when you can claim great welcome bonuses. We’ll explain how to use the BETANDYOU promo code :promocode."}',
+             'value_es' => '{"0":"Presta atención al uso de los códigos promocionales durante el proceso de registro o al realizar tu primer depósito, ya que en ese momento puedes obtener excelentes bonos de bienvenida. Te explicaremos cómo usar el código promocional de BETANDYOU :promocode."}',
+             'value_fr' => '{"0":"Il convient de porter une attention particulière à l’utilisation des codes promo lors de l’inscription ou du premier dépôt, car c’est à ce moment-là que vous pouvez bénéficier d’excellents bonus de bienvenue. Nous vous expliquerons comment utiliser le code promotionnel de BETANDYOU :promocode."}',
+             'value_pt' => '{"0":"Preste atenção ao uso de códigos promocionais durante o registro ou no momento do primeiro depósito, pois é nessa etapa que você pode garantir ótimos bónus de boas-vindas. Vamos explicar como usar o código promocional da BETANDYOU :promocode."}',
              'order' => 2
             ]
         );
@@ -76,10 +76,10 @@ class BookmakerBETANDYOUPromoCodesSeeder extends Seeder
             ['key' => 'betandyou',
              'bookmaker_id' => 13,
              'component' => 'p',
-             'value_en' => '{"0":"Activate a generous welcome bonus with the exclusive Takesbet promo code — :promocode. You’ll receive 100% on your first deposit based on the amount you fund your account with!"}',
-             'value_es' => '{"0":"Activa un generoso bono de bienvenida con el código promocional exclusivo de Takesbet — :promocode. ¡Recibirás el 100% de tu primer depósito según el monto que ingreses!"}',
-             'value_fr' => '{"0":"Activez un généreux bonus de bienvenue grâce au code promo exclusif Takesbet — :promocode. Vous recevrez 100 % sur votre premier dépôt, en fonction du montant versé !"}',
-             'value_pt' => '{"0":"Ative um generoso bónus de boas-vindas com o código promocional exclusivo da Takesbet — :promocode. Você receberá 100% sobre o valor do seu primeiro depósito!"}',
+             'value_en' => '{"0":"Activate a generous welcome bonus with the BETANDYOU promo code — :promocode. You’ll receive 100% on your first deposit based on the amount you fund your account with!"}',
+             'value_es' => '{"0":"Activa un generoso bono de bienvenida con el código promocional de BETANDYOU — :promocode. ¡Recibirás el 100% de tu primer depósito según el monto que ingreses!"}',
+             'value_fr' => '{"0":"Activez un généreux bonus de bienvenue avec le code promotionnel de BETANDYOU — :promocode. Vous recevrez 100 % sur votre premier dépôt, en fonction du montant versé !"}',
+             'value_pt' => '{"0":"Ative um generoso bônus de boas-vindas com o código promocional da BETANDYOU — :promocode. Você receberá 100% sobre o valor do seu primeiro depósito!"}',
              'order' => 5
             ]
         );
@@ -188,10 +188,10 @@ class BookmakerBETANDYOUPromoCodesSeeder extends Seeder
             ['key' => 'betandyou',
              'bookmaker_id' => 13,
              'component' => 'p',
-                'value_en' => '{"0":"After landing on the website, locate the registration button in the top right corner of the screen and click on it. A form will appear where you\'ll need to provide some basic personal information. You can choose from several registration methods — by phone, email. Note: This is where you should enter the promo code :promocode to receive an enhanced welcome bonus."}',
-                'value_es' => '{"0":"Una vez en el sitio web, busca el botón de registro en la esquina superior derecha de la pantalla y haz clic en él. Aparecerá un formulario donde deberás ingresar algunos datos personales básicos. Puedes registrarte por teléfono, correo electrónico. Nota: En este paso deberás ingresar el código promocional :promocode para obtener un bono de bienvenida mejorado."}',
-                'value_fr' => '{"0":"Une fois sur le site, repérez le bouton d’inscription en haut à droite de l’écran et cliquez dessus. Un formulaire s’affichera, dans lequel vous devrez fournir quelques informations personnelles de base. Vous pouvez vous inscrire par téléphone, par e-mail. Remarque : c’est à ce stade que vous devez entrer le code promo :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
-                'value_pt' => '{"0":"Ao acessar o site, localize o botão de registro no canto superior direito da tela e clique nele. Um formulário será exibido, onde você deverá fornecer algumas informações pessoais básicas. É possível se cadastrar por telefone, e-mail. Observação: é neste momento que você deve inserir o código promocional :promocode para receber um bônus de boas-vindas aumentado."}',
+                'value_en' => '{"0":"After landing on the website, locate the registration button in the top right corner of the screen and click on it. A form will appear where you\'ll need to provide some basic personal information. You can choose from several registration methods — by phone, email. Note: This is where you should enter the BETANDYOU promo code :promocode to receive an enhanced welcome bonus."}',
+                'value_es' => '{"0":"Una vez en el sitio web, busca el botón de registro en la esquina superior derecha de la pantalla y haz clic en él. Aparecerá un formulario donde deberás ingresar algunos datos personales básicos. Puedes registrarte por teléfono, correo electrónico. Nota: En este paso deberás ingresar el código promocional de BETANDYOU :promocode para obtener un bono de bienvenida mejorado."}',
+                'value_fr' => '{"0":"Une fois sur le site, repérez le bouton d’inscription en haut à droite de l’écran et cliquez dessus. Un formulaire s’affichera, dans lequel vous devrez fournir quelques informations personnelles de base. Vous pouvez vous inscrire par téléphone, par e-mail. Remarque : c’est à ce stade que vous devez entrer le code promo BETANDYOU :promocode pour bénéficier d’un bonus de bienvenue amélioré."}',
+                'value_pt' => '{"0":"Ao acessar o site, localize o botão de registro no canto superior direito da tela e clique nele. Um formulário será exibido, onde você deverá fornecer algumas informações pessoais básicas. É possível se cadastrar por telefone, e-mail. Observação: é neste momento que você deve inserir o código promocional da BETANDYOU :promocode para receber um bônus de boas-vindas aumentado."}',
              'order' => 13
             ]
         );

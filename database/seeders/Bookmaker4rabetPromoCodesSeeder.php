@@ -20,10 +20,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'p',
-             'value_en' => '{"0":"Use the promo code :promocode from 4rabet and receive a generous welcome bonus. During registration, select the «add promo code» option and enter :promocode to unlock great offers, including deposit bonuses and free bets."}',
-             'value_es' => '{"0":"Usa el código promocional :promocode de 4rabet y obtén un generoso bono de bienvenida. Durante el registro, selecciona la opción «añadir código promocional» e introduce :promocode para desbloquear excelentes ofertas, incluyendo bonos por depósito y apuestas gratuitas."}',
-             'value_fr' => '{"0":"Utilisez le code promo :promocode de 4rabet et recevez un généreux bonus de bienvenue. Lors de l’inscription, sélectionnez l’option « ajouter un code promo » et saisissez :promocode pour accéder à des offres avantageuses, incluant des bonus de dépôt et des paris gratuits."}',
-             'value_pt' => '{"0":"Use o código promocional :promocode da 4rabet e receba um generoso bônus de boas-vindas. Durante o registro, selecione a opção «adicionar código promocional» e insira :promocode para desbloquear ótimas ofertas, incluindo bônus de depósito e apostas grátis."}',
+             'value_en' => '{"0":"Use the 4rabet promo code :promocode and receive a generous welcome bonus. During registration, select the «add promo code» option and enter :promocode to unlock great offers, including deposit bonuses and free bets."}',
+             'value_es' => '{"0":"Usa el código promocional de 4rabet :promocode y obtén un generoso bono de bienvenida. Durante el registro, selecciona la opción «añadir código promocional» e introduce :promocode para desbloquear excelentes ofertas, incluyendo bonos por depósito y apuestas gratuitas."}',
+             'value_fr' => '{"0":"Utilisez le code promo de 4rabet :promocode et recevez un généreux bonus de bienvenue. Lors de l’inscription, sélectionnez l’option « ajouter un code promo » et saisissez :promocode pour accéder à des offres avantageuses, incluant des bonus de dépôt et des paris gratuits."}',
+             'value_pt' => '{"0":"Use o código promocional da 4rabet :promocode e receba um generoso bônus de boas-vindas. Durante o registro, selecione a opção «adicionar código promocional» e insira :promocode para desbloquear ótimas ofertas, incluindo bônus de depósito e apostas grátis."}',
              'order' => 1
             ]
         );
@@ -76,10 +76,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'p',
-             'value_en' => '{"0":"New users can claim a generous welcome bonus — extra funds or free sports bets — to explore 4rabet\'s wide range of entertainment options. Whether you prefer sports betting or casino games, this promo code offers you a strong start."}',
-             'value_es' => '{"0":"Los nuevos usuarios pueden obtener un generoso bono de bienvenida — fondos extra o apuestas deportivas gratuitas — para explorar la amplia variedad de opciones que ofrece 4rabet. Ya sea que prefieras las apuestas deportivas o los juegos de casino, este código promocional te brinda un excelente comienzo."}',
-             'value_fr' => '{"0":"Les nouveaux utilisateurs peuvent bénéficier d’un généreux bonus de bienvenue — des fonds supplémentaires ou des paris gratuits sur le sport — pour découvrir la large gamme de divertissements proposée par 4rabet. Que vous préfériez les paris sportifs ou les jeux de casino, ce code promo vous offre un excellent départ."}',
-             'value_pt' => '{"0":"Novos usuários podem receber um generoso bônus de boas-vindas — fundos extras ou apostas esportivas grátis — para explorar a ampla gama de opções de entretenimento da 4rabet. Seja você fã de apostas esportivas ou de jogos de cassino, este código promocional garante um ótimo começo."}',
+             'value_en' => '{"0":"New users can claim a generous welcome bonus — extra funds or free sports bets — to explore 4rabet\'s wide range of entertainment options. Whether you prefer sports betting or casino games, this 4rabet promo code offers you a strong start."}',
+             'value_es' => '{"0":"Los nuevos usuarios pueden obtener un generoso bono de bienvenida — fondos extra o apuestas deportivas gratuitas — para explorar la amplia variedad de opciones que ofrece 4rabet. Ya sea que prefieras las apuestas deportivas o los juegos de casino, este código promocional de 4rabet te brinda un excelente comienzo."}',
+             'value_fr' => '{"0":"Les nouveaux utilisateurs peuvent bénéficier d’un généreux bonus de bienvenue — des fonds supplémentaires ou des paris gratuits sur le sport — pour découvrir la large gamme de divertissements proposée par 4rabet. Que vous préfériez les paris sportifs ou les jeux de casino, ce code promo de 4rabet vous offre un excellent départ."}',
+             'value_pt' => '{"0":"Novos usuários podem receber um generoso bônus de boas-vindas — fundos extras ou apostas esportivas grátis — para explorar a ampla gama de opções de entretenimento da 4rabet. Seja você fã de apostas esportivas ou de jogos de cassino, este código promocional da 4rabet garante um ótimo começo."}',
              'order' => 5
             ]
         );
@@ -188,10 +188,10 @@ class Bookmaker4rabetPromoCodesSeeder extends Seeder
             ['key' => '4rabet',
              'bookmaker_id' => 7,
              'component' => 'p',
-             'value_en' => '{"0":"To register, click the button in the top-right corner, enter your details, and don’t forget to use the promo code. Activate the :promocode promo code to get the most out of 4rabet’s bonus program."}',
-             'value_es' => '{"0":"Para registrarte, haz clic en el botón en la esquina superior derecha, ingresa tus datos y no olvides usar el código promocional. Activa el código promocional :promocode para aprovechar al máximo el programa de bonificaciones de 4rabet."}',
-             'value_fr' => '{"0":"Pour vous inscrire, cliquez sur le bouton en haut à droite, saisissez vos informations et n\'oubliez pas dutiliser le code promo. Activez le code promo :promocode pour tirer le meilleur parti du programme de bonus de 4rabet."}',
-             'value_pt' => '{"0":"Para se registrar, clique no botão no canto superior direito, insira seus dados e não se esqueça de usar o código promocional. Ative o código promocional :promocode para aproveitar ao máximo o programa de bônus da 4rabet."}',
+             'value_en' => '{"0":"To register, click the button in the top-right corner, enter your details, and don’t forget to use the 4rabet promo code. Activate the :promocode promo code to get the most out of 4rabet’s bonus program."}',
+             'value_es' => '{"0":"Para registrarte, haz clic en el botón en la esquina superior derecha, ingresa tus datos y no olvides usar el código promocional de 4rabet. Activa el código promocional :promocode para aprovechar al máximo el programa de bonificaciones de 4rabet."}',
+             'value_fr' => '{"0":"Pour vous inscrire, cliquez sur le bouton en haut à droite, saisissez vos informations et n\'oubliez pas dutiliser le code promo de 4rabet. Activez le code promo :promocode pour tirer le meilleur parti du programme de bonus de 4rabet."}',
+             'value_pt' => '{"0":"Para se registrar, clique no botão no canto superior direito, insira seus dados e não se esqueça de usar o código promocional da 4rabet. Ative o código promocional :promocode para aproveitar ao máximo o programa de bônus da 4rabet."}',
              'order' => 13
             ]
         );

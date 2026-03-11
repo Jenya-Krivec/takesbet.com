@@ -48,10 +48,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"Use our exclusive promo code :promocode to claim your welcome bonus from MOSTBET. During registration on the official MOSTBET website, select the «add promo code» option and enter the valid code. This will grant you access to great offers — including a first deposit bonus and other attractive promotions."}',
-             'value_es' => '{"0":"Utiliza nuestro código promocional exclusivo :promocode para obtener tu bono de bienvenida en MOSTBET. Durante el registro en el sitio web oficial de MOSTBET, selecciona la opción «añadir código promocional» e introduce el código válido. Esto te dará acceso a excelentes ofertas, incluido un bono por el primer depósito y otras promociones atractivas."}',
-             'value_fr' => '{"0":"Utilisez notre code promo exclusif :promocode pour obtenir votre bonus de bienvenue chez MOSTBET. Lors de votre inscription sur le site officiel de MOSTBET, choisissez l’option « ajouter un code promo » et saisissez le code valide. Cela vous donnera accès à des offres avantageuses, y compris un bonus sur le premier dépôt et d\'autres promotions attractives."}',
-             'value_pt' => '{"0":"Use o nosso código promocional exclusivo :promocode para garantir seu bônus de boas-vindas na MOSTBET. Durante o cadastro no site oficial da MOSTBET, selecione a opção «adicionar código promocional» e insira o código válido. Isso dará acesso a ótimas ofertas — incluindo bônus no primeiro depósito e outras promoções atrativas."}',
+             'value_en' => '{"0":"Use our exclusive MOSTBET promo code :promocode to claim your welcome bonus from MOSTBET. During registration on the official MOSTBET website, select the «add promo code» option and enter the valid code. This will grant you access to great offers — including a first deposit bonus and other attractive promotions."}',
+             'value_es' => '{"0":"Utiliza nuestro código promocional de MOSTBET exclusivo :promocode para obtener tu bono de bienvenida en MOSTBET. Durante el registro en el sitio web oficial de MOSTBET, selecciona la opción «añadir código promocional» e introduce el código válido. Esto te dará acceso a excelentes ofertas, incluido un bono por el primer depósito y otras promociones atractivas."}',
+             'value_fr' => '{"0":"Utilisez notre code promo MOSTBET exclusif :promocode pour obtenir votre bonus de bienvenue chez MOSTBET. Lors de votre inscription sur le site officiel de MOSTBET, choisissez l’option « ajouter un code promo » et saisissez le code valide. Cela vous donnera accès à des offres avantageuses, y compris un bonus sur le premier dépôt et d\'autres promotions attractives."}',
+             'value_pt' => '{"0":"Use o nosso código promocional da MOSTBET exclusivo :promocode para garantir seu bônus de boas-vindas na MOSTBET. Durante o cadastro no site oficial da MOSTBET, selecione a opção «adicionar código promocional» e insira o código válido. Isso dará acesso a ótimas ofertas — incluindo bônus no primeiro depósito e outras promoções atrativas."}',
              'order' => 3,
             ]
         );
@@ -104,10 +104,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"The benefits of using a promo code go beyond the initial bonus. MOSTBET regularly runs promotions for existing users, offering free bets, cashback, and rewards through its loyalty program — many of which require promo code activation."}',
-             'value_es' => '{"0":"Las ventajas de usar un código promocional no se limitan solo al bono inicial. MOSTBET lanza promociones frecuentes para sus usuarios habituales, que incluyen apuestas gratuitas, reembolsos y recompensas a través del programa de fidelidad — muchas de ellas requieren un código promocional para ser activadas."}',
-             'value_fr' => '{"0":"Les avantages du code promo ne se limitent pas au bonus de bienvenue. MOSTBET propose régulièrement des promotions pour ses clients fidèles, incluant des paris gratuits, du cashback et des récompenses via son programme de fidélité — dont beaucoup nécessitent un code pour être activés."}',
-             'value_pt' => '{"0":"As vantagens de usar um código promocional vão além do bônus inicial. A MOSTBET frequentemente realiza promoções para seus clientes regulares, oferecendo apostas grátis, cashback e recompensas através do programa de fidelidade — muitas das quais exigem a ativação de um código promocional."}',
+             'value_en' => '{"0":"The benefits of using a MOSTBET promo code go beyond the initial bonus. MOSTBET regularly runs promotions for existing users, offering free bets, cashback, and rewards through its loyalty program — many of which require promo code activation."}',
+             'value_es' => '{"0":"Las ventajas de usar un código promocional de MOSTBET no se limitan solo al bono inicial. MOSTBET lanza promociones frecuentes para sus usuarios habituales, que incluyen apuestas gratuitas, reembolsos y recompensas a través del programa de fidelidad — muchas de ellas requieren un código promocional para ser activadas."}',
+             'value_fr' => '{"0":"Les avantages du code promo MOSTBET ne se limitent pas au bonus de bienvenue. MOSTBET propose régulièrement des promotions pour ses clients fidèles, incluant des paris gratuits, du cashback et des récompenses via son programme de fidélité — dont beaucoup nécessitent un code pour être activés."}',
+             'value_pt' => '{"0":"As vantagens de usar um código promocional da MOSTBET vão além do bônus inicial. A MOSTBET frequentemente realiza promoções para seus clientes regulares, oferecendo apostas grátis, cashback e recompensas através do programa de fidelidade — muitas das quais exigem a ativação de um código promocional."}',
              'order' => 7
             ]
         );
@@ -202,10 +202,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"Click on the «Registration» button in the top-right corner of the screen. Enter your details and don’t forget to enter the promo code."}',
-             'value_es' => '{"0":"Haz clic en el botón «Registro» en la esquina superior derecha de la pantalla. Ingresa tus datos y no olvides introducir el código promocional."}',
-             'value_fr' => '{"0":"Cliquez sur le bouton « Inscription » en haut à droite de l’écran. Saisissez vos informations et n’oubliez pas d’entrer le code promo."}',
-             'value_pt' => '{"0":"Clique no botão «Cadastro» no canto superior direito da tela. Preencha seus dados e não se esqueça de inserir o código promocional."}',
+             'value_en' => '{"0":"Click on the «Registration» button in the top-right corner of the screen. Enter your details and don’t forget to enter the MOSTBET  promo code."}',
+             'value_es' => '{"0":"Haz clic en el botón «Registro» en la esquina superior derecha de la pantalla. Ingresa tus datos y no olvides introducir el código promocional de MOSTBET ."}',
+             'value_fr' => '{"0":"Cliquez sur le bouton « Inscription » en haut à droite de l’écran. Saisissez vos informations et n’oubliez pas de saisir le code promotionnel de MOSTBET ."}',
+             'value_pt' => '{"0":"Clique no botão «Cadastro» no canto superior direito da tela. Insira seus dados e não se esqueça de inserir o código promocional da MOSTBET ."}',
              'order' => 15
             ]
         );
@@ -454,10 +454,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"If you are planning to sign up with MOSTBET, there are several good reasons to do it now. First, new users can receive a generous welcome bonus using the promo code :promocode, which often amounts to up to 125% of the first deposit, providing extra funds to enhance your gaming experience."}',
-             'value_es' => '{"0":"Si planeas registrarte en MOSTBET, hay varias buenas razones para hacerlo ahora. Primero, los nuevos usuarios pueden recibir un generoso bono de bienvenida usando el código promocional :promocode, que a menudo equivale hasta el 125% del primer depósito, brindando fondos adicionales para mejorar tu experiencia de juego."}',
-             'value_fr' => '{"0":"Si vous envisagez de vous inscrire sur MOSTBET, il y a plusieurs bonnes raisons de le faire dès maintenant. Tout d’abord, les nouveaux utilisateurs peuvent recevoir un généreux bonus de bienvenue avec le code promo :promocode, qui peut souvent atteindre jusqu’à 125 % du premier dépôt, offrant des fonds supplémentaires pour améliorer votre expérience de jeu."}',
-             'value_pt' => '{"0":"Se você está pensando em se cadastrar no MOSTBET, existem várias boas razões para fazer isso agora. Primeiro, novos usuários podem receber um generoso bônus de boas-vindas usando o código promocional :promocode, que frequentemente equivale a até 125% do primeiro depósito, oferecendo fundos extras para melhorar sua experiência de jogo."}',
+             'value_en' => '{"0":"If you are planning to sign up with MOSTBET, there are several good reasons to do it now. First, new users can receive a generous welcome bonus using the MOSTBET promo code :promocode, which often amounts to up to 125% of the first deposit, providing extra funds to enhance your gaming experience."}',
+             'value_es' => '{"0":"Si planeas registrarte en MOSTBET, hay varias buenas razones para hacerlo ahora. Primero, los nuevos usuarios pueden recibir un generoso bono de bienvenida usando el código promocional de MOSTBET :promocode, que a menudo equivale hasta el 125% del primer depósito, brindando fondos adicionales para mejorar tu experiencia de juego."}',
+             'value_fr' => '{"0":"Si vous envisagez de vous inscrire sur MOSTBET, il y a plusieurs bonnes raisons de le faire dès maintenant. Tout d’abord, les nouveaux utilisateurs peuvent recevoir un généreux bonus de bienvenue avec le code promo MOSTBET :promocode, qui peut souvent atteindre jusqu’à 125 % du premier dépôt, offrant des fonds supplémentaires pour améliorer votre expérience de jeu."}',
+             'value_pt' => '{"0":"Se você está pensando em se cadastrar no MOSTBET, existem várias boas razões para fazer isso agora. Primeiro, novos usuários podem receber um generoso bônus de boas-vindas usando o código promocional da MOSTBET :promocode, que frequentemente equivale a até 125% do primeiro depósito, oferecendo fundos extras para melhorar sua experiência de jogo."}',
              'order' => 33
             ]
         );

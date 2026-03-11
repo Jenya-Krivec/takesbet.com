@@ -20,10 +20,10 @@ class BookmakerLinebetPromoCodesSeeder extends Seeder
             ['key' => 'linebet',
              'bookmaker_id' => 11,
              'component' => 'p',
-             'value_en' => '{"0":"Looking for a reliable Linebet promo code for 2025? Use :promocode during registration and get a 100% sports bonus of up to $130 on your first deposit. Please note that the :promocode promo code can only be used once when creating an account."}',
-             'value_es' => '{"0":"¿Buscas un código promocional confiable de Linebet para 2025? Usa :promocode al registrarte y obtén un bono del 100% en deportes de hasta $130 en tu primer depósito. Ten en cuenta que el código :promocode solo se puede utilizar una vez al crear la cuenta."}',
-             'value_fr' => '{"0":"Vous cherchez un code promo fiable pour Linebet en 2025 ? Utilisez :promocode lors de votre inscription et recevez un bonus de bienvenue de 100 % jusqu’à 130 $ sur votre premier dépôt. Attention : le code promo :promocode ne peut être utilisé qu\'une seule fois lors de la création du compte."}',
-             'value_pt' => '{"0":"Procurando um código promocional confiável da Linebet para 2025? Use :promocode no momento do cadastro e receba um bônus esportivo de 100% até $130 no seu primeiro depósito. Atenção: o código :promocode só pode ser usado uma vez ao criar a conta."}',
+             'value_en' => '{"0":"Looking for a reliable Linebet promo code for 2025? Use :promocode during registration and get a 100% sports bonus of up to $130 on your first deposit. Please note that the :promocode Linebet promo code can only be used once when creating an account."}',
+             'value_es' => '{"0":"¿Buscas un código promocional confiable de Linebet para 2025? Usa :promocode al registrarte y obtén un bono del 100% en deportes de hasta $130 en tu primer depósito. Ten en cuenta que el código promocional de Linebet :promocode solo se puede utilizar una vez al crear la cuenta."}',
+             'value_fr' => '{"0":"Vous cherchez un code promo fiable pour Linebet en 2025 ? Utilisez :promocode lors de votre inscription et recevez un bonus de bienvenue de 100 % jusqu’à 130 $ sur votre premier dépôt. Attention : le code promo Linebet :promocode ne peut être utilisé qu\'une seule fois lors de la création du compte."}',
+             'value_pt' => '{"0":"Procurando um código promocional confiável da Linebet para 2025? Use :promocode no momento do cadastro e receba um bônus esportivo de 100% até $130 no seu primeiro depósito. Atenção: o código promocional da Linebet :promocode só pode ser usado uma vez ao criar a conta."}',
              'order' => 1
             ]
         );
@@ -48,10 +48,10 @@ class BookmakerLinebetPromoCodesSeeder extends Seeder
             ['key' => 'linebet',
              'bookmaker_id' => 11,
              'component' => 'p',
-             'value_en' => '{"0":"To claim the bonus, register on the platform, enter the :promocode promo code, verify your account, and make a minimum deposit of $1. This offer is available only once per new player."}',
-             'value_es' => '{"0":"Para obtener el bono, regístrate en la plataforma, ingresa el código promocional :promocode, verifica tu cuenta y realiza un depósito mínimo de $1. Esta oferta está disponible solo una vez por nuevo jugador."}',
-             'value_fr' => '{"0":"Pour obtenir le bonus, inscrivez-vous sur la plateforme, entrez le code promo :promocode, vérifiez votre compte et effectuez un dépôt minimum de 1 $. Cette offre n’est valable qu’une seule fois par nouveau joueur."}',
-             'value_pt' => '{"0":"Para receber o bônus, cadastre-se na plataforma, insira o código promocional :promocode, verifique sua conta e faça um depósito mínimo de $1. Esta oferta está disponível apenas uma vez por novo jogador."}',
+             'value_en' => '{"0":"To claim the bonus, register on the platform, enter the :promocode Linebet promo code, verify your account, and make a minimum deposit of $1. This offer is available only once per new player."}',
+             'value_es' => '{"0":"Para obtener el bono, regístrate en la plataforma, ingresa el código promocional de Linebet :promocode, verifica tu cuenta y realiza un depósito mínimo de $1. Esta oferta está disponible solo una vez por nuevo jugador."}',
+             'value_fr' => '{"0":"Pour obtenir le bonus, inscrivez-vous sur la plateforme, entrez le code promo Linebet :promocode, vérifiez votre compte et effectuez un dépôt minimum de 1 $. Cette offre n’est valable qu’une seule fois par nouveau joueur."}',
+             'value_pt' => '{"0":"Para receber o bônus, cadastre-se na plataforma, insira o código promocional da Linebet :promocode, verifique sua conta e faça um depósito mínimo de $1. Esta oferta está disponível apenas uma vez por novo jogador."}',
              'order' => 3
             ]
         );
@@ -104,10 +104,10 @@ class BookmakerLinebetPromoCodesSeeder extends Seeder
             ['key' => 'linebet',
              'bookmaker_id' => 11,
              'component' => 'p',
-                'value_en' => '{"0":"In addition, it\'s a great opportunity to take full advantage of Linebet’s welcome offer. By using the promo code :promocode during registration, you’ll receive a 100% bonus on your first deposit."}',
-                'value_es' => '{"0":"Además, es una excelente oportunidad para aprovechar al máximo la oferta de bienvenida de Linebet. Al usar el código promocional :promocode durante el registro, recibirás un bono del 100% en tu primer depósito."}',
-                'value_fr' => '{"0":"De plus, c’est une excellente occasion de profiter pleinement de l’offre de bienvenue de Linebet. En utilisant le code promo :promocode lors de l’inscription, vous recevrez un bonus de 100 % sur votre premier dépôt."}',
-                'value_pt' => '{"0":"Além disso, é uma ótima chance de aproveitar ao máximo a oferta de boas-vindas da Linebet. Ao utilizar o código promocional :promocode no momento do cadastro, você recebe um bônus de 100% no primeiro depósito."}',
+                'value_en' => '{"0":"In addition, it\'s a great opportunity to take full advantage of Linebet’s welcome offer. By using the Linebet promo code :promocode during registration, you’ll receive a 100% bonus on your first deposit."}',
+                'value_es' => '{"0":"Además, es una excelente oportunidad para aprovechar al máximo la oferta de bienvenida de Linebet. Al usar el código promocional de Linebet :promocode durante el registro, recibirás un bono del 100% en tu primer depósito."}',
+                'value_fr' => '{"0":"De plus, c’est une excellente occasion de profiter pleinement de l’offre de bienvenue de Linebet. En utilisant le code promo Linebet :promocode lors de l’inscription, vous recevrez un bonus de 100 % sur votre premier dépôt."}',
+                'value_pt' => '{"0":"Além disso, é uma ótima chance de aproveitar ao máximo a oferta de boas-vindas da Linebet. Ao utilizar o código promocional da Linebet :promocode no momento do cadastro, você recebe um bônus de 100% no primeiro depósito."}',
              'order' => 7
             ]
         );
