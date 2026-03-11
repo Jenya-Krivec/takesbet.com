@@ -31,8 +31,9 @@
     <meta name="theme-color" content="#1D4ED8FF">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{asset('img/favicon.ico').'?v='.filemtime('img/favicon.ico')}}">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/tailwind.css').'?v='.filemtime('css/tailwind.css')}}">
+    <meta name="ahrefs-site-verification" content="6f7b49d65b913e304d6083c9c7d0ff2689050a5e2c532dd47e1781c5c16eefe4">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="DbVj+6KynbGNv/2O0d8zTQ" async></script>
 </head>
 <body>
 <div class="fixed top-0 left-0 w-full h-full bg-white z-30" id="preloader">
