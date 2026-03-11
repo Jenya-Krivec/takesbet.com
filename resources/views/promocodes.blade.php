@@ -11,7 +11,7 @@
         <div class="w-full flex justify-center items-center bg-white text-blue-700 py-2 text-sm sm:text-base text-center">
             <a href="{{route('review', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">{{trans('promocode.Review', ['bookmaker' => ''])}}</a>
             <div class="flex-col flex justify-center items-center py-1 px-4 mt-1">
-                <p>{{trans('promocode.Promo Codes & Bonus', ['bookmaker' => ''])}}</p>
+                <p>{{trans('promocode.Promo Code', ['bookmaker' => ''])}}</p>
                 <span class="w-full h-1 bg-blue-700"></span>
             </div>
             <a href="{{route('mobileapp', $bookmaker['key'])}}" class="flex justify-center items-center mx-1 py-1 px-4">@lang('promocode.Mobile App')</a>
@@ -23,7 +23,7 @@
                     <img src="{{asset('img/logo/'.$bookmaker['logo'].'?v='.filemtime('img/logo/'.$bookmaker['logo']))}}" alt="{{$bookmaker['name']}} logo" class="p-2" width="100" height="100">
                 </div>
                 <div class="text-white mx-4">
-                    <h1 class="text-sm sm:text-base lg:text-2xl font-bold my-2">{{trans('promocode.Promo Codes & Bonus', ['bookmaker' => $bookmaker['name']])}}</h1>
+                    <h1 class="text-sm sm:text-base lg:text-2xl font-bold my-2">{{trans('promocode.Promo Code', ['bookmaker' => $bookmaker['name']])}}</h1>
                     <div class="rate flex justify-between items-center lg:w-40" data-rate-id="{{$bookmaker['id']}}">
                         <input name="rate" value="1" type="checkbox" aria-label="One star" disabled="disabled">
                         <input name="rate" value="2" type="checkbox" aria-label="Two stars" disabled="disabled">
@@ -51,7 +51,7 @@
         </div>
         <!--Promo code-->
         <div class="lg:px-56 sm:py-5 px-3 py-2 m-auto">
-            <h3 class="text-lg sm:text-2xl font-bold px-0 sm:px-10 my-4">{{trans('promocode.Promo Codes', ['bookmaker' => $bookmaker['name']])}}</h3>
+            <h3 class="text-lg sm:text-2xl font-bold px-0 sm:px-10 my-4">{{trans('promocode.Promo Code', ['bookmaker' => $bookmaker['name']])}}</h3>
             <div class="w-full flex justify-between p-5 flex-col sm:flex-row border-gray-200 border-2 rounded-xl shadow-gray-400 shadow-lg">
                 <div class="flex-row justify-between items-center flex px-2">
                     <div class="w-28 h-28 flex justify-center items-center rounded-md" style="background-color: {{ $bookmaker['logo_color'] }}">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="flex-col justify-center items-start flex px-2 mt-1 sm:mt-0">
                     <div class="font-bold text-xs sm:text-base mx-1">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
-                    <div class="font-bold text-xs sm:text-sm mx-1">{{trans('promocode.Promo Codes', ['bookmaker' => ' ']).' '.$bookmaker['promo_code']}}</div>
+                    <div class="font-bold text-xs sm:text-sm mx-1">{{trans('promocode.Promo Code', ['bookmaker' => ' ']).' '.$bookmaker['promo_code']}}</div>
                     <div class="curl w-full h-10 flex justify-end items-center border-black border-2 border-dotted rounded-xl bg-gray-100 relative mt-2">
                         <div class="font-bold text-xs sm:text-base px-1 text-white bg-blue-700 h-10 w-full flex justify-center items-center rounded-tl-xl rounded-bl-xl cursor-pointer">@lang('promocode.Relevant Code')</div>
                         <div class="px-2">XXXXX</div>
@@ -81,7 +81,7 @@
                         <span data-url="{{$bookmaker['url']}}" class="text-white shadow-gray-400 bg-blue-700 text-xs sm:text-base rounded-full hover:bg-blue-600 flex justify-center items-center cursor-pointer transition-all duration-500 my-2 px-8 py-2">@lang('promocode.Registration')</span>
                     </div>
                     <div class="flex-row flex justify-end items-center">
-                        <div class="text-xs text-gray-700 text-justify">@lang('promocode.See full details of the') {{trans('promocode.Promo Codes', ['bookmaker' => $bookmaker['name']])}}</div>
+                        <div class="text-xs text-gray-700 text-justify">@lang('promocode.See full details of the') {{trans('promocode.Promo Code', ['bookmaker' => $bookmaker['name']])}}</div>
                     </div>
                 </div>
             </div>

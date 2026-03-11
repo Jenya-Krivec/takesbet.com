@@ -1,14 +1,13 @@
 <?php
 
 return [
-    'title' => ':bookmaker Promo Codes & Bonus',
+    'title' => ':bookmaker Promo Code',
     'description' => 'Get the latest promo codes and welcome bonuses from :bookmaker',
     'keywords' => ':bookmaker, Promo code, Bonuses, Free spins',
     'Review' => ':bookmaker Review',
-    'Promo Codes & Bonus' => ':bookmaker Promo Codes & Bonus',
+    'Promo Code' => ':bookmaker Promo Code',
     'Registration' => 'Registration',
     'Mobile App' => 'Mobile App',
-    'Promo Codes' => ':bookmaker Promo Codes',
     'Relevant Code' => 'Relevant Code',
     'Tested' => 'Tested',
     'See full details of the' => 'See full details of the',
